@@ -1,0 +1,44 @@
+{
+    "resources": {
+        "images": {
+            "dialog.bg": {"url": "slot/common/dialog/bg.png", "preload": "main-scene"},
+            "dialog.btn_green": {"url": "slot/common/dialog/btn_green.png", "preload": "main-scene"},
+            "dialog.btn_green_pressed": {"url": "slot/common/dialog/btn_green_pressed.png", "preload": "main-scene"},
+            "dialog.btn_red": {"url": "slot/common/dialog/btn_red.png", "preload": "main-scene"},
+            "dialog.btn_red_pressed": {"url": "slot/common/dialog/btn_red_pressed.png", "preload": "main-scene"}
+        },
+
+        "slices":{
+            "dialog.bg": {"image": "dialog.bg", "size": [415, 277]},
+            "dialog.btn_green": {"image": "dialog.btn_green", "size": [184, 52], "insets": "3 3 0 3"},
+            "dialog.btn_green:pressed": {"image": "dialog.btn_green_pressed", "size": [184, 52], "insets": "3 3 0 3"},
+            "dialog.btn_red": {"image": "dialog.btn_red", "size": [184, 52], "insets": "3 3 0 3"},
+            "dialog.btn_red:pressed": {"image": "dialog.btn_red_pressed", "size": [184, 52], "insets": "3 3 0 3"}
+        },
+
+        "formats": {
+            "dialog.message": {"font": "Arial", "size": 28, "color": "#fff"},
+            "dialog.btn": {"font": "Arial", "size": 28, "color": "#fff"}
+        }
+    },
+    
+    "ui": {
+        "dialog": {"type": "panel", "layout": {"type": "anchor", "relative": true}, "props": {"anchor.fit": 0}, "visible": false, "content": [
+            {"type": "panel", "background": "#78000", "props": {"anchor.fit": "0 -18.5"}},
+            {"id": "_container", "type": "stack", "props": {"anchor.fit": "0"}}
+        ]},
+
+        "confirm-dialog": {"@P": "ui/dialog", "id": "desktop_confirm", "type": "confirm-popup", "content": [
+            {"id": "_container", "content": [
+                {"id": "_content", "type": "vport", "layout": {"base": [1024, 620]}, "content": [
+                    {"id": "_background", "pos": [314, 170], "size": [396, 260], "type": "panel", "background": "dialog.bg"},
+                    {"id": "text", "pos": [332, 240], "size": [360, 60], "text-fit": [true, false, false], "alignment": "center", "@P": "ui/label.def", "format": "dialog.message"},
+                    {"id": "button.yes", "pos": [340, 356], "size": [168, 44], "type": "ibutton", "slice": "dialog.btn_green", "cursor": "hand"},
+                    {"id": "label.yes", "pos": [340, 363], "size": [168, 20], "@P": "ui/label.def", "text": "yes", "format": "dialog.btn"},
+                    {"id": "button.no", "pos": [517, 356], "size": [168, 44], "type": "ibutton","slice": "dialog.btn_red", "cursor": "hand"},
+                    {"id": "label.no", "pos": [517, 363], "size": [168, 20], "@P": "ui/label.def", "text": "no", "format": "dialog.btn"}
+                ]}
+            ]}
+        ]}
+    }
+}

@@ -1,0 +1,232 @@
+#rs-addon-trigger-slicey {
+	
+	border-radius: 0px;
+	padding: 0px;
+	color: transparent;
+	background: url(../images/addon_slicey.png);
+	background-size: 112px 54px;
+	background-position: top center;
+	width: 112px;
+	height: 27px;
+	
+}
+
+#rs-addon-trigger-slicey.selected,
+#rs-addon-trigger-slicey:hover {
+	
+	background-position: bottom center;
+	
+}
+
+#slicey-main-blur-settings,
+#slicey-main-shadow-settings,
+#slicey-main-settings {
+	
+	position: relative;
+	display: inline-block;
+	border-right: 1px solid #FFF;
+	
+}
+
+#slicey_new_layer_dialog {
+	
+	display: none;
+	
+}
+
+#slicey_new_layer_dialog span {
+	
+	display: inline-block;
+	width: 100px;
+	
+}
+#slicey_new_layer_dialog > div {
+	
+	margin-top: 5px;
+	
+}
+
+#slicey_new_layer_dialog > div:first-child {
+	
+	margin-top: 0;
+	
+}
+
+#slicey-main-settings:after,
+#slicey-layer-settings:after {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	z-index: 99;
+	margin: 1px 0 -2px 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	
+}
+
+.slicey-addon-enabled #slicey-main-settings:after,
+.slicey-addon-enabled #slicey-layer-settings:after {
+	
+	display: none;
+	
+}
+
+.slicey-addon-enabled #mainbg-sub-kenburns * {
+	
+	display: none;
+	
+}
+
+.slicey-addon-enabled #mainbg-sub-kenburns:after {
+	
+	font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+	color: #c0392b;
+	content: "The Slicey Add-On extends the Ken Burns option.  Please delete all current Slicey Layers if you want to use the Ken Burns effect separately.";
+	
+}
+
+#slicey-addon-wrap label {
+	
+	font-size: 13px;
+	cursor: auto;
+	
+}
+
+#slicey-addon-wrap select {
+	
+	width: 155px; 
+	min-width: 155px;
+	margin-right: 0;
+	
+}
+
+#slicey-addon-wrap input[type="text"] {
+	
+	width: 45px !important;
+	min-width: 45px;
+	
+}
+
+#slicey-layer-settings {
+	
+	position: relative;
+	border-top: 1px solid #DDD;
+	border-right: 1px solid #FFF;
+	
+}
+
+#slicey-addon-wrap .fa-icon-eyedropper {
+	
+	position: relative;
+	top: 6px;
+	
+}
+
+#slicey-addon-wrap .fa-icon-object-ungroup {
+	
+	position: relative;
+	top: 1px;
+	
+}
+
+#slicey-addon-wrap .inp-deep-list {
+	
+	width: auto;
+	white-space: nowrap;
+	
+}
+
+.tp-slicey {
+	
+	background: rgba(50, 50, 50, 0.5);
+	opacity: 0.5;
+	
+}
+
+.tp-slicey:after {
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -14px 0 0 -26px;
+	font-family: "FontAwesome";
+	content: "\f248";
+    color: #fff !important;
+	opacity: 0.25;
+    font-size: 40px;
+	line-height: 40px;
+	
+}
+
+.slicey-disabled .tp-slicey:after {
+	
+	content: "\f070";
+	
+}
+
+#button_add_layer_slicey .fa-icon-object-ungroup:before {
+	
+	color: #FFF;
+	opacity: 0.8;
+	
+}
+
+
+#button_add_layer_slicey:hover .fa-icon-object-ungroup:before {
+	
+	opacity: 1;
+	
+}
+
+#button_add_layer_slicey i.fa-icon-object-ungroup:before {
+	
+	position: relative;
+	left: 2px;
+	
+}
+
+body:not(.slicey-layer-active) #rs-addon-trigger-slicey {
+	
+	pointer-events: none;
+	
+}
+
+body:not(.slicey-layer-active)  #slicey-addon-wrap {
+	
+	display: none;
+	
+}
+
+body:not(.slicey-layer-active) #rs-addon-trigger-slicey:after {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	z-index: 99;
+	background-color: rgba(255, 255, 255, 0.5);
+	
+}
+
+body:not(.slicey-layer-active) #rs-addon-trigger-slicey.selected:after {
+	
+	background-color: rgba(255, 255, 255, 0.75);
+	
+}
+
+#slicey-addon-wrap .fa-icon-spinner {
+	margin-right: 8px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+
+
+

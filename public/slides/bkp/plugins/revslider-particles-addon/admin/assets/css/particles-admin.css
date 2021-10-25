@@ -1,0 +1,147 @@
+/* 
+ * @author    ThemePunch <info@themepunch.com>
+ * @link      http://www.themepunch.com/
+ * @copyright 2017 ThemePunch
+*/
+
+.particles-icon {
+	
+	padding: 2px; 
+	border: 1px solid #EEE; 
+	margin: 3px; 
+	display: inline-block;
+	vertical-align: top;
+	line-height: 0;
+	cursor: pointer;
+	
+}
+
+.particles-icon:hover, 
+.particle-selected {
+	
+	border: 1px solid #34495E;
+	box-shadow: 0 0 0 1px #34495E;
+	
+}
+
+.particle-selected {pointer-events: none}
+.particles-circle {
+	
+	width: 18px;
+	height: 18px;
+	margin: 3px;
+	display: block;
+	border-radius: 50%;
+	background: #34495E;
+	
+}
+
+.particles-remove-color {cursor: pointer}
+.particles-color-label {float: left}
+
+.particle-colors-wrap {
+	
+	float: left; 
+	margin-left: 6px;
+	
+}
+
+.particles-color-picker {
+	
+	display: block;
+	margin-top: 5px;
+	
+}
+
+.particles-notice {
+	
+	padding: 8px;
+	color: #FFF;
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 8px;
+	
+}
+
+.particles-notice:hover {background-color: #e74c3c !important}
+.particles-color-picker:last-child {margin-bottom: 8px}
+.particles-color-picker:first-child {margin-top: 0; margin-bottom: 0 !important}
+
+#particles-settings .particles-add-color {display: none; vertical-align: top}
+#particles-settings .particles-remove-color {vertical-align: top}
+#particles-settings .particles-color-picker a {margin: 0 5px}
+#particles-settings .particles-color-picker a span {display: block; transform: rotate(45deg)}
+#particles-settings .particles-color-picker:first-child .particles-remove-color {display: none}
+#particles-settings .particles-color-picker:first-child .particles-add-color {display: inline-block}
+#particles-settings .wp-picker-active .wp-picker-input-wrap {display: block}
+
+#particles-settings:before,
+#particles-settings:after {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	content: "";
+	visibility: hidden;
+	transition: all 0.3s ease-out;
+	
+}
+
+#particles-settings:before {
+	
+	width: 100%;
+	height: 100%;
+	z-index: 998;
+	background: rgba(0, 0, 0, 0.7);
+	
+}
+
+#particles-settings:after {
+	
+	top: 50%;
+	left: 50%;
+	z-index: 999;
+	margin: -12px 0 0 -145px;
+	content: "Loading Template...";
+	color: #FFF;
+	font-size: 32px;
+	font-family: "Open Sans", sans-serif;
+	
+}
+
+#particles-settings.particles-ajax-loading:before,
+#particles-settings.particles-ajax-loading:after {
+
+	opacity: 1;
+	visibility: visible;
+	
+}
+
+#particles-settings.particles-ajax-delete:after {
+	
+	content: "Deleting Template...";
+	
+}
+
+#particles-settings.particles-ajax-save:after {
+	
+	content: "Saving Template...";
+	
+}
+
+.particles-option-label {font-weight: bold}
+#particles-settings select {max-width: 149px}
+#particles_templates select, 
+#particles_templates option {text-transform: capitalize}
+#particles_save_as_template {display: none}
+#particles_save_as_template > div {margin-top: 14px}
+#particles_save_as_template span {margin-right: 15px}
+
+.particles-no-wrap {
+	
+	white-space: nowrap; 
+	max-width: 335px; 
+	overflow: hidden;
+	
+}

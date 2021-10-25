@@ -1,0 +1,1 @@
+Button("SettingsPaytableCloseButton",{},function(){return{init:function(a,b,c){this._super("settingsPaytableCloseButton",a,b,c,!0);this.addChild(new View("settingsPaytableCloseButtonArrow",10,0))},dispose:function(){this._super()}}}());

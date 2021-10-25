@@ -1,0 +1,21 @@
+{
+    "config": {
+        "engine": {
+            "calculators": {
+                "default-win": {"type": "default"},
+                "display-win": {"type": "display-win"},
+                "waves": {
+                    "type": "waves",
+                    "feature": "waves",
+                    "mode": {"type": "waves"}
+                },
+                "free-spins": {
+                    "type": "display-feature",
+                    "feature": "free-spins",
+                    "trigger-count": 3,
+                    "mode": {"type": "free-spins"}
+                }
+            }
+        }
+    }
+}

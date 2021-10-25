@@ -1,0 +1,71 @@
+{
+    "redirectMode": {
+        "pasApi": {
+            "enabled": true,
+            "url": "",
+            "systemID": "16"
+        }
+    },
+    "enabledRegulation": "UK",
+    "customRegulations": {
+        "UK": {
+            "regulations": {
+                "ukRegulationEnabled": false
+            }
+        }
+    },
+    "features": {
+        "inGameLobby": {
+            "enabled": true,
+            "categories": [
+                {
+                    "categoryName": "",
+                    "gamesIds": [
+                        "rbcp",
+                        "aeolus",
+                        "legwld",
+                        "ashicv",
+                        "ashhof",
+                        "glrj",
+                        "dbro",
+                        "aogs"
+                    ]
+                }
+            ]
+        },
+        "responsibleGaming": {
+            "enabled": false
+        },
+        "quickDeposit": {
+            "desktop": {
+                "enabled": false
+            }
+        },
+        "engagementDialogues": {
+            "enabled": true
+        },
+        "toasterDialogs": {
+            "enabled": true
+        }
+    },
+    "desktopMenuItems": {
+        "topPanelRight": [
+            {
+                "id": "responsibleGaming",
+                "enabledInMode": {
+                    "offline": false,
+                    "online_Real": false,
+                    "online_Demo": false
+                }
+            },
+            {
+                "id": "gameAdvisor",
+                "enabledInMode": {
+                    "offline": false,
+                    "online_Real": false,
+                    "online_Demo": false
+                }
+            }
+        ]
+    }
+}

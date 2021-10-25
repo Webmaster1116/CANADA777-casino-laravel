@@ -1,0 +1,41 @@
+
+africarun_s0_anim.png
+size: 364,109
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 2
+  rotate: true
+  xy: 148, 12
+  size: 44, 77
+  orig: 44, 77
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: true
+  xy: 227, 11
+  size: 45, 74
+  orig: 213, 206
+  offset: 139, 54
+  index: -1
+Wild Chinese
+  rotate: true
+  xy: 307, 2
+  size: 105, 55
+  orig: 105, 55
+  offset: 0, 0
+  index: -1
+Wild English
+  rotate: false
+  xy: 148, 58
+  size: 157, 49
+  orig: 157, 49
+  offset: 0, 0
+  index: -1
+binocular
+  rotate: false
+  xy: 2, 5
+  size: 144, 102
+  orig: 144, 103
+  offset: 0, 0
+  index: -1

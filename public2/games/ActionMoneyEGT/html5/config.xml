@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<config>
+    <engines>
+        <BaseSlotEngine buildTimestamp='1.5.0.r|23-07-2019|08:23:48' type='BaseSlotEngine'>
+            <game name='BHJSlot'/>
+            <game name='FDHJSlot'/>
+            <game name='FHJSlot'/>
+            <game name='FSHJSlot'/>
+            <game name='SHJSlot'/>
+            <game name='TSHJSlot'/>
+            <game name='UHJSlot'/>
+            <game name='ZWJSlot'/>
+            <game name='SCJSlot'/>
+            <game name='RORJSlot'/>
+            <game name='RSJSlot'/>
+            <game name='TWWJSlot'/>
+            <game name='TDJSlot'/>
+            <game name='ABJSlot'/>
+            <game name='BOMJSlot'/>
+            <game name='CMJSlot'/>
+            <game name='BHTJSlot'/>
+            <game name='DORJSlot'/>
+            <game name='SDJSlot'/>
+            <game name='BDJSlot'/>
+            <game name='NDJSlot'/>
+            <game name='TDRJSlot'/>
+            <game name='GETJSlot'/>
+            <game name='FHDJSlot'/>
+            <game name='HCJSlot'/>
+            <game name='LHJSlot'/>
+            <game name='OCJSlot'/>
+            <game name='EHJSlot'/>
+            <game name='AOTJSlot'/>
+            <game name='STJSlot'/>
+            <game name='CBJSlot'/>
+            <game name='FHSJSlot'/>
+            <game name='KGJSlot'/>
+            <game name='AAJSlot'/>
+            <game name='CHJSlot'/>
+            <game name='MPJSlot'/>
+            <game name='WCJSlot'/>
+            <game name='CBJSlot'/>
+            <game name='HDJSlot'/>
+            <game name='FDJSlot'/>
+            <game name='IGTJSlot'/>
+            <game name='QORJSlot'/>
+            <game name='FKJSlot'/>
+            <game name='SBJSlot'/>
+            <game name='DRJSlot'/>
+            <game name='RTSJSlot'/>
+            <game name='TBJJSlot'/>
+            <game name='CIJSlot'/>
+            <game name='CDJSlot'/>
+            <game name='ASJSlot'/>
+            <game name='HSHJSlot'/>
+            <game name='TBHJSlot'/>
+            <game name='FBHJSlot'/>
+            <game name='TSFJSlot'/>
+            <game name='FMJSlot'/>
+            <game name='MSJSlot'/>
+            <game name='THSDJSlot'/>
+            <game name='TBDJSlot'/>
+            <game name='FBDJSlot'/>
+            <game name='FMCJSlot'/>
+            <game name='FLKJSlot'/>
+            <game name='TDHJSlot'/>
+            <game name='WHJSlot'/>
+            <game name='FGSJSlot'/>
+            <game name='SHDJSlot'/>
+            <game name='FOKJSlot'/>
+            <game name='VWJSlot'/>
+        </BaseSlotEngine>
+        <JuggleSlotEngine buildTimestamp='1.0.0.r|28-05-2019|10:54:49' type='JuggleSlotEngine'>
+            <game name='FJFJSlot'/>
+        </JuggleSlotEngine>
+        <SpecialComboSlotEngine buildTimestamp='1.5.0.r|07-12-2018|10:02:28' type='SpecialComboSlotEngine'>
+            <game name='EOWJSlot'/>
+        </SpecialComboSlotEngine>
+        <BurningHeartSlotEngine buildTimestamp='1.5.0.r|07-12-2018|09:57:52' type='BurningHeartSlotEngine'>
+            <game name='FBHTJSlot'/>
+            <game name='TBHTJSlot'/>
+            <game name='HBHJSlot'/>
+        </BurningHeartSlotEngine>
+        <BaseSlot2Engine buildTimestamp='1.5.0.r|11-07-2019|13:47:14' type='BaseSlot2Engine'>
+            <game name='SPJSlot'/>
+            <game name='RWJSlot'/>
+            <game name='WTJSlot'/>
+        </BaseSlot2Engine>
+        <GreatSlotEngine buildTimestamp='1.0.0.r|24-04-2019|18:45:13' type='GreatSlotEngine'>
+            <game name='GTSJSlot'/>
+        </GreatSlotEngine>
+        <HoldSlotEngine buildTimestamp='1.3.0.r|11-07-2019|13:51:28' type='HoldSlotEngine'>
+            <game name='XSJSlot'/>
+        </HoldSlotEngine>
+        <ExtraJokerSlotEngine buildTimestamp='1.3.0.r|07-12-2018|09:59:36' type='ExtraJokerSlotEngine'>
+            <game name='XJJSlot'/>
+        </ExtraJokerSlotEngine>
+        <DarkQueenSlotEngine buildTimestamp='1.2.0.r|07-12-2018|09:58:54' type='DarkQueenSlotEngine'>
+            <game name='DQJSlot'/>
+            <game name='HWJSlot'/>
+        </DarkQueenSlotEngine>
+        <SpecialSlotEngine buildTimestamp='1.3.0.r|23-07-2019|08:19:57' type='SpecialSlotEngine'>
+            <game name='DARJSlot'/>
+            <game name='GOLJSlot'/>
+            <game name='LAWJSlot'/>
+            <game name='MLAWJSlot'/>
+            <game name='RDJSlot'/>
+            <game name='HNCJSlot'/>
+            <game name='FHNCJSlot'/>
+            <game name='MDARJSlot'/>
+            <game name='BHSJSlot'/>
+            <game name='FBHSJSlot'/>
+        </SpecialSlotEngine>
+        <PenguinStyleSlotEngine buildTimestamp='1.3.0.r|07-12-2018|10:01:43' type='PenguinStyleSlotEngine'>
+            <game name='PSJSlot'/>
+            <game name='IDJSlot'/>
+        </PenguinStyleSlotEngine>
+        <ImperialWarsSlotEngine buildTimestamp='1.2.0.r|07-12-2018|10:00:41' type='ImperialWarsSlotEngine'>
+            <game name='IWJSlot'/>
+        </ImperialWarsSlotEngine>
+        <GreatEmpireSlotEngine buildTimestamp='1.3.0.r|07-12-2018|10:00:11' type='GreatEmpireSlotEngine'>
+            <game name='GEJSlot'/>
+            <game name='DSJSlot'/>
+        </GreatEmpireSlotEngine>
+        <MagSlotEngine buildTimestamp='1.4.0.r|07-12-2018|10:01:28' type='MagSlotEngine'>
+            <game name='ESJSlot'/>
+        </MagSlotEngine>
+        <StackedSlotEngine buildTimestamp='1.4.0.r|07-01-2019|10:53:15' type='StackedSlotEngine'>
+            <game name='TSDJSlot'/>
+            <game name='FSDJSlot'/>
+            <game name='HSDJSlot'/>
+            <game name='TJRJSlot'/>
+            <game name='TJDJSlot'/>
+        </StackedSlotEngine>
+        <ExpandSlotEngine buildTimestamp='1.2.0.r|11-07-2019|13:56:07' type='ExpandSlotEngine'>
+            <game name='VGJSlot'/>
+            <game name='OGJSlot'/>
+            <game name='FSJSlot'/>
+            <game name='GOCJSlot'/>
+            <game name='MFJSlot'/>
+            <game name='RGJSlot'/>
+            <game name='AGJSlot'/>
+        </ExpandSlotEngine>
+        <AlohaPartySlotEngine buildTimestamp='1.2.0.r|11-07-2019|13:57:42' type='AlohaPartySlotEngine'>
+            <game name='APJSlot'/>
+        </AlohaPartySlotEngine>
+        <LuckyBuzzSlotEngine buildTimestamp='1.2.0.r|07-12-2018|10:01:14' type='LuckyBuzzSlotEngine'>
+            <game name='LBJSlot'/>
+            <game name='RMJSlot'/>
+        </LuckyBuzzSlotEngine>
+        <CascadeSlotEngine buildTimestamp='1.2.0.r|11-07-2019|13:52:50' type='CascadeSlotEngine'>
+            <game name='SOAJSlot'/>
+            <game name='FRSJSlot'/>
+            <game name='MDJSlot'/>
+            <game name='THBJSlot'/>
+        </CascadeSlotEngine>
+        <KangarooSlotEngine buildTimestamp='1.4.0.r|07-12-2018|10:00:56' type='KangarooSlotEngine'>
+            <game name='KLJSlot'/>
+        </KangarooSlotEngine>
+        <ForestBandSlotEngine buildTimestamp='1.4.0.r|11-07-2019|13:54:26' type='ForestBandSlotEngine'>
+            <game name='FBJSlot'/>
+            <game name='TSOAJSlot'/>
+        </ForestBandSlotEngine>
+        <CatsRoyalSlotEngine buildTimestamp='1.2.0.r|07-12-2018|09:58:41' type='CatsRoyalSlotEngine'>
+            <game name='CRJSlot'/>
+        </CatsRoyalSlotEngine>
+        <WinsSlotEngine buildTimestamp='1.0.0.r|26-02-2019|08:02:11' type='WinsSlotEngine'>
+            <game name='TSWJSlot'/>
+        </WinsSlotEngine>
+    </engines>
+    <common buildTimestamp='1.3.0.r|11-07-2019|16:07:30'/>
+</config>

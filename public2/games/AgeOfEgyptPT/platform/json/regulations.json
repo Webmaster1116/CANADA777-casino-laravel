@@ -1,0 +1,677 @@
+{
+  "customRegulations": {
+    "UK": {
+      "offlineBalanceCurrency": "GBP",
+      "regulations": {
+        "ukRegulationEnabled": true,
+        "untilFeatureAutoplayEnabled": true,
+        "realityCheck": {
+          "enabled": true
+        }
+      },
+      "features": {
+        "extendedClock": {
+          "enabled": true,
+          "timeFormat": "HH:mm",
+          "text": null
+        }
+      }
+    },
+    "RO": {
+      "externalLinksConfig": {
+        "regulation_ro_onjn": {
+          "hubMessage": "regulation_ro_onjn",
+          "defaultUrl": "http://onjn.gov.ro/",
+          "urlAlias": ""
+        },
+        "regulation_ro_rg": {
+          "hubMessage": "regulation_ro_rg",
+          "defaultUrl": "http://jocresponsabil.ro/",
+          "urlAlias": ""
+        },
+        "regulation_ro_cp": {
+          "hubMessage": "regulation_ro_cp",
+          "defaultUrl": "http://www.anpc.gov.ro/",
+          "urlAlias": ""
+        }
+      },
+      "mainMenuItems": [
+        {
+          "id": "licenseeInfo",
+          "className": "licenseeInfo_RO"
+        }
+      ],
+      "features": {
+        "licenseeInfoPopup": {
+          "enabled": true,
+          "licenseeInfoText": "",
+          "operatorName": "OPERATOR NAME",
+          "licenseId": "LICENSE ID",
+          "networkModes": [
+            "OFFLINE",
+            "ONLINE_REAL",
+            "ONLINE_DEMO"
+          ],
+          "desktop": {
+            "enabled": true,
+            "licenseeInfoItems": [
+              {
+                "id": "regulation_ro_rg",
+                "imageUrl": "images/desktop/ro/regulation_ro_rg.png",
+                "hoverImageUrl": "images/desktop/ro/regulation_ro_rg_hover.png",
+                "externalLinkId": "regulation_ro_rg"
+              },
+              {
+                "id": "regulation_ro_cp",
+                "imageUrl": "images/desktop/ro/regulation_ro_cp.png",
+                "hoverImageUrl": "images/desktop/ro/regulation_ro_cp_hover.png",
+                "externalLinkId": "regulation_ro_cp"
+              },
+              {
+                "id": "regulation_ro_onjn",
+                "imageUrl": "images/desktop/ro/regulation_ro_onjn.png",
+                "hoverImageUrl": "images/desktop/ro/regulation_ro_onjn_hover.png",
+                "externalLinkId": "regulation_ro_onjn"
+              }
+            ]
+          },
+          "mobile": {
+            "enabled": true,
+            "licenseeInfoText": "Company name<br/>Number of License",
+            "licenseeInfoItems": [
+              {
+                "id": "regulation_ro_onjn",
+                "imageUrl": "images/mobile/ro/regulation_ro_onjn.png",
+                "externalLinkId": "regulation_ro_onjn"
+              },
+              {
+                "id": "regulation_ro_rg",
+                "imageUrl": "images/mobile/ro/regulation_ro_rg.png",
+                "externalLinkId": "regulation_ro_rg"
+              },
+              {
+                "id": "regulation_ro_cp",
+                "imageUrl": "images/mobile/ro/regulation_ro_cp.png",
+                "externalLinkId": "regulation_ro_cp"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "IT": {
+      "externalLinksConfig": {
+        "link_legal_aams": {
+          "hubMessage": "",
+          "defaultUrl": "",
+          "urlAlias": ""
+        },
+        "link_legal_half": {
+          "hubMessage": "",
+          "defaultUrl": "",
+          "urlAlias": ""
+        },
+        "link_legal_18": {
+          "hubMessage": "",
+          "defaultUrl": "",
+          "urlAlias": ""
+        },
+        "link_responsible": {
+          "hubMessage": "",
+          "defaultUrl": "",
+          "urlAlias": ""
+        }
+      },
+      "features": {
+        "licenseeInfoPopup": {
+          "enabled": true,
+          "licenseeInfoText": "",
+          "operatorName": "OPERATOR NAME",
+          "licenseId": "LICENSE ID",
+          "networkModes": [
+            "OFFLINE",
+            "ONLINE_REAL",
+            "ONLINE_DEMO"
+          ],
+          "desktop": {
+            "enabled": true,
+            "licenseeInfoItems": [
+              {
+                "id": "link_responsible",
+                "imageUrl": "images/desktop/it/link_responsible.png",
+                "hoverImageUrl": "images/desktop/it/link_responsible_hover.png",
+                "externalLinkId": "link_responsible",
+                "orderIndex": 70,
+                "className": "italy-responsible-button"
+              },
+              {
+                "id": "link_legal_half",
+                "imageUrl": "images/desktop/it/link_legal_half.png",
+                "hoverImageUrl": "images/desktop/it/link_legal_half_hover.png",
+                "externalLinkId": "link_legal_half",
+                "orderIndex": 71,
+                "className": "italy-responsible-button"
+              },
+              {
+                "id": "link_legal_aams",
+                "imageUrl": "images/desktop/it/link_legal_aams.png",
+                "hoverImageUrl": "images/desktop/it/link_legal_aams_hover.png",
+                "externalLinkId": "link_legal_aams",
+                "orderIndex": 72,
+                "className": "italy-responsible-button"
+              },
+              {
+                "id": "link_legal_18",
+                "imageUrl": "images/desktop/it/link_legal_18.png",
+                "hoverImageUrl": "images/desktop/it/link_legal_18_hover.png",
+                "externalLinkId": "link_legal_18",
+                "orderIndex": 73
+              }
+            ]
+          },
+          "mobile": {
+            "enabled": true,
+            "licenseeInfoItems": [
+              {
+                "imageUrl": "images/widget/dialog/licensee-info/responsible.png",
+                "externalLinkId": "link_responsible"
+              },
+              {
+                "imageUrl": "images/widget/dialog/licensee-info/legal-half.png",
+                "externalLinkId": "link_legal_half"
+              },
+              {
+                "imageUrl": "images/widget/dialog/licensee-info/legal-aams.png",
+                "externalLinkId": "link_legal_aams"
+              },
+              {
+                "imageUrl": "images/widget/dialog/licensee-info/legal-18.png",
+                "externalLinkId": "link_legal_18"
+              }
+            ]
+          }
+        }
+      },
+      "regulations": {
+        "autoplayConfirmDialogEnabled": true,
+        "untilFeatureAutoplayEnabled": true,
+        "timebasedJackpotEnabled": false,
+        "italy": {
+          "enabled": true,
+          "bringMoney": {
+            "sessionLimit": 100000,
+            "defaultValue": 50000
+          },
+          "dateFormat": "dd-MM-yyyy"
+        }
+      },
+      "mainMenuItems": [
+        {
+          "id": "responsibleGaming",
+          "enabledInMode": {
+            "offline": true,
+            "online_Real": true,
+            "online_Demo": true
+          }
+        }
+      ],
+      "currencyFormat": {
+        "decimalSeparator": ",",
+        "groupSeparator": "."
+      }
+    },
+    "ES": {
+      "externalLinksConfig": {
+        "regulation_es_url_juegoseguro": {
+          "hubMessage": "",
+          "defaultUrl": "",
+          "urlAlias": ""
+        },
+        "regulation_es_url_selfex": {
+          "hubMessage": "",
+          "defaultUrl": "",
+          "urlAlias": ""
+        },
+        "regulation_es_url_RGaming": {
+          "hubMessage": "",
+          "defaultUrl": "",
+          "urlAlias": ""
+        },
+        "regulation_es_url_SNGC": {
+          "hubMessage": "",
+          "defaultUrl": "",
+          "urlAlias": ""
+        }
+      },
+      "features": {
+        "licenseeInfoPopup": {
+          "enabled": true,
+          "licenseeInfoText": "",
+          "networkModes": [
+            "ONLINE_REAL"
+          ],
+          "desktop": {
+            "enabled": true,
+            "licenseeInfoItems": [
+              {
+                "id": "regulation_es_url_juegoseguro",
+                "imageUrl": "images/desktop/es/responsibleGamingSafePlay.png",
+                "hoverImageUrl": "images/desktop/es/responsibleGamingSafePlay.png",
+                "externalLinkId": "regulation_es_url_juegoseguro",
+                "orderIndex": 11,
+                "className": "es-responsibleButton"
+              },
+              {
+                "id": "regulation_es_url_selfex",
+                "imageUrl": "images/desktop/es/responsibleGamingAutoExclude.png",
+                "hoverImageUrl": "images/desktop/es/responsibleGamingAutoExclude.png",
+                "externalLinkId": "regulation_es_url_selfex",
+                "orderIndex": 12,
+                "className": "es-responsibleButton"
+              }
+            ]
+          },
+          "mobile": {
+            "enabled": true,
+            "licenseeInfoItems": []
+          }
+        }
+      },
+      "desktopMenuItems": {
+        "bottomPanelRight": [
+          {
+            "id": "responsibleGamingApproval",
+            "type": "Button",
+            "caption": "mainMenu.responsibleGamingApproval",
+            "className": "desktopButtonSmall",
+            "orderIndex": 5,
+            "handlers": [
+              {
+                "id": "ExternalLinkRedirectHandler",
+                "urlID": "regulation_es_url_RGaming"
+              }
+            ],
+            "enabledInMode": {
+              "offline": false,
+              "online_Real": false,
+              "online_Demo": false
+            }
+          },
+          {
+            "id": "responsibleGamingSngc",
+            "type": "Button",
+            "caption": "mainMenu.responsibleGamingSngc",
+            "className": "desktopButtonSmall",
+            "orderIndex": 5,
+            "handlers": [
+              {
+                "id": "ExternalLinkRedirectHandler",
+                "urlID": "regulation_es_url_SNGC"
+              }
+            ],
+            "enabledInMode": {
+              "offline": false,
+              "online_Real": false,
+              "online_Demo": false
+            }
+          }
+        ]
+      },
+      "regulations": {
+        "turboModeEnabled": false,
+        "spinStopButtonEnabled": false,
+        "minSpinDurationMiliseconds": 3000,
+        "untilFeatureAutoplayEnabled": true,
+        "skipWinLineTogglingEnabled": false,
+        "timebasedJackpotEnabled": false,
+        "timeAndLossLimitations": {
+          "enabled": true,
+          "sessionTimerConfig": {
+            "values": [
+              {
+                "duration": 10,
+                "dimension": "MINUTE"
+              },
+              {
+                "duration": 20,
+                "dimension": "MINUTE"
+              },
+              {
+                "duration": 30,
+                "dimension": "MINUTE"
+              },
+              {
+                "duration": 40,
+                "dimension": "MINUTE"
+              },
+              {
+                "duration": 50,
+                "dimension": "MINUTE"
+              },
+              {
+                "duration": 60,
+                "dimension": "MINUTE"
+              },
+              {
+                "duration": 12,
+                "dimension": "HOUR"
+              }
+            ],
+            "defaultSelectedIndex": -1
+          },
+          "gamblingNoticeConfig": {
+            "values": [
+              {
+                "duration": 5,
+                "dimension": "MINUTE"
+              },
+              {
+                "duration": 10,
+                "dimension": "MINUTE"
+              },
+              {
+                "duration": 15,
+                "dimension": "MINUTE"
+              }
+            ],
+            "defaultSelectedIndex": 2
+          },
+          "selfExclusionConfig": {
+            "values": [
+              {
+                "duration": 1,
+                "dimension": "HOUR"
+              },
+              {
+                "duration": 1,
+                "dimension": "DAY"
+              },
+              {
+                "duration": 1,
+                "dimension": "WEEK"
+              },
+              {
+                "duration": 1,
+                "dimension": "MONTH"
+              }
+            ],
+            "defaultSelectedIndex": 0
+          }
+        }
+      }
+    },
+    "DK": {
+      "regulations": {
+        "denmarkRegulation": {
+          "enabled": true
+        },
+        "turboModeEnabled": false,
+        "spinStopButtonEnabled": false,
+        "minSpinDurationMiliseconds": 3000,
+        "skipWinLineTogglingEnabled": false
+      },
+      "features": {
+        "extendedClock": {
+          "enabled": true,
+          "dateEnabled": false,
+          "userNameEnabled": false,
+          "dateFormat": "yyyy-MM-dd",
+          "timeFormat": "HH:mm:ss",
+          "clockIconEnable": false,
+          "text": ""
+        }
+      }
+    },
+    "FI": {
+      "regulations": {
+        "autoplayEnabled": false,
+        "untilFeatureAutoplayEnabled": true,
+        "marvelJackpotEnabled": false,
+        "turboModeEnabled": false,
+        "spinStopButtonEnabled": false
+      },
+      "currencyFormat": {
+        "decimalSeparator": ",",
+        "groupSeparator": "."
+      },
+      "features": {
+        "responsibleGaming": {
+          "enabled": true
+        }
+      }
+    },
+    "ALDERNEY": {
+      "regulations": {
+        "minSpinDurationMiliseconds": 3000,
+        "turboModeEnabled": true,
+        "alderneyRegulation": {
+          "enabled": true
+        }
+      }
+    },
+    "SE": {
+      "externalLinksConfig": {
+        "reg_se_spelpaus": {
+          "hubMessage": "",
+          "defaultUrl": "",
+          "urlAlias": ""
+        },
+        "reg_se_spelgranser": {
+          "hubMessage": "",
+          "defaultUrl": "",
+          "urlAlias": ""
+        },
+        "reg_se_sjalvtest": {
+          "hubMessage": "",
+          "defaultUrl": "",
+          "urlAlias": ""
+        }
+      },
+      "regulations": {
+        "spinStopButtonEnabled": false,
+        "minSpinDurationMiliseconds": 3000,
+        "turboModeEnabled": false,
+        "swedenRegulation": {
+          "enabled": true
+        },
+        "realityCheck": {
+          "enabled": true
+        }
+      }
+    },
+    "CZ": {
+      "regulations": {
+        "czRegulation": {
+          "enabled": true
+        },
+        "turboModeEnabled": false,
+        "minSpinDurationMiliseconds": 2000
+      }
+    },
+    "BG": {
+      "regulations": {
+        "turboModeEnabled": false,
+        "minSpinDurationMiliseconds": 3000,
+        "spinStopButtonEnabled": false
+      }
+    },
+    "PT": {
+      "regulations": {
+        "ptRegulation": {
+          "enabled": true
+        },
+        "spinStopButtonEnabled": false,
+        "minSpinDurationMiliseconds": 3000,
+        "turboModeEnabled": false,
+        "untilFeatureAutoplayEnabled": true
+      },
+      "redirectMode": {
+        "funModeEnabled": false
+      }
+    },
+    "NO": {
+      "regulations": {
+        "norwegianRegulation": {
+          "enabled": true
+        },
+        "autoplay": [],
+        "autoplayEnabled": false,
+        "untilFeatureAutoplayEnabled": true,
+        "minSpinDurationMiliseconds": 3000,
+        "turboModeEnabled": false,
+        "spinStopButtonEnabled": false
+      },
+      "features": {
+        "inGameLobby": {
+          "enabled": false
+        },
+        "goldenChip": {
+          "enabled": false
+        },
+        "freeSpinBonus": {
+          "enabled": false
+        },
+        "gameAdvisor": {
+          "showAfterWindowClosed": false
+        },
+        "engagementDialogues": {
+          "enabled": false
+        }
+      },
+      "desktopMenuItems": {
+        "topPanelRight": [
+          {
+            "id": "gameAdvisor",
+            "type": "Button",
+            "caption": "",
+            "className": "desktop-top-panel-button game-advisor",
+            "orderIndex": 2,
+            "handlers": [
+              {
+                "id": "ShowGameAdvisorHandler"
+              }
+            ],
+            "enabledInMode": {
+              "offline": false,
+              "online_Real": false,
+              "online_Demo": false
+            }
+          }
+        ],
+        "bottomPanelLeft": [
+          {
+            "id": "depositDesktop",
+            "enabledInMode": {
+              "offline": false,
+              "online_Real": false,
+              "online_Demo": false
+            }
+          }
+        ]
+      },
+      "mainMenuItems": [
+        {
+          "id": "deposit",
+          "enabledInMode": {
+            "offline": false,
+            "online_Real": false,
+            "online_Demo": false
+          }
+        },
+        {
+          "id": "depositLimit",
+          "enabledInMode": {
+            "offline": false,
+            "online_Real": false,
+            "online_Demo": false
+          }
+        },
+        {
+          "id": "transactions",
+          "enabledInMode": {
+            "offline": false,
+            "online_Real": false,
+            "online_Demo": false
+          }
+        },
+        {
+          "id": "withdraw",
+          "enabledInMode": {
+            "offline": false,
+            "online_Real": false,
+            "online_Demo": false
+          }
+        }
+      ],
+      "quickMenuItems": [
+        {
+          "id": "games",
+          "type": "Button",
+          "caption": "",
+          "className": "quickGames",
+          "orderIndex": 10,
+          "handlers": [
+            {
+              "id": "ShowInGameLobbyHandler"
+            }
+          ],
+          "enabledInMode": {
+            "offline": false,
+            "online_Real": false,
+            "online_Demo": false
+          }
+        },
+        {
+          "id": "promotions",
+          "type": "QuantitativeButton",
+          "caption": "",
+          "className": "quickPromotions",
+          "orderIndex": 40,
+          "handlers": [
+            {
+              "id": "ShowPromoGadgetHandler"
+            }
+          ],
+          "enabledInMode": {
+            "offline": false,
+            "online_Real": false,
+            "online_Demo": false
+          }
+        },
+        {
+          "id": "gameAdvisor",
+          "type": "Button",
+          "caption": "",
+          "className": "quickGameAdvisor",
+          "orderIndex": 60,
+          "handlers": [
+            {
+              "id": "ShowGameAdvisorHandler"
+            }
+          ],
+          "enabledInMode": {
+            "offline": false,
+            "online_Real": false,
+            "online_Demo": false
+          }
+        }
+      ],
+      "messageBoxes": {
+        "insuffBalance": {
+          "closeEnabled": false,
+          "text": "message.insufDl",
+          "buttons": [
+            {
+              "caption": "message.button.ok",
+              "handlers": [
+                {}
+              ]
+            }
+          ]
+        }
+      },
+      "promotionIsAvailable": false,
+      "playerMessagesBypassEnabled": true
+    }
+  }
+}

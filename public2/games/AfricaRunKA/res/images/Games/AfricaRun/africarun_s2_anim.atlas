@@ -1,0 +1,188 @@
+
+africarun_s2_anim.png
+size: 396,269
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BabyE1
+  rotate: false
+  xy: 356, 8
+  size: 38, 37
+  orig: 38, 38
+  offset: 0, 1
+  index: -1
+BabyE1_BL1_1
+  rotate: false
+  xy: 380, 100
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+BabyE1_FL1_1
+  rotate: true
+  xy: 241, 2
+  size: 10, 12
+  orig: 10, 12
+  offset: 0, 0
+  index: -1
+BabyE1_FL1_2
+  rotate: false
+  xy: 380, 131
+  size: 11, 17
+  orig: 11, 17
+  offset: 0, 0
+  index: -1
+BabyE1_FL2_1
+  rotate: true
+  xy: 259, 9
+  size: 16, 26
+  orig: 16, 26
+  offset: 0, 0
+  index: -1
+BabyE1_FL2_2
+  rotate: false
+  xy: 380, 114
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+BabyE1_Head
+  rotate: false
+  xy: 356, 47
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+Babye1_BL1_2
+  rotate: false
+  xy: 380, 150
+  size: 12, 17
+  orig: 12, 17
+  offset: 0, 0
+  index: -1
+Bg2
+  rotate: false
+  xy: 165, 114
+  size: 150, 153
+  orig: 150, 153
+  offset: 0, 0
+  index: -1
+BigE1
+  rotate: false
+  xy: 2, 12
+  size: 138, 98
+  orig: 138, 99
+  offset: 0, 1
+  index: -1
+BigE1_FL1_1
+  rotate: true
+  xy: 177, 10
+  size: 17, 29
+  orig: 18, 30
+  offset: 0, 0
+  index: -1
+BigE1_FL2
+  rotate: true
+  xy: 226, 29
+  size: 20, 33
+  orig: 21, 35
+  offset: 1, 2
+  index: -1
+BigE1_Head
+  rotate: false
+  xy: 295, 2
+  size: 59, 83
+  orig: 59, 83
+  offset: 0, 0
+  index: -1
+BigE2
+  rotate: false
+  xy: 317, 169
+  size: 77, 98
+  orig: 77, 99
+  offset: 0, 0
+  index: -1
+BigE2_BL1
+  rotate: true
+  xy: 142, 7
+  size: 20, 33
+  orig: 20, 33
+  offset: 0, 0
+  index: -1
+BigE2_FL1
+  rotate: true
+  xy: 142, 29
+  size: 20, 46
+  orig: 21, 46
+  offset: 0, 0
+  index: -1
+BigE2_FL1_2
+  rotate: true
+  xy: 261, 27
+  size: 22, 29
+  orig: 22, 30
+  offset: 0, 1
+  index: -1
+BigE2_FL2
+  rotate: true
+  xy: 208, 12
+  size: 15, 31
+  orig: 15, 31
+  offset: 0, 0
+  index: -1
+BigE2_FL2_1
+  rotate: true
+  xy: 190, 29
+  size: 20, 34
+  orig: 22, 34
+  offset: 0, 0
+  index: -1
+BigE2_Head
+  rotate: true
+  xy: 317, 87
+  size: 80, 61
+  orig: 80, 61
+  offset: 0, 0
+  index: -1
+Frame1
+  rotate: false
+  xy: 165, 98
+  size: 150, 14
+  orig: 150, 14
+  offset: 0, 0
+  index: -1
+Frame2
+  rotate: false
+  xy: 142, 51
+  size: 150, 13
+  orig: 150, 13
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 112
+  size: 161, 155
+  orig: 162, 157
+  offset: 1, 1
+  index: -1
+bird1
+  rotate: false
+  xy: 241, 14
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+bird2
+  rotate: false
+  xy: 142, 98
+  size: 19, 12
+  orig: 20, 12
+  offset: 1, 0
+  index: -1
+grass
+  rotate: false
+  xy: 142, 66
+  size: 151, 30
+  orig: 151, 30
+  offset: 0, 0
+  index: -1

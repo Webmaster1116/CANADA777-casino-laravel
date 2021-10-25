@@ -1,0 +1,567 @@
+/* 
+ * @author    ThemePunch <info@themepunch.com>
+ * @link      http://www.themepunch.com/
+ * @copyright 2017 ThemePunch
+*/
+
+#rs-addon-trigger-beforeafter,
+#rs-addon-settings-trigger-beforeafter {
+	
+	border-radius: 0px;
+	padding: 0px;
+	color: transparent;
+	background: url(../images/addon_beforeafter.png);
+	background-size: 194px 54px;
+	background-position: top center;
+	width: 194px;
+	height: 27px;
+	
+}
+
+#rs-addon-settings-trigger-beforeafter.selected,
+#rs-addon-settings-trigger-beforeafter:hover,
+#rs-addon-trigger-beforeafter.selected,
+#rs-addon-trigger-beforeafter:hover {
+	
+	background-position: bottom center;
+	
+}
+
+.before-after-enabled li[data-content="#mainbg-sub-source"]:after,
+.before-after-enabled li[data-content="#mainbg-sub-setting"]:after  {
+	
+	content: ' "Before"';
+	
+}
+
+body:not(.before-after-enabled) #rs-addon-trigger-beforeafter:after {
+	
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: 99;
+    background-color: rgba(255, 255, 255, 0.5);
+	
+}
+
+#beforeafter-addon-settings-wrap {
+	
+	padding: 15px;
+	
+}
+
+.before-after-enabled #quick-layer-selector-container,
+.before-after-enabled .current-active-main-toolbar {
+	
+	width: auto !important;
+	
+}
+
+.before-after-enabled #quick-layer-selector-container {
+	
+	padding-right: 10px;
+	
+}
+
+.before-after-enabled #rs-edit-layers-on-btn {
+	
+	margin-left: 308px;
+	
+}
+
+.before-after-enabled #rs-set-style-on-devices {
+	
+	margin-left: 445px;
+	
+}
+
+.before-after-enabled #quick-layers .ps-scrollbar-y-rail {
+	
+	left: 0 !important;
+	
+}
+
+.beforeafter-visibility {
+	
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+	border-radius: 50%;
+	margin: 10px 0 0 15px;
+	border-width: 1px;
+	border-style: solid;
+	display: none;
+	
+}
+
+.before-after-enabled .beforeafter-visibility {
+	
+	display: inline-block;
+	
+}
+
+#beforeafter-visibility-before {
+	
+	margin-left: 15px;
+	background-color: #e74c3c;
+	
+}
+
+#beforeafter-visibility-after {
+	
+	margin-left: 7px;
+	background-color: #2ecc71;
+}
+
+#beforeafter-visibility-all {
+	
+	margin-left: 7px;
+	background-color: #f1c40f;
+	
+}
+
+#beforeafter-visibility-all.selected {
+	
+	border-color: #f1c40f;
+	
+}
+
+#beforeafter-visibility-before.selected {
+	
+	border-color: #e74c3c;
+	
+}
+
+#beforeafter-visibility-after.selected {
+	
+	border-color: #2ecc71;
+	
+}
+
+.quicksortlayer.beforeafter-after:before {
+	
+	background-color: #2ecc71;
+	
+}
+
+#beforeafter-addon-wrap input[type="text"] {
+	
+	width: 55px !important;
+	min-width: 55px;
+	
+}
+
+#beforeafter-addon-wrap .rs-layer-toolbar-box > span {
+	
+	margin-left: 15px;
+	
+}
+
+#beforeafter-addon-wrap .rs-layer-toolbar-box > span:first-child {
+	
+	margin-left: 0;
+	
+}
+
+.before-after-section {
+	
+	min-height: 30px;
+	
+}
+
+.before-after-row {
+	
+	border-top: 1px solid #ddd;
+	
+}
+
+.before-after-vertical > * {
+	
+	position: relative;
+	top: 1px;
+	
+}
+
+#beforeafter-addon-wrap .rs-layer-toolbar-box {
+	
+	vertical-align: top;
+	height: 30px;
+	
+}
+
+#beforeafter-layer-settings {
+	
+	overflow: hidden;
+	
+}
+
+.beforeafter-device-desktop {
+	
+	background-image: url(../images/icon-mode-desktop-dark.png);	
+	background-size: 18px 18px;
+    min-width: 18px;
+	
+}
+
+.beforeafter-device-notebook {
+	
+	background-image: url(../images/icon-mode-laptop-dark.png);	
+	background-size: 20px 16px;
+    min-width: 18px;
+	
+}
+
+.beforeafter-device-tablet {
+	
+	background-image: url(../images/icon-mode-tablet-dark.png);	
+	background-size: 17px 20px;
+    min-width: 17px;
+	
+}
+
+.beforeafter-device-phone {
+	
+	background-image: url(../images/icon-mode-phone-dark.png); 
+	background-size: 12px 20px;
+    min-width: 12px;
+	
+}
+
+#beforeafter-addon-wrap .inp-deep-list {
+	
+	width: auto;
+	white-space: nowrap;
+	
+}
+
+#beforeafter-addon-wrap .fa-icon-arrows {
+	
+	font-size: 16px;
+	position: relative;
+	top: 5px;
+	
+}
+
+#beforeafter-addon-wrap select {
+	
+	min-height: 26px;
+	
+}
+
+.beforeafter-icon {
+	
+	margin-right: 6px;
+    font-size: 20px;
+    line-height: 26px;
+	
+}
+
+.beforeafter {
+	
+	position: relative;
+	
+}
+
+.quicksortlayer.beforeafter:before {
+	
+	position: absolute;
+	top: 10px;
+	left: -15px;
+	width: 10px;
+	height: 10px;
+	content: "";
+	border-radius: 50%;
+	background-color: #e74c3c;
+	visibility: hidden;
+	
+}
+
+.quicksortlayer.beforeafter-after:before {
+	
+	background-color: #2ecc71;
+	
+}
+
+.mastertimer-timeline-zindex-row.beforeafter:before {
+	
+	position: absolute;
+	top: 1px;
+	left: -5px;
+	width: 0;
+	height: 0;
+	content: "";
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid #e74c3c;
+	transform: rotate(-45deg);
+	visibility: hidden;
+	
+}
+
+.mastertimer-timeline-zindex-row.beforeafter-after:before {
+	
+	border-bottom-color: #2ecc71;
+	
+}
+
+.before-after-enabled .mastertimer-timeline-zindex-row.beforeafter:before,
+.before-after-enabled .quicksortlayer.beforeafter:before {
+	
+	visibility: visible;
+	
+}
+
+body:not(.before-after-enabled) #rs-addon-trigger-beforeafter-settings {
+	
+	display: none !important;
+	
+}
+
+body:not(.before-after-enabled) #rs-addon-trigger-beforeafter {
+	
+	background-position: top center !important;
+	pointer-events: none;
+	
+}
+
+.beforeafter-bgsource-menu {
+	
+	display: inline-block !important;
+	
+}
+
+body:not(.before-after-enabled) .beforeafter-bgsource-menu {
+	
+	display: none !important;
+	
+}
+
+#beforeafter-source-settings.hide-beforeafter-itm {
+	
+	display: none !important;
+	
+}
+
+#mainbg-sub-source-after i {
+	
+	margin-right: 10px;
+	
+}
+
+#button_change_image_beforeafter,
+#button_change_image_objlib_beforeafter,
+.before-after-enabled .vidsrcchanger-div a {
+
+    vertical-align: top;
+
+}
+
+#tp-bgcolorsrc_beforeafter {
+	
+	display: inline-block;
+	margin-left: 20px;
+	line-height: 30px;
+	position: relative;
+	z-index: 3100;
+	
+}
+
+#tp-bgcolorsrc_beforeafter .rev-colorpickerspan {
+	
+	line-height: 30px;
+	vertical-align: middle;
+	
+}
+
+.beforeafter-bg-preview {
+	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	clip: rect(0, 160px, 84px, 80px);
+	background-position: top left !important;
+	display: block;
+	
+}
+
+body:not(.before-after-enabled) #beforeafter-bg-preview {
+	
+	display: none;
+	
+}
+
+.before-after-enabled .mini-transparent {
+	
+	background-position: top left !important;
+	
+}
+
+/*
+.before-after-preview .slide-media-container {
+	
+	clip-path: inset(0% 50% 0% 0%);
+	
+}
+*/
+
+body:not(.before-after-enabled) .before-after-preview .beforeafter-default-img {
+	
+	clip-path: none;
+	
+}
+
+.beforeafter-bg-preview.beforeafter-image {
+	
+	background-size: cover !important;
+	
+}
+
+.beforeafter-bg-preview.beforeafter-video {
+	
+	background: transparent;
+	
+}
+
+.beforeafter-bg-preview.beforeafter-transparent {
+	
+	background: url(../images/trans_tile.png);
+	
+}
+
+#beforeafter-editor-bg {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	display: none;
+	
+}
+
+#mainbg-sub-source-after,
+#mainbg-sub-setting-after {
+
+	margin-top: 10px;
+	
+}
+
+#mainbg-sub-source-after .bg-settings-block,
+#mainbg-sub-setting-after .bg-settings-block {
+	
+	display: block;
+	
+}
+
+#mainbg-sub-setting-after {
+	
+	display: none;
+	
+}
+
+.bgsrcchanger-div-beforeafter {
+	
+	display: none;
+	margin-left: 20px;
+	
+}
+
+.beforeafter-small-input {
+	
+	min-width: 54px !important; 
+	width: 60px !important; 
+	margin-right: 10px !important;
+	
+}
+
+.before-after-enabled #ken_burn_example_wrapper:after {
+	
+	position: absolute;
+	left: 127px;
+	top: -28px;
+	font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+	color: #c0392b;
+	white-space: nowrap;
+	content: 'NOTICE: Ken Burns will only be applied to the "Before" source';
+	
+}
+
+#tp-bghtml5src_beforeafter,
+#beforeafter-bounce-options,
+#beforeafter-shift-options {
+	
+	margin-left: 20px;
+	
+}
+
+#tp-bghtml5src_beforeafter label {
+	
+	min-width: 180px;
+	
+}
+
+.button_change_video_beforeafter {
+	
+	margin-left: 20px !important;
+	vertical-align: top;
+	
+}
+
+#mainbg-sub-setting-after .description {
+	
+	margin-left: 20px;
+	
+}
+
+#the_image_source_url_beforeafter {
+	
+	line-height: 30px;
+	background: #ddd;
+	padding: 5px 10px;
+	border-radius: 5px;
+	
+}
+
+.beforeafter-video-param {
+	
+	width: 350px !important;
+	
+}
+
+#viewWrapper #tp-bgyoutubesrc_beforeafter,
+#viewWrapper #tp-bgvimeosrc_beforeafter {
+	
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+	
+}
+
+/*
+.before-after-enabled #mainbg-sub-source *:nth-child(n+14) {
+	
+	display: none;
+	
+}
+*/
+
+
+
+
+
+
+
+
+
+
+

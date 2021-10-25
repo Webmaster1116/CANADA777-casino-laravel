@@ -1,0 +1,70 @@
+/* 
+ * @author    ThemePunch <info@themepunch.com>
+ * @link      http://www.themepunch.com/
+ * @copyright 2018 ThemePunch
+*/
+
+#rev_addon_bubblemorph_settings_slideout h3 span {
+	
+    border-radius: 50%;
+    border: 2px solid #22a2ad;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 700;
+    width: 40px;
+    height: 40px;
+    line-height: 37px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+	background: #22a2ad;
+	
+}
+
+#rev_addon_bubblemorph_settings_slideout h3 {
+	
+	font-size: 17px;
+    text-align: center;
+	
+}
+
+#rev_addon_bubblemorph_settings_slideout .featuretext {
+	
+	margin-top: 10px;
+	
+}
+
+#rev_addon_bubblemorph_settings_slideout .documentation {
+
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+
+#rev_addon_bubblemorph_settings_slideout .documentation a {
+
+	display: inline-block;
+    background: #22a2ad;
+	color: #FFF;
+    font-size: 14px;
+	font-weight: 600;
+    padding: 0 20px;
+    border-radius: 4px;
+	text-decoration: none;
+	line-height: 40px;
+	transition: opacity 0.2s ease-out;
+	
+}
+
+#rev_addon_bubblemorph_settings_slideout .documentation a:hover {
+
+	opacity: 0.75;
+	
+}
+
+#rev_addon_bubblemorph_settings_slideout img {
+	
+	box-shadow: 0 0 0 5px #FFF;
+	
+}

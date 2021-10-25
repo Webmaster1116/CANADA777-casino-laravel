@@ -1,0 +1,283 @@
+/* 
+ * @author    ThemePunch <info@themepunch.com>
+ * @link      http://www.themepunch.com/
+ * @copyright 2018 ThemePunch
+*/
+
+#rs-addon-trigger-bubblemorph {
+	
+	border-radius: 0px;
+	padding: 0px;
+	color: transparent;
+	background: url(../images/addon_bubblemorph.png);
+	background-position: top center;
+	width: 164px;
+	height: 27px;
+	
+}
+
+#rs-addon-trigger-bubblemorph.selected,
+#rs-addon-trigger-bubblemorph:hover {
+	
+	background-position: bottom center;
+	
+}
+
+#bubblemorph-main-settings {
+	
+	position: relative;
+	display: block;
+	border-right: 1px solid #FFF;
+	
+}
+
+#bubblemorph_new_layer_dialog {
+	
+	display: none;
+	
+}
+
+#bubblemorph_new_layer_dialog span {
+	
+	display: inline-block;
+	
+}
+
+.bubblemorph-def-title {
+	
+	width: 120px;
+	
+}
+
+.bubblemorph-def-title.full-size {
+	
+	width: 70px;
+	margin-left: 10px;
+	
+}
+
+#bubblemorph_new_layer_dialog > div {
+	
+	margin-top: 5px;
+	
+}
+
+#bubblemorph_new_layer_dialog > div:first-child {
+	
+	margin-top: 0;
+	
+}
+
+#bubblemorph-main-settings:after {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	z-index: 99;
+	margin: 1px 0 -2px 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	
+}
+
+.bubblemorph-addon-enabled #bubblemorph-main-settings:after {
+	
+	display: none;
+	
+}
+
+#bubblemorph-addon-wrap label {
+	
+	font-size: 13px;
+	cursor: auto;
+	
+}
+
+#bubblemorph-addon-wrap select {
+	
+	width: 155px; 
+	min-width: 155px;
+	margin-right: 0;
+	
+}
+
+#bubblemorph-addon-wrap input[type="text"] {
+	
+	width: 45px !important;
+	min-width: 45px;
+	
+}
+
+#bubblemorph-addon-wrap .fa-icon-eyedropper {
+	
+	position: relative;
+	top: 6px;
+	
+}
+
+#bubblemorph-addon-wrap .fa-icon-maxcdn {
+	
+	position: relative;
+	top: 1px;
+	
+}
+
+#bubblemorph-addon-wrap .inp-deep-list {
+	
+	width: auto;
+	white-space: nowrap;
+	
+}
+
+.tp-bubblemorph {
+	
+	background: rgba(50, 50, 50, 0.5);
+	opacity: 0.5;
+	
+}
+
+.tp-bubblemorph:after {
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -14px 0 0 -26px;
+	font-family: "FontAwesome";
+	content: "\f136";
+    color: #fff !important;
+	opacity: 0.25;
+    font-size: 40px;
+	line-height: 40px;
+	
+}
+
+.bubblemorph-disabled .tp-bubblemorph:after {
+	
+	content: "\f070";
+	
+}
+
+#button_add_layer_bubblemorph .fa-icon-maxcdn:before {
+	
+	color: #FFF;
+	opacity: 0.8;
+	
+}
+
+
+#button_add_layer_bubblemorph:hover .fa-icon-maxcdn:before {
+	
+	opacity: 1;
+	
+}
+
+#button_add_layer_bubblemorph i.fa-icon-maxcdn:before {
+	
+	position: relative;
+	left: 2px;
+	
+}
+
+body:not(.bubblemorph-layer-active) #rs-addon-trigger-bubblemorph {
+	
+	pointer-events: none;
+	
+}
+
+body:not(.bubblemorph-layer-active)  #bubblemorph-addon-wrap {
+	
+	display: none;
+	
+}
+
+body:not(.bubblemorph-layer-active) #rs-addon-trigger-bubblemorph:after {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	z-index: 99;
+	background-color: rgba(255, 255, 255, 0.5);
+	
+}
+
+body:not(.bubblemorph-layer-active) #rs-addon-trigger-bubblemorph.selected:after {
+	
+	background-color: rgba(255, 255, 255, 0.75);
+	
+}
+
+#bubblemorph-addon-wrap .fa-icon-spinner {
+	margin-right: 8px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.bubbles-addon-field:disabled {
+	
+	opacity: 0.5;
+	
+}
+
+.bubbles-device-icon {
+	
+    height: 30px;
+	margin-right: 5px;
+    display: inline-block;
+    background-position: right center;
+    background-repeat: no-repeat;
+	
+}
+
+.bubbles-device-desktop {
+	
+	background-image: url(../images/icon-mode-desktop-dark.png);	
+	background-size: 22px 20px;
+	width: 24px;
+	
+}
+
+.bubbles-device-notebook {
+	
+	background-image: url(../images/icon-mode-laptop-dark.png);	
+	background-size: 24px 16px;
+	width: 26px;
+	
+}
+
+.bubbles-device-tablet {
+	
+	background-image: url(../images/icon-mode-tablet-dark.png);	
+	background-size: 18px 24px;
+	width: 20px;
+	
+}
+
+.bubbles-device-mobile {
+	
+	background-image: url(../images/icon-mode-phone-dark.png); 
+	background-size: 14px 22px;
+	width: 16px;
+	
+}
+
+#rs-addon-wrapper #bubblemorph-addon-wrap .rs-layer-toolbar-box {
+	
+	min-width: 0;
+	vertical-align: top;
+	
+}
+
+.bubblemorph-color-title {
+	
+	position: relative;
+	top: 2px;
+	
+}
+
+
+

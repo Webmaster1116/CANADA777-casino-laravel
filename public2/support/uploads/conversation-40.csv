@@ -1,0 +1,11 @@
+ID,"User ID",Message,"Creation date",Attachments,Payload
+246,29,"*Email*
+jfcardinal200@gmail.com
+
+i wantto know what is the bonus","2021-05-25 03:33:06",,"{""skip-dialogflow"":true}"
+247,5,"Welcome to Canada777 Support! Please provide us with your name and email before we start the chat.","2021-05-25 03:33:07",,
+248,29,"name Peter: email: jfcardinal200@gmail.com","2021-05-25 03:33:38",,
+249,5,"I didn't get that. Can you say it again?","2021-05-25 03:33:41",,"{""responseId"":""45312d97-bb4b-48dc-a410-f095300e8a0e-06f725e1"",""queryResult"":{""queryText"":""name Peter: email: jfcardinal200@gmail.com"",""action"":""input.unknown"",""parameters"":[],""allRequiredParamsPresent"":true,""fulfillmentText"":""I didn't get that. Can you say it again?"",""fulfillmentMessages"":[{""text"":{""text"":[""I didn't get that. Can you say it again?""]}}],""outputContexts"":[{""name"":""projects\/newagent-davv\/agent\/sessions\/29\/contexts\/__system_counters__"",""lifespanCount"":1,""parameters"":{""no-match"":1,""no-input"":0}}],""intent"":{""name"":""projects\/newagent-davv\/agent\/intents\/c291273d-7e48-4181-9a8e-9144f9186ba4"",""displayName"":""Default Fallback Intent"",""isFallback"":true},""intentDetectionConfidence"":1,""languageCode"":""en""},""outputAudio"":"""",""bot-unknow-notify"":true}"
+250,5,"[chips  message="""" options=""Cancel"" disabled=""true""]","2021-05-25 03:34:35",,"{""rich-messages"":{""sb-human-takeover"":{""type"":""chips"",""result"":""Cancel""}}}"
+251,29,Cancel,"2021-05-25 03:34:35",,"{""id"":""sb-human-takeover"",""event"":""chips-click"",""result"":""Cancel""}"
+252,29,"what is the bonus","2021-05-25 03:34:46",,

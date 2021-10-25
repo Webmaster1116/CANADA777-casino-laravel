@@ -1,0 +1,36 @@
+{
+    "resources": {
+        "formats": {
+            "sb.win":  {"font": "Arial", "style": "bold", "color": "#fff", "shadow": {"color": "#60000000", "offset": [-1, -1]}},
+            "line_win":                     {"font": "Arial", "style": "bold", "color": "#fff"},
+
+            "bottom_bar_field_title":       {"font": "ElysiumPro-Bold", "style": "bold", "color": "#ffe32b"},
+            "bottom_bar_field_value":       {"font": "FRADMCN", "style": "bold", "color": "#fff9cc", "stroke": {"color": "#270487", "thickness": 2}},
+
+            "autoplay_selector":            {"font": "ElysiumPro-Bold", "style": "bold", "color": "#ffe32b"},
+            "autoplay_selector:hovered":    {"font": "ElysiumPro-Bold", "style": "bold", "color": "#ffff58"},
+            "autoplay_selector:pressed":    {"font": "ElysiumPro-Bold", "style": "bold", "color": "#bdac24"},
+            "autoplay_selector:disabled":   {"font": "ElysiumPro-Bold", "style": "bold", "color": "#d7d2b0"},
+
+            "free_games_ribbon_text":     {"font": "ElysiumPro-Bold", "style": "bold", "color": "#ffffff", "stroke": {"color": "#002c76", "thickness": 2}},
+            "free_games_ribbon_value":    {"font": "FRADMCN", "style": "bold", "color": "#ffffff", "stroke": {"color": "#002c76", "thickness": 2}},
+            "massage_box_head":           {"font": "ElysiumPro-Bold", "style": "bold", "color": "#7d01ba"},
+            "massage_box_titles":         {"font": "ElysiumPro-Bold", "style": "bold", "color": "#013997"},
+
+            "currency_red":   {"font": "Arial", "style": "bold", "color": "#ce000d", "stroke": {"color": "#fdff49", "thickness": 2}},
+            "currency_gray":  {"font": "Arial", "style": "bold", "color": "#4d4d4d", "stroke": {"color": "#d2d2d2", "thickness": 2}},
+            "bonus_text":           {"font": "ElysiumPro-Bold", "style": "bold", "color": "#ffffff", "stroke": {"color": "#073870", "thickness": 2}},
+            "font_red":             {"font": "font"},
+            "font_red_dimmed":      {"font": "font_dimmed"},
+            "fg_numbers":           {"font": "fg_numbers"}
+        },
+
+        "fonts": {
+            "font":              {"type": "user", "url": "font.fnt"},
+            "font_dimmed":       {"type": "user", "url": "font_dimmed.fnt"},
+            "fg_numbers":        {"type": "user", "url": "fg_numbers.fnt"},
+            "ElysiumPro-Bold":   {"url": "ElysiumPro-Bold.ttf"},
+            "FRADMCN":           {"url": "FRADMCN.TTF"}
+        }
+    }
+}

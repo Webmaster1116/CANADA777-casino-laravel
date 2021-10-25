@@ -1,0 +1,167 @@
+
+africarun_s5_anim.png
+size: 681,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+antelope/antelopeBL1_1
+  rotate: true
+  xy: 273, 2
+  size: 24, 34
+  orig: 24, 34
+  offset: 0, 0
+  index: -1
+antelope/antelopeBL1_2
+  rotate: true
+  xy: 318, 4
+  size: 32, 59
+  orig: 33, 59
+  offset: 1, 0
+  index: -1
+antelope/antelopeBL2_1
+  rotate: false
+  xy: 661, 83
+  size: 18, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+antelope/antelopeBL2_2
+  rotate: true
+  xy: 379, 3
+  size: 17, 31
+  orig: 17, 31
+  offset: 0, 0
+  index: -1
+antelope/antelopeFL1_1
+  rotate: true
+  xy: 412, 6
+  size: 14, 21
+  orig: 16, 21
+  offset: 2, 0
+  index: -1
+antelope/antelopeFL1_2
+  rotate: false
+  xy: 661, 108
+  size: 18, 32
+  orig: 18, 32
+  offset: 0, 0
+  index: -1
+antelope/antelopeFL2_1
+  rotate: true
+  xy: 136, 14
+  size: 16, 28
+  orig: 16, 28
+  offset: 0, 0
+  index: -1
+antelope/antelopeFL2_2
+  rotate: false
+  xy: 438, 3
+  size: 29, 33
+  orig: 29, 33
+  offset: 0, 0
+  index: -1
+antelope/antelope_Body
+  rotate: true
+  xy: 2, 32
+  size: 108, 162
+  orig: 108, 162
+  offset: 0, 0
+  index: -1
+antelope/tail
+  rotate: true
+  xy: 379, 22
+  size: 14, 57
+  orig: 14, 57
+  offset: 0, 0
+  index: -1
+lion/Backleg1
+  rotate: true
+  xy: 76, 9
+  size: 21, 58
+  orig: 21, 58
+  offset: 0, 0
+  index: -1
+lion/Backleg2
+  rotate: true
+  xy: 273, 28
+  size: 15, 43
+  orig: 15, 44
+  offset: 0, 1
+  index: -1
+lion/Body
+  rotate: false
+  xy: 470, 2
+  size: 80, 79
+  orig: 80, 92
+  offset: 0, 0
+  index: -1
+lion/Floor
+  rotate: false
+  xy: 166, 45
+  size: 150, 95
+  orig: 150, 95
+  offset: 0, 0
+  index: -1
+lion/Frame_Bottom
+  rotate: false
+  xy: 318, 38
+  size: 150, 13
+  orig: 150, 13
+  offset: 0, 0
+  index: -1
+lion/Frame_top
+  rotate: false
+  xy: 318, 53
+  size: 150, 14
+  orig: 150, 14
+  offset: 0, 0
+  index: -1
+lion/Frontleg1
+  rotate: true
+  xy: 203, 14
+  size: 29, 68
+  orig: 29, 68
+  offset: 0, 0
+  index: -1
+lion/Frontleg2
+  rotate: true
+  xy: 2, 5
+  size: 25, 72
+  orig: 25, 74
+  offset: 0, 1
+  index: -1
+lion/Grass
+  rotate: false
+  xy: 552, 17
+  size: 97, 64
+  orig: 97, 64
+  offset: 0, 0
+  index: -1
+lion/Head
+  rotate: false
+  xy: 166, 2
+  size: 35, 41
+  orig: 35, 42
+  offset: 0, 0
+  index: -1
+lion/Sky
+  rotate: false
+  xy: 318, 69
+  size: 150, 71
+  orig: 150, 73
+  offset: 0, 1
+  index: -1
+lion/Tail
+  rotate: true
+  xy: 625, 84
+  size: 56, 34
+  orig: 56, 34
+  offset: 0, 0
+  index: -1
+lion/Trees
+  rotate: false
+  xy: 470, 83
+  size: 153, 57
+  orig: 153, 57
+  offset: 0, 0
+  index: -1

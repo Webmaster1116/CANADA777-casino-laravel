@@ -1,0 +1,41 @@
+/********************************************************
+		
+				SLIDER REVOLUTION BACKUP
+	
+ * REVOLUTION 5.2.0 EXTENSION - BACKUP ADMIN CSSrs-frame-
+ * @version: 1.0 (16.02.2016)
+ * @author ThemePunch
+*********************************************************/
+
+
+#rs-addon-settings-trigger-backup				{	border-radius:0px; padding:0px; color:transparent; background:url(../images/addon_logo.png); background-size:127px 54px; background-position:top center; width:127px;height:27px;}
+#rs-addon-settings-trigger-backup.selected,
+#rs-addon-settings-trigger-backup:hover		{	background-position: bottom center} 	 
+
+#rs-addon-settings-trigger-backup-settings	{	padding:15px 20px;}
+
+
+.rs-addon-backup-trigger-button 			{	line-height:28px; color:#fff; padding:0px 20px; background: #3498db; cursor: pointer; display:inline-block;} 
+.rs-addon-backup-trigger-button:hover 		{	background: #2980b9}
+
+#dialog_select_slide_backup  				{	padding:0px;}
+
+.rs-backup-data-holder						{	line-height:45px; vertical-align: middle; border-bottom:1px solid #ddd; padding:0px 20px;}
+.rs-backup-id 								{	   display: inline-block;width: 20px;text-align: right;}
+
+.eg-icon-calendar							{	margin-left:25px; color:#aaa; margin-right:5px;}
+.eg-icon-calendar:before 					{	color:#aaa; font-size:16px;}
+
+.rs-preview-backup 							{	border:1px solid #3498db; font-size:12px; color:#3498db; line-height: 24px; padding:0px 10px; font-weight: 400; cursor: pointer; display: inline-block;margin-top:10px; border-radius: 4px;}
+
+.rs-load-backup 							{	background:#3498db; font-size:12px; color:#fff; line-height: 26px; padding:0px 10px; font-weight: 400; cursor: pointer; display: inline-block;margin-top:10px;border-radius: 4px; margin-left:5px;}
+
+.rs-preview-backup:hover 					{	color:#fff;background:#3498db;}
+.rs-load-backup:hover 						{	background: #2980b9}
+
+
+.rs-backup-data-holder.rs-temp-backup-holder	{	background:rgba(255,255,255,0.45); border-radius: 4px; position: absolute; top: 50px; left: 50%; border-bottom:none !important; width:320px; margin-left:-160px; height:40px;line-height: 40px;}
+
+.rs-temp-backup-holder .rs-load-backup		{	float:right;margin-top:8px;}
+
+.nobackups 									{	padding:25px 20px; color:#999; font-size: 14px;}

@@ -1,0 +1,51 @@
+{
+    "resources": {
+        "slices": {
+            "bonus_prize_1":                        {"image": "bonus_elements", "size": [143, 270], "pos": [1, 1]},
+            "bonus_prize_1:hovered":                {"image": "bonus_elements", "size": [143, 270], "pos": [1, 273]},
+            "bonus_prize_1:pressed":                {"image": "bonus_elements", "size": [143, 270], "pos": [1, 545]},
+            "bonus_prize_2":                        {"image": "bonus_elements", "size": [143, 270], "pos": [146, 1]},
+            "bonus_prize_2:hovered":                {"image": "bonus_elements", "size": [143, 270], "pos": [146, 273]},
+            "bonus_prize_2:pressed":                {"image": "bonus_elements", "size": [143, 270], "pos": [146, 545]},
+            "bonus_prize_3":                        {"image": "bonus_elements", "size": [143, 270], "pos": [397, 1]},
+            "bonus_prize_3:hovered":                {"image": "bonus_elements", "size": [143, 270], "pos": [291, 273]},
+            "bonus_prize_3:pressed":                {"image": "bonus_elements", "size": [143, 270], "pos": [291, 545]},
+            "bonus_prize_4":                        {"image": "bonus_elements", "size": [143, 270], "pos": [436, 273]},
+            "bonus_prize_4:hovered":                {"image": "bonus_elements", "size": [143, 270], "pos": [542, 1]},
+            "bonus_prize_4:pressed":                {"image": "bonus_elements", "size": [143, 270], "pos": [436, 545]},
+            "bonus_prize_5":                        {"image": "bonus_elements", "size": [143, 270], "pos": [687, 1]},
+            "bonus_prize_5:hovered":                {"image": "bonus_elements", "size": [143, 270], "pos": [832, 1]},
+            "bonus_prize_5:pressed":                {"image": "bonus_elements", "size": [143, 270], "pos": [661, 273]},
+            "bonus_prize_6":                        {"image": "bonus_elements", "size": [143, 270], "pos": [581, 545]},
+            "bonus_prize_6:hovered":                {"image": "bonus_elements", "size": [143, 270], "pos": [806, 273]},
+            "bonus_prize_6:pressed":                {"image": "bonus_elements", "size": [143, 270], "pos": [726, 545]},
+            "bonus_prize_explosion_frame_1":        {"image": "bonus_elements", "size": [130, 129], "pos": [1, 817]},
+            "bonus_prize_explosion_frame_2":        {"image": "bonus_elements", "size": [130, 129], "pos": [133, 817]},
+            "bonus_prize_explosion_frame_3":        {"image": "bonus_elements", "size": [130, 129], "pos": [265, 817]},
+            "bonus_prize_explosion_frame_4":        {"image": "bonus_elements", "size": [130, 129], "pos": [397, 817]},
+            "bonus_prize_explosion_frame_5":        {"image": "bonus_elements", "size": [130, 129], "pos": [529, 817]},
+            "bonus_prize_explosion_frame_6":        {"image": "bonus_elements", "size": [130, 129], "pos": [661, 817]},
+            "bonus_prize_explosion_frame_7":        {"image": "bonus_elements", "size": [130, 129], "pos": [871, 545]},
+            "bonus_prize_explosion_frame_8":        {"image": "bonus_elements", "size": [130, 129], "pos": [871, 676]},
+            "bonus_prize_explosion_frame_9":        {"image": "bonus_elements", "size": [130, 129], "pos": [871, 807]}
+        }
+    },
+
+    "ui": {
+        "bonus_prize_explosion_sprite": {
+            "type": "sprite.ash",
+            "frame.size": [130, 129],
+            "frames": [
+                {"id": "bonus_prize_explosion_frame_1"},
+                {"id": "bonus_prize_explosion_frame_2"},
+                {"id": "bonus_prize_explosion_frame_3"},
+                {"id": "bonus_prize_explosion_frame_4"},
+                {"id": "bonus_prize_explosion_frame_5"},
+                {"id": "bonus_prize_explosion_frame_6"},
+                {"id": "bonus_prize_explosion_frame_7"},
+                {"id": "bonus_prize_explosion_frame_8"},
+                {"id": "bonus_prize_explosion_frame_9"}
+            ]
+        }
+    }
+}

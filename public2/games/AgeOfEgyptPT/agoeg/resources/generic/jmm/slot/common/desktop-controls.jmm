@@ -1,0 +1,150 @@
+{
+    "config": {
+        "gc.supported_languages": ["bg", "ch", "cs", "da", "de", "el", "en", "es-mx", "es", "et", "fi", "fr", "it", "ja", "ko", "ms", "nl", "no", "pl", "pt", "ro", "ru", "sk", "sv", "th", "zh-cn"],
+
+        "maxfps": 50,
+
+        "reels.rotation.default": {"id": "default"},
+        "reels.rotation.turbo": {"@P": "config/reels.rotation.default", "id": "turbo", "first_reel_duration": 200, "next_reel_stop_delay": 120},
+
+        "side_buttons": {
+            "select_lines": true
+        },
+
+        "btn_hold_delay": 200,
+
+        "promo_messages": {
+            "durations": {
+	            "regular":    {"regular": 10000, "logo": 20000, "event": 10000},
+	            "free-spins": {"regular": 8000,  "logo": 8000,  "event": 8000}
+            },
+            "animations": {
+                "show_toggle": "promo_msg.show_down",
+                "hide_toggle": "promo_msg.hide_up",
+                "show_event": "promo_msg.show_down",
+                "hide_event": "promo_msg.hide_up"
+            }
+        },
+        "animations": {
+            "symbol_animation.default": {"id": "gc-dt.def_symbol.scale", "hide_symbol": true}
+        },
+
+        "features": {
+            "regular": {
+                "type": "reels-spin",
+                "auto-spin": false,
+                "reels-set": "general",
+                "reels-config": "default",
+                "free": false,
+                "single-game-feature": false
+            },
+            "autoplay": {
+                "type": "reels-spin",
+                "free": false,
+                "single-game-feature": false,
+                "skip-outro": true
+            },
+            "free-spins": {
+                "type": "free-spins",
+                "auto-start-more-spins": true,
+                "show-total-win": true,
+                "include-game-win": true
+            },
+            "fsb": {
+                "type": "reels-spin",
+                "auto-spin": false,
+                "single-game-feature": false
+            },
+            "waves": {
+                "type": "waves",
+                "supported": false,
+                "auto-start": true,
+                "retrigger": true,
+                "cumulative-win": true,
+                "spins-count": 1,
+                "more-spins-count": 1,
+                "restore-reels": false,
+                "skip-outro": true
+            }
+        },
+
+        "win_ranges.default": {
+            "regular": {}
+        }
+    },
+    "resources": {
+        "images": {
+            "wait": {"url": "wait.png", "preload": "main-scene"},
+            "scrollbar.arrow": {"url": "slot/common/scrollbar_arrow.png", "preload": "main-scene"}
+        },
+
+        "slices":{
+            "waiting_circle": {"image": "wait", "size": [282, 282]},
+            "scrollbar.arrow": {"image": "scrollbar.arrow", "size": [15, 17]},
+            "scrollbar.arrow:disabled": {"image": "scrollbar.arrow", "pos": [15, 0], "size": [15, 17]},
+            "scrollbar.arrow:pressed": {"image": "scrollbar.arrow", "pos": [30, 0], "size": [15, 17]},
+            "scrollbar.arrow:hovered": {"image": "scrollbar.arrow", "pos": [45, 0], "size": [15, 17]},
+            "scrollbar.slider": {"size": [1, 1]},
+            "scrollbar.slider:hovered": {"size": [1, 1]}
+        },
+
+        "animations": {
+            "winlines.disappear": {"type": "set", "mode": "serial", "content": [
+                {"type": "delay", "duration": 2000},
+                {"type": "opacity", "from": 1, "to": 0, "duration": 1250}
+            ]},
+            "promo_msg.hide_up": {"type": "set", "mode": "serial", "content": [
+                {"type": "slide", "dir": "UP", "duration": 400},
+                {"type": "set-props", "visible": false, "xform": "identity", "clip": null}
+            ]},
+            "promo_msg.show_down": {"type": "set", "mode": "serial", "content": [
+                {"type": "set-props", "visible": true},
+                {"type": "slide", "dir": "DOWN", "mode": "SHOW", "duration": 400},
+                {"type": "set-props", "xform": "identity", "clip": null}
+            ]},
+            "gc-dt.def_symbol_animation.opacity": {"type": "set-widget", "lookup": "symbol.image", "duration": 2000, "repeat": -1, "content": [
+                {"type": "opacity", "from": 1, "to": 0, "duration": "50%"},
+                {"type": "opacity", "from": 0, "to": 1, "duration": "50%"}
+            ]},
+            "gc-dt.def_symbol_animation.scale": {"type": "trackable", "impatient": true, "content": [
+                {"type": "set", "repeat": -1, "content": [
+                    {"type": "set-props", "xform": "identity"},
+                    {"type": "scale", "from.x": 1, "from.y": 1, "to.x": 1.16, "to.y": 1.16, "pivot.x": "50%", "pivot.y": "50%", "duration": 300, "interpolator": "ease.out.symbol"},
+                    {"type": "scale", "from.x": 1.16, "from.y": 1.16, "to.x": 1, "to.y": 1, "pivot.x": "50%", "pivot.y": "50%", "duration": 300, "interpolator": "ease.in.symbol"},
+                    {"type": "delay", "duration": 200}
+                ]}
+            ]},
+            "gc-dt.anticipation": {"type": "sprite", "from": "0%", "to": "100%", "duration": 125, "repeat": -1}
+        }
+    },
+
+    "ui": {
+        "label.def": {"type": "label", "text-fit": [true, true], "alignment": "center"},
+        "game-container": {"group": "game_container", "type": "panel", "layout": {"type": "anchor", "relative": true, "alignment": "center"}, "props": {"anchor.fit": 0}},
+        "winlines": {"id": "winlines", "type": "winlines", "props": {"anchor.fit": "0"}},
+
+        "promo_msg": {"type": "promo-msg", "layout": {"type": "stack"}, "visible": "false"},
+        "promo_msg_logo": {"@P": "ui/promo_msg", "msg-type": "logo"},
+        "promo_msg_panel": {"id": "promo_messages_panel", "type": "promo-msg-panel", "layout": {"type": "anchor", "alignment": "center", "relative": true}, "panels": {}, "toggleQueue": {}},
+
+        "gc-dt.def_symbol.opacity": {"type": "symbol-image", "layout": {"type": "stack"}, "animation": "gc-dt.def_symbol_animation.opacity", "content": [
+            {"id": "symbol.image", "type": "image"}
+        ]},
+        "gc-dt.def_symbol.scale": {"@P": "ui/gc-dt.def_symbol.opacity", "animation": "gc-dt.def_symbol_animation.scale"},
+
+        "scroll-bar": {"id": "scrollbar", "type": "scroll-bar", "size": [15, 100], "orientation": "ver", "propagative": false,
+            "slider": {"background": "#f0f0f0", "orientation": "ver", "step": 1,
+                "knob": {"size": [15, 90], "background": "#c0c0c0", "layout": {"type": "stack"}, "content": [
+                    {"type": "cbutton", "slice": "scrollbar.slider", "@S": {
+                        "enabled": {"background": "#c0c0c0"},
+                        "pressed": {"background": "#606060"},
+                        "hovered": {"background": "#a6a6a6"},
+                        "disabled": {"background": "#f0f0f0"}
+                    }}
+                ]}
+            },
+            "button-min": {"slice": "scrollbar.arrow", "size": [15, 17], "snap": false, "repeat": [400, 50]},
+            "button-max": {"slice": "scrollbar.arrow", "size": [15, 17], "snap": false, "repeat": [400, 50], "xform": {"translate": [0, 17], "scale": [1, -1]}}
+        }
+    }
+}

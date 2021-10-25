@@ -1,0 +1,28 @@
+{
+    "sounds": {
+        "slide_in": {"mono": "skip"},
+        "slide_out": {"mono": "skip"},
+
+        "spin_button": {"mono": "force"},
+        "start_button": {"mono": "force"},
+        "manual_stop": {"mono": "force"},
+        "anticipation": {"mono": "force"},
+        "continue_button": {"mono": "skip"},
+        "line_button": {"mono": "skip"},
+
+        "autoplay_start": {"mono": "force"},
+        "autoplay_stop": {"mono": "skip"},
+
+        "plus_button": {"mono": "skip"},
+        "minus_button": {"mono": "skip"},
+        "maxbet_button": {"mono": "force"},
+
+        "tick": {"mono": "skip"},
+        "five_oak": {"mono": "force"},
+
+        "reel_spin": {"mono": "queue"},
+        "reel_stop": {"mono": "skip"},
+        "win": {"mono": "force"},
+        "special": {"mono": "force"}
+    }
+}

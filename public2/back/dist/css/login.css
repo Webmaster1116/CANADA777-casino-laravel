@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+.login-wrapper {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../img/login-background.jpg");
+    background-size: cover;
+}
+
+.login-wrapper .login-box {
+    margin: 0 auto;
+    padding-top: 20vh;
+}
+
+.login-wrapper .login-box .login-logo a img {
+    width: 100%;
+}
+
+.login-wrapper .login-box .login-box-body {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.login-wrapper .login-box .login-box-footer {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.login-wrapper .login-box .login-box-footer a {
+    text-decoration: none;
+    color: white;
+}

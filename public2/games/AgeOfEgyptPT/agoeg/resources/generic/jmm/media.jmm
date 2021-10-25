@@ -1,0 +1,70 @@
+{
+    "resources": {
+        "audio":{
+            "pools":{
+                "music":        {"id": "music","url":{"audio/mpeg": "Age_of_Egypt_pt1_12.06.17.mp3", "audio/ogg": "Age_of_Egypt_pt1_12.06.17.ogg"}, "polyphony": 2, "preload": true },
+                "main":         {"url":{"audio/mpeg": "Age_of_Egypt_pt1_12.06.17.mp3", "audio/ogg": "Age_of_Egypt_pt1_12.06.17.ogg"}, "polyphony": 4, "preload": true },
+                "win":          {"url":{"audio/mpeg": "Age_of_Egypt_pt2_12.06.17.mp3", "audio/ogg": "Age_of_Egypt_pt2_12.06.17.ogg"}, "polyphony": 4, "preload": true },
+                "bonus":        {"url":{"audio/mpeg": "Age_of_Egypt_pt3_12.06.17.mp3", "audio/ogg": "Age_of_Egypt_pt3_12.06.17.ogg"}, "polyphony": 6, "preload.deferred": true},
+                "free_games":   {"url":{"audio/mpeg": "Age_of_Egypt_pt4_12.06.17.mp3", "audio/ogg": "Age_of_Egypt_pt4_12.06.17.ogg"}, "polyphony": 4, "preload.deferred": true}
+            },
+
+            "sounds": {
+                "main_ambient" :          {"frame": [2000,    32300 ], "type": "cross-loop", "shift": 300, "fade": true, "mono": "force", "pool": "music", "pausable": false},
+                "spin_button":            {"frame": [34600,     382 ], "@P": "sounds/spin_button", "pool": "main"},
+                "reel_spin" :             {"frame": [35282,    4777 ], "@P": "sounds/reel_spin", "pool": "main"},
+                "reel_stop":              {"frame": [40959,     285 ], "@P": "sounds/reel_stop", "pool": "main"},
+                "bonus_reelstop_1":       {"frame": [46844,    1204 ], "@P": "sounds/reel_stop", "pool": "main"},
+                "bonus_reelstop_2":       {"frame": [48347,    1180 ], "@P": "sounds/reel_stop", "pool": "main"},
+                "bonus_reelstop_3":       {"frame": [49827,    1209 ], "@P": "sounds/reel_stop", "pool": "main"},
+                "bonus_reelstop_4":       {"frame": [51336,    1059 ], "@P": "sounds/reel_stop", "pool": "main"},
+                "bonus_reelstop_5":       {"frame": [52695,    1354 ], "@P": "sounds/reel_stop", "pool": "main"},
+                "fg_reelstop_1":          {"frame": [58395,    1024 ], "@P": "sounds/reel_stop", "pool": "main"},
+                "fg_reelstop_2":          {"frame": [59719,    1081 ], "@P": "sounds/reel_stop", "pool": "main"},
+                "fg_reelstop_3":          {"frame": [61100,    1134 ], "@P": "sounds/reel_stop", "pool": "main"},
+                "fg_reelstop_4":          {"frame": [62535,    1221 ], "@P": "sounds/reel_stop", "pool": "main"},
+                "fg_reelstop_5":          {"frame": [64055,    1267 ], "@P": "sounds/reel_stop", "pool": "main"},
+                "bonus_symbol_win":       {"frame": [54349,    3746 ], "pool": "main"},
+                "anticipation" :          {"frame": [65623,    6000 ], "@P": "sounds/anticipation", "pool": "main"},
+                "win_level_0":            {"frame": [5997,     2191],  "@P": "sounds/win", "type": "soundtrack","pool": "win", "end" : 800},
+                "win_level_1":            {"frame": [8488,     5081],  "@P": "sounds/win", "type": "soundtrack","pool": "win", "end" : 3400},
+                "win_level_2-3":          {"frame": [13869,    7957],  "@P": "sounds/win", "type": "soundtrack","pool": "win", "end" : 6350},
+                "win_level_4":            {"frame": [22126,    13970], "@P": "sounds/win", "type": "soundtrack","pool": "win", "end" : 12750},
+                "win_level_5":            {"frame": [36396,    19736], "@P": "sounds/win", "type": "soundtrack","pool": "win", "end" : 18400},
+                "five_oak" :              {"frame": [2000,     3697], "@P": "sounds/five_oak",  "pool": "win" },
+                "scat_trigger" :          {"frame": [41554,    4999 ], "@P": "sounds/win",      "pool": "main"},
+
+                "bonus_pending" :         {"frame": [6279,     8258], "type": "cross-loop", "shift": 300, "fade": true,"mono": "force", "pool": "bonus"},
+                "bonus_ambient" :         {"frame": [14837,   32300], "type": "cross-loop", "shift": 300, "fade": true,"mono": "force", "pool": "bonus"},
+                "bonus_select_gift":      {"frame": [47437,    1375], "mono": "force", "pool": "bonus"},
+                "bonus_non_selected":     {"frame": [49113,    1813], "mono": "force", "pool": "bonus"},
+                "bonus_outro" :           {"frame": [52655,    4502], "mono": "force", "pool": "bonus"},
+
+                "fg_pending" :            {"frame": [2000,  8575], "type": "cross-loop", "shift": 300, "fade": true,"mono": "force","pool": "free_games"},
+
+                "ambient" :               {"frame": [10875,37541], "type": "cross-loop", "shift": 300, "fade": true, "mono": "force","pool": "free_games"},
+                "fg_win_more" :           {"frame": [51384,2682], "mono": "force", "pool": "free_games"},
+                "fg_tickup" :             {"frame": [48716, 2367], "mono": "force","pool": "free_games", "@P": "sounds/win", "type": "soundtrack", "end" : 2200},
+                "outro" :                 {"frame": [54366,3645], "mono": "force", "pool": "free_games",  "type": "soundtrack", "end": 2000},
+
+                "slide_in" :              {"frame": [71923, 449 ], "@P": "sounds/slide_in", "pool": "main"},
+                "slide_out" :             {"frame": [71923, 449 ], "@P": "sounds/slide_out", "pool": "main"},
+                "plus_button":            {"frame": [71923, 449 ], "@P": "sounds/plus_button", "pool": "main"},
+                "minus_button":           {"frame": [71923, 449 ], "@P": "sounds/minus_button", "pool": "main"},
+                "info_button":            {"frame": [71923, 449 ], "@P": "sounds/minus_button", "pool": "main"},
+                "manual_stop":            {"frame": [74918, 570 ], "@P": "sounds/minus_button", "pool": "main"},
+
+                "autoplay_start":         {"frame": [71923, 449 ], "@P": "sounds/autoplay_start", "pool": "main"},
+                "autoplay_stop":          {"frame": [71923, 449 ], "@P": "sounds/autoplay_stop", "pool": "main"},
+
+                "turbo_on":               {"frame": [72672, 294 ], "mono": "skip",  "pool": "main"},
+                "turbo_off":              {"frame": [73266, 592 ], "mono": "skip",  "pool": "main"},
+                "tick":                   {"frame": [74158, 160 ], "mono": "skip",  "pool": "main"},
+                "continue_button":        {"frame": [71923, 449 ], "@P": "sounds/continue_button", "pool": "main"},
+
+                "mouse_over_sound":       {"frame": [57457, 562],  "mono": "force", "pool": "bonus"},
+                "bonus_total_win_tickup": {"frame": [51226, 1129], "mono": "force", "pool": "bonus"}
+            }
+        }
+    }
+}

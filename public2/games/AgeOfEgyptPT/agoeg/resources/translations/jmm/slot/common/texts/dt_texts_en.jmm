@@ -1,0 +1,46 @@
+{
+    "resources": {
+        "texts": {
+            "info": "INFO",
+            "line_bet": "BET/LINE",
+            "bet_max": "BET\nMAX",
+            "auto_spins_select": "{0} SPINS",
+            "auto_spins_left": "{0}",
+            "auto_spins_until_feature": "UNTIL FEATURE",
+            "autoplay": "AUTO\nPLAY",
+            "autoplay_stop": "STOP",
+            "spin": "SPIN",
+            "start": "START",
+            "stop": "STOP",
+            "turbo": "TURBO MODE",
+            
+            "press_spin": "CLICK SPIN TO START",
+            "insufficient_balance": "INSUFFICIENT BALANCE FOR THE REQUESTED BET",
+            "good_luck": "GOOD LUCK!",
+            "win_bonus": "YOU WIN THE BONUS!",
+            "win_free_games": "YOU WIN FREE GAMES!",
+            "win_more_free_games": "EXTRA FREE GAMES!",
+            "win_jackpot": "YOU WIN THE JACKPOT!",
+            "win_special_symbol": "SPECIAL SYMBOL WINS {0}",
+            "win_scatter": "{0} SCATTER SYMBOLS WIN {1}",
+            "win_scatter_bonus": "{0} SCATTER SYMBOLS WIN {1} AND START THE BONUS!",
+            "win_scatter_free_games": "{0} SCATTER SYMBOLS WIN {1} AND START FREE GAMES!",
+            "win_scatter_extra_free_games": "{0} SCATTER SYMBOLS WIN {1} AND {2} EXTRA FREE GAMES!",
+            "win_line": "LINE {0} WINS {1}",
+            "win_way": "WAY WINS {0}",
+            "win_feature_entry": "FEATURE ENTRY WINS {0}",
+            "autoplay_activated": "AUTO PLAY ACTIVATED",
+            "autoplay_stopped": "AUTOPLAY STOPPED",
+            "total_win_amount": "TOTAL WIN: {0}",
+            "win_screen": "CURRENT SCREEN WIN: {0}",
+            "win_screen_bonus": "CURRENT SCREEN WIN: {0} + BONUS!",
+            "win_screen_fg": "CURRENT SCREEN WIN: {0} + FREE GAMES!",
+            "win_screen_extra_fg": "CURRENT SCREEN WIN: {0} + {1} EXTRA FREE GAMES!",
+            
+            "repeat_autoplay": "Autoplay stopped.\nDo you want to repeat Autoplay?",
+            
+            "fsb_spins_left": "SPINS LEFT",
+            "fsb_win": "WIN"
+        }
+    }
+}

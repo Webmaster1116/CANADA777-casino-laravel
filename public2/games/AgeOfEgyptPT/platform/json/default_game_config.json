@@ -1,0 +1,51 @@
+{
+  "logoUrl": "logo.png",
+  "iconUrl": "home.png",
+  "copyrightsPath": "",
+  "logoutConfirm": false,
+  "fsbActive": false,
+  "gcActive": false,
+  "desktopGame": false,
+  "GTSGame": false,
+  "quickMenuActive": true,
+  "supportedOrientation": {
+    "landscape": true,
+    "portrait": true
+  },
+  "menuButtonsConfig": {
+    "showSettings": false,
+    "showHelp": true,
+    "paytableCaption": "Paytable"
+  },
+  "cpMobileForbiddenButtons": [],
+  "addMenuButtons": [],
+  "tableGame": false,
+  "multiplayerGame": false,
+  "game_code": "",
+  "jackpotEnable": false,
+  "soundDialogDisabled": false,
+  "copyrights": {
+    "type": "created"
+  },
+  "modePopupEnabled": false,
+  "jackpotBottomPanelEnabled": false,
+  "loadingScreenConfig": {
+    "enabled": false,
+    "logoImageUrl": "",
+    "backgroundImageUrl": "",
+    "text": {
+      "en": ""
+    },
+    "customLogoStyle": "",
+    "customTextStyle": "height: 40px; padding-left: 40px; background-position: left center; background-repeat: no-repeat "
+  },
+  "italyFunBonusEnabled": false,
+  "fullScreenGameCode": "",
+  "flashPlayerRequired": false,
+  "multiplayerLobby": {
+    "pathToBigAvatars": "",
+    "pathToSmallAvatars": "",
+    "countAvatars": 5,
+    "fileNameTemplateAvatar": "avatar_[X].png"
+  }
+}

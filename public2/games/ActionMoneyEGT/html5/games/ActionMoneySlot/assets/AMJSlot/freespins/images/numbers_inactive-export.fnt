@@ -1,0 +1,23 @@
+<font>
+	<info face="numbers_inactive-export" size="84"/>
+	<common lineHeight="84" scaleW="256" scaleH="256" pages="1"/>
+	<pages>
+		<page id="0" file="numbers_inactive-export.png?1561035489401"/>
+	</pages>
+	<chars count="64">
+		<char id="48" x="105" y="78" width="47" height="77" xoffset="0" yoffset="5" xadvance="47"/><!-- 0 -->
+		<char id="49" x="107" y="0" width="31" height="77" xoffset="0" yoffset="5" xadvance="31"/><!-- 1 -->
+		<char id="50" x="99" y="160" width="48" height="79" xoffset="0" yoffset="4" xadvance="48"/><!-- 2 -->
+		<char id="51" x="147" y="155" width="46" height="79" xoffset="0" yoffset="4" xadvance="46"/><!-- 3 -->
+		<char id="52" x="0" y="0" width="59" height="80" xoffset="0" yoffset="4" xadvance="59"/><!-- 4 -->
+		<char id="53" x="56" y="80" width="49" height="80" xoffset="0" yoffset="4" xadvance="49"/><!-- 5 -->
+		<char id="54" x="50" y="160" width="49" height="78" xoffset="0" yoffset="4" xadvance="49"/><!-- 6 -->
+		<char id="55" x="0" y="160" width="50" height="80" xoffset="0" yoffset="4" xadvance="50"/><!-- 7 -->
+		<char id="56" x="0" y="80" width="56" height="80" xoffset="0" yoffset="4" xadvance="56"/><!-- 8 -->
+		<char id="57" x="59" y="0" width="48" height="78" xoffset="0" yoffset="4" xadvance="48"/><!-- 9 -->
+		<char id="32" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="10"/><!--   -->
+		<char id="9" x="0" y="0" width="0" height="0" xoffset="0" yoffset="0" xadvance="100"/><!-- 	 -->
+	</chars>
+	<kernings count="0">
+	</kernings>
+</font>

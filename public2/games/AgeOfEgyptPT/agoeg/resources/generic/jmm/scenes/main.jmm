@@ -1,0 +1,533 @@
+{
+    "config": {
+        "animations": {
+            "win_panel.levels": [
+                {"id": "0", "animation.show": "win_0.show"},
+                {"id": "1", "pause": 1000, "animation.show": "win_2.show", "animation.hide": "win_2.hide", "animation.cancel": "win_2.cancel"},
+                {"id": "2", "pause": 2000, "animation.show": "win_3.show", "animation.hide": "win_2.hide", "animation.cancel": "win_2.cancel"},
+                {"id": "3", "pause": 2000, "animation.show": "win_3.show", "animation.hide": "win_2.hide", "animation.cancel": "win_2.cancel"},
+                {"id": "4", "pause": 2500, "animation.show": "win_4.show", "animation.hide": "win_4.hide", "animation.cancel": "win_4.cancel"},
+                {"id": "5", "pause": 2500, "animation.show": "win_5.show", "animation.hide": "win_5.hide", "animation.cancel": "win_5.cancel"}
+            ],
+            "win_panel.big_win_position": "57%"
+        }
+    },
+
+    "ui" : {
+        "coins": {"type": "sprite.particles",
+            "texture": {"frame.size": [194, 194], "frames": [
+                {"id": "coin_05"},
+                {"id": "coin_04"},
+                {"id": "coin_03"},
+                {"id": "coin_02"},
+                {"id": "coin_01"}
+            ]},
+
+            "lifetime": 2000,
+            "birthrate": 17,
+            "count": 120,
+            "texture-size": [55, 55],
+            "x-range": [-70, 70],
+            "y-range": [-200, 0],
+            "angle-range": [30, 150],
+            "speed-range": [0.5, 2],
+            "rotation-range": [-45, 45],
+            "scale-range": [0.75, 1.25],
+            "gravity": [0, 0.25],
+            "influencers": [
+                {"type": "scale",        "active" : false},
+                {"type": "rotate",       "active": true, "from": 0, "step": 3},
+                {"type": "transparency", "active": false},
+                {"type": "resistance",   "active": false}
+            ]
+        },
+
+        "spacer": {"type": "panel", "ratio": 0.3},
+        "centred_image" : {"type": "image", "props": {"anchor.relative": true, "anchor.alignment": "center", "anchor.fit": "-50 50 50 -50"}},
+
+        "red_label":{ "@P": "ui/label.def", "format": "font_red"},
+
+        "head": {"group": "freeSpinsElements", "type": "anchor", "layout": {"relative": true}, "visible": false, "content": [
+            {"@P": "ui/label.def", "text": "multiplier_label", "text-group": "free_spins_head",  "format": "free_games_ribbon_text", "props": { "anchor.fit": "12 78 50 0"}},
+            {"@P": "ui/label.def", "id": "freeSpinsMultiplier", "format": "free_games_ribbon_value", "props": { "anchor.fit": "40 77 -7 0"}},
+
+            {"type": "panel", "layout": {"type": "chbox"},"props": { "anchor.fit": "9 25 0 24"}, "content": [
+                    {"@P": "ui/label.def", "id": "freeSpinsLeft", "format": "fg_numbers"},
+                    {"@P": "ui/spacer"},
+                    {"type": "image", "id": "freeSpinsLeftLabel", "slice": "free_games_slice"}
+            ]},
+
+            {"@P": "ui/label.def", "text": "free_games_win", "text-group": "free_spins_head", "format": "free_games_ribbon_text", "props": { "anchor.fit": "12 0 50 75"}},
+            {"@P": "ui/label.def", "id": "freeSpinsCurrentWin", "format": "free_games_ribbon_value",  "props": { "anchor.fit": "40 0 -7 77"}}
+        ]},
+
+        "msg.head":  {"@P": "ui/label.def", "format": "massage_box_head"},
+        "msg.text":  {"@P": "ui/label.def", "format": "massage_box_titles"},
+        "msg.value": {"@P": "ui/label.def", "format": "font_red"},
+
+        "message_box": {"type": "custom-message", "group": "custom_messages", "layout": {"type": "anchor", "relative": true, "anchor.aligment": "center"},
+            "props": {"anchor.fit": 0}, "background": "#80000", "visible": false, "content": [
+            {"#ID": "content", "type": "anchor", "layout": {"relative": true}, "background":"message_box_bg", "ratio":[918, 543],
+                "props": {"anchor.alignment": "center", "anchor.fit": "7.5 8"}, "content": [
+                {"id": "btn.close", "type": "ibutton", "slice": "button_continue", "shortcut": "space", "props": {"anchor.alignment": "center", "anchor.fit": "83 20 7 20"},  "animation": "continue_button",  "cursor": "hand", "ratio": [257,  55]}
+            ]}
+        ]},
+
+        "paytable": { "type": "anchor", "props": {"anchor.fit": 0}, "content": [
+            {"type": "anchor", "props": {"anchor.fit": "20 0 50 0"}, "content": [
+                { "#ID": "panel", "id": "payTablePanel", "type": "anchor", "bias": "hor", "props": {"anchor.fit": "null 90"}, "content": [
+                    {"#ID": "container", "type": "vbox", "props": {"anchor.fit": 0}}
+                ]}
+            ]},
+            {"@P": "ui/scroll-bar", "props": {"anchor.fit": "0 0 0 null"}}
+        ]}
+    },
+
+    "scenes": {
+        "main-scene":{"layout":{"type": "anchor", "relative": true},"content": [
+
+            {"type": "stack", "props": { "anchor.fit": "0"  },"layout":{"alignment":"center"}, "content": [
+                {"type": "image", "props":{"stack.fillout": true}, "slice": "background_l"},
+                {"type": "image", "props":{"stack.fillout": true}, "visible":false, "group": "freeSpinsElements", "slice": "fg_background_l"}
+            ]},
+
+            {"type": "anchor", "id": "game_container", "layout":{"relative": true, "alignment":"center"}, "props": {"anchor.fit": "9 1 3 1", "anchor.alignment": "center"},  "ratio": 1.97,"content": [
+                {"@P": "ui/reelset", "props": { "anchor.fit": "0 0 16 0"  }},
+                {"id": "fade", "props": { "anchor.fit": "-40"  }, "background": "#a000", "visible": false,  "type": "anchor"},
+                {"@P": "ui/agoeg_bottom_bar", "props": {"anchor.fit": "84 0 0 0", "anchor.alignment": "bottom-center"}},
+                { "type": "anchor", "id": "bigWin","animation": "big.win", "visible":false, "props": {"anchor.fit": "23 -27 48.6 50"}, "content": [
+                    {"slice": "big_win",  "@P": "ui/centred_image"}
+                ]},
+                { "type": "anchor", "id": "megaWin","animation": "big.win", "visible":false, "props": {"anchor.fit": "23 -27 48.6 50"}, "content": [
+                    {"slice": "mega_win",  "@P": "ui/centred_image"}
+                ]},
+
+                {"@P": {"#ID": "ui/fsb-bar"}, "props": {"anchor.fit": "81.5 -30 -19 -30", "anchor.alignment": "center"}}
+            ]},
+
+            {"@P": {"#ID": "ui/confirm-dialog"}},
+            {"@P": {"#ID": "ui/fsb-info-popup"}},
+            {"@P": {"#ID": "ui/messages"}, "managed": false, "visible": false},
+
+            {"id": "free_spins.intro",  "@P": {"#ID": "ui/message_box", "content": {"content": [
+                {"@P": "ui/msg.text", "text": "welcome_to_fg",        "group": "introFreeSpins", "props": {"anchor.fit": "16 10 63 10"}},
+                {"type": "panel", "layout": {"type": "chbox"},        "group": "introFreeSpins", "props": {"anchor.fit": "48 10 42 10"}, "content": [
+                    {"@P": "ui/msg.text", "text": "you_win",          "group": "introFreeSpins"},
+                    {"type": "anchor", "ratio": 2.05, "layout": {"relative": true}, "content": [
+                        {"@P": "ui/msg.value","text": "10",    "props": { "anchor.fit": "-25 0 -18 0", "anchor.alignment": "center"  },  "group": "introFreeSpins"}
+                    ]},
+                    {"@P": "ui/msg.text", "text": "free_games",       "group": "introFreeSpins"}
+                ]},
+                {"type": "panel", "layout": {"type": "chbox"},        "group": "introFreeSpins", "props": {"anchor.fit": "65 10 25 10"}, "content": [
+                    {"@P": "ui/msg.text", "text": "with",           "group": "introFreeSpins", "alignment": "right" },
+                    {"type": "anchor", "ratio": 2.1, "layout": {"relative": true}, "content": [
+                        {"@P": "ui/msg.value","text": "x3",     "props": { "anchor.fit": "-25 0 -18 0", "anchor.alignment": "center" }, "group": "introFreeSpins", "alignment": "center"}
+                    ]},
+                    {"@P": "ui/msg.text", "text": "multiplier_label", "group": "introFreeSpins"}
+                ]}
+            ]}}},
+            {"id": "more_free_spins.intro", "show-duration": 3000, "@P": {"#ID": "ui/message_box", "content": {"content": [
+                {"@P": "ui/msg.head", "text": "you_win",                    "group": "introMoreFreeSpins", "props": {"anchor.fit": "16 10 63 10"}},
+                {"type": "panel", "layout": {"type": "chbox"},              "group": "introMoreFreeSpins", "props": {"anchor.fit": "48 10 42 10"}, "content": [
+                    {"type": "anchor", "ratio": 2.05, "layout": {"relative": true}, "content": [
+                        {"@P": "ui/msg.value","text": "10",    "props": { "anchor.fit": "-25 0 -18 0", "anchor.alignment": "center"  },  "group": "introMoreFreeSpins"}
+                    ]},
+                    {"@P": "ui/msg.text", "text": "more_free_games",        "group": "introMoreFreeSpins"}
+                ]},
+                {"type": "panel", "layout": {"type": "chbox"},              "group": "introMoreFreeSpins", "props": {"anchor.fit": "65 10 25 10"}, "content": [
+                    {"@P": "ui/msg.text", "text": "with",                 "group": "introMoreFreeSpins", "alignment": "right" },
+                    {"type": "anchor", "ratio": 2.1, "layout": {"relative": true}, "content": [
+                        {"@P": "ui/msg.value","text": "x3",     "props": { "anchor.fit": "-25 0 -18 0", "anchor.alignment": "center" }, "group": "introMoreFreeSpins", "alignment": "center"}
+                    ]},
+                    {"@P": "ui/msg.text", "text": "multiplier_label",       "group": "introMoreFreeSpins"}
+                ]}
+            ]}}},
+            {"id": "free_spins.outro", "animation.show": "free_spins.outro.show", "type": "outro-message",  "@P": {"#ID": "ui/message_box", "content": {"content": [
+                {"@P": "ui/msg.head", "text": "congratulations!",        "group": "outroFreeSpins", "props": {"anchor.fit": "11 10 79 10"}},
+                {"@P": "ui/msg.text", "text": "game_win",                "group": "outroFreeSpins", "props": {"anchor.fit": "25 56 65 6"}},
+                {"id": "win.game", "@P": "ui/red_label",                 "group": "outroFreeSpins", "props": {"anchor.fit": "36 57 50 10"}},
+                {"@P": "ui/msg.text", "text": "feature_win",             "group": "outroFreeSpins", "props": {"anchor.fit": "25 7 65 50.5"}},
+                {"id": "win.feature","@P": "ui/red_label",               "group": "outroFreeSpins", "props": {"anchor.fit": "36 10 50 50.5"}},
+                {"@P": "ui/msg.text", "text": "total_win",               "group": "outroFreeSpins", "props": {"anchor.fit": "52 10 37 10"}},
+                {"id": "win.total", "@P": "ui/red_label",                "group": "outroFreeSpins", "props": {"anchor.fit": "64 10 17 10"}}
+            ]}}},
+            {"id": "bonus.outro",  "@P": {"#ID": "ui/message_box", "content": {"content": [
+                {"@P": "ui/msg.text",  "text": "bonus_win",        "group": "outroBonus", "props": {"anchor.fit": "19 10 64 10"}},
+                {"@P": "ui/red_label", "id": "outroBonusTotalWin", "group": "outroBonus", "props": {"anchor.fit": "46 10 28 10"}}
+            ]}}},
+            { "id": "webView", "type": "webview", "props": {"anchor.fit": 0}, "visible":false}
+        ]},
+
+        "paytable-scene": {"background": "background_l", "snap": false, "content": [
+            {"@P": {"#ID": "ui/paytable", "panel": {"ratio": "auto"}, "container": {"content": [
+                {"type": "image", "slice": "paytable1"},
+                {"type": "image", "slice": "paytable2"},
+                {"type": "image", "slice": "paytable3"}
+            ]}}}
+        ]}
+    },
+
+    "resources": {
+        "widget-bundles":{
+            "free_spins_head": {"type": "text-group", "same-font-height": true}
+        },
+
+        "animations": {
+            "continue_button": {"type": "set", "mode": "serial", "repeat": -1, "duration": 500, "content": [
+                {"type": "scale", "from.x": "100%", "from.y": "100%", "to.x": "111%", "to.y": "111%", "pivot.x":"50%", "pivot.y":"50%", "xform.before": "identity"},
+                {"type": "scale", "from.x": "111%", "from.y": "111%", "to.x": "100%", "to.y": "100%", "pivot.x":"50%", "pivot.y":"50%", "xform.before": "identity"}
+            ]},
+
+            "bouncing.scale":{"type": "set", "mode": "serial", "content": [
+                {"type": "scale", "duration": "16.66%", "from.x": 0.01, "from.y": 0.01, "to.x": 1.2, "to.y": 1.2},
+                {"type": "scale", "duration": "16.66%", "from.x": 1.2, "from.y": 1.2, "to.x": 0.9, "to.y": 0.9},
+                {"type": "scale", "duration": "16.66%", "from.x": 0.9, "from.y": 0.9, "to.x": 1.2, "to.y": 1.2},
+                {"type": "scale", "duration": "16.66%", "from.x": 1.2, "from.y": 1.2, "to.x": 0.9, "to.y": 0.9},
+                {"type": "scale", "duration": "16.66%", "from.x": 0.9, "from.y": 0.9, "to.x": 1.2, "to.y": 1.2},
+                {"type": "scale", "duration": "16.66%", "from.x": 1.2, "from.y": 1.2, "to.x": 0.01, "to.y": 0.01}
+            ]},
+            "big.win":    {"type": "set", "mode": "parallel", "duration": 320, "repeat":1, "content": [
+                {"type": "set", "mode": "serial", "duration": 320, "repeat":1, "content": [
+                    {"type": "scale", "from.x": 0.42, "from.y": 0.42, "to.x":1.05,  "to.y":1.05, "repeat":1,  "duration": 160},
+                    {"type": "scale", "from.x": 1.05, "from.y": 1.05, "to.x":1,     "to.y":1,    "repeat":1,  "duration": 160}
+                ]},
+                {"type": "set", "mode": "serial", "duration": 320,"repeat":1, "content": [
+                    {"type": "translate", "from.x": "0%", "from.y": "-50%",  "to.x": "0",  "to.y": "8.33%", "repeat":1,  "duration": 160},
+                    {"type": "translate", "from.x": "0%", "from.y": "8.33%", "to.x": "0",  "to.y": "0%",    "repeat":1,  "duration": 160}
+                ]},
+                {"type": "opacity", "from": 0, "to":1, "repeat":1,"duration": 320}
+            ]},
+
+            "mega_scarab":    {"type": "set", "mode": "parallel", "duration": 320, "repeat":1, "content": [
+                {"type": "set", "mode": "serial", "duration": "100%", "repeat":1, "content": [
+                    {"type": "scale", "from.x": 0.42, "from.y": 0.42, "to.x":1.05,  "to.y":1.05, "repeat":1,  "duration": "50%"},
+                    {"type": "scale", "from.x": 1.05, "from.y": 1.05, "to.x":1,     "to.y":1,    "repeat":1,  "duration": "50%"}
+                ]},
+                {"type": "set", "mode": "serial", "duration": "100%","repeat":1, "content": [
+                    {"type": "translate", "from.x": "0%", "from.y": "-50%",  "to.x": "0",  "to.y": "8.33%", "repeat":1,   "duration": "50%"},
+                    {"type": "translate", "from.x": "0%", "from.y": "8.33%", "to.x": "0",  "to.y": "0%",    "repeat":1,   "duration": "50%"}
+                ]},
+                {"type": "opacity", "from": 0, "to":1, "repeat":1, "duration": "100%"}
+            ]},
+
+            "mega_flower_r":    {"type": "set", "mode": "parallel", "duration": 320, "repeat":1, "content": [
+                {"type": "set", "mode": "serial", "duration": "100%", "repeat":1, "content": [
+                    {"type": "scale", "from.x": 0.42, "from.y": 0.42, "to.x":1.05,  "to.y":1.05, "repeat":1,   "duration": "50%"},
+                    {"type": "scale", "from.x": 1.05, "from.y": 1.05, "to.x":1,     "to.y":1,    "repeat":1,   "duration": "50%"}
+                ]},
+                {"type": "set", "mode": "serial", "duration": "100%", "repeat":1, "content": [
+                    {"type": "translate", "from.y": "0%", "from.x": "-50%",  "to.y": "0",  "to.x": "8.33%", "repeat":1,   "duration": "50%"},
+                    {"type": "translate", "from.y": "0%", "from.x": "8.33%", "to.y": "0",  "to.x": "0%",    "repeat":1,   "duration": "50%"}
+                ]},
+                {"type": "opacity", "from": 0, "to":1, "repeat":1, "duration": "100%"}
+            ]},
+            "mega_flower_l":    {"type": "set", "mode": "parallel", "duration": 320, "repeat":1, "content": [
+                {"type": "set", "mode": "serial", "duration": "100%", "repeat":1, "content": [
+                    {"type": "scale", "from.x": 0.42, "from.y": 0.42, "to.x":1.05,  "to.y":1.05, "repeat":1,  "duration": "50%"},
+                    {"type": "scale", "from.x": 1.05, "from.y": 1.05, "to.x":1,     "to.y":1,    "repeat":1,  "duration": "50%"}
+                ]},
+                {"type": "set", "mode": "serial", "duration": "100%", "repeat":1, "content": [
+                    {"type": "translate", "from.y": "0%", "from.x": "50%",  "to.y": "0",  "to.x": "-8.33%", "repeat":1,   "duration": "50%"},
+                    {"type": "translate", "from.y": "0%", "from.x": "-8.33%", "to.y": "0",  "to.x": "0%",    "repeat":1,   "duration": "50%"}
+                ]},
+                {"type": "opacity", "from": 0, "to":1, "repeat":1, "duration": "100%"}
+            ]},
+
+            "5OAK":    {"type": "set", "mode": "parallel", "duration": 1840, "repeat":1, "content": [
+                {"type": "set", "mode": "serial", "duration": 1840, "repeat":1, "content": [
+                    {"type": "scale", "from.x": 0.3, "from.y": 0.3, "to.x":1.05,  "to.y":1, "repeat":1,  "duration": 280},
+                    {"type": "scale", "from.x": 1.05, "from.y": 1.05, "to.x":1,  "to.y":1, "repeat":1,  "duration": 160},
+                    {"type": "delay", "duration": 1200},
+                    {"type": "scale",  "from.x": 1, "from.y": 1, "to.x":1.5,  "to.y":1.5,  "repeat":1,"duration": 200}
+                ]},
+                {"type": "set", "mode": "serial", "duration": 1840,"repeat":1, "content": [
+                    {"type": "opacity", "from": 0, "to":1,"duration": 280 },
+                    {"type": "delay", "duration": 1360},
+                    {"type": "opacity", "from": 1, "to":0, "repeat":1,"duration": 200}
+                ]}
+            ]},
+
+            "5OAK_fade":    {"type": "set", "mode": "serial", "duration": 1840, "repeat":1, "content": [
+                { "type": "opacity", "from": 0, "to":1,"duration": 200},
+                {"type": "delay", "duration": 1540},
+                { "type": "opacity", "to":0, "duration": 200}
+            ]},
+
+            "scale_out":    {"type": "set", "mode": "parallel", "duration": 200, "repeat":1, "content": [
+                {"type": "scale",  "from.x": 1, "from.y": 1, "to.x":1.5,  "to.y":1.5,  "repeat":1,"duration": 200},
+                {"type": "opacity", "from": 1, "to":0, "repeat":1,"duration": 200}
+            ]},
+
+            "more.fg": {"@P": "resources/animations/bouncing.scale", "duration": 4116},
+
+            "symbol.animation": {"type": "sprite", "from": "0%", "to": "100%", "duration": 2000,"repeat":-1},
+
+            "autoplay-selector.show": {
+                "type": "set",
+                "content": [
+                    {"type": "set-props", "visible": true},
+                    {"type": "slide-abs", "duration": 500, "interpolator": "ease.out", "dir": "up", "mode": "show"},
+                    {"type": "set-props", "disabled": false}
+                ]
+            },
+            "autoplay-selector.hide": {
+                "type": "set",
+                "content": [
+                    {"type": "set-props", "disabled": true},
+                    {"type": "slide-abs", "duration": 500, "interpolator": "ease.out", "dir": "down", "mode": "hide"},
+                    {"type": "set-props", "visible": false}
+                ]
+            },
+            "free_spins.outro.show": {
+                "type": "set",
+                "mode": "serial",
+                "content": [
+                    {"type": "set-widget", "lookup": "win.game",     "content": [{"type": "win-tickup", "to": 0, "duration": 0}]},
+                    {"type": "set-widget", "lookup": "win.feature",  "content": [{"type": "win-tickup", "to": 0, "duration": 0}]},
+                    {"type": "set-widget", "lookup": "win.total",    "content": [{"type": "win-tickup", "to": 0, "duration": 0}]},
+                    {"type": "set-widget", "lookup": "win.game",     "content": [{"type": "win-tickup", "from": 0, "to": 1, "duration": 666}]},
+                    {"type": "set-widget", "lookup": "win.feature",  "content": [{"type": "win-tickup", "from": 0, "to": 1, "duration": 667}]},
+                    {"type": "set-widget", "lookup": "win.total",    "content": [{"type": "win-tickup", "from": 0, "to": 1, "duration": 667}]}
+                ]
+            },
+
+            "set-widget.bigWin":    {"type": "set-widget", "lookup": "../../../../../bigWin"},
+            "set-widget.megaWin":   {"type": "set-widget", "lookup": "../../../../../megaWin"},
+            "set-widget.mega_win_flower_l":   {"type": "set-widget", "lookup": "#ROOT/mega_win_flower_l"},
+            "set-widget.mega_win_flower_r":   {"type": "set-widget", "lookup": "#ROOT/mega_win_flower_r"},
+            "set-widget.mega_win_scarab":   {"type": "set-widget", "lookup": "#ROOT/mega_win_scarab"},
+            "set-widget.fade":      {"type": "set-widget", "lookup": "../../../../../reels_fade"},
+
+            "sprite.show": {"type": "set-widget", "content": [
+                {"type": "set-config", "config": {"visible": true, "frame.current": 0}},
+                {"type": "tween-animation", "action": "start"}
+            ]},
+            "sprite.hide": {"type": "set-widget", "content": [
+                {"type": "set-props", "visible": false},
+                {"type": "tween-animation", "action": "stop"}
+            ]},
+
+            "win.scale_up": {"type": "set-widget", "lookup": "../../win-panel-wrapper", "mode": "parallel", "duration": 400, "content": [
+                {"type": "move", "to.y": 27},
+                {"type": "scale", "to.x": 1.2, "to.y": 1.2}
+            ]},
+            "win.move_to_center": {"type": "set-widget", "lookup": "../../win-panel-wrapper", "mode": "parallel", "duration": 800, "content": [
+                {"type": "move", "to.y": -207, "duration": "90%"},
+                {"type": "scale", "to.x" : 1.75, "to.y": 1.75, "duration": "90%"}
+            ]},
+            "win.move_to_center_big_win": {"type": "set-widget", "lookup": "../../win-panel-wrapper", "mode": "parallel", "duration": 800, "content": [
+                {"type": "move", "to.y": -174, "duration": "90%"},
+                {"type": "scale", "to.x" : 2.03, "to.y": 2.03, "duration": "90%"}
+            ]},
+            "win.hide": {"type": "set-widget", "lookup": "../../win-panel-wrapper",  "content": [
+                {"type": "set", "mode": "parallel", "content": [
+                    {"type": "scale", "to.x": 1, "to.y": 1, "duration": 300},
+                    {"type": "move", "to.y": 32, "duration": 300}
+                ]},
+                {"type": "set-props", "xform": "identity"}
+            ]},
+            "win.cancel": {"type": "set", "content": [
+                {"@P": "resources/animations/win.hide"},
+                {"type": "particles-control", "lookup": "#ROOT/big_win_coins", "action": "stop", "content": [
+                    {"type": "set-props", "visible": false}
+                ]},
+                {"type": "particles-control", "lookup": "#ROOT/mega_win_coins", "action": "stop", "content": [
+                    {"type": "set-props", "visible": false}
+                ]}
+            ]},
+
+            "fade.show": {"@P": "resources/animations/set-widget.fade", "content": [
+                {"type": "set-props", "opacity": 0},
+                {"type": "set-props", "visible": true},
+                {"type": "opacity", "to":1, "duration": 200}
+            ]},
+            "fade.hide": {"@P": "resources/animations/set-widget.fade", "content": [
+                {"type": "opacity", "to":0, "duration": 200},
+                {"type": "set-props", "visible": false}
+            ]},
+
+            "big_win.show": {"type": "set", "mode": "parallel", "content": [
+                {"@P": "resources/animations/set-widget.bigWin", "content": [
+                    {"type": "set-props", "opacity": 0},
+                    {"type": "set-props", "visible": true},
+                    {"type": "tween-animation", "action": "start"}
+                ]},
+                {"type": "particles-control", "lookup": "#ROOT/big_win_coins", "action": "start", "content": [
+                    {"type": "set-props", "visible": true}
+                ]}
+            ]},
+            "big_win.hide": {"type": "set", "mode": "parallel", "content": [
+                {"@P": "resources/animations/set-widget.bigWin", "content": [
+                    {"type": "tween-animation", "action": "stop"},
+                    {"type": "set-props", "visible": false}
+                ]},
+                {"type": "particles-control", "lookup": "#ROOT/big_win_coins", "action": "stop", "content": [
+                    {"type": "set-props", "visible": false}
+                ]}
+            ]},
+            "big_win.scale_out": {"type": "set", "mode": "parallel", "content": [
+                {"@P": "resources/animations/set-widget.bigWin", "content": [
+                    {"@P": "resources/animations/scale_out"},
+                    {"type": "set-props", "visible": false}
+                ]},
+                {"type": "particles-control", "lookup": "#ROOT/big_win_coins", "action": "stop", "content": [
+                    {"type": "set-props", "visible": false}
+                ]}
+            ]},
+
+            "mega_win.show": {"type": "set", "mode": "parallel", "content": [
+                {"@P": "resources/animations/set-widget.megaWin", "content": [
+                    {"type": "set-props", "opacity": 0},
+                    {"type": "set-props", "visible": true},
+                    {"type": "tween-animation", "action": "start"}
+                ]},
+                {"@P": "resources/animations/set-widget.mega_win_flower_l", "content": [
+                    {"type": "set-props", "opacity": 0},
+                    {"type": "set-props", "visible": true},
+                    {"type": "tween-animation", "action": "start"}
+                ]},
+                {"@P": "resources/animations/set-widget.mega_win_flower_r", "content": [
+                    {"type": "set-props", "opacity": 0},
+                    {"type": "set-props", "visible": true},
+                    {"type": "tween-animation", "action": "start"}
+                ]},
+                {"@P": "resources/animations/set-widget.mega_win_scarab", "content": [
+                    {"type": "set-props", "opacity": 0},
+                    {"type": "set-props", "visible": true},
+                    {"type": "tween-animation", "action": "start"}
+                ]},
+                {"type": "particles-control", "lookup": "#ROOT/mega_win_coins", "action": "start", "content": [
+                    {"type": "set-props", "visible": true}
+                ]}
+            ]},
+            "mega_win.hide": {"@P": "resources/animations/big_win.hide", "content": [
+                {"@P": "resources/animations/set-widget.megaWin", "content": [
+                    {"type": "tween-animation", "action": "stop"},
+                    {"type": "set-props", "visible": false}
+                ]},
+                {"@P": "resources/animations/set-widget.mega_win_flower_l", "content": [
+                    {"type": "tween-animation", "action": "stop"},
+                    {"type": "set-props", "visible": false}
+                ]},
+                {"@P": "resources/animations/set-widget.mega_win_flower_r", "content": [
+                    {"type": "tween-animation", "action": "stop"},
+                    {"type": "set-props", "visible": false}
+                ]},
+                {"@P": "resources/animations/set-widget.mega_win_scarab", "content": [
+                    {"type": "tween-animation", "action": "stop"},
+                    {"type": "set-props", "visible": false}
+                ]},
+                {"type": "particles-control", "lookup": "#ROOT/mega_win_coins", "action": "stop", "content": [
+                    {"type": "set-props", "visible": false}
+                ]}
+            ]},
+
+            "win_0.show": {"type": "set-config", "config": {"pos": [245, 50], "size": [488, 140]}},
+
+            "win_2.show": {"type": "set", "content": [
+                {"@P": "resources/animations/win_0.show"},
+                {"type": "delay", "duration": 1150},
+                {"@P": "resources/animations/win.scale_up"}
+            ]},
+            "win_3.show": {"type": "set", "content": [
+                {"@P": "resources/animations/win_0.show"},
+                {"type": "delay", "duration": 2850},
+                {"@P": "resources/animations/win.scale_up"},
+                {"type": "delay", "duration": 500},
+                {"@P": "resources/animations/win.move_to_center"}
+            ]},
+            "win_4.show": {"type": "set", "content": [
+                {"type": "set","mode": "parallel", "content": [
+                    {"@P": "resources/animations/win_0.show"},
+                    {"type": "delay", "duration": 3050}
+                ]},
+                {"type": "set","mode": "parallel", "content": [
+                    {"@P": "resources/animations/win.scale_up"},
+                    {"type": "delay", "duration": 3050}
+                ]},
+                {"type": "set","mode": "parallel", "content": [
+                    {"@P": "resources/animations/fade.show"},
+                    {"@P": "resources/animations/win.move_to_center_big_win"},
+                    {"type": "delay", "duration": 3100}
+                ]},
+                {"@P": "resources/animations/big_win.show"}
+            ]},
+
+            "win_5.show": {"type": "set", "content": [
+                {"type": "set","mode": "parallel", "content": [
+                    {"@P": "resources/animations/win_0.show"},
+                    {"type": "delay", "duration": 2500}
+                ]},
+                {"type": "set","mode": "parallel", "content": [
+                    {"@P": "resources/animations/win.scale_up"},
+                    {"type": "delay", "duration": 3000}
+                ]},
+                {"type": "set","mode": "parallel", "content": [
+                    {"@P": "resources/animations/fade.show"},
+                    {"@P": "resources/animations/win.move_to_center_big_win"},
+                    {"type": "delay", "duration": 3150}
+                ]},
+                {"type": "set","mode": "parallel", "content": [
+                    {"@P": "resources/animations/big_win.show"},
+                    {"type": "delay", "duration": 3000}
+                ]},
+                {"type": "set","mode": "parallel", "content": [
+                    {"@P": "resources/animations/big_win.scale_out"},
+                    {"@P": "resources/animations/mega_win.show"}
+                ]}
+            ]},
+            "win_2.hide": {"type": "set", "mode": "parallel", "content": [
+                {"type": "win-animation", "action": "resume"},
+                {"@P": "resources/animations/win.hide"}
+            ]},
+            "win_2.cancel": {"type": "set", "mode": "parallel", "content": [
+                {"type": "win-animation", "action": "resume"},
+                {"@P": "resources/animations/win.cancel"}
+            ]},
+            "win_4.hide": {"@P": "resources/animations/win_2.hide", "content": [
+                {"@P": "resources/animations/big_win.hide"},
+                {"@P": "resources/animations/fade.hide"}
+            ]},
+            "win_4.cancel": {"@P": "resources/animations/win_2.cancel", "content": [
+                {"@P": "resources/animations/big_win.hide"},
+                {"@P": "resources/animations/fade.hide"}
+            ]},
+            "win_5.hide": {"@P": "resources/animations/win_2.hide", "content": [
+                {"@P": "resources/animations/big_win.hide"},
+                {"@P": "resources/animations/mega_win.hide"},
+                {"@P": "resources/animations/fade.hide"}
+            ]},
+            "win_5.cancel": {"@P": "resources/animations/win_2.cancel", "content": [
+                {"@P": "resources/animations/big_win.hide"},
+                {"@P": "resources/animations/mega_win.hide"},
+                {"@P": "resources/animations/fade.hide"}
+            ]},
+            "click_to_start_s.button": {"type": "trackable", "repeat": -1, "content": [
+                    {"type": "set-config", "config": {"slice": "start_s:hovered"}},
+                    {"type": "delay", "duration": 600},
+                    {"type": "set-config", "config": {"slice": "start_s"}},
+                    {"type": "delay", "duration": 600}
+                ],
+                "on-end": {"type": "set-config", "config": {"slice": "start_s"}}
+            },
+            "click_to_start_m.button": {"type": "trackable", "repeat": -1, "content": [
+                    {"type": "set-config", "config": {"slice": "start_m:hovered"}},
+                    {"type": "delay", "duration": 600},
+                    {"type": "set-config", "config": {"slice": "start_m"}},
+                    {"type": "delay", "duration": 600}
+                ],
+                "on-end": {"type": "set-config", "config": {"slice": "start_m"}}
+            },
+
+            "click_to_start_l.button": {"type": "trackable", "repeat": -1, "content": [
+                {"type": "set-config", "config": {"slice": "start_l:hovered"}},
+                {"type": "delay", "duration": 600},
+                {"type": "set-config", "config": {"slice": "start_l"}},
+                {"type": "delay", "duration": 600}
+            ],
+                "on-end": {"type": "set-config", "config": {"slice": "start_l"}}
+            }
+
+        }
+    }
+}

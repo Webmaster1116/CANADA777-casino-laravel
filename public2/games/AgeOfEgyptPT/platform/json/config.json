@@ -1,0 +1,1736 @@
+{
+  "$schema": "schema/configSchema.json#",
+  "devTools": {
+    "debugPanelEnabled": false,
+    "loggerLevel": "ERROR"
+  },
+  "licenseeInformation": {
+    "licenseeName": ""
+  },
+  "pathToGamesInfo": "games_info.php",
+  "analyticsTrackerId": "",
+  "betTrackingUrlBase": "",
+  "showExternalPagesInternally": false,
+  "offlineBalanceAmount": 1000,
+  "offlineBalanceCurrency": "EUR",
+  "lowBalanceWarningEnabled": true,
+  "lowBalanceLevel": 10,
+  "balanceDiffMessageEnabled": true,
+  "networkDisconnectThreshold": 5000,
+  "listenBalanceUpdates": [
+    "gameDynamicBalanceChangeNotification"
+  ],
+  "clientCloseURL": "../../",
+  "multiDomainEnabled": false,
+  "brandShortName": "PT",
+  "bgShadeIsDark": true,
+  "currencyFormat": {
+    "fraction": 2,
+    "decimalSeparator": ".",
+    "groupSeparator": ",",
+    "isSymbolPrefix": true,
+    "currencySeparator": ""
+  },
+  "soundDialog": {
+    "enabled": true,
+    "cookiePeriodInMillis": 86400000,
+    "defaultHideTimeInMillis": 2000
+  },
+  "redirectMode": {
+    "defaultGamingMode": "offline",
+    "funModeEnabled": true,
+    "onLogoutCloseAllSession": false,
+    "bonusMessagesEnabled": true,
+    "pasApi": {
+      "enabled": false,
+      "url": "",
+      "systemID": "6200",
+      "keepAliveIntervalSeconds": 300
+    },
+    "fullscreen": {
+      "modes": [
+        "fullscreen",
+        "swipe-up"
+      ],
+      "exceptions": [
+        {
+          "id": "GalaxyTab4Native",
+          "userAgent": "SM-T530.+Chrome/28\\.",
+          "modes": []
+        }
+      ]
+    }
+  },
+  "fingerprint": {
+    "enabled": false,
+    "shortPrint": true
+  },
+  "desktopMode": {
+    "defaultVolume": 0.7,
+    "volumeFixedPoints": 1001,
+    "gameLauncherPath": "",
+    "exitButtonEnabled": true,
+    "noLobby": false,
+    "module": "",
+    "autoplayRestart": true,
+    "autoplayDisableFinishMessage": true,
+    "noPfrAnywhere": false,
+    "externalGsbInfoUrl": "",
+    "openIframeAsModal": true,
+    "defaultWindowSize": "1152x774",
+    "openGamesInNewWindows": false,
+    "balanceIconClickable": true,
+    "lobbyRedirect": true
+  },
+  "enabledRegulation": "",
+  "regulations": {
+    "autoplay": [],
+    "autoplayEnabled": true,
+    "autoplayConfirmDialogEnabled": false,
+    "untilFeatureAutoplayEnabled": true,
+    "skipWinLineTogglingEnabled": true,
+    "timebasedJackpotEnabled": true,
+    "marvelJackpotEnabled": true,
+    "turboModeEnabled": true,
+    "spinStopButtonEnabled": true,
+    "minSpinDurationMiliseconds": 0,
+    "ukRegulationEnabled": false,
+    "realityCheck": {
+      "enabled": false
+    },
+    "italy": {
+      "enabled": false
+    },
+    "timeAndLossLimitations": {
+      "enabled": false,
+      "timeCheckIntervalMillis": 1000,
+      "sessionTimerConfig": {
+        "values": [],
+        "defaultSelectedIndex": -1
+      },
+      "gamblingNoticeConfig": {
+        "values": [],
+        "defaultSelectedIndex": 0
+      },
+      "selfExclusionConfig": {
+        "values": [],
+        "defaultSelectedIndex": 0
+      },
+      "minLossLimitCent": 1,
+      "maxLossLimitCents": 10000000,
+      "lossLimitProximityPercent": 20,
+      "timeLimitProximitySeconds": 60
+    },
+    "czRegulation": {
+      "enabled": false,
+      "desktop": {
+        "lifeTimeNetLossEnabled": true
+      },
+      "mobile": {
+        "lifeTimeNetLossEnabled": true
+      }
+    },
+    "ptRegulation": {
+      "enabled": false
+    },
+    "norwegianRegulation": {
+      "enabled": false
+    },
+    "denmarkRegulation": {
+      "enabled": false
+    },
+    "alderneyRegulation": {
+      "enabled": false
+    },
+    "swedenRegulation": {
+      "enabled": false
+    }
+  },
+  "brokenGames": {
+    "forceRestore": {
+      "enabled": true,
+      "threshold": 4
+    },
+    "replacementCodesForRestore": [
+      {
+        "reserveCode": "bj_mh5",
+        "restoreCode": "mobbj"
+      }
+    ]
+  },
+  "features": {
+    "inGameLobby": {
+      "enabled": true,
+      "defaultCount": 3,
+      "categories": [
+        {
+          "categoryName": "lobbyInGame.categoryName.featured",
+          "gamesIds": [
+            "mobro",
+            "mobbj",
+            "fdt",
+            "glrj",
+            "bib",
+            "mcb",
+            "pnp"
+          ]
+        },
+        {
+          "categoryName": "lobbyInGame.categoryName.slots",
+          "gamesIds": [
+            "fdt",
+            "bib",
+            "ssp",
+            "pnp",
+            "mcb"
+          ]
+        },
+        {
+          "categoryName": "lobbyInGame.categoryName.tableGames",
+          "gamesIds": [
+            "mobro",
+            "mobbj",
+            "ba",
+            "cheaa"
+          ]
+        }
+      ]
+    },
+    "licenseeInfoPopup": {
+      "enabled": false,
+      "licenseeInfoItems": [],
+      "licenseeInfoText": ""
+    },
+    "ptAnalytics": {
+      "enabled": false,
+      "url": ""
+    },
+    "goldenChip": {
+      "enabled": true
+    },
+    "freeSpinBonus": {
+      "enabled": true,
+      "forceOpenPanel": false
+    },
+    "extendedClock": {
+      "enabled": false,
+      "dateEnabled": false,
+      "userNameEnabled": false,
+      "dateFormat": "yyyy-MM-dd",
+      "timeFormat": "HH:mm:ss",
+      "clockIconEnable": false,
+      "text": ""
+    },
+    "extendedClockDesktop": {
+      "enabled": true,
+      "dateEnabled": false,
+      "userNameEnabled": false,
+      "dateFormat": "yyyy-MM-dd",
+      "timeFormat": "HH:mm:ss",
+      "clockIconEnable": false,
+      "text": ""
+    },
+    "promoteToRealDialog": {
+      "enabled": false,
+      "playForRealPromptOnWinCents": 0
+    },
+    "responsibleGaming": {
+      "enabled": false,
+      "selfExclusionButtonEnabled": true,
+      "responsibleGamingButtonEnabled": true
+    },
+    "changeWindowTitle": {
+      "enabled": true,
+      "replaceNameWithGameLocale": false
+    },
+    "affiliate": {
+      "enabled": false
+    },
+    "sendSessionParams": {
+      "enabled": false,
+      "params": [
+        "openbet_aff_id",
+        "openbet_channel_parameter"
+      ]
+    },
+    "gameAdvisor": {
+      "showAfterWindowClosed": false
+    },
+    "quickDeposit": {
+      "desktop": {
+        "enabled": false,
+        "externalLink": "ngmdesktop_quick_deposit"
+      },
+      "mobile": {
+        "enabled": false,
+        "externalLink": "mobile_quick_deposit",
+        "openByHub": false
+      }
+    },
+    "updateIE9Browser": {
+      "enabled": true,
+      "url": "https://www.microsoft.com/en-us/download/internet-explorer.aspx"
+    },
+    "desktopChat": {
+      "enabled": false,
+      "enabledInFunMode": false,
+      "instanceName": "Chat-64001-01",
+      "chatServerUrl": ""
+    },
+    "PTOneChat": {
+      "enabled": false,
+      "chatConfigURL": "../mws_chat/mws-chat-config.js",
+      "chatURL": "../mws_chat/mws-chat.js"
+    },
+    "HURL": {
+      "enabled": true,
+      "timeout": 5000
+    },
+    "gameLockScreen": {
+      "enabled": true,
+      "pathToBlockedGamesConfigFile": "locked_games.php",
+      "password": "Test-123-game"
+    },
+    "desktopWidgets": {
+      "enabled": false,
+      "items": []
+    },
+    "nicknameUpdate": {
+      "enabled": false
+    },
+    "desktopSessionTimerWidget": {
+      "enabled": false
+    },
+    "engagementDialogues": {
+      "enabled": true,
+      "openTheBoxBackUrl": ""
+    },
+    "toasterDialogs": {
+      "enabled": true
+    },
+    "lottomatica": {
+      "desktop": {
+        "enabled": false,
+        "closeButtonEnabled": true
+      }
+    },
+    "multiplayerLobby": {
+      "enabled": true,
+      "games": [
+        "mpbj",
+        "mpro"
+      ],
+      "refreshLobbyTabPeriodMs": 30000,
+      "responseTimeoutMs": 60000
+    }
+  },
+  "FeNetwork": {
+    "host": "",
+    "connectionSettings": {
+      "onConnectTimeout": 7000,
+      "reconnectionAttempts": 3,
+      "responseTimeout": 10000
+    },
+    "socketIoOptions": {
+      "reconnect": false,
+      "timeout": 15000,
+      "transports": [
+        "websocket"
+      ]
+    },
+    "serviceVersionInfo": {
+      "serviceVersion": 60,
+      "messageBatchingVersion": 10
+    }
+  },
+  "mathsLessGames": [
+    "thedkr"
+  ],
+  "socketConnection": {
+    "isSecure": true,
+    "connectionTimeout": 15000,
+    "networkCallbackTimeout": 15000,
+    "connectorTimeout": 120000,
+    "connectorSocketTimeout": 15000,
+    "connectionTimeoutJs": 25000,
+    "timeoutJs": 25000,
+    "host": "",
+    "port": 443
+  },
+  "restrictions": {
+    "soundDisabledAt": [
+      "Galaxy S3",
+      "GT-I9300",
+      "GT-I9305",
+      "SHV-E210",
+      "SGH-T999",
+      "SGH-I747",
+      "SGH-N064",
+      "SC-06D",
+      "SGH-N035",
+      "SC-03E",
+      "SCH-J021",
+      "SCL21",
+      "SCH-R530",
+      "SCH-I535",
+      "SPH-L710",
+      "GT-I9308",
+      "SCH-I939",
+      "msie",
+      "IEMobile"
+    ]
+  },
+  "messageBoxes": {
+    "jackpot": {
+      "fadeOutDelayMillis": 3000
+    }
+  },
+  "loginParameters": {
+    "version": "87",
+    "casinoName": "playtech62001",
+    "modeForCasino": "REAL_MONEY",
+    "clientTypeForCasino": "casino",
+    "clientPlatformForCasino": "mobile",
+    "multiDialogSupport": "1",
+    "deliveryPlatform": "",
+    "desktop": {
+      "clientTypeForCasino": "casino",
+      "clientPlatformForCasino": "flash",
+      "deliveryPlatform": ""
+    },
+    "download": {
+      "clientTypeForCasino": "casino",
+      "clientPlatformForCasino": "download",
+      "deliveryPlatform": ""
+    },
+    "nativeapp": {
+      "clientTypeForCasino": "casino",
+      "clientPlatformForCasino": "web",
+      "deliveryPlatform": ""
+    }
+  },
+  "extendSessionOptions": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120
+  ],
+  "pathToPromoGadgetResponse": "",
+  "skin": "playtech33001",
+  "promotionIsAvailable": false,
+  "hideTemporarilyExpirationSeconds": 10800,
+  "currencySymbols": {
+    "EUR": "EUR ",
+    "GBP": "GBP ",
+    "USD": "USD ",
+    "AUD": "AUD ",
+    "CAD": "CAD ",
+    "NZD": "NZD ",
+    "NOK": "NOK ",
+    "SEK": "SEK ",
+    "ZAR": "ZAR ",
+    "INR": "INR ",
+    "RUB": "RUB ",
+    "CHF": "CHF ",
+    "HRK": "HRK ",
+    "HUF": "HUF ",
+    "GEL": "GEL ",
+    "UAH": "UAH ",
+    "RON": "RON ",
+    "BRL": "BRL ",
+    "MYR": "MYR ",
+    "CNY": "CNY ",
+    "JPY": "JPY ",
+    "KRW": "KRW ",
+    "IDR": "IDR ",
+    "VND": "VND ",
+    "THB": "THB "
+  },
+  "exceptionalGames": {
+    "ano": {
+      "title": "Blackjack",
+      "gameUrl": "../hb",
+      "lobbyIconUrl": "../hb/lobby.png"
+    },
+    "baws": {
+      "title": "Baccarat",
+      "gameUrl": "../ba",
+      "lobbyIconUrl": "../ba/lobby.png"
+    },
+    "ba": {
+      "title": "Baccarat",
+      "gameUrl": "../ba/index.html?sidebets=1"
+    },
+    "jb_mh": {
+      "title": "Jacks or better Multi-Hand",
+      "gameUrl": "../jb_mh",
+      "lobbyIconUrl": "../jb_mh/lobby.png"
+    },
+    "nian-asia": {
+      "title": "Nian Nian You Yu",
+      "gameUrl": "../nian/index.html?asia=1",
+      "lobbyIconUrl": "../nian/lobby-asia.png"
+    },
+    "mcb": {
+      "title": "Mr. Cashback",
+      "gameUrl": "../mrcb",
+      "lobbyIconUrl": "../mrcb/lobby.png"
+    },
+    "zeus": {
+      "title": "Age of the Gods™ King of Olympus",
+      "gameUrl": "../kolymp",
+      "lobbyIconUrl": "../kolymp/lobby.png"
+    },
+    "pfbj_mh5": {
+      "title": "Perfect Blackjack",
+      "gameUrl": "../bjp",
+      "lobbyIconUrl": "../bjp/lobby.png"
+    }
+  },
+  "games": {},
+  "supportEmail": "",
+  "casinoBrandName": "Playtech",
+  "gameAdvisorDefaultTemplate": "{\"tabs\":[{\"id\":\"otherGames\",\"name\":\"\",\"games\":[{\"id\":\"gtssprs\"}]},{\"id\":\"otherPlayers\",\"name\":\"\",\"games\":[{\"id\":\"hb\"},{\"id\":\"mcb\"}]},{\"id\":\"mostPopular\", \"name\":\"\",\"subtabs\":[{\"id\":\"mostPopular_1\",\"name\":\"\",\"games\":[{\"id\":\"hlf\"},{\"id\":\"pdm\"},{\"id\":\"jpgt\"},{\"id\":\"fdtjg\"},{\"id\":\"gtspor\"},{\"id\":\"nian\"},{\"id\":\"gtssprs\"},{\"id\":\"ashjah\"},{\"id\":\"hb\"},{\"id\":\"gtswg\"},{\"id\":\"fcgz\"},{\"id\":\"sol\"},{\"id\":\"mobdt\"}]},{\"id\":\"mostPopular_2\",\"name\":\"\",\"games\":[{\"id\":\"mobro\"}]},{\"id\":\"mostPopular_3\",\"name\":\"\",\"games\":[{\"id\":\"bjs\"},{\"id\":\"pfbj_mh5\"},{\"id\":\"mobbj\"},{\"id\":\"ba\"},{\"id\":\"cheaa\"},{\"id\":\"bj\"}]},{\"id\":\"mostPopular_4\",\"name\":\"\",\"games\":[{\"id\":\"cheaa\"},{\"id\":\"bj\"}]},{\"id\":\"mostPopular_5\",\"name\":\"\",\"games\":[{\"id\":\"cheaa\"},{\"id\":\"bj\"}]},{\"id\":\"mostPopular_6\",\"name\":\"\",\"games\":[{\"id\":\"jpgt\"},{\"id\":\"fdtjg\"},{\"id\":\"nian\"},{\"id\":\"hb\"},{\"id\":\"sol\"},{\"id\":\"ct\"},{\"id\":\"glrj\"},{\"id\":\"ashbob\"},{\"id\":\"dlm\"},{\"id\":\"gtscirsj\"}]}]},{\"id\":\"similarGames\",\"name\":\"\",\"games\":[{\"id\":\"gro\"},{\"id\":\"sis\"},{\"id\":\"whc\"},{\"id\":\"kj\"},{\"id\":\"fam3\"}]},{\"id\":\"newGames\",\"name\":\"\",\"games\":[{\"id\":\"clvg\"},{\"id\":\"phot\"},{\"id\":\"gtssmdsc\"},{\"id\":\"dond_uk\"},{\"id\":\"shmst\"},{\"id\":\"gtsdgk\"},{\"id\":\"ashxct\"},{\"id\":\"catqk\"},{\"id\":\"mmbj\"},{\"id\":\"mkl\"},{\"id\":\"gtsmhof\"},{\"id\":\"romw\"},{\"id\":\"donq\"},{\"id\":\"gts39\"},{\"id\":\"rta\"}]},{\"id\":\"customTab\",\"name\":\"\",\"games\":[{\"id\":\"azt\"},{\"id\":\"gtsatq\"},{\"id\":\"ah2\"},{\"id\":\"arc\"},{\"id\":\"ashamw\"},{\"id\":\"art\"}]}]}",
+  "externalLinksConfig": {
+    "mobile_lobby": {
+      "hubMessage": "lobby",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_login": {
+      "hubMessage": "LOGIN",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_lobby_error": {
+      "parentLink": "mobile_lobby",
+      "hubMessage": "",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_login_error": {
+      "parentLink": "mobile_login",
+      "hubMessage": "LOGIN_ERROR",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_logout": {
+      "hubMessage": "LOGOUT",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_error": {
+      "hubMessage": "",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_deposit": {
+      "hubMessage": "deposit",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_promotion": {
+      "hubMessage": "",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_support": {
+      "hubMessage": "support",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_withdraw": {
+      "hubMessage": "withdraw",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_history": {
+      "hubMessage": "transactions",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_responsible": {
+      "hubMessage": "responsibleGaming",
+      "defaultUrl": "",
+      "dlId": "ResponsibleGaming",
+      "urlAlias": ""
+    },
+    "mobile_cashier": {
+      "hubMessage": "deposit",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_funds_trans": {
+      "hubMessage": "balance-transfer",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_share": {
+      "hubMessage": "share",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_mobile_comp_points": {
+      "hubMessage": "comppoints",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_deposit_limit": {
+      "hubMessage": "deposit_limit",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_bank": {
+      "hubMessage": "bank",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_main_promotions": {
+      "hubMessage": "main_promotions",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_bonus_terms": {
+      "hubMessage": "bonus_terms",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_help": {
+      "hubMessage": "mobile_help",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "desktop_help": {
+      "hubMessage": "",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "minigames_help": {
+      "hubMessage": "",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "invite_friend": {
+      "hubMessage": "invite_friend",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "history": {
+      "hubMessage": "",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "playerprofile": {
+      "hubMessage": "",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "link_legal_aams": {
+      "hubMessage": "",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "link_legal_half": {
+      "hubMessage": "",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "link_legal_18": {
+      "hubMessage": "",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "link_responsible": {
+      "hubMessage": "",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "gambling_commission": {
+      "hubMessage": "",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "cashier": {
+      "hubMessage": "deposit",
+      "defaultUrl": "",
+      "dlId": "",
+      "urlAlias": ""
+    },
+    "casino-cashier-myaccount": {
+      "hubMessage": "casino-cashier-myaccount",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "ngmdesktop_quick_deposit": {
+      "hubMessage": "",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_quick_deposit": {
+      "hubMessage": "mobile_quick_deposit",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "mobile_chat": {
+      "hubMessage": "CHAT",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "chat_token": {
+      "hubMessage": "",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "external_login_form": {
+      "hubMessage": "",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "regulation_pt_player_protection": {
+      "hubMessage": "regulation_pt_player_protection",
+      "defaultUrl": "",
+      "urlAlias": ""
+    },
+    "regulation_pt_self_exclusion": {
+      "hubMessage": "regulation_pt_self_exclusion",
+      "defaultUrl": "",
+      "urlAlias": ""
+    }
+  },
+  "miniGamesMenuItems": [
+    {
+      "id": "mg-settings",
+      "type": "Button",
+      "caption": "mainMenu.options",
+      "className": "mg-button-settings",
+      "orderIndex": 1,
+      "handlers": [
+        {
+          "id": "ShowDesktopSettingsHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": true,
+        "online_Real": true,
+        "online_Demo": true
+      }
+    },
+    {
+      "id": "mg-full-screen",
+      "type": "Button",
+      "caption": "mainMenu.fullScreen",
+      "className": "mg-button-full-screen",
+      "orderIndex": 2,
+      "handlers": [
+        {
+          "id": "ShowFullScreenHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": true,
+        "online_Real": true,
+        "online_Demo": true
+      }
+    },
+    {
+      "id": "mg-help",
+      "type": "Button",
+      "caption": "mainMenu.help",
+      "className": "mg-button-help",
+      "orderIndex": 4,
+      "handlers": [
+        {
+          "id": "ShowHelpHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": true,
+        "online_Real": true,
+        "online_Demo": true
+      }
+    },
+    {
+      "id": "mg-paytable",
+      "type": "Button",
+      "caption": "mainMenu.paytable",
+      "className": "mg-button-paytable",
+      "orderIndex": 5,
+      "handlers": [
+        {
+          "id": "ShowPaytableHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": true,
+        "online_Real": false,
+        "online_Demo": true
+      }
+    }
+  ],
+  "desktopMenuItems": {
+    "mainMenu": [
+      {
+        "id": "multiplayerLobby",
+        "type": "Button",
+        "caption": "Multiplayer Lobby",
+        "className": "multiplayerLobby",
+        "orderIndex": 1,
+        "handlers": [
+          {
+            "id": "MultiplayerLobbyButtonHandler"
+          }
+        ],
+        "enabledInMode": {
+          "offline": false,
+          "online_Real": false,
+          "online_Demo": false
+        }
+      },
+      {
+        "id": "settings",
+        "type": "Button",
+        "caption": "mainMenu.options",
+        "className": "settings",
+        "orderIndex": 2,
+        "handlers": [
+          {
+            "id": "ShowDesktopSettingsHandler"
+          }
+        ],
+        "enabledInMode": {
+          "offline": true,
+          "online_Real": true,
+          "online_Demo": true
+        }
+      },
+      {
+        "id": "desktopPaytable",
+        "type": "Button",
+        "caption": "mainMenu.paytable",
+        "className": "help",
+        "orderIndex": 5,
+        "handlers": [
+          {
+            "id": "ShowPaytableHandler"
+          }
+        ],
+        "enabledInMode": {
+          "offline": false,
+          "online_Real": false,
+          "online_Demo": false
+        }
+      },
+      {
+        "id": "desktopGameSettings",
+        "type": "Button",
+        "caption": "mainMenu.settings",
+        "className": "settings",
+        "orderIndex": 6,
+        "handlers": [
+          {
+            "id": "ShowSettingsHandler"
+          }
+        ],
+        "enabledInMode": {
+          "offline": true,
+          "online_Real": true,
+          "online_Demo": true
+        }
+      }
+    ],
+    "bottomPanelLeft": [
+      
+      {
+        "id": "playForRealDesktop",
+        "type": "Button",
+        "caption": "mainMenu.playForReal",
+        "className": "desktopButtonSmall buttonRegular",
+        "orderIndex": 1,
+        "handlers": [
+          {
+            "id": "PlayForRealButtonHandler"
+          }
+        ],
+        "enabledInMode": {
+          "offline": true,
+          "online_Real": false,
+          "online_Demo": true
+        }
+      },
+      {
+        "id": "accountDesktop",
+        "type": "Button",
+        "caption": "mainMenu.account",
+        "className": "desktopButtonSmall buttonYellow",
+        "orderIndex": 10,
+        "handlers": [
+          {
+            "id": "ExternalLinkRedirectHandler",
+            "urlID": "casino-cashier-myaccount"
+          }
+        ],
+        "enabledInMode": {
+          "offline": false,
+          "online_Real": false,
+          "online_Demo": false
+        }
+      },
+      {
+        "id": "italyChangeModeReal",
+        "type": "Button",
+        "caption": "",
+        "className": "italy-change-mode-button real",
+        "orderIndex": 70,
+        "handlers": [
+          {
+            "id": "SwitchToItalyRealOrGameBonusModeHandler"
+          }
+        ],
+        "enabledInMode": {
+          "offline": false,
+          "online_Real": false,
+          "online_Demo": false
+        }
+      },
+      {
+        "id": "italyChangeModeFun",
+        "type": "Button",
+        "caption": "",
+        "className": "italy-change-mode-button fun",
+        "orderIndex": 70,
+        "handlers": [
+          {
+            "id": "SwitchToItalyRealOrGameBonusModeHandler"
+          }
+        ],
+        "enabledInMode": {
+          "offline": false,
+          "online_Real": false,
+          "online_Demo": false
+        }
+      },
+      {
+        "id": "italyBringMoney",
+        "type": "Button",
+        "caption": "label.addMoreMoney",
+        "className": "desktopButtonSmall buttonRegularOrange",
+        "orderIndex": 80,
+        "handlers": [
+          {
+            "id": "BringMoneyHandler"
+          }
+        ],
+        "enabledInMode": {
+          "offline": false,
+          "online_Real": false,
+          "online_Demo": false
+        }
+      }
+    ],
+    "bottomPanelRight": [
+      {
+        "id": "gamblingCommission",
+        "type": "Button",
+        "caption": "",
+        "className": "gamblingCommission",
+        "orderIndex": 10,
+        "handlers": [
+          {
+            "id": "ExternalLinkRedirectHandler",
+            "urlID": "gambling_commission"
+          }
+        ],
+        "enabledInMode": {
+          "offline": false,
+          "online_Real": false,
+          "online_Demo": false
+        }
+      }
+    ],
+    "topPanelRight": [
+      {
+        "id": "ptResponsibleGaming",
+        "type": "Button",
+        "caption": "",
+        "className": "desktop-top-panel-button responsible-gaming-image",
+        "orderIndex": 1,
+        "handlers": [
+          {
+            "id": "ExternalLinkRedirectHandler",
+            "urlID": "regulation_pt_player_protection"
+          }
+        ],
+        "enabledInMode": {
+          "offline": false,
+          "online_Real": false,
+          "online_Demo": false
+        }
+      },
+      {
+        "id": "ptSelfExclusion",
+        "type": "Button",
+        "caption": "",
+        "className": "desktop-top-panel-button pt-panic-image",
+        "orderIndex": 1,
+        "handlers": [
+          {
+            "id": "ExternalLinkRedirectHandler",
+            "urlID": "regulation_pt_self_exclusion"
+          }
+        ],
+        "enabledInMode": {
+          "offline": false,
+          "online_Real": false,
+          "online_Demo": false
+        }
+      },
+      {
+        "id": "responsibleGaming",
+        "type": "Button",
+        "caption": "",
+        "className": "desktop-top-panel-button responsible-gaming-image",
+        "orderIndex": 1,
+        "handlers": [
+          {
+            "id": "ExternalLinkRedirectHandler",
+            "urlID": "mobile_responsible"
+          }
+        ],
+        "enabledInMode": {
+          "offline": false,
+          "online_Real": false,
+          "online_Demo": false
+        }
+      },
+      {
+        "id": "panic",
+        "type": "Button",
+        "caption": "",
+        "className": "desktop-top-panel-button panic-image",
+        "orderIndex": 2,
+        "handlers": [
+          {
+            "id": "PanicHandler"
+          }
+        ],
+        "enabledInMode": {
+          "offline": false,
+          "online_Real": false,
+          "online_Demo": false
+        }
+      },
+      {
+        "id": "gameAdvisor",
+        "type": "Button",
+        "caption": "",
+        "className": "desktop-top-panel-button game-advisor",
+        "orderIndex": 2,
+        "handlers": [
+          {
+            "id": "ShowGameAdvisorHandler"
+          }
+        ],
+        "enabledInMode": {
+          "offline": false,
+          "online_Real": true,
+          "online_Demo": false
+        }
+      }
+    ]
+  },
+  "mainMenuItems": [
+    {
+      "id": "lobby",
+      "type": "Button",
+      "caption": "mainMenu.lobby",
+      "className": "lobby",
+      "orderIndex": 10,
+      "handlers": [
+        {
+          "id": "GameAdvisorDeferredTaskHandler",
+          "urlID": "mobile_lobby"
+        }
+      ],
+      "enabledInMode": {
+        "offline": true,
+        "online_Real": true,
+        "online_Demo": true
+      }
+    },
+    {
+      "id": "multiplayerLobby",
+      "type": "Button",
+      "caption": "Multiplayer Lobby",
+      "className": "multiplayer_lobby",
+      "orderIndex": 1,
+      "handlers": [
+        {
+          "id": "MultiplayerLobbyButtonHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "licenseeInfo",
+      "type": "Button",
+      "caption": "mainMenu.licenseeInfo",
+      "className": "licenseeInfo",
+      "orderIndex": 15,
+      "handlers": [
+        {
+          "id": "ShowDialogHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "paytable",
+      "type": "Button",
+      "caption": "mainMenu.paytable",
+      "className": "paytable",
+      "orderIndex": 20,
+      "handlers": [
+        {
+          "id": "ShowPaytableHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": true,
+        "online_Real": true,
+        "online_Demo": true
+      }
+    },
+    {
+      "id": "help",
+      "type": "Button",
+      "caption": "mainMenu.help",
+      "className": "help",
+      "orderIndex": 30,
+      "handlers": [
+        {
+          "id": "ShowHelpHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": true,
+        "online_Real": true,
+        "online_Demo": true
+      }
+    },
+    {
+      "id": "settings",
+      "type": "Button",
+      "caption": "mainMenu.settings",
+      "className": "settings",
+      "orderIndex": 40,
+      "handlers": [
+        {
+          "id": "ShowSettingsHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": true,
+        "online_Real": true,
+        "online_Demo": true
+      }
+    },
+    {
+      "id": "sound",
+      "type": "ToggleButton",
+      "caption": "mainMenu.sound",
+      "className": "sound",
+      "orderIndex": 50,
+      "handlers": [
+        {
+          "id": "MuteSoundHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": true,
+        "online_Real": true,
+        "online_Demo": true
+      }
+    },
+    {
+      "id": "mainHand",
+      "type": "ToggleButton",
+      "caption": "menu.main.left.right.hand",
+      "className": "mainHand",
+      "orderIndex": 50,
+      "handlers": [
+        {
+          "id": "MainHandHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "chat",
+      "type": "Button",
+      "caption": "mainMenu.chat",
+      "className": "chat",
+      "orderIndex": 51,
+      "handlers": [
+        {
+          "id": "ShowChatHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "ptonechat",
+      "type": "Button",
+      "caption": "mainMenu.chat",
+      "className": "chat",
+      "orderIndex": 51,
+      "handlers": [
+        {
+          "id": "ShowPTOneChatHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "deposit",
+      "type": "Button",
+      "caption": "mainMenu.deposit",
+      "className": "deposit",
+      "orderIndex": 60,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "mobile_deposit"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": true,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "depositLimit",
+      "type": "Button",
+      "caption": "mainMenu.depositLimit",
+      "className": "depositLimit",
+      "orderIndex": 61,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "mobile_deposit_limit"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": true,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "fundsTransfer",
+      "type": "Button",
+      "caption": "mainMenu.fundsTransfer",
+      "className": "fundsTransfer",
+      "orderIndex": 70,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "mobile_funds_trans"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "transactions",
+      "type": "Button",
+      "caption": "mainMenu.transactions",
+      "className": "transactions",
+      "orderIndex": 80,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "mobile_history"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": true,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "withdraw",
+      "type": "Button",
+      "caption": "mainMenu.withdraw",
+      "className": "withdraw",
+      "orderIndex": 90,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "mobile_withdraw"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": true,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "share",
+      "type": "Button",
+      "caption": "mainMenu.share",
+      "className": "share",
+      "orderIndex": 100,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "mobile_share"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": true,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "compPoints",
+      "type": "Button",
+      "caption": "mainMenu.compPoints",
+      "className": "compPoints",
+      "orderIndex": 110,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "mobile_mobile_comp_points"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": true,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "support",
+      "type": "Button",
+      "caption": "mainMenu.support",
+      "className": "support",
+      "orderIndex": 120,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "mobile_support"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": true,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "panic",
+      "type": "Button",
+      "caption": "mainMenu.panic",
+      "className": "panic",
+      "orderIndex": 130,
+      "handlers": [
+        {
+          "id": "PanicHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "logout",
+      "type": "Button",
+      "caption": "mainMenu.logout",
+      "className": "logout",
+      "orderIndex": 140,
+      "handlers": [
+        {
+          "id": "LogoutHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": true,
+        "online_Demo": true
+      }
+    },
+    {
+      "id": "playForReal",
+      "type": "Button",
+      "caption": "mainMenu.playForReal",
+      "className": "playForReal",
+      "orderIndex": 150,
+      "handlers": [
+        {
+          "id": "PlayForRealButtonHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": true,
+        "online_Real": false,
+        "online_Demo": true
+      }
+    },
+    {
+      "id": "changeToReal",
+      "type": "Button",
+      "caption": "mainMenu.playForReal",
+      "className": "playForReal",
+      "orderIndex": 150,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "mobile_login"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "bank",
+      "type": "Button",
+      "caption": "mainMenu.bank",
+      "className": "bank",
+      "orderIndex": 160,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "mobile_bank"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "inviteFriend",
+      "type": "Button",
+      "caption": "mainMenu.inviteFriend",
+      "className": "inviteFriend",
+      "orderIndex": 170,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "invite_friend"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "bringMoney",
+      "type": "Button",
+      "caption": "mainMenu.bringMoney",
+      "className": "bringMoney",
+      "orderIndex": 180,
+      "handlers": [
+        {
+          "id": "BringMoneyHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "responsibleGaming",
+      "type": "Button",
+      "caption": "mainMenu.respGaming",
+      "className": "respGaming",
+      "orderIndex": 190,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "mobile_responsible"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "mainMenuPromotions",
+      "type": "Button",
+      "caption": "mainMenu.promotions",
+      "className": "promotions",
+      "orderIndex": 200,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "mobile_main_promotions"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "bonusTerms",
+      "type": "Button",
+      "caption": "mainMenu.bonusTerms",
+      "className": "bonusTerms",
+      "orderIndex": 201,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "mobile_bonus_terms"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "QuickDeposit",
+      "type": "Button",
+      "caption": "mainMenu.quickDeposit",
+      "className": "quick-deposit-button",
+      "orderIndex": 50,
+      "handlers": [
+        {
+          "id": "QuickDepositHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "ptResponsibleGaming",
+      "type": "Button",
+      "caption": "mainMenu.respGaming",
+      "className": "respGaming",
+      "orderIndex": 75,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "regulation_pt_player_protection"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "ptSelfExclusion",
+      "type": "Button",
+      "caption": "mainMenu.selfExclusion",
+      "className": "pt-panic",
+      "orderIndex": 76,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "regulation_pt_self_exclusion"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    }
+  ],
+  "quickMenuItems": [
+    {
+      "id": "games",
+      "type": "Button",
+      "caption": "",
+      "className": "quickGames",
+      "orderIndex": 10,
+      "handlers": [
+        {
+          "id": "ShowInGameLobbyHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": true,
+        "online_Real": true,
+        "online_Demo": true
+      }
+    },
+    {
+      "id": "races",
+      "type": "Button",
+      "caption": "",
+      "className": "quickRaces",
+      "orderIndex": 30,
+      "handlers": [
+        {
+          "id": "ExternalLinkRedirectHandler",
+          "urlID": "mobile_lobby"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "promotions",
+      "type": "QuantitativeButton",
+      "caption": "",
+      "className": "quickPromotions",
+      "orderIndex": 40,
+      "handlers": [
+        {
+          "id": "ShowPromoGadgetHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": true,
+        "online_Real": true,
+        "online_Demo": true
+      }
+    },
+    {
+      "id": "leadership",
+      "type": "Button",
+      "caption": "",
+      "className": "quickLeadership",
+      "orderIndex": 50,
+      "handlers": [
+        {
+          "id": "ShowPaytableHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "gameAdvisor",
+      "type": "Button",
+      "caption": "",
+      "className": "quickGameAdvisor",
+      "orderIndex": 60,
+      "handlers": [
+        {
+          "id": "ShowGameAdvisorHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": true,
+        "online_Demo": true
+      }
+    },
+    {
+      "id": "quickCross",
+      "type": "Button",
+      "caption": "",
+      "className": "quickCross",
+      "orderIndex": 70,
+      "handlers": [
+        {
+          "id": "CloseQuickMenuHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": true,
+        "online_Real": true,
+        "online_Demo": true
+      }
+    },
+    {
+      "id": "italyFunBonusMode",
+      "type": "Button",
+      "caption": "",
+      "className": "italyFunBonusMode",
+      "orderIndex": 5,
+      "handlers": [
+        {
+          "id": "SwitchToItalyRealOrGameBonusModeHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    },
+    {
+      "id": "italyRealMode",
+      "type": "Button",
+      "caption": "",
+      "className": "italyRealMode",
+      "orderIndex": 6,
+      "handlers": [
+        {
+          "id": "SwitchToItalyRealOrGameBonusModeHandler"
+        }
+      ],
+      "enabledInMode": {
+        "offline": false,
+        "online_Real": false,
+        "online_Demo": false
+      }
+    }
+  ],
+  "externalLoginFormEnabled": false,
+  "playerMessagesBypassEnabled": false
+}

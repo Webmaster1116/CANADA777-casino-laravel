@@ -1,0 +1,1308 @@
+
+/*
+* 
+* ==========================================================
+* TICKETS.SCSS
+* ==========================================================
+*
+* Main style file of the Tickets App. Written in SCSS.
+*
+*/
+
+@import "shared.scss";
+
+@keyframes sb-collapse-btn-right {
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0;
+        right: -50px;
+    }
+
+    60% {
+        opacity: 0;
+        right: -50px;
+    }
+
+    100% {
+        opacity: 1;
+        right: 0;
+    }
+}
+
+@keyframes sb-collapse-btn-left {
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0;
+        left: -50px;
+    }
+
+    60% {
+        opacity: 0;
+        left: -50px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 0;
+    }
+}
+
+@keyframes sb-typing {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 15px;
+    }
+}
+
+/*
+
+# GLOBAL
+==========================================================
+
+*/
+
+.sb-main ::-webkit-input-placeholder {
+    color: #a5aeb6;
+}
+
+.sb-main ::-moz-placeholder {
+    color: #a5aeb6;
+}
+
+.sb-main :-ms-input-placeholder {
+    color: #a5aeb6;
+}
+
+.sb-main :-moz-placeholder {
+    color: #a5aeb6;
+}
+
+.sb-tickets {
+    font-size: 15px;
+    line-height: 27px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 4px;
+    background: $white;
+    color: $color-black;
+
+    > .sb-tickets-area {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+        position: relative;
+    }
+
+    &.sb-loading > .sb-tickets-area {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    > div > div > .sb-top {
+        border-bottom: 1px solid $border-color;
+        padding: 15px 20px;
+        height: 60px;
+        min-height: 60px;
+        box-sizing: border-box;
+    }
+
+    .sb-no-conversation-message {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: rgb(255, 255, 255);
+        padding: 15px;
+        display: none;
+        z-index: 9;
+
+        label {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        p {
+            margin: 15px 0;
+            font-size: 15px;
+            line-height: 25px;
+            color: $color-gray;
+        }
+    }
+
+    .sb-panel-left, .sb-panel-right {
+        transition: width .5s, min-width .5s;
+        overflow: hidden;
+
+        &.sb-collapsed {
+            min-width: 0;
+            width: 0;
+            border-width: 0 !important;
+            transition: width .5s, min-width .5s, border-width .5s !important;
+
+            > div, > ul {
+                opacity: 0 !important;
+                transition: .5s;
+            }
+        }
+    }
+
+    .sb-top .sb-btn, .sb-create-ticket, .sb-panel-right .sb-btn {
+        font-weight: 500;
+        font-size: 13px;
+        background: $white;
+        color: rgb(86, 96, 105);
+        border: 1px solid rgb(204, 210, 213);
+        border-radius: 4px;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.12);
+        height: 30px;
+        line-height: 30px;
+        padding: 0 10px;
+        white-space: nowrap;
+
+        &:hover {
+            border-color: $color-blue;
+            background-color: $color-blue;
+            color: $white;
+        }
+
+        &.sb-icon {
+            padding-left: 30px;
+
+            > i {
+                left: 10px;
+                font-size: 10px;
+                line-height: 33px;
+
+                &:before {
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+
+    .sb-tickets-area .sb-top .sb-title {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+}
+
+.sb-load div, .sb-load span, .sb-load input, .sb-load textarea {
+    transition: none !important;
+}
+
+.sb-overflow-hidden, .sb-collapsing {
+    overflow: hidden !important;
+}
+
+.sb-collapsing .sb-panel-right, .sb-collapsing .sb-panel-left {
+    > div, > ul {
+        min-width: 360px;
+        opacity: 1 !important;
+        transition: .5s;
+    }
+}
+
+.sb-ticket-fields {
+    display: none !important;
+}
+
+.sb-tickets-area .sb-input > span {
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/*
+
+# LEFT PANEL
+==========================================================
+
+*/
+
+.sb-tickets {
+
+    .sb-panel-left {
+        width: 400px;
+        min-width: 400px;
+        border-right: 1px solid rgb(212, 212, 212);
+        background-color: $white;
+        position: relative;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+
+        .sb-scroll-bar {
+            opacity: 0.2 !important;
+        }
+
+        .sb-scroll-area {
+            height: calc(100% - 59px);
+            border-bottom-left-radius: 6px;
+        }
+
+        > ul {
+
+            > li {
+                background: $white;
+
+                .sb-message {
+                    font-size: 13px;
+                }
+
+                .sb-name {
+                    font-weight: 500;
+                    font-size: 13px;
+                }
+
+                &:hover {
+                    background-color: rgb(245, 247, 250);
+                }
+
+                &:first-child {
+                    border-top: none;
+                }
+            }
+
+            > p {
+                margin: 30px 20px;
+            }
+
+            &[data-profile-image="false"] > li > div {
+                padding-left: 0;
+
+                > img {
+                    display: none;
+                }
+            }
+        }
+
+        li:not([data-conversation-status="1"]) {
+            background: rgba(245,245,245,0.75);
+
+            .sb-name, .sb-message {
+                font-weight: 400;
+            }
+        }
+
+        .sb-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 60px;
+        }
+    }
+}
+
+/*
+
+# RIGHT PANEL
+==========================================================
+
+*/
+
+.sb-tickets {
+
+    .sb-panel-right {
+        min-width: 400px;
+        width: 400px;
+        border-left: 1px solid rgb(212, 212, 212);
+        background-color: rgb(245, 247, 250);
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        position: relative;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+
+        & > .sb-scroll-area {
+            padding: 20px;
+        }
+
+        > .sb-top {
+            padding-right: 60px;
+
+            .sb-profile {
+                height: 30px;
+            }
+
+            .sb-no-profile-image {
+                padding-left: 0;
+
+                img {
+                    display: none;
+                }
+            }
+        }
+
+        .sb-title {
+            letter-spacing: 0.5px;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 21px;
+        }
+
+        .sb-btn, .sb-input.sb-input-btn > div {
+            background: rgb(245, 247, 250);
+            box-shadow: none;
+        }
+
+        .sb-input.sb-input-btn > div {
+            color: $color-black;
+            border: 1px solid rgb(204, 210, 213);
+            height: 40px;
+        }
+
+        .sb-input.sb-input-btn > div:hover, .sb-input.sb-input-btn input:focus + div {
+            background: $color-blue;
+            border-color: $color-blue;
+            color: $white;
+        }
+
+        .sb-profile-agent {
+            text-align: left;
+            display: none;
+
+            > div > span {
+                display: block;
+            }
+
+            img {
+                width: 31px;
+                height: 31px;
+            }
+
+            .sb-name {
+                letter-spacing: 0.5px;
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 21px;
+            }
+
+            .sb-status {
+                position: relative;
+                font-weight: 400;
+                font-size: 13px;
+                letter-spacing: 0.3px;
+                line-height: 20px;
+                padding-left: 15px;
+                color: rgba(70, 79, 87, 0.75);
+
+                &:empty {
+                    display: none;
+                }
+
+                &:before {
+                    content: "";
+                    width: 8px;
+                    height: 8px;
+                    position: absolute;
+                    border-radius: 50%;
+                    margin-top: -4px;
+                    top: 50%;
+                    left: 0;
+                    background: rgb(212, 212, 212);
+                }
+
+                &.sb-status-online:before {
+                    background: rgb(19, 202, 126);
+                }
+            }
+
+            .sb-status-typing {
+                padding-left: 0;
+                float: left;
+
+                &:before {
+                    display: none;
+                }
+
+                &:after {
+                    content: "...";
+                    position: absolute;
+                    width: 15px;
+                    left: calc(100% + 5px);
+                    bottom: 0;
+                    font-weight: 500;
+                    letter-spacing: 1px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    animation: sb-typing 1s infinite;
+                }
+            }
+
+            &.sb-active {
+                display: flex;
+            }
+
+            &:not(.sb-active) + .sb-agent-label:not(.sb-active) + .sb-ticket-details {
+                padding-top: 0;
+                padding-left: 0;
+                margin-top: 0;
+                border-top: 0;
+            }
+        }
+
+        .sb-agent-label, .sb-department {
+            display: none;
+            align-items: center;
+            font-size: 13px;
+            letter-spacing: 0.3px;
+            line-height: 20px;
+            margin-top: 10px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            &.sb-active {
+                display: flex;
+            }
+        }
+
+        .sb-agent-label img {
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            margin: 0 18px 0 5px;
+        }
+
+        .sb-department {
+            font-size: 13px;
+
+            > div {
+                display: flex;
+                align-items: center;
+                margin: 0;
+                border-radius: 15px;
+                padding-right: 20px;
+
+                > div {
+                    font-weight: 500;
+                    color: #4a5056;
+                }
+            }
+
+            > span {
+                padding-right: 15px;
+            }
+
+            > div span {
+                display: none;
+            }
+
+            img {
+                width: 30px;
+                height: 30px;
+                margin: 0 12px 0 0;
+            }
+        }
+
+        .sb-articles {
+            padding: 20px 0;
+        }
+
+        .sb-dashboard-articles {
+            .sb-title {
+                margin-bottom: 20px;
+            }
+
+            .sb-input-btn input {
+                background-color: #fff;
+            }
+        }
+    }
+
+    .sb-agent-label, .sb-ticket-details, .sb-department, .sb-conversation-attachments, .sb-panel-right .sb-dashboard-articles {
+        border-top: 1px solid rgb(212, 212, 212);
+        margin-top: 15px;
+        padding-top: 15px;
+    }
+
+    .sb-ticket-details {
+        padding: 12px 0 0 7px;
+
+        > div {
+            padding-left: 36px;
+            position: relative;
+            font-size: 13px;
+            line-height: 27px;
+            letter-spacing: 0.3px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+
+            > span {
+                font-weight: 500;
+                padding-right: 10px;
+                font-size: 13px;
+            }
+
+            > div {
+                display: inline;
+            }
+
+            .sb-icon {
+                position: absolute;
+                left: 0;
+                top: 8px;
+                font-size: 14px;
+                width: 16px;
+                height: 16px;
+                color: $color-dark-blue;
+
+                &:before {
+                    width: 16px;
+                    height: 16px;
+                    opacity: 0.8;
+                    position: absolute;
+                }
+            }
+        }
+
+        &:first-child {
+            border-top: none;
+            margin-top: 0;
+            padding-top: 0;
+        }
+    }
+
+    .sb-conversation-attachments {
+
+        .sb-title {
+            margin: 0 0 13px 0;
+        }
+
+        a {
+            line-height: 20px;
+            margin: 5px 0 0 0;
+            display: block;
+            letter-spacing: 0.3px;
+            text-decoration: none;
+            font-size: 13px;
+            color: $color-black;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            transition: $transition;
+
+            i {
+                color: $color-dark-blue;
+                font-size: 15px;
+                transform: translateY(3px);
+                display: inline-block;
+                margin-right: 10px;
+            }
+
+            &:hover {
+                color: $color-blue;
+            }
+        }
+
+        &:empty {
+            display: none;
+        }
+    }
+}
+
+/*
+
+# MAIN PANEL
+==========================================================
+
+*/
+
+.sb-tickets {
+    .sb-panel-main {
+        width: 100%;
+        position: relative;
+
+        .sb-top {
+            .sb-title {
+                font-weight: 500;
+                position: relative;
+                padding: 0 15px 0 0;
+                margin: 0;
+                padding: 0;
+                cursor: default;
+                text-decoration: none;
+                line-height: 30px;
+                color: $color-black;
+                font-size: 20px;
+                white-space: nowrap;
+            }
+
+            .sb-btn-back, .sb-close {
+                display: none;
+            }
+
+            .sb-close {
+                position: absolute;
+                right: 14px;
+                top: 12px;
+
+                i {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .sb-panel {
+        padding: 20px;
+        height: calc(100% - 60px);
+        box-sizing: border-box;
+        display: none;
+
+        > .sb-top {
+            display: none;
+        }
+
+        > .sb-loading {
+            width: 30px;
+            height: 30px;
+        }
+
+        .sb-info {
+            margin: 0 20px 20px 150px;
+            color: $color-red;
+            font-size: 13px;
+            line-height: 25px;
+            letter-spacing: 0.3px;
+            font-weight: 500;
+            display: none;
+            cursor: default;
+
+            &.sb-active {
+                display: block;
+                animation: sb-fade-animation 0.4s;
+            }
+        }
+
+        .sb-text, .sb-link-area, .sb-privacy a:not([class]) {
+            font-size: 15px;
+            line-height: 27px;
+            color: $color-gray;
+        }
+
+
+        .sb-article {
+            > .sb-title {
+                font-weight: 500;
+                font-size: 18px;
+                margin-bottom: 15px;
+            }
+
+            > .sb-btn-text {
+                margin-top: 20px;
+
+                & + .sb-rating {
+                    margin-left: 30px;
+                    padding-left: 30px;
+                    border-left: 1px solid $border-color;
+                }
+            }
+
+            > .sb-rating {
+                margin-top: 19px;
+            }
+        }
+    }
+
+    &:not(.sb-panel-active) .sb-collapsed + .sb-panel-main > .sb-top {
+        padding-left: 45px;
+    }
+
+    &.sb-no-arrows .sb-panel-left > .sb-top {
+        padding-left: 15px;
+    }
+
+    &.sb-panel-active {
+
+        .sb-panel {
+            display: block;
+        }
+
+        .sb-panel-main {
+            > .sb-top .sb-close {
+                display: block;
+            }
+
+            .sb-conversation {
+                display: none;
+            }
+        }
+    }
+
+    &.sb-no-conversations .sb-panel-main > .sb-top .sb-close, &[data-panel="registration"] .sb-panel-main > .sb-top .sb-close,
+    &[data-panel="login"] .sb-panel-main > .sb-top .sb-close, &[data-panel="edit-profile"] .sb-login-area, &[data-panel="edit-profile"] .sb-panel .sb-text,
+    &[data-panel="privacy"] .sb-panel-main > .sb-top .sb-close {
+        display: none !important;
+    }
+
+    &[data-panel="registration"], &[data-panel="login"] {
+        > .sb-tickets-area {
+            height: auto !important;
+            max-height: 100%;
+
+            > .sb-collapsed {
+                height: 0;
+            }
+        }
+    }
+}
+
+.sb-panel-form {
+    .sb-form {
+        margin: 22px 0 30px 0;
+        max-width: 500px;
+    }
+
+    .sb-form-extra {
+        margin: -20px 0 30px 0;
+    }
+
+    .sb-form-extra:empty {
+        display: none;
+    }
+
+    .sb-link-area {
+        font-size: 13px !important;
+    }
+
+    .sb-link-area a {
+        color: $color-gray;
+    }
+
+    .sb-buttons {
+        margin: 30px 0 15px 0;
+        display: flex;
+        align-items: center;
+
+        div + div {
+            margin-left: 15px;
+        }
+
+        .sb-btn-text.sb-registration-area, .sb-btn-text.sb-login-area {
+            font-size: 13px;
+            letter-spacing: .3px;
+        }
+    }
+
+    .sb-panel .sb-info {
+        margin: -20px 0 0 150px;
+    }
+
+    .sb-top + .sb-form, &[data-panel="edit-profile"] .sb-form-main {
+        margin-top: 10px;
+    }
+}
+
+.sb-privacy .sb-buttons {
+    margin-top: 30px;
+}
+
+/*
+
+# CONVERSATIONS AREA
+==========================================================
+
+*/
+
+.sb-tickets {
+
+    .sb-conversation {
+        height: calc(100% - 60px);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        .sb-list {
+            height: 100%;
+            padding: 0 0 5px 0;
+            overflow-y: scroll;
+
+            > div:last-child {
+                animation: none;
+            }
+        }
+    }
+
+    .sb-editor {
+        flex-shrink: 0;
+        margin: 1px 20px 20px 20px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+        transition: box-shadow linear 40ms, border-color linear 0.2s;
+        background-color: $white;
+
+        .sb-textarea {
+            border: none;
+            padding: 0 !important;
+        }
+
+        .sb-bar {
+            margin-top: 10px;
+            position: relative;
+
+            .sb-btn-attachment {
+                display: block !important;
+            }
+
+            .sb-btn {
+                background-color: $color-blue;
+                color: $white;
+                border-color: $color-blue;
+                font-size: 12px;
+                line-height: 27px;
+                height: 25px;
+                transition: $transition;
+
+                &:hover {
+                    background-color: $color-dark-blue;
+                    border-color: $color-dark-blue;
+                }
+            }
+        }
+
+        .sb-attachments:not(:empty) {
+            padding-top: 15px;
+        }
+
+        .sb-title {
+            position: absolute;
+            font-weight: 500;
+            font-size: 15px;
+            letter-spacing: 0.3px;
+            cursor: default;
+            top: 0;
+            left: -150px;
+            color: $color-gray;
+        }
+
+        .sb-btn-saved-replies {
+            display: none;
+        }
+
+        &.sb-error {
+            border: 1px solid $color-red;
+            box-shadow: 0 0 5px rgba(202, 52, 52, 0.25);
+        }
+    }
+
+    .sb-editor-cnt {
+        align-items: flex-start;
+    }
+
+    &.sb-no-conversations > div > .sb-collapsed {
+        transition: none !important;
+    }
+}
+
+[data-panel="new-ticket"] {
+    .sb-panel {
+
+        input, select {
+            padding: 15px;
+        }
+
+        > div {
+            max-width: 800px;
+        }
+    }
+
+    .sb-input-select {
+        justify-content: flex-start;
+
+        > span {
+            flex-grow: 0;
+        }
+
+        p {
+            font-weight: 400;
+            margin: 0;
+        }
+    }
+
+    .sb-editor {
+        margin: 0;
+        box-shadow: none;
+        background-color: rgb(248, 248, 249);
+        max-width: calc(100% - 150px);
+        width: 100%;
+        box-sizing: border-box;
+        transition: border-color .4s, box-shadow .4s, background-color .4s;
+
+        .sb-submit {
+            display: none !important;
+        }
+
+        .sb-loader {
+            bottom: -60px;
+            right: auto;
+            left: -60px;
+        }
+
+        &.sb-focus {
+            border: 1px solid $color-blue;
+            box-shadow: 0 0 5px rgba(39, 156, 255, 0.2);
+            background: $white;
+        }
+    }
+
+    .sb-create-ticket {
+        margin: 15px auto 0 150px;
+        width: auto;
+        display: inline-block;
+    }
+}
+
+@media (min-width: 768px) {
+    .sb-popup.sb-emoji {
+        left: 67px !important;
+        top: auto !important;
+        bottom: 55px;
+        position: absolute !important;
+    }
+}
+
+/*
+
+# COMPONENTS
+==========================================================
+     
+*/
+
+.sb-profile {
+    position: relative;
+    color: $color-black;
+    padding-left: 45px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    img {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        left: 0;
+    }
+
+    > span {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 500;
+        white-space: nowrap;
+        letter-spacing: 0.3px;
+    }
+}
+
+.sb-profile-menu {
+    cursor: pointer;
+    display: inline-block;
+
+    .sb-menu {
+        display: none;
+    }
+
+    > div:last-child {
+        padding-top: 15px;
+    }
+
+    &:hover {
+        .sb-name {
+            color: $color-blue;
+        }
+
+        .sb-menu {
+            display: block;
+            animation: sb-fade-bottom-animation .5s;
+        }
+    }
+}
+
+.sb-btn-collapse {
+    position: absolute;
+    top: 15px;
+    transition: color 0.4s;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    line-height: 35px;
+    font-size: 15px;
+    text-align: center;
+    z-index: 1;
+
+    &.sb-right {
+        left: auto;
+        right: 20px;
+        text-align: right;
+
+        &.sb-active {
+            animation: sb-collapse-btn-right 1s;
+            transform: rotate(180deg);
+            right: 0;
+        }
+    }
+
+    &.sb-left {
+        right: auto;
+        left: 20px;
+        text-align: left;
+
+        &.sb-active {
+            animation: sb-collapse-btn-left 1s;
+            transform: rotate(180deg);
+            left: 0;
+        }
+    }
+
+    &:hover {
+        color: $color-blue;
+    }
+
+    &:before {
+        line-height: 30px;
+    }
+}
+
+.sb-btn-icon i:before {
+    line-height: 35px;
+}
+
+/*
+
+# RTL
+==========================================================
+
+*/
+
+.sb-tickets.sb-rtl {
+    .sb-panel-right {
+        border-right: 1px solid rgb(212, 212, 212);
+        border-left: none;
+
+        > .sb-top {
+            padding-right: 20px;
+            padding-left: 60px;
+
+            .sb-no-profile-image {
+                padding-right: 0;
+            }
+        }
+
+        .sb-profile-agent .sb-status {
+            padding-right: 15px;
+            padding-left: 0;
+            text-align: right;
+
+            &:before {
+                left: auto;
+                right: 0;
+            }
+        }
+    }
+
+    .sb-panel-left {
+        border-right: none;
+        border-left: 1px solid rgb(212, 212, 212);
+
+        > .sb-top {
+            padding-left: 20px;
+            padding-right: 60px;
+        }
+    }
+
+    .sb-editor .sb-bar {
+        padding: 0;
+    }
+
+    .sb-btn-collapse.sb-left {
+        right: 20px;
+        left: auto;
+    }
+
+    .sb-btn-collapse.sb-right {
+        left: 20px;
+        right: auto;
+    }
+
+    .sb-btn-collapse.sb-left.sb-active {
+        transform: none;
+        text-align: right;
+        animation: sb-collapse-btn-right 1s;
+    }
+
+    .sb-btn-collapse.sb-right.sb-active {
+        transform: none;
+        text-align: left;
+        animation: sb-collapse-btn-left 1s;
+    }
+
+    .sb-btn-collapse:not(.sb-active) {
+        transform: rotate(180deg);
+    }
+
+    &:not(.sb-panel-active) .sb-collapsed + .sb-panel-main > .sb-top {
+        padding-left: 20px;
+        padding-right: 45px;
+    }
+
+    .sb-panel-main .sb-top .sb-close {
+        right: auto;
+        left: 14px;
+    }
+
+    .sb-panel .sb-info {
+        margin: 0 150px 20px 20px;
+    }
+
+    &.sb-800 .sb-panel-left {
+        left: auto;
+        right: 0;
+    }
+
+    &.sb-800 .sb-panel-right {
+        left: 0;
+        right: auto;
+    }
+
+    .sb-profile {
+        padding-left: 0;
+        padding-right: 45px;
+
+        img {
+            right: 0;
+            left: auto;
+        }
+    }
+}
+
+/*
+
+# RESPONSIVE
+==========================================================
+
+*/
+
+.sb-1300 {
+    .sb-panel-left, .sb-panel-right {
+        min-width: 310px;
+        width: 310px;
+    }
+
+    &.sb-collapsing .sb-panel-right, &.sb-collapsing .sb-panel-left {
+        > div, > ul {
+            min-width: 270px;
+        }
+    }
+
+    .sb-panel-left .sb-search-btn > input {
+        min-width: 205px;
+    }
+}
+
+.sb-1000 {
+    .sb-panel-left, .sb-panel-right {
+        min-width: 230px;
+        width: 230px;
+    }
+
+    &.sb-collapsing .sb-panel-right, &.sb-collapsing .sb-panel-left {
+        > div, > ul {
+            min-width: 190px;
+        }
+    }
+
+    .sb-panel-left .sb-search-btn > input {
+        min-width: 60px;
+        width: 125px;
+    }
+}
+
+.sb-800 {
+    .sb-panel-left, .sb-panel-right {
+        min-width: 260px;
+        width: 260px;
+        position: absolute;
+        left: 0;
+        z-index: 9;
+        height: 100%;
+    }
+
+    .sb-panel-right {
+        left: auto;
+        right: 0;
+    }
+
+    &.sb-collapsing .sb-panel-right, &.sb-collapsing .sb-panel-left {
+        > div, > ul {
+            min-width: 220px;
+        }
+    }
+
+    .sb-panel-left .sb-search-btn > input {
+        min-width: 60px;
+        width: 125px;
+    }
+
+    .sb-btn-collapse {
+        z-index: 95;
+    }
+
+    .sb-btn-collapse:not(.sb-active) + .sb-right, .sb-panel-right:not(.sb-collapsed) + .sb-left {
+        display: none;
+    }
+
+    &.sb-panel-form .sb-input, &[data-panel="new-ticket"] .sb-input {
+        display: block;
+    }
+
+    &[data-panel="new-ticket"] {
+        .sb-editor {
+            max-width: 100%;
+        }
+
+        .sb-create-ticket {
+            margin-left: 0;
+        }
+    }
+
+    .sb-panel .sb-info {
+        margin-left: 0;
+    }
+
+    .sb-article > .sb-rating {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+        border-left: 0 !important;
+        display: flex;
+    }
+}
+
+@media (max-width: 428px) {
+
+    .sb-btn-emoji {
+        display: none;
+    }
+}
+
+@import "rtl.scss";

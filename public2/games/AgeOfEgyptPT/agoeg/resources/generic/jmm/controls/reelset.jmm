@@ -1,0 +1,58 @@
+{
+    "ui": {
+
+        "anticipation_border": {"ratio": 0.34657, "type": "sprite.new", "group": "anticipationBorders",
+            "animation": "anticipation", "visible": false, "slices": "anticipation_slices", "orientation":"hor", "frame.size": [189, 476],"duration": 700, "frame.limit":7, "frame.insets": "2"},
+
+        "anticipation": { "type": "hbox", "props": { "anchor.fit": "4 2.2"  }, "layout": {"spacing": 4, "alignment": "center"}, "content": [
+            {"@P": "ui/anticipation_border"},
+            {"@P": "ui/anticipation_border"},
+            {"@P": "ui/anticipation_border"},
+            {"@P": "ui/anticipation_border"},
+            {"@P": "ui/anticipation_border"}
+        ]},
+
+        "line.win": {"id": "line_win", "type": "line-win", "layout": {"type": "anchor", "relative": true}, "content": [
+            {"id": "line_win_panel", "type": "anchor", "layout": {"relative": true}, "size": [0.815, 0.1875], "content": [
+                {"id": "_container", "type": "anchor", "layout": {"relative": true}, "props": {"anchor.fit": "6.6 1.5"}, "background": "#000", "content": [
+                    {"id": "text", "@P": "ui/label.def", "format": "line_win", "props": {"anchor.fit": "-3 0 -3 0"}}
+                ]}
+            ]}
+        ]},
+
+        "reel.sprite_place": {"type": "anchor", "layout": {"relative": true}, "content": [
+            {"type": "stack", "props": {"anchor.fit": "0 0 66.66 0"}},
+            {"type": "stack", "props": {"anchor.fit": "33.33 0 33.33 0"}},
+            {"type": "stack", "props": {"anchor.fit": "66.66 0 0 0"}}
+        ]},
+
+        "reel": {"type": "stack", "ratio": 0.34657, "content": [
+            {"#ID": "reel", "type": "reel", "group": "reels"},
+            {"@P": "ui/reel.sprite_place", "group": "spritePlace"}
+        ]},
+
+        "reelset": {"id": "reelset", "type": "anchor", "layout": {"relative": true}, "background": "reels_bg", "ratio": [763, 442], "content": [
+            {"type": "hbox", "props": { "anchor.fit": "4 2.2"  }, "layout": {"spacing": 4, "alignment": "center"}, "content": [
+                {"@P": "ui/reel"},
+                {"@P": "ui/reel"},
+                {"@P": "ui/reel"},
+                {"@P": "ui/reel"},
+                {"@P": "ui/reel"}
+            ]},
+            {"id": "logo",  "type": "image", "slice": "logo", "group": "regularGameElements", "props": {"anchor.fit": "-10.9 0 92.5 0", "anchor.alignment": "center"}},
+            {"@P": "ui/anticipation"},
+            {"@P": "ui/sb.left",   "props": {"anchor.fit": "-0.3 100.1 1 -4.2"}},
+            {"@P": "ui/sb.right",  "props": {"anchor.fit": "-0.3 -4.2 1 100.1"}},
+            {"id": "winlines", "type": "winlines", "props": {"anchor.fit": "4 2.2"}},
+            {"@P": "ui/line.win"},
+            {"id": "reels_fade", "type": "panel", "animation": "5OAK_fade", "group": "fiveOAKAnimations", "props": {"anchor.fit": "4 2.2"}, "visible": false, "background": "#b000"},
+
+            { "type": "anchor", "animation": "5OAK", "group": "fiveOAKAnimations", "visible": false,  "props": {"anchor.fit": "50 -27 -27 50"}, "content": [
+                    {"slice": "5oak", "@P": "ui/centred_image"}
+            ]},
+
+            {"@P": "ui/head", "props": {"anchor.fit": "-14 -5 100 -5"}}
+
+        ]}
+    }
+}

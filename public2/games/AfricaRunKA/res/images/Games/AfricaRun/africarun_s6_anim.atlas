@@ -1,0 +1,125 @@
+
+africarun_s6_anim.png
+size: 773,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Frame_Top
+  rotate: false
+  xy: 154, 17
+  size: 150, 13
+  orig: 150, 13
+  offset: 0, 0
+  index: -1
+Frame_bottom
+  rotate: false
+  xy: 154, 2
+  size: 150, 13
+  orig: 150, 13
+  offset: 0, 0
+  index: -1
+antelopeBL1_1
+  rotate: true
+  xy: 306, 5
+  size: 24, 34
+  orig: 24, 34
+  offset: 0, 0
+  index: -1
+antelopeBL1_2
+  rotate: true
+  xy: 501, 3
+  size: 32, 59
+  orig: 33, 59
+  offset: 1, 0
+  index: -1
+antelopeBL2_1
+  rotate: true
+  xy: 406, 11
+  size: 18, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+antelopeBL2_2
+  rotate: true
+  xy: 562, 2
+  size: 17, 31
+  orig: 17, 31
+  offset: 0, 0
+  index: -1
+antelopeFL1_1
+  rotate: true
+  xy: 595, 5
+  size: 14, 21
+  orig: 16, 21
+  offset: 2, 0
+  index: -1
+antelopeFL1_2
+  rotate: true
+  xy: 342, 11
+  size: 18, 32
+  orig: 18, 32
+  offset: 0, 0
+  index: -1
+antelopeFL2_1
+  rotate: true
+  xy: 376, 13
+  size: 16, 28
+  orig: 16, 28
+  offset: 0, 0
+  index: -1
+antelopeFL2_2
+  rotate: false
+  xy: 470, 2
+  size: 29, 33
+  orig: 29, 33
+  offset: 0, 0
+  index: -1
+antelope_Body
+  rotate: true
+  xy: 154, 32
+  size: 108, 162
+  orig: 108, 162
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 318, 31
+  size: 150, 109
+  orig: 150, 111
+  offset: 0, 1
+  index: -1
+clouds
+  rotate: false
+  xy: 470, 37
+  size: 149, 103
+  orig: 149, 103
+  offset: 0, 0
+  index: -1
+grass
+  rotate: false
+  xy: 621, 19
+  size: 150, 56
+  orig: 150, 56
+  offset: 0, 0
+  index: -1
+ground
+  rotate: false
+  xy: 621, 77
+  size: 150, 63
+  orig: 150, 63
+  offset: 0, 0
+  index: -1
+sky
+  rotate: false
+  xy: 2, 3
+  size: 150, 137
+  orig: 150, 137
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 562, 21
+  size: 14, 57
+  orig: 14, 57
+  offset: 0, 0
+  index: -1

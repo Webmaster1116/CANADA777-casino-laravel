@@ -1,0 +1,173 @@
+
+/*
+* 
+* ==========================================================
+* STYLE.SCSS
+* ==========================================================
+*
+* Fallback icons style. Use this style if you're loading the chat into an external domain and you have cross-origin issues that prevent the icons to load.
+* Instructions: 
+*
+* 1. Insert the CSS code below into your external website with the cross-origin issue. 
+* 2. Replace [YOUR-SITE-URL] with the URL of your website, the URLs must point to the PNG files of /supportbaord/media/icons/png/.
+*
+*/
+
+.sb-editor .sb-bar-icons > div:before, .sb-editor .sb-submit:before, .sb-search-btn > i:before, .sb-chat .sb-scroll-area .sb-header .sb-dashboard-btn:before,
+.sb-input.sb-input-btn > div:before, .sb-chat .sb-responsive-close-btn:before {
+    display: none;
+}
+
+.sb-editor .sb-bar-icons > div, .sb-editor .sb-submit, .sb-search-btn > i, .sb-select p:after, .sb-chat .sb-scroll-area .sb-header .sb-dashboard-btn,
+.sb-input.sb-input-btn > div, .sb-chat .sb-responsive-close-btn, .sb-icon-plane, .sb-icon-like, .sb-icon-dislike, .sb-icon-close {
+    background-size: 20px 20px !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    transition: all .5s;
+}
+
+.sb-icon-like, .sb-icon-dislike, .sb-icon-plane, .sb-icon-close {
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background-size: contain !important;
+}
+
+.sb-icon-like:before, .sb-icon-dislike:before, .sb-icon-plane:before, .sb-icon-close:before {
+    content: "" !important;
+}
+
+.sb-editor .sb-bar-icons .sb-btn-emoji {
+    background-image: url([YOUR-SITE-URL]/icon-emoji.png);
+}
+
+.sb-editor .sb-bar-icons .sb-btn-attachment {
+    background-image: url([YOUR-SITE-URL]/icon-attachment.png);
+}
+
+.sb-editor .sb-submit {
+    background-image: url([YOUR-SITE-URL]/icon-send.png);
+    width: 15px;
+    background-position: right center !important;
+    opacity: .5;
+}
+
+.sb-search-btn > i {
+    opacity: .7;
+    background-image: url([YOUR-SITE-URL]/icon-search.png);
+    transition: opacity .5s;
+}
+
+.sb-select p:after {
+    content: "" !important;
+    background-image: url([YOUR-SITE-URL]/icon-arrow-left.png);
+    transform: rotate(-90deg);
+    width: 9px;
+    height: 32px;
+    background-size: contain !important;
+}
+
+.sb-chat .sb-scroll-area .sb-header .sb-dashboard-btn {
+    background-image: url([YOUR-SITE-URL]/icon-arrow-left-white.png) !important;
+}
+
+.sb-input.sb-input-btn > div {
+    background-image: url([YOUR-SITE-URL]/icon-arrow-right-white.png) !important;
+}
+
+.sb-chat .sb-scroll-area .sb-header .sb-dashboard-btn.sb-icon-close {
+    background-image: url([YOUR-SITE-URL]/icon-close-white.png) !important;
+}
+
+.sb-editor .sb-submit:hover, .sb-search-btn > i:hover {
+    opacity: 1;
+}
+
+.sb-chat .sb-responsive-close-btn {
+    background-image: url([YOUR-SITE-URL]/icon-close-white.png) !important;
+    background-size: 12px 12px !important;
+    background-position: 38px 15px !important;
+}
+
+.sb-icon-plane {
+    background-image: url([YOUR-SITE-URL]/icon-plane.png) !important;
+}
+
+.sb-icon-like {
+    background-image: url([YOUR-SITE-URL]/icon-like.png) !important;
+}
+
+.sb-icon-dislike {
+    background-image: url([YOUR-SITE-URL]/icon-dislike.png) !important;
+}
+
+.sb-icon-close {
+    background-image: url([YOUR-SITE-URL]/icon-close.png) !important;
+}
+
+.sb-icon-plus {
+    background-image: url([YOUR-SITE-URL]/icon-plus.png) !important;
+}
+
+.sb-create-ticket:hover i, .sb-new-ticket:hover i {
+    background-image: url([YOUR-SITE-URL]/icon-plus-white.png) !important;
+}
+
+.sb-icon-arrow-right, .sb-tickets .sb-panel-right .sb-input.sb-input-btn > div:not(:hover) {
+    background-image: url([YOUR-SITE-URL]/icon-arrow-right.png) !important;
+}
+
+.sb-icon-arrow-left {
+    background-image: url([YOUR-SITE-URL]/icon-arrow-left.png) !important;
+}
+
+.sb-icon-padlock {
+    background-image: url([YOUR-SITE-URL]/icon-padlock.png) !important;
+}
+
+.sb-icon-calendar {
+    background-image: url([YOUR-SITE-URL]/icon-calendar.png) !important;
+}
+
+.sb-icon-reload {
+    background-image: url([YOUR-SITE-URL]/icon-reload.png) !important;
+}
+
+.sb-loading:before {
+    content: "" !important;
+    background-image: url([YOUR-SITE-URL]/icon-loader.png) !important;
+    background-size: 16px 8px;
+    background-repeat: no-repeat;
+    background-position: 7px 8px;
+}
+
+.sb-btn-icon i {
+    margin-top: 8px;
+}
+
+.sb-create-ticket i, .sb-new-ticket i {
+    left: 10px;
+    top: 6px;
+    width: 10px;
+}
+
+.sb-tickets-area .sb-btn-collapse {
+    background-size: 15px 15px !important;
+}
+
+.sb-tickets-area .sb-btn-collapse:hover {
+    opacity: .8;
+}
+
+.sb-tickets-area .sb-btn-collapse.sb-icon-arrow-left {
+    background-position: left center !important;
+}
+
+.sb-tickets-area .sb-btn-collapse.sb-icon-arrow-right {
+    background-position: right center !important;
+}
+
+.sb-tickets .sb-ticket-details > div .sb-icon {
+    background-size: 12px 13px !important;
+    transform: translateY(-2px);
+}

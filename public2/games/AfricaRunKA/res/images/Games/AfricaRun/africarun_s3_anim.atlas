@@ -1,0 +1,174 @@
+
+africarun_s3_anim.png
+size: 777,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bg_copy
+  rotate: false
+  xy: 2, 8
+  size: 155, 132
+  orig: 156, 132
+  offset: 1, 0
+  index: -1
+Flamingo2
+  rotate: false
+  xy: 358, 33
+  size: 17, 23
+  orig: 17, 23
+  offset: 0, 0
+  index: -1
+Flying1
+  rotate: false
+  xy: 314, 5
+  size: 39, 24
+  orig: 39, 25
+  offset: 0, 1
+  index: -1
+Smoke
+  rotate: false
+  xy: 358, 58
+  size: 213, 82
+  orig: 213, 82
+  offset: 0, 0
+  index: -1
+Smokes2
+  rotate: false
+  xy: 418, 11
+  size: 187, 45
+  orig: 213, 62
+  offset: 13, 7
+  index: -1
+Stone
+  rotate: false
+  xy: 607, 75
+  size: 149, 34
+  orig: 164, 47
+  offset: 7, 5
+  index: -1
+Zebra1_BL1
+  rotate: true
+  xy: 697, 54
+  size: 19, 57
+  orig: 19, 57
+  offset: 0, 0
+  index: -1
+Zebra1_BL2
+  rotate: true
+  xy: 377, 34
+  size: 22, 39
+  orig: 22, 40
+  offset: 0, 1
+  index: -1
+Zebra1_Body
+  rotate: false
+  xy: 300, 31
+  size: 56, 109
+  orig: 56, 109
+  offset: 0, 0
+  index: -1
+Zebra1_FL1
+  rotate: false
+  xy: 676, 14
+  size: 19, 59
+  orig: 19, 59
+  offset: 0, 0
+  index: -1
+Zebra1_FL2
+  rotate: true
+  xy: 355, 6
+  size: 23, 60
+  orig: 23, 60
+  offset: 0, 0
+  index: -1
+Zebra1_Tail
+  rotate: true
+  xy: 417, 2
+  size: 7, 42
+  orig: 7, 42
+  offset: 0, 0
+  index: -1
+Zebra2_BL1
+  rotate: true
+  xy: 697, 35
+  size: 17, 57
+  orig: 17, 58
+  offset: 0, 0
+  index: -1
+Zebra2_BL2
+  rotate: true
+  xy: 573, 59
+  size: 14, 41
+  orig: 14, 41
+  offset: 0, 0
+  index: -1
+Zebra2_Body
+  rotate: true
+  xy: 159, 8
+  size: 132, 139
+  orig: 133, 139
+  offset: 0, 0
+  index: -1
+Zebra2_FL1
+  rotate: false
+  xy: 573, 78
+  size: 21, 62
+  orig: 21, 62
+  offset: 0, 0
+  index: -1
+Zebra2_FL2
+  rotate: false
+  xy: 758, 39
+  size: 17, 61
+  orig: 17, 61
+  offset: 0, 0
+  index: -1
+ZebraBaby2_BL1
+  rotate: true
+  xy: 697, 17
+  size: 16, 37
+  orig: 16, 37
+  offset: 0, 0
+  index: -1
+ZebraBaby2_BL22
+  rotate: false
+  xy: 300, 4
+  size: 12, 25
+  orig: 12, 25
+  offset: 0, 0
+  index: -1
+ZebraBaby2_Body
+  rotate: false
+  xy: 616, 9
+  size: 58, 64
+  orig: 58, 64
+  offset: 0, 0
+  index: -1
+ZebraBaby2_FL1
+  rotate: true
+  xy: 736, 19
+  size: 14, 39
+  orig: 14, 39
+  offset: 0, 0
+  index: -1
+ZebraBaby2_FL22
+  rotate: false
+  xy: 759, 102
+  size: 16, 38
+  orig: 16, 38
+  offset: 0, 0
+  index: -1
+frame_1
+  rotate: false
+  xy: 607, 111
+  size: 150, 13
+  orig: 150, 13
+  offset: 0, 0
+  index: -1
+frame_2
+  rotate: false
+  xy: 607, 126
+  size: 150, 14
+  orig: 150, 14
+  offset: 0, 0
+  index: -1

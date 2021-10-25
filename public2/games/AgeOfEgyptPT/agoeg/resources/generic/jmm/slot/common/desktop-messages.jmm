@@ -1,0 +1,54 @@
+{
+	"ui": {
+        "info_msg.def": {"@P": "ui/label.def", "@S": {"regular": {"format": "info.text"}, "free-spins": {"format": "fg.info.text"}, "#default": "regular"}, "props": {"anchor.fit": "0"}},
+        "info_msg_l.def": {"@P": "ui/info_msg.def", "alignment": "center-left", "props": {"anchor.fit": "0 50 0 1"}},
+        "info_msg_r.def": {"@P": "ui/info_msg.def", "alignment": "center-right", "props": {"anchor.fit": "0 1 0 50"}},
+        
+        "messages": {"id": "messages", "type": "message-panel", "layout": {"type": "anchor", "relative": true}, "state": "regular", "content": {
+            "press_spin": {"@P": "ui/info_msg.def", "text": "press_spin"},
+            "insufficient_balance": {"@P": "ui/info_msg.def", "text": "insufficient_balance"},
+            "good_luck": {"@P": "ui/info_msg.def", "text": "good_luck"},
+            "win_bonus": {"@P": "ui/info_msg.def", "text": "win_bonus"},
+            "win_free_games": {"@P": "ui/info_msg.def", "text": "win_free_games"},
+            "win_more_free_games": {"@P": "ui/info_msg.def", "text": "win_more_free_games"},
+            "win_jackpot": {"@P": "ui/info_msg.def", "text": "win_jackpot"},
+            "win_special_symbol": {"@P": "ui/info_msg.def", "text": "win_special_symbol"},
+            "win_scatter": {"type": "anchor", "layout": {"relative": true}, "props": {"anchor.fit": "0"}, "content": [
+            	{"id": "txt", "@P": "ui/info_msg_l.def", "text": "win_scatter"},
+    			{"id": "total_win", "@P": "ui/info_msg_r.def", "text": "total_win_amount"}
+            ]},
+            "win_scatter_bonus": {"@P": "ui/info_msg.def", "text": "win_scatter_bonus"},
+            "win_scatter_free_games": {"@P": "ui/info_msg.def", "text": "win_scatter_free_games"},
+            "win_scatter_extra_free_games": {"@P": "ui/info_msg.def", "text": "win_scatter_extra_free_games"},
+            "win_line": {"type": "anchor", "layout": {"relative": true}, "props": {"anchor.fit": "0"}, "content": [
+            	{"id": "txt", "@P": "ui/info_msg_l.def", "text": "line_wins"},
+    			{"id": "total_win", "@P": "ui/info_msg_r.def", "text": "total_win_amount"}
+            ]},
+            "win_way": {"type": "anchor", "layout": {"relative": true}, "props": {"anchor.fit": "0"}, "content": [
+            	{"id": "txt", "@P": "ui/info_msg_l.def", "text": "win_way"},
+    			{"id": "total_win", "@P": "ui/info_msg_r.def", "text": "total_win_amount"}
+            ]},
+            "win_feature_entry": {"@P": "ui/info_msg.def", "text": "win_feature_entry"},
+            "autoplay_activated": {"@P": "ui/info_msg.def", "text": "autoplay_activated"},
+            "autoplay_stopped": {"@P": "ui/info_msg.def", "text": "autoplay_stopped","props": {"anchor.fit": "0"}},
+            "win_screen": {"type": "anchor", "layout": {"relative": true}, "props": {"anchor.fit": "0"}, "content": [
+            	{"id": "txt", "@P": "ui/info_msg_l.def", "text": "win_screen"},
+    			{"id": "total_win", "@P": "ui/info_msg_r.def", "text": "total_win_amount"}
+            ]},
+            "win_screen_bonus": {"type": "anchor", "layout": {"relative": true}, "props": {"anchor.fit": "0"}, "content": [
+            	{"id": "txt", "@P": "ui/info_msg_l.def", "text": "win_screen_bonus"},
+    			{"id": "total_win", "@P": "ui/info_msg_r.def", "text": "total_win_amount"}
+            ]},
+            "win_screen_free_games": {"type": "anchor", "layout": {"relative": true}, "props": {"anchor.fit": "0"}, "content": [
+            	{"id": "txt", "@P": "ui/info_msg_l.def", "text": "win_screen_fg"},
+    			{"id": "total_win", "@P": "ui/info_msg_r.def", "text": "total_win_amount"}
+            ]},
+            "win_screen_extra_free_games": {"type": "anchor", "layout": {"relative": true}, "props": {"anchor.fit": "0"}, "content": [
+            	{"id": "txt", "@P": "ui/info_msg_l.def", "text": "win_screen_extra_fg"},
+    			{"id": "total_win", "@P": "ui/info_msg_r.def", "text": "total_win_amount"}
+            ]},
+            "total_win_amount": {"@P": "ui/info_msg.def", "text": "total_win_amount"},
+            "custom": {"@P": "ui/info_msg.def"}
+        }}
+    }
+}

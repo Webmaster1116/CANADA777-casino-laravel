@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    overflow: hidden;
+}
+
+body {
+    background: #000;
+    width: 100%;
+    height: 100%;
+}
+
+/*TOOLS*/
+
+#console
+{
+	position: absolute;
+	z-index: 99999;
+	background-color: #000;
+	color: #fff;
+	font-size: 20px;
+}
+
+body {
+    position: relative;
+}
+
+#debugField
+{
+	position: absolute;
+	font: bold 23px arial,sans-serif;
+	color: #fff;
+	z-index: 9999;
+	background-color: #000;
+	width: 400px;
+}
+
+#Loading {
+	background: #000;
+    text-align: center;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5000;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 180px 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 1280px;
+    height: 720px;
+    transform-origin:0 0;
+    -ms-transform-origin:0 0; /* IE 9 */
+    -webkit-transform-origin:0 0; /* Safari and Chrome */
+}
+
+#Loading .progress {
+	background: #814444;
+    display: block;
+    width: 490px;
+    display: inline-block;
+    height: 2px;
+    margin: 40px auto;
+	margin-top: 60px;
+    position: relative;
+}
+
+#Loading .progress .fill {
+    background: #f1e9e9;
+    width: 0;
+    height: 2px;
+    display: none;
+}
+
+#Loading .progress .text {
+	font: 24px arial,sans-serif;
+    display: none;
+    color: #7a7a7a;
+    line-height: 24px;
+    font-weight: 900;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: -32px;
+    width: 100%;
+    text-align: center;
+}
+
+#Loading .progress .percent {
+	font: 25px arial,sans-serif;
+    position: absolute;
+    left: 197px;
+    top: 15px;
+	width: 100px;
+    display: none;
+    color: #7a7a7a;
+    line-height: 20px;
+    font-weight: 900;
+	text-align: center;
+}
+
+#Loading .progress .star
+{
+	position: absolute;
+	left: -20px;
+	top: -30px;
+}
+
+#Error {
+    background: rgba(0,0,0,0.8);
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5010;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
+}
+
+#Error .middle
+{
+	display: table-cell;
+    vertical-align: middle;
+}
+
+#Error .inner
+{
+	margin-left: auto;
+    margin-right: auto; 
+    width: 100%;
+}
+
+#Error .message {
+	font: bold 40px arial,sans-serif;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    padding: 0px 95px;
+    box-sizing: border-box;
+}
+
+#Error .rightButton, #Error .leftButton {
+	font: bold 50px arial,sans-serif;
+    color: #fff;
+    display: inline-block;
+    line-height: 120px;
+	border: 6px solid #6e6e6e;
+    border-radius: 25px;
+	background:rgba(0, 0, 0, 0.8);
+	box-shadow: 0px 0px 11px 2px black;
+	box-sizing: border-box;
+    padding: 0 30px;
+    margin-top: 70px;
+    cursor: pointer;
+    width: 410px;
+}
+
+#Error .rightButton {
+    margin-right: 150px;
+    float: right;
+}
+
+#Error .leftButton {
+    margin-left: 150px;
+    float: left;
+}
+
+#Error .leftButton.centeredErrorButton, .rightButton.centeredErrorButton
+{
+	float: none;
+	margin: 70px auto 0px auto;
+}
+
+#Waiting {
+    background: rgba(0,0,0,0.7);
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5010;
+}
+
+#Waiting img {
+    width: 41px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    left:0;
+    display: block;
+    position: absolute;
+}
+
+#Game {
+    display: block;
+    width: 1280px;
+    height: 720px;
+    transform-origin:0 0;
+    -ms-transform-origin:0 0; /* IE 9 */
+    -webkit-transform-origin:0 0; /* Safari and Chrome */
+    position: absolute;
+    z-index: 5005;
+    top:0;
+}
+
+#GameWrapper {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+}
+
+#Game.slot .gameViewport {
+    width: 100%;
+    height: 2376px;
+    z-index: 1;
+    position: relative;
+}
+
+#Orientation {
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 5100;
+    background: #000;
+    position: fixed;
+    top:0;
+    left: 0;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    line-height: 500px;
+}
+
+#Orientation img {
+    width: 80%;
+    display: block;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
+}
+
+#FullScreen {
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 5100;
+    position: absolute;
+    top:0;
+    left: 0;
+    font-size: 50px;
+    text-align: center;
+    line-height: 500px;
+}
+
+#Fullscreen {
+    width: 100%;
+    height: 10000px;
+    z-index: 5099;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: black;
+    opacity: 0.5;
+    display: none;
+}
+
+#FullScreen img {
+    height: 60%;
+    display: none;
+    position: absolute;
+    top:10%;
+    left:0;
+    right:0;
+    margin: auto;
+}

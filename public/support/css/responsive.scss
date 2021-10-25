@@ -1,0 +1,214 @@
+
+/*
+* 
+* ==========================================================
+* RESPONSIVE.SCSS
+* ==========================================================
+*
+* Front-end responsive css. This file is imported only.
+*
+*/
+
+@media (max-width: 428px) {
+    body.sb-chat-open {
+        overscroll-behavior-y: contain;
+    }
+
+    .sb-chat {
+
+        .sb-btn-emoji, &.sb-header-hidden .sb-header-main {
+            display: none !important;
+        }
+
+        &.sb-header-hidden {
+
+            .sb-header-main + .sb-list {
+                padding-top: 0 !important;
+                margin-top: 0 !important;
+            }
+        }
+
+        &.sb-dashboard-active .sb-body .sb-scroll-area {
+            height: 100%;
+        }
+
+        .sb-dashboard-end {
+            display: block;
+        }
+
+        .sb-icon-close, .sb-bar-icons > div, .sb-search-btn > i, .sb-select, .sb-submit {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            user-select: none;
+        }
+
+        .sb-responsive-close-btn {
+            display: none;
+            position: fixed;
+            width: 35px;
+            height: 35px;
+            right: 0;
+            top: 0;
+            padding: 15px;
+            text-align: right;
+            z-index: 999995;
+            font-size: 12px;
+            line-height: 25px;
+            color: $white;
+            cursor: pointer;
+
+            &:before {
+                z-index: 9;
+                position: relative;
+                top: -4px;
+            }
+        }
+
+        &.sb-active {
+            .sb-chat-btn {
+                display: none;
+            }
+
+            .sb-body {
+                display: flex;
+                max-height: 100%;
+                right: 0;
+                left: 0;
+            }
+
+            &.sb-dashboard-disabled .sb-responsive-close-btn, &.sb-dashboard-active .sb-responsive-close-btn {
+                display: block;
+            }
+        }
+
+        &.sb-panel-active .sb-responsive-close-btn {
+            display: none !important;
+        }
+
+        .sb-body {
+            position: fixed;
+            flex-direction: column;
+            width: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            border: none;
+            border-radius: 0;
+            box-shadow: none;
+
+            .sb-scroll-area {
+                height: calc(100% - 55px);
+                min-height: 0;
+
+                .sb-header {
+                    position: fixed;
+                    left: 0;
+                    right: 0;
+
+                    .sb-dashboard-btn {
+                        opacity: 1;
+                        font-size: 12px;
+                        right: 15px;
+                    }
+
+                    &.sb-header-panel {
+                        padding: 5px 30px 5px 60px;
+
+                        .sb-dashboard-btn {
+                            left: 10px !important;
+                            right: auto !important;
+
+                            &:before {
+                                content: "\74";
+                            }
+                        }
+                    }
+
+                    &:hover .sb-dashboard-btn {
+                        left: 15px;
+                    }
+                }
+
+                .sb-header-agent {
+                    padding: 10px 15px;
+
+                    + .sb-list {
+                        min-height: calc(100% - 65px);
+                        padding-top: 65px;
+
+                        > .sb-notify-message {
+                            top: 60px;
+                        }
+                    }
+
+                    .sb-responsive-close-btn {
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        .sb-popup-message {
+            position: fixed;
+            width: auto;
+            left: 15px;
+            right: 15px;
+            bottom: 100px;
+
+            > img {
+                display: none;
+            }
+        }
+
+        .sb-popup .sb-header .sb-search-btn > input {
+            width: 200px;
+            box-sizing: border-box;
+            min-width: 0;
+        }
+
+        .sb-editor {
+            .sb-textarea {
+                padding-right: 55px;
+            }
+
+            .sb-attachments > div > i {
+                opacity: 1;
+            }
+
+            .sb-bar div.sb-btn-attachment {
+                margin-right: 0;
+            }
+        }
+
+        &.sb-notify-active .sb-body .sb-scroll-area .sb-header-agent + .sb-list {
+            padding-top: 185px;
+        }
+    }
+
+    .sb-lightbox {
+        left: 0;
+        right: 0;
+        width: auto;
+        transform: translateY(-50%);
+        margin: 0 15px;
+    }
+
+    .sb-lightbox-overlay i {
+        background: #000;
+        border-radius: 4px;
+    }
+
+    .sb-select ul {
+        z-index: 8;
+    }
+}
+
+.sb-rtl .sb-editor .sb-textarea {
+    padding-right: 15px;
+    padding-left: 55px;
+}

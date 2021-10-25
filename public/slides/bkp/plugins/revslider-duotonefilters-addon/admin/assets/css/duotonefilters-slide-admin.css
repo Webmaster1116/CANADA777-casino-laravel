@@ -1,0 +1,82 @@
+/* 
+ * @author    ThemePunch <info@themepunch.com>
+ * @link      http://www.themepunch.com/
+ * @copyright 2017 ThemePunch
+*/
+
+@import url(../../../public/assets/css/revolution.addon.duotonefilters.css);
+
+#inst-filter-grid > div {
+		
+	/* see comment on line #48 inside slide.admin.js */
+	margin-right: 7px;
+	
+}
+
+.rsaddon-duotone-filter {
+	
+	cursor: pointer;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	margin: 0 5px 5px 0;
+	border: 5px solid transparent;
+	
+}
+
+.rsaddon-duotone-filter.selected {
+	
+	border: 5px solid #3498db;
+	
+}
+
+.rsaddon-duotone-blend {
+	
+	width: 100%;
+	height: 100%;
+	
+}
+
+.rsaddon-duotone-img,
+.rsaddon-duotone-blend div {
+	
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-image: url(../images/admin-preview.jpg);
+	
+}
+
+.rsaddon-duotone-img {
+	
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	
+}
+
+.rsaddon-duotone-filter:hover .rsaddon-duotone-img {
+	
+	opacity: 1;
+	
+}
+
+.rsaddon-duotone-filter:before {
+	
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	font-size: 12px;
+	padding: 5px 10px;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	z-index: 4;
+	display: inline-block;
+	content: attr(data-title);
+	
+}
+

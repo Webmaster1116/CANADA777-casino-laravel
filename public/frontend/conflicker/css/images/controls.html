@@ -1,0 +1,766 @@
+<html ng-app="instantpay" lang="en" xml:lang="en" class="ng-scope">
+<!-- Mirrored from www.instantpay-casino.com/css/images/controls.png by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Dec 2020 14:20:27 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+        <base >
+        <title ng-bind="(page.game_title || page.title) + (page.game_title || page.title ? ' | ' : 'Instantpay') + page.snippet_title" class="ng-binding">Instantpay Casino with instant money payouts</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <link rel="icon" href="../../resources/images/favicon.png" type="image/png">
+        <link rel="shortcut icon" href="../../resources/images/favicon.png" type="image/png">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+        <link rel="alternate" hreflang="ru" href="../../ru/index-2.html">
+
+        <!--Android Chrome theme color-->
+        <meta name="theme-color" content="#2d325a">
+
+        <link rel="manifest" href="../../manifest5ed3.json?v4">
+
+        <!-- inject:lib:js --><!-- endinject -->
+        <!-- inject:app:js --><!-- endinject -->
+        <!-- inject:templates:js --><!-- endinject -->
+
+        <!-- inject:app-style:css --><link rel="stylesheet" href="../app4ebe.css?49035e9b4845f3e9a831670224cb1f2f"><!-- endinject -->
+
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet">
+
+    </head>
+    <body class="body device-desktop page- body--anon body--no-pnp lang-en layout-default page-404" ng-class="{'body--anon': !$root.data.user.email, 'body--user': $root.data.user.email, 'body__cms': $root.state.current.page_name=='cms',
+          'body--no-pnp': $root.data.current_ip.country_code != 'FI'}" ng-init="$root.custom.showPanel = false;">
+        <div>
+            <!-- ngIf: show_preloader -->
+            <div class="ng-isolate-scope">
+    <!-- ngIf: game_url -->
+</div>
+        </div>
+        <div class="body__main">
+            <header class="header">
+    <!-- ngInclude: '/app/Blocks/Custom/_bar.html' --><div class="header__bar ng-scope" ng-include="'/app/Blocks/Custom/_bar.html'"><div class="bar ng-scope">
+    <button class="bar__button" id="bar" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">
+        <span class="font-icons font-icons--bar"></span>
+        <span class="font-icons font-icons--close"></span>
+    </button>
+    <div class="bar__container" aria-labelledby="#bar">
+        <!-- ngIf: $root.data.user.email -->
+        <div class="bar__menu">
+            <ul class="top-menu--bar top-menu ng-isolate-scope" type="top-menu" template="top-menu">
+    <!-- ngRepeat: item in menu --><li class="top-menu__item ng-scope" ng-repeat="item in menu">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="top-menu__link ng-scope" ng-class="{'top-menu__link--current': item.path == state.current.page_name || state.includes('app.cms', {path: item.path})}" ui-sref="home({lang:'en'})" scroll-up="" href="#">
+            <span class="top-menu__block-icon">
+                <img class="top-menu__icon" ng-src="/resources/images/menu/top-menu/home.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default.svg';" src="../../resources/images/menu/top-menu/home.svg">
+                <img class="top-menu__icon top-menu__icon--hover" ng-src="/resources/images/menu/top-menu/home--hover.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default--hover.svg';" src="../../resources/images/menu/top-menu/home--hover.svg">
+            </span>
+            <span class="top-menu__title ng-binding" ng-bind="item.title">Lobby</span>
+        </a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="top-menu__item ng-scope" ng-repeat="item in menu">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="top-menu__link ng-scope" ng-class="{'top-menu__link--current': item.path == state.current.page_name || state.includes('app.cms', {path: item.path})}" ui-sref="app.external({id:'about', lang:'en'})" scroll-up="" href="../../about.html">
+            <span class="top-menu__block-icon">
+                <img class="top-menu__icon" ng-src="/resources/images/menu/top-menu/about.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default.svg';" src="../../resources/images/menu/top-menu/about.svg">
+                <img class="top-menu__icon top-menu__icon--hover" ng-src="/resources/images/menu/top-menu/about--hover.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default--hover.svg';" src="../../resources/images/menu/top-menu/about--hover.svg">
+            </span>
+            <span class="top-menu__title ng-binding" ng-bind="item.title">About Us</span>
+        </a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="top-menu__item ng-scope" ng-repeat="item in menu">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="top-menu__link ng-scope" ng-class="{'top-menu__link--current': item.path == state.current.page_name || state.includes('app.cms', {path: item.path})}" ui-sref="app.support({lang:'en'})" scroll-up="" href="../../support.html">
+            <span class="top-menu__block-icon">
+                <img class="top-menu__icon" ng-src="/resources/images/menu/top-menu/support.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default.svg';" src="../../resources/images/menu/top-menu/support.svg">
+                <img class="top-menu__icon top-menu__icon--hover" ng-src="/resources/images/menu/top-menu/support--hover.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default--hover.svg';" src="../../resources/images/menu/top-menu/support--hover.svg">
+            </span>
+            <span class="top-menu__title ng-binding" ng-bind="item.title">Support</span>
+        </a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="top-menu__item ng-scope" ng-repeat="item in menu">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="top-menu__link ng-scope" ng-class="{'top-menu__link--current': item.path == state.current.page_name || state.includes('app.cms', {path: item.path})}" ui-sref="app.external({id:'payments', lang:'en'})" scroll-up="" href="../../payments.html">
+            <span class="top-menu__block-icon">
+                <img class="top-menu__icon" ng-src="/resources/images/menu/top-menu/payments.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default.svg';" src="../../resources/images/menu/top-menu/payments.svg">
+                <img class="top-menu__icon top-menu__icon--hover" ng-src="/resources/images/menu/top-menu/payments--hover.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default--hover.svg';" src="../../resources/images/menu/top-menu/payments--hover.svg">
+            </span>
+            <span class="top-menu__title ng-binding" ng-bind="item.title">Payments</span>
+        </a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="top-menu__item ng-scope" ng-repeat="item in menu">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="top-menu__link ng-scope" ng-class="{'top-menu__link--current': item.path == state.current.page_name || state.includes('app.cms', {path: item.path})}" ui-sref="app.external({id:'promotions', lang:'en'})" scroll-up="" href="../../promotions.html">
+            <span class="top-menu__block-icon">
+                <img class="top-menu__icon" ng-src="/resources/images/menu/top-menu/promotions.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default.svg';" src="../../resources/images/menu/top-menu/promotions.svg">
+                <img class="top-menu__icon top-menu__icon--hover" ng-src="/resources/images/menu/top-menu/promotions--hover.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default--hover.svg';" src="../../resources/images/menu/top-menu/promotions--hover.svg">
+            </span>
+            <span class="top-menu__title ng-binding" ng-bind="item.title">Promotions</span>
+        </a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu -->
+    <li class="top-menu__item">
+        <a class="top-menu__link" href="#" onclick="LC_API.open_chat_window();return false;">
+            <span class="top-menu__block-icon">
+                <img class="top-menu__icon" ng-src="/resources/images/menu/top-menu/chat.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default.svg';" src="../../resources/images/menu/top-menu/chat.svg">
+                <img class="top-menu__icon top-menu__icon--hover" ng-src="/resources/images/menu/top-menu/chat--hover.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default--hover.svg';" src="../../resources/images/menu/top-menu/chat--hover.svg">
+            </span>
+            <span class="top-menu__title ng-scope" translate="frontend.links.chat" translate-default="Live chat">Live chat</span>
+        </a>
+    </li>
+</ul>
+        </div>
+    </div>
+</div>
+</div>
+    <div class="header__search">
+        <div class="search ng-isolate-scope" ng-init="$root.search.searchFocus = false;" ng-class="{'search--focus': $root.search.searchFocus}" name="games_list_autocomplete" template="games_autocomplete" limit="10">
+    <div class="search__input-block" ng-class="{'search__input-block--noempty': $root.search.searchMain &amp;&amp; $root.search.searchMain.length != 0,
+    'search__input-block--open': $root.search.searchMain.length &amp;&amp; (filters.games | gameTitle: $root.search.searchMain).length}">
+        <input class="search__input ng-pristine ng-untouched ng-valid ng-empty" ng-model="$root.search.searchMain" type="text" autocomplete="off" ng-focus="$root.search.searchFocus = true" placeholder="Find your game">
+        <span class="search__icon font-icons font-icons--search"></span>
+        <span class="search__close font-icons font-icons--close" type="button" ng-click="$root.search.searchMain = '';$root.search.searchFocus = false;"></span>
+    </div>
+    <ul class="search__menu ng-scope ng-hide" ng-show="$root.search.searchMain.length &amp;&amp; (filters.games | gameTitle: $root.search.searchMain).length" ng-controller="Game">
+        <!-- ngRepeat: game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count --><li class="search__item ng-scope" ng-repeat="game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count">
+            <a class="search__link ng-scope" ng-controller="AuthModal" ng-click="$root.search.searchMain = ''; $root.search.searchFocus = false; (game.collections.indexOf('live') > -1 &amp;&amp; !$root.data.user.email) ? auth_modal.showLogin() : openGame.modalByCurrency(game);">
+                <span class="search__image">
+                    <img src="../../resources/images/blank/380_380.png" casino-lazy-src="https://cdn2.softswiss.net/i/s3/playtech/LegendofHydraPowerZones.webp" alt="playtech/LegendofHydraPowerZones" loading="false">
+                </span>
+                <span class="search__name ng-binding">Legend of Hydra Power Zones</span>
+            </a>
+        </li><!-- end ngRepeat: game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count --><li class="search__item ng-scope" ng-repeat="game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count">
+            <a class="search__link ng-scope" ng-controller="AuthModal" ng-click="$root.search.searchMain = ''; $root.search.searchFocus = false; (game.collections.indexOf('live') > -1 &amp;&amp; !$root.data.user.email) ? auth_modal.showLogin() : openGame.modalByCurrency(game);">
+                <span class="search__image">
+                    <img src="../../resources/images/blank/380_380.png" casino-lazy-src="https://cdn2.softswiss.net/i/s3/playtech/MegaFireBlazeJackpotsLegacyoftheTiger.webp" alt="playtech/MegaFireBlazeJackpotsLegacyoftheTiger" loading="false">
+                </span>
+                <span class="search__name ng-binding">Mega Fire Blaze Jackpots Legacy of the Tiger</span>
+            </a>
+        </li><!-- end ngRepeat: game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count --><li class="search__item ng-scope" ng-repeat="game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count">
+            <a class="search__link ng-scope" ng-controller="AuthModal" ng-click="$root.search.searchMain = ''; $root.search.searchFocus = false; (game.collections.indexOf('live') > -1 &amp;&amp; !$root.data.user.email) ? auth_modal.showLogin() : openGame.modalByCurrency(game);">
+                <span class="search__image">
+                    <img src="../../resources/images/blank/380_380.png" casino-lazy-src="https://cdn2.softswiss.net/i/s3/playngo/FelineFury.webp" alt="playngo/FelineFury" loading="false">
+                </span>
+                <span class="search__name ng-binding">Feline Fury</span>
+            </a>
+        </li><!-- end ngRepeat: game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count --><li class="search__item ng-scope" ng-repeat="game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count">
+            <a class="search__link ng-scope" ng-controller="AuthModal" ng-click="$root.search.searchMain = ''; $root.search.searchFocus = false; (game.collections.indexOf('live') > -1 &amp;&amp; !$root.data.user.email) ? auth_modal.showLogin() : openGame.modalByCurrency(game);">
+                <span class="search__image">
+                    <img src="../../resources/images/blank/380_380.png" casino-lazy-src="https://cdn2.softswiss.net/i/s3/yggdrasil/2GodsZeusversusThor.webp" alt="yggdrasil/2GodsZeusversusThor" loading="false">
+                </span>
+                <span class="search__name ng-binding">2 Gods Zeus versus Thor</span>
+            </a>
+        </li><!-- end ngRepeat: game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count --><li class="search__item ng-scope" ng-repeat="game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count">
+            <a class="search__link ng-scope" ng-controller="AuthModal" ng-click="$root.search.searchMain = ''; $root.search.searchFocus = false; (game.collections.indexOf('live') > -1 &amp;&amp; !$root.data.user.email) ? auth_modal.showLogin() : openGame.modalByCurrency(game);">
+                <span class="search__image">
+                    <img src="../../resources/images/blank/380_380.png" casino-lazy-src="https://cdn2.softswiss.net/i/s3/pragmatic/5LionsDance1.webp" alt="pragmatic/5LionsDance1" loading="false">
+                </span>
+                <span class="search__name ng-binding">5 Lions Dance</span>
+            </a>
+        </li><!-- end ngRepeat: game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count --><li class="search__item ng-scope" ng-repeat="game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count">
+            <a class="search__link ng-scope" ng-controller="AuthModal" ng-click="$root.search.searchMain = ''; $root.search.searchFocus = false; (game.collections.indexOf('live') > -1 &amp;&amp; !$root.data.user.email) ? auth_modal.showLogin() : openGame.modalByCurrency(game);">
+                <span class="search__image">
+                    <img src="../../resources/images/blank/380_380.png" casino-lazy-src="https://cdn2.softswiss.net/i/s3/amatic/BellsonFireHot.webp" alt="amatic/BellsonFireHot" loading="false">
+                </span>
+                <span class="search__name ng-binding">Bells on Fire Hot</span>
+            </a>
+        </li><!-- end ngRepeat: game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count --><li class="search__item ng-scope" ng-repeat="game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count">
+            <a class="search__link ng-scope" ng-controller="AuthModal" ng-click="$root.search.searchMain = ''; $root.search.searchFocus = false; (game.collections.indexOf('live') > -1 &amp;&amp; !$root.data.user.email) ? auth_modal.showLogin() : openGame.modalByCurrency(game);">
+                <span class="search__image">
+                    <img src="../../resources/images/blank/380_380.png" casino-lazy-src="https://cdn2.softswiss.net/i/s3/netent/darkking_not_mobile_sw.webp" alt="netent/darkking_not_mobile_sw" loading="false">
+                </span>
+                <span class="search__name ng-binding">Dark King: Forbidden Riches</span>
+            </a>
+        </li><!-- end ngRepeat: game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count --><li class="search__item ng-scope" ng-repeat="game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count">
+            <a class="search__link ng-scope" ng-controller="AuthModal" ng-click="$root.search.searchMain = ''; $root.search.searchFocus = false; (game.collections.indexOf('live') > -1 &amp;&amp; !$root.data.user.email) ? auth_modal.showLogin() : openGame.modalByCurrency(game);">
+                <span class="search__image">
+                    <img src="../../resources/images/blank/380_380.png" casino-lazy-src="https://cdn2.softswiss.net/i/s3/isoftbet/FruitBoxesFlash.webp" alt="isoftbet/FruitBoxesFlash" loading="false">
+                </span>
+                <span class="search__name ng-binding">Fruit Boxes</span>
+            </a>
+        </li><!-- end ngRepeat: game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count --><li class="search__item ng-scope" ng-repeat="game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count">
+            <a class="search__link ng-scope" ng-controller="AuthModal" ng-click="$root.search.searchMain = ''; $root.search.searchFocus = false; (game.collections.indexOf('live') > -1 &amp;&amp; !$root.data.user.email) ? auth_modal.showLogin() : openGame.modalByCurrency(game);">
+                <span class="search__image">
+                    <img src="../../resources/images/blank/380_380.png" casino-lazy-src="https://cdn2.softswiss.net/i/s3/redtiger/LuckyOktoberfest.webp" alt="redtiger/LuckyOktoberfest" loading="false">
+                </span>
+                <span class="search__name ng-binding">Lucky Oktoberfest</span>
+            </a>
+        </li><!-- end ngRepeat: game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count --><li class="search__item ng-scope" ng-repeat="game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count">
+            <a class="search__link ng-scope" ng-controller="AuthModal" ng-click="$root.search.searchMain = ''; $root.search.searchFocus = false; (game.collections.indexOf('live') > -1 &amp;&amp; !$root.data.user.email) ? auth_modal.showLogin() : openGame.modalByCurrency(game);">
+                <span class="search__image">
+                    <img src="../../resources/images/blank/380_380.png" casino-lazy-src="https://cdn2.softswiss.net/i/s3/playngo/NyjahHustonSkateforGold.webp" alt="playngo/NyjahHustonSkateforGold" loading="false">
+                </span>
+                <span class="search__name ng-binding">Nyjah Huston - Skate for Gold</span>
+            </a>
+        </li><!-- end ngRepeat: game in filters.games | gameTitle: $root.search.searchMain | limitTo: limit_count -->
+    </ul>
+</div>
+    </div>
+    <!-- ngInclude: '/app/Blocks/Custom/_logo.html' --><div class="header__logo ng-scope" ng-include="'/app/Blocks/Custom/_logo.html'"><a ui-sref="home({lang: $root.currentLocale})" class="logo ng-scope" scroll-up="" href="#">
+    <img class="logo__icon" src="../../resources/images/logo/logo.svg">
+    <img class="logo__text" src="../../resources/images/logo/logo--text.svg">
+</a></div>
+    <!-- ngIf: $root.data.user.email -->
+    <div class="header__auth" ng-class="{'header__auth--user': $root.data.user.email}">
+        <div class="auth ng-isolate-scope">
+    <!-- ngIf: !$root.data.user.email --><div class="auth__inner auth__inner--anon ng-scope" ng-if="!$root.data.user.email">
+        <div class="auth__buttons-anon">
+            <div class="auth__buttons-default">
+                <a class="button button--nowrap button--uppercase ng-scope" href="#" ng-controller="AuthModal" ng-click="auth_modal.showRegistration()" translate="frontend.links.sign_up">Sign Up</a>
+                <a class="button button--border button--nowrap ng-scope" href="#" ng-controller="AuthModal" ng-click="auth_modal.showLogin()" translate="frontend.links.login">Login</a>
+            </div>
+            <!-- ngIf: $root.data.current_ip.country_code == 'FI' -->
+        </div>
+    </div><!-- end ngIf: !$root.data.user.email -->
+    <!-- ngIf: $root.data.user.email -->
+</div>
+    </div>
+    <div class="header__lang">
+        <div class="locales ng-isolate-scope">
+    <div class="locales__button" ng-class="{'locales__button--disabled': locales.length == 1}" id="17-locales" type="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">
+        <img class="locales__icon" alt="en" ng-src="https://cdn2.softswiss.net/flags/square/en.svg" src="https://cdn2.softswiss.net/flags/square/en.svg">
+        <!-- ngIf: locales.length > 1 --><span class="locales__caret ng-scope" ng-if="locales.length > 1">
+            <span class="font-icons font-icons--caret"></span>
+        </span><!-- end ngIf: locales.length > 1 -->
+    </div>
+    <!-- ngIf: locales.length > 1 --><div class="locales__container ng-scope" aria-labelledby="#52-locales" ng-if="locales.length > 1">
+        <ul role="menu" class="locales__menu">
+            <!-- ngRepeat: (num, value) in locales --><li class="locales__item ng-scope locales__item--active" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    English
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Русский
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Ukrainian
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    English - Canada
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Français - Canada
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    English - New Zealand
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    English - South Africa
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Deutsch
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Norwegian
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Suomi
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Spanish - Mexican
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Polski
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Kazakh
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    日本語
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Malay
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales -->
+        </ul>
+    </div><!-- end ngIf: locales.length > 1 -->
+</div>
+    </div>
+</header>
+            <!-- ngInclude: '/app/Layout/Header/_sidebar.html' --><div class="body__sidebar ng-scope" ng-include="'/app/Layout/Header/_sidebar.html'"><div class="sidebar ng-scope">
+    <!-- ngInclude: '/app/Blocks/Custom/_logo.html' --><div class="sidebar__logo ng-scope" ng-include="'/app/Blocks/Custom/_logo.html'"><a ui-sref="home({lang: $root.currentLocale})" class="logo ng-scope" scroll-up="" href="#">
+    <img class="logo__icon" src="../../resources/images/logo/logo.svg">
+    <img class="logo__text" src="../../resources/images/logo/logo--text.svg">
+</a></div>
+    <div class="sidebar__menu">
+        <ul class="top-menu ng-isolate-scope" type="top-menu" template="top-menu">
+    <!-- ngRepeat: item in menu --><li class="top-menu__item ng-scope" ng-repeat="item in menu">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="top-menu__link ng-scope" ng-class="{'top-menu__link--current': item.path == state.current.page_name || state.includes('app.cms', {path: item.path})}" ui-sref="home({lang:'en'})" scroll-up="" href="#">
+            <span class="top-menu__block-icon">
+                <img class="top-menu__icon" ng-src="/resources/images/menu/top-menu/home.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default.svg';" src="../../resources/images/menu/top-menu/home.svg">
+                <img class="top-menu__icon top-menu__icon--hover" ng-src="/resources/images/menu/top-menu/home--hover.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default--hover.svg';" src="../../resources/images/menu/top-menu/home--hover.svg">
+            </span>
+            <span class="top-menu__title ng-binding" ng-bind="item.title">Lobby</span>
+        </a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="top-menu__item ng-scope" ng-repeat="item in menu">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="top-menu__link ng-scope" ng-class="{'top-menu__link--current': item.path == state.current.page_name || state.includes('app.cms', {path: item.path})}" ui-sref="app.external({id:'about', lang:'en'})" scroll-up="" href="../../about.html">
+            <span class="top-menu__block-icon">
+                <img class="top-menu__icon" ng-src="/resources/images/menu/top-menu/about.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default.svg';" src="../../resources/images/menu/top-menu/about.svg">
+                <img class="top-menu__icon top-menu__icon--hover" ng-src="/resources/images/menu/top-menu/about--hover.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default--hover.svg';" src="../../resources/images/menu/top-menu/about--hover.svg">
+            </span>
+            <span class="top-menu__title ng-binding" ng-bind="item.title">About Us</span>
+        </a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="top-menu__item ng-scope" ng-repeat="item in menu">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="top-menu__link ng-scope" ng-class="{'top-menu__link--current': item.path == state.current.page_name || state.includes('app.cms', {path: item.path})}" ui-sref="app.support({lang:'en'})" scroll-up="" href="../../support.html">
+            <span class="top-menu__block-icon">
+                <img class="top-menu__icon" ng-src="/resources/images/menu/top-menu/support.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default.svg';" src="../../resources/images/menu/top-menu/support.svg">
+                <img class="top-menu__icon top-menu__icon--hover" ng-src="/resources/images/menu/top-menu/support--hover.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default--hover.svg';" src="../../resources/images/menu/top-menu/support--hover.svg">
+            </span>
+            <span class="top-menu__title ng-binding" ng-bind="item.title">Support</span>
+        </a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="top-menu__item ng-scope" ng-repeat="item in menu">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="top-menu__link ng-scope" ng-class="{'top-menu__link--current': item.path == state.current.page_name || state.includes('app.cms', {path: item.path})}" ui-sref="app.external({id:'payments', lang:'en'})" scroll-up="" href="../../payments.html">
+            <span class="top-menu__block-icon">
+                <img class="top-menu__icon" ng-src="/resources/images/menu/top-menu/payments.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default.svg';" src="../../resources/images/menu/top-menu/payments.svg">
+                <img class="top-menu__icon top-menu__icon--hover" ng-src="/resources/images/menu/top-menu/payments--hover.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default--hover.svg';" src="../../resources/images/menu/top-menu/payments--hover.svg">
+            </span>
+            <span class="top-menu__title ng-binding" ng-bind="item.title">Payments</span>
+        </a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="top-menu__item ng-scope" ng-repeat="item in menu">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="top-menu__link ng-scope" ng-class="{'top-menu__link--current': item.path == state.current.page_name || state.includes('app.cms', {path: item.path})}" ui-sref="app.external({id:'promotions', lang:'en'})" scroll-up="" href="../../promotions.html">
+            <span class="top-menu__block-icon">
+                <img class="top-menu__icon" ng-src="/resources/images/menu/top-menu/promotions.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default.svg';" src="../../resources/images/menu/top-menu/promotions.svg">
+                <img class="top-menu__icon top-menu__icon--hover" ng-src="/resources/images/menu/top-menu/promotions--hover.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default--hover.svg';" src="../../resources/images/menu/top-menu/promotions--hover.svg">
+            </span>
+            <span class="top-menu__title ng-binding" ng-bind="item.title">Promotions</span>
+        </a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu -->
+    <li class="top-menu__item">
+        <a class="top-menu__link" href="#" onclick="LC_API.open_chat_window();return false;">
+            <span class="top-menu__block-icon">
+                <img class="top-menu__icon" ng-src="/resources/images/menu/top-menu/chat.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default.svg';" src="../../resources/images/menu/top-menu/chat.svg">
+                <img class="top-menu__icon top-menu__icon--hover" ng-src="/resources/images/menu/top-menu/chat--hover.svg" onerror="this.onerror=null;this.src='../../resources/images/menu/top-menu/default--hover.svg';" src="../../resources/images/menu/top-menu/chat--hover.svg">
+            </span>
+            <span class="top-menu__title ng-scope" translate="frontend.links.chat" translate-default="Live chat">Live chat</span>
+        </a>
+    </li>
+</ul>
+    </div>
+    <div class="sidebar__lang">
+        <div class="locales ng-isolate-scope">
+    <div class="locales__button" ng-class="{'locales__button--disabled': locales.length == 1}" id="35-locales" type="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">
+        <img class="locales__icon" alt="en" ng-src="https://cdn2.softswiss.net/flags/square/en.svg" src="https://cdn2.softswiss.net/flags/square/en.svg">
+        <!-- ngIf: locales.length > 1 --><span class="locales__caret ng-scope" ng-if="locales.length > 1">
+            <span class="font-icons font-icons--caret"></span>
+        </span><!-- end ngIf: locales.length > 1 -->
+    </div>
+    <!-- ngIf: locales.length > 1 --><div class="locales__container ng-scope" aria-labelledby="#84-locales" ng-if="locales.length > 1">
+        <ul role="menu" class="locales__menu">
+            <!-- ngRepeat: (num, value) in locales --><li class="locales__item ng-scope locales__item--active" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    English
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Русский
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Ukrainian
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    English - Canada
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Français - Canada
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    English - New Zealand
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    English - South Africa
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Deutsch
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Norwegian
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Suomi
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Spanish - Mexican
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Polski
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Kazakh
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    日本語
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales --><li class="locales__item ng-scope" ng-repeat="(num, value) in locales" ng-class="{'locales__item--active':value.code == data.current_locale}">
+                <a class="locales__link ng-binding" ng-click="changeLocale(value.code);">
+                    Malay
+                    <!--<img class="locales__icon" alt="{{value.code}}" ng-src="{{$root.CDN.SERVER}}/flags/square/{{value.code}}.svg">-->
+                </a>
+            </li><!-- end ngRepeat: (num, value) in locales -->
+        </ul>
+    </div><!-- end ngIf: locales.length > 1 -->
+</div>
+    </div>
+</div></div>
+            <div class="body__container clearfix">
+                <casino-notification></casino-notification>
+                <!-- uiView: --><div class="body__view ng-scope" ui-view="" autoscroll="false"><div class="content-404 ng-scope">
+    <div ng-bind-html="content" class="content-404__inner ng-binding ng-isolate-scope ng-scope" type="content-404"><div class="content-404__block">
+    <div class="content-404__image">
+        <img src="../../resources/images/cms/snippets/404/404.svg">
+    </div>
+    <div class="content-404__content">
+        <div class="content-404__title">Sorry, we couldnt find the page you are looking for.</div>
+        <p>
+            It may have been removed, had its name changed, or is temporarily unavailable. Casino Team is really sorry we couldn't provide you with what you were searching for, but we promise to try our best to help you.
+        </p>
+        <div class="content-404__button">
+            <a ui-sref="home({lang: $root.currentLocale})" scroll-up="" class="button" href="#">Go to the home page</a>
+        </div>
+    </div>
+</div></div>
+    <!--<div class="content-404__inner" ng-include="'/app/templates/snippets/404.html'"></div>-->
+</div>
+</div>
+            </div>
+            <footer class="footer">
+	<div class="footer__inner">
+		<div class="footer__payments">
+			<div ng-bind-html="content" type="slider-payments" class="ng-binding ng-isolate-scope ng-scope"><div class="logo-slider" ng-init="payments = [
+'visa','maestro','mastercard','idebit','instadebit','interac','etransfer','trustly','trustly-entercash','neteller','skrill','paysafecard','ideal','rapid-transfer','neosurf','wirecard',
+'devcode-siru','bank_transfer',
+'ecopayz','mobilecommerce','qiwi','klarna'
+]">
+    <div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" aria-live="polite" style="width: 100%; overflow: hidden; position: relative; height: 70px;"><div class="logo-slider__list" data-uix-bxslider="hideControlOnEnd: true, infiniteLoop: false, maxSlides:30, adaptiveHeight:true, touchEnabled: false, moveSlides: 1" style="width: 22215%; position: relative; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+        <!-- ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="false" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/visa.svg" src="https://cdn2.softswiss.net/logos/payments/black/visa.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/maestro.svg" src="https://cdn2.softswiss.net/logos/payments/black/maestro.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/mastercard.svg" src="https://cdn2.softswiss.net/logos/payments/black/mastercard.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/idebit.svg" src="https://cdn2.softswiss.net/logos/payments/black/idebit.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/instadebit.svg" src="https://cdn2.softswiss.net/logos/payments/black/instadebit.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/interac.svg" src="https://cdn2.softswiss.net/logos/payments/black/interac.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/etransfer.svg" src="https://cdn2.softswiss.net/logos/payments/black/etransfer.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/trustly.svg" src="https://cdn2.softswiss.net/logos/payments/black/trustly.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/trustly-entercash.svg" src="https://cdn2.softswiss.net/logos/payments/black/trustly-entercash.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/neteller.svg" src="https://cdn2.softswiss.net/logos/payments/black/neteller.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/skrill.svg" src="https://cdn2.softswiss.net/logos/payments/black/skrill.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/paysafecard.svg" src="https://cdn2.softswiss.net/logos/payments/black/paysafecard.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/ideal.svg" src="https://cdn2.softswiss.net/logos/payments/black/ideal.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/rapid-transfer.svg" src="https://cdn2.softswiss.net/logos/payments/black/rapid-transfer.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/neosurf.svg" src="https://cdn2.softswiss.net/logos/payments/black/neosurf.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/wirecard.svg" src="https://cdn2.softswiss.net/logos/payments/black/wirecard.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/devcode-siru.svg" src="https://cdn2.softswiss.net/logos/payments/black/devcode-siru.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/bank_transfer.svg" src="https://cdn2.softswiss.net/logos/payments/black/bank_transfer.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/ecopayz.svg" src="https://cdn2.softswiss.net/logos/payments/black/ecopayz.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/mobilecommerce.svg" src="https://cdn2.softswiss.net/logos/payments/black/mobilecommerce.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/qiwi.svg" src="https://cdn2.softswiss.net/logos/payments/black/qiwi.svg">
+        </div><!-- end ngRepeat: item in payments --><div class="logo-slider__item ng-scope" ng-repeat="item in payments" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/payments/black/klarna.svg" src="https://cdn2.softswiss.net/logos/payments/black/klarna.svg">
+        </div><!-- end ngRepeat: item in payments -->
+    </div></div><div class="bx-controls bx-has-controls-direction bx-has-pager"><div class="bx-controls-direction"><a class="bx-prev disabled" href="#">Prev</a><a class="bx-next" href="#">Next</a></div><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="#" data-slide-index="0" class="bx-pager-link active">1</a></div><div class="bx-pager-item"><a href="#" data-slide-index="1" class="bx-pager-link">2</a></div><div class="bx-pager-item"><a href="#" data-slide-index="2" class="bx-pager-link">3</a></div><div class="bx-pager-item"><a href="#" data-slide-index="3" class="bx-pager-link">4</a></div><div class="bx-pager-item"><a href="#" data-slide-index="4" class="bx-pager-link">5</a></div><div class="bx-pager-item"><a href="#" data-slide-index="5" class="bx-pager-link">6</a></div><div class="bx-pager-item"><a href="#" data-slide-index="6" class="bx-pager-link">7</a></div><div class="bx-pager-item"><a href="#" data-slide-index="7" class="bx-pager-link">8</a></div><div class="bx-pager-item"><a href="#" data-slide-index="8" class="bx-pager-link">9</a></div><div class="bx-pager-item"><a href="#" data-slide-index="9" class="bx-pager-link">10</a></div><div class="bx-pager-item"><a href="#" data-slide-index="10" class="bx-pager-link">11</a></div><div class="bx-pager-item"><a href="#" data-slide-index="11" class="bx-pager-link">12</a></div><div class="bx-pager-item"><a href="#" data-slide-index="12" class="bx-pager-link">13</a></div><div class="bx-pager-item"><a href="#" data-slide-index="13" class="bx-pager-link">14</a></div><div class="bx-pager-item"><a href="#" data-slide-index="14" class="bx-pager-link">15</a></div><div class="bx-pager-item"><a href="#" data-slide-index="15" class="bx-pager-link">16</a></div><div class="bx-pager-item"><a href="#" data-slide-index="16" class="bx-pager-link">17</a></div><div class="bx-pager-item"><a href="#" data-slide-index="17" class="bx-pager-link">18</a></div><div class="bx-pager-item"><a href="#" data-slide-index="18" class="bx-pager-link">19</a></div><div class="bx-pager-item"><a href="#" data-slide-index="19" class="bx-pager-link">20</a></div><div class="bx-pager-item"><a href="#" data-slide-index="20" class="bx-pager-link">21</a></div><div class="bx-pager-item"><a href="#" data-slide-index="21" class="bx-pager-link">22</a></div></div></div></div>
+</div>
+</div>
+			<!--<div ng-include="'/app/templates/snippets/slider-payments.html'"></div>-->
+		</div>
+		<div class="footer__block-menu">
+			<!-- ngInclude: '/app/Blocks/Custom/_footer-menu.html' --><div class="footer__menu ng-scope" ng-include="'/app/Blocks/Custom/_footer-menu.html'"><!-- FOOTER MENU -->
+<div class="footer-menu ng-scope" ng-init="footerMenuList = ['quick', 'info', 'games', 'contacts']">
+    <!-- ngRepeat: block in footerMenuList --><div class="footer-menu__block footer-menu__block--quick" ng-repeat="block in footerMenuList">
+        <button type="button" class="footer-menu__title collapsed ng-scope" data-toggle="collapse" data-target="#quick" translate="frontend.links.footer_menu.quick" translate-translate="quick">Quick</button>
+        <div id="quick" class="footer-menu__menu-collapse collapse">
+            <ul class="footer-menu__list ng-isolate-scope" type="footer-menu__quick" template="footer-menu">
+    <!-- ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.games({category:'',provider:'',lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../games.html">All Games</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.external({id:'about', lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../about.html">About Us</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.external({id:'payments', lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../payments.html">Payments</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.external({id:'promotions', lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../promotions.html">Promotions</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.external({id:'games-rules', lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../games-rules.html">Games Rules</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.external({id:'games-max-limits', lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../games-max-limits.html">Games max limits</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' --><a ng-if="item.id == 'affiliates'" class="footer-menu__link ng-binding ng-scope" ng-bind="::item.title" href="https://fastpay-affiliates.com/" scroll-up="" target="_blank">Affiliates</a><!-- end ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu -->
+</ul>
+        </div>
+    </div><!-- end ngRepeat: block in footerMenuList --><div class="footer-menu__block footer-menu__block--info" ng-repeat="block in footerMenuList">
+        <button type="button" class="footer-menu__title collapsed ng-scope" data-toggle="collapse" data-target="#info" translate="frontend.links.footer_menu.info" translate-translate="info">Info</button>
+        <div id="info" class="footer-menu__menu-collapse collapse">
+            <ul class="footer-menu__list ng-isolate-scope" type="footer-menu__info" template="footer-menu">
+    <!-- ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.external({id:'registration-procedure', lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../registration-procedure.html">Registration Procedure</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.external({id:'terms-and-conditions', lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../terms-and-conditions.html">Terms and Conditions</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.external({id:'bonus-terms', lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../bonus-terms.html">Bonus Terms</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.external({id:'privacy-policy', lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../privacy-policy.html">Privacy Policy</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.external({id:'responsible-gaming', lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../responsible-gaming.html">Responsible Gaming</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.external({id:'complaints', lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../complaints.html">Complaints</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu -->
+</ul>
+        </div>
+    </div><!-- end ngRepeat: block in footerMenuList --><div class="footer-menu__block footer-menu__block--games" ng-repeat="block in footerMenuList">
+        <button type="button" class="footer-menu__title collapsed ng-scope" data-toggle="collapse" data-target="#games" translate="frontend.links.footer_menu.games" translate-translate="games">Games</button>
+        <div id="games" class="footer-menu__menu-collapse collapse">
+            <ul class="footer-menu__list ng-isolate-scope" type="footer-menu__games" template="footer-menu">
+    <!-- ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.games({category:'slots',provider:'',lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../games/slots.html">Slots</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.games({category:'live',provider:'',lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../games/live.html">Live</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.games({category:'card',provider:'',lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../games/card.html">Card</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.games({category:'roulette',provider:'',lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../games/roulette.html">Roulette</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.games({category:'jackpot',provider:'',lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../games/jackpot.html">Jackpot</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.games({category:'new',provider:'',lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../games/new.html">New</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.games({category:'buy',provider:'',lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../games/buy.html">Bonus Buy</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu -->
+</ul>
+        </div>
+    </div><!-- end ngRepeat: block in footerMenuList --><div class="footer-menu__block footer-menu__block--contacts" ng-repeat="block in footerMenuList">
+        <button type="button" class="footer-menu__title collapsed ng-scope" data-toggle="collapse" data-target="#contacts" translate="frontend.links.footer_menu.contacts" translate-translate="contacts">Contacts</button>
+        <div id="contacts" class="footer-menu__menu-collapse collapse">
+            <ul class="footer-menu__list ng-isolate-scope" type="footer-menu__contacts" template="footer-menu">
+    <!-- ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' --><a ng-if="item.id != 'affiliates'" class="footer-menu__link ng-binding ng-scope" ui-sref="app.support({lang:'en'})" ng-bind="::item.title" scroll-up="" href="../../support.html">Support</a><!-- end ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu --><li class="footer-menu__item ng-scope" ui-sref-active="footer-menu__item--current" ng-repeat="item in menu" ng-class="{'footer-menu__item--current': state.includes('app.cms', {path: item.path})}">
+        <!-- ngIf: item.id != 'affiliates' -->
+        <!-- ngIf: item.id == 'affiliates' --><a ng-if="item.id == 'affiliates'" class="footer-menu__link ng-binding ng-scope" ng-bind="::item.title" href="https://fastpay-affiliates.com/" scroll-up="" target="_blank">Affiliates</a><!-- end ngIf: item.id == 'affiliates' -->
+    </li><!-- end ngRepeat: item in menu -->
+</ul>
+        </div>
+    </div><!-- end ngRepeat: block in footerMenuList -->
+</div>
+<!-- end FOOTER MENU --></div>
+			<div class="footer__logos">
+				<div ng-bind-html="content" type="footer-logos" class="ng-binding ng-isolate-scope ng-scope"><div class="footer__logos-list">
+<img class="footer__logos-item" ng-src="https://cdn2.softswiss.net/logos/responsibility/black/18plus.svg" src="https://cdn2.softswiss.net/logos/responsibility/black/18plus.svg">
+
+<a href="https://www.gamcare.org.uk/"><img class="footer__logos-item" ng-src="https://cdn2.softswiss.net/logos/responsibility/black/gamcare.svg" src="https://cdn2.softswiss.net/logos/responsibility/black/gamcare.svg"></a>
+
+<a href="https://www.gamblersanonymous.org.uk/"><img class="footer__logos-item" ng-src="https://cdn2.softswiss.net/logos/responsibility/black/gamblers_anonymous.svg" src="https://cdn2.softswiss.net/logos/responsibility/black/gamblers_anonymous.svg"></a>
+<a href="http://gamanon.org.uk/"><img class="footer__logos-item" ng-src="https://cdn2.softswiss.net/logos/responsibility/black/gamanon.svg" src="https://cdn2.softswiss.net/logos/responsibility/black/gamanon.svg"></a>
+<a href="https://www.gamblingtherapy.org/"><img class="footer__logos-item" ng-src="https://cdn2.softswiss.net/logos/responsibility/black/gambling_therapy.svg" src="https://cdn2.softswiss.net/logos/responsibility/black/gambling_therapy.svg"></a>
+</div>
+</div>
+				<!--<div ng-include="'/app/templates/snippets/footer-logos.html'"></div>-->
+			</div>
+		</div>
+		<div class="footer__providers">
+			<div ng-bind-html="content" type="slider-providers" class="ng-binding ng-isolate-scope ng-scope"><div class="logo-slider logo-slider--other" ng-init="providers = [
+'netent',
+'playtech',
+'playngo',
+'yggdrasil',
+'endorphina',
+'evolution',
+'wazdan',
+'quickspin',
+'amatic',
+'redtiger',
+'thunderkick',
+'booming',
+'isoftbet',
+'bsg',                                                     
+'elk',
+'relax',
+'pragmatic',
+'pushgaming'
+]">
+    <div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" aria-live="polite" style="width: 100%; overflow: hidden; position: relative; height: 70px;"><div class="logo-slider__list" data-uix-bxslider="hideControlOnEnd: true, infiniteLoop: false, maxSlides:30, adaptiveHeight:true, touchEnabled: false, moveSlides: 1" style="width: 19215%; position: relative; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);">
+        <a class="logo-slider__item" href="https://www.softswiss.com/" aria-hidden="false" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/softswiss.svg" src="https://cdn2.softswiss.net/logos/providers/black/softswiss.svg">
+        </a>
+        <!-- ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/netent.svg" src="https://cdn2.softswiss.net/logos/providers/black/netent.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/playtech.svg" src="https://cdn2.softswiss.net/logos/providers/black/playtech.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/playngo.svg" src="https://cdn2.softswiss.net/logos/providers/black/playngo.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/yggdrasil.svg" src="https://cdn2.softswiss.net/logos/providers/black/yggdrasil.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/endorphina.svg" src="https://cdn2.softswiss.net/logos/providers/black/endorphina.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/evolution.svg" src="https://cdn2.softswiss.net/logos/providers/black/evolution.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/wazdan.svg" src="https://cdn2.softswiss.net/logos/providers/black/wazdan.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/quickspin.svg" src="https://cdn2.softswiss.net/logos/providers/black/quickspin.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/amatic.svg" src="https://cdn2.softswiss.net/logos/providers/black/amatic.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/redtiger.svg" src="https://cdn2.softswiss.net/logos/providers/black/redtiger.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/thunderkick.svg" src="https://cdn2.softswiss.net/logos/providers/black/thunderkick.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/booming.svg" src="https://cdn2.softswiss.net/logos/providers/black/booming.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/isoftbet.svg" src="https://cdn2.softswiss.net/logos/providers/black/isoftbet.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/bsg.svg" src="https://cdn2.softswiss.net/logos/providers/black/bsg.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/elk.svg" src="https://cdn2.softswiss.net/logos/providers/black/elk.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/relax.svg" src="https://cdn2.softswiss.net/logos/providers/black/relax.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/pragmatic.svg" src="https://cdn2.softswiss.net/logos/providers/black/pragmatic.svg">
+        </div><!-- end ngRepeat: item in providers --><div class="logo-slider__item ng-scope" ng-repeat="item in providers" data-notify-when-repeat-finished="" aria-hidden="true" style="float: left; list-style: none; position: relative; width: 780px;">
+            <img ng-src="https://cdn2.softswiss.net/logos/providers/black/pushgaming.svg" src="https://cdn2.softswiss.net/logos/providers/black/pushgaming.svg">
+        </div><!-- end ngRepeat: item in providers -->
+    </div></div><div class="bx-controls bx-has-controls-direction bx-has-pager"><div class="bx-controls-direction"><a class="bx-prev disabled" href="#">Prev</a><a class="bx-next" href="#">Next</a></div><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="#" data-slide-index="0" class="bx-pager-link active">1</a></div><div class="bx-pager-item"><a href="#" data-slide-index="1" class="bx-pager-link">2</a></div><div class="bx-pager-item"><a href="#" data-slide-index="2" class="bx-pager-link">3</a></div><div class="bx-pager-item"><a href="#" data-slide-index="3" class="bx-pager-link">4</a></div><div class="bx-pager-item"><a href="#" data-slide-index="4" class="bx-pager-link">5</a></div><div class="bx-pager-item"><a href="#" data-slide-index="5" class="bx-pager-link">6</a></div><div class="bx-pager-item"><a href="#" data-slide-index="6" class="bx-pager-link">7</a></div><div class="bx-pager-item"><a href="#" data-slide-index="7" class="bx-pager-link">8</a></div><div class="bx-pager-item"><a href="#" data-slide-index="8" class="bx-pager-link">9</a></div><div class="bx-pager-item"><a href="#" data-slide-index="9" class="bx-pager-link">10</a></div><div class="bx-pager-item"><a href="#" data-slide-index="10" class="bx-pager-link">11</a></div><div class="bx-pager-item"><a href="#" data-slide-index="11" class="bx-pager-link">12</a></div><div class="bx-pager-item"><a href="#" data-slide-index="12" class="bx-pager-link">13</a></div><div class="bx-pager-item"><a href="#" data-slide-index="13" class="bx-pager-link">14</a></div><div class="bx-pager-item"><a href="#" data-slide-index="14" class="bx-pager-link">15</a></div><div class="bx-pager-item"><a href="#" data-slide-index="15" class="bx-pager-link">16</a></div><div class="bx-pager-item"><a href="#" data-slide-index="16" class="bx-pager-link">17</a></div><div class="bx-pager-item"><a href="#" data-slide-index="17" class="bx-pager-link">18</a></div><div class="bx-pager-item"><a href="#" data-slide-index="18" class="bx-pager-link">19</a></div></div></div></div>
+</div></div>
+			<!--<div ng-include="'/app/templates/snippets/slider-providers.html'"></div>-->
+		</div>
+		<div class="footer__content">
+			<div ng-bind-html="content" type="footer-content" class="ng-binding ng-isolate-scope ng-scope"><div class="mga">
+  
+  <a href="https://www.authorisation.mga.org.mt/verification.aspx?lang=EN&amp;company=1f417374-7580-426d-8969-1f404fce41f8&amp;details=1">
+    <img class="mga__icon" src="../../resources/images/footer/mga.svg">
+    </a>
+    <div class="mga__text">
+        Copyright © 2020 Instantpay-casino.com is operated by N1 Interactive Ltd, a company incorporated under the laws of Malta with registration number C 81457 and registered address at 206, Wisely House, Old Bakery Street, Valletta VLT1451, Malta. Instantpay-casino.com is licensed and regulated by the Malta Gaming Authority under the licences: MGA/B2C/394/2017 (issued on 01/08/2018).
+Gambling can be addictive. Play responsibly.
+Instantpay only accepts customers over 18 years of age.
+    </div>
+</div></div>
+			<!--<div ng-include="'/app/templates/snippets/footer-content.html'"></div>-->
+		</div>
+	</div>
+</footer>
+        </div>
+    
+
+<div class="cg-notify-message ng-scope cookies-policy cg-notify-message-center" ng-class="[$classes,
+    $position === 'center' ? 'cg-notify-message-center' : '',
+    $position === 'left' ? 'cg-notify-message-left' : '',
+    $position === 'right' ? 'cg-notify-message-right' : '']" ng-style="{'margin-left': $centerMargin}" ng-controller="CookiesPolicyCtrl" style="margin-left: -150px; top: 137px; margin-top: -127px; visibility: visible;">
+
+    <div ng-show="!$messageTemplate">
+        <div class="ng-binding">
+            
+            <span translate="frontend.cookies_policy.message" class="ng-scope">We use cookies to improve your experience. By using our website you are accepting our</span>
+            <a ng-show="privacyPolicyPageExists" ng-href="privacy-policy" class="ng-binding" href="../../privacy-policy.html"> Cookie Policy</a>
+            <span ng-hide="privacyPolicyPageExists" class="ng-binding ng-hide"> Cookie Policy</span>
+        </div>
+
+        <button class="cookies-policy__continue ng-scope" ng-click="setAcceptedPolicyCookie(); $close()" translate="frontend.links.ok">OK</button>
+    </div>
+
+    <div ng-show="$messageTemplate" class="cg-notify-message-template ng-hide">
+
+    </div>
+
+
+<!--<button type="button" class="cg-notify-close" ng-click="$close()">
+    <span aria-hidden="true">&times;</span>
+    <span class="cg-notify-sr-only">Close</span>
+</button>-->
+
+</div><div id="chat-widget-container" style="opacity: 1; visibility: visible; z-index: 2147483639; position: fixed; bottom: 0px; width: 84px; height: 84px; max-width: 100%; max-height: calc(100% - 0px); min-height: 0px; min-width: 0px; background-color: transparent; border: 0px; overflow: hidden; right: 0px; transition: none 0s ease 0s !important;"><iframe allow="autoplay; microphone *; camera *;" src="https://secure.livechatinc.com/licence/g9691740_1/v2/open_chat.cgi?license=9691740&amp;group=1&amp;embedded=1&amp;widget_version=3&amp;unique_groups=1&amp;localization_improvement=1" allowtransparency="true" id="chat-widget" name="chat-widget" title="LiveChat chat widget" scrolling="no" style="width: 100%; height: 100%; min-height: 0px; min-width: 0px; margin: 0px; padding: 0px; background-image: none; background-position: 0% 0%; background-size: initial; background-attachment: scroll; background-origin: initial; background-clip: initial; background-color: rgba(0, 0, 0, 0); border-width: 0px; float: none; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; transition: none 0s ease 0s !important;"></iframe></div></body>
+<!-- Mirrored from www.instantpay-casino.com/css/images/controls.png by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Dec 2020 14:20:27 GMT -->
+</html>

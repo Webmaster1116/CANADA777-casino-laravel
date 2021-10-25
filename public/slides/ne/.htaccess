@@ -1,0 +1,2 @@
+# enable CORS ( https://enable-cors.org/server_apache.html )
+Header add Access-Control-Allow-Origin "*"

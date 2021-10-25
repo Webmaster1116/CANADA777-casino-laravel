@@ -1,0 +1,6 @@
+ID,"User ID",Message,"Creation date",Attachments,Payload
+561,6524,"What’s the deal","2021-07-08 23:58:07",,
+562,5,"I missed that, say that again?","2021-07-08 23:58:10",,"{""responseId"":""4c81e273-de99-4936-8da6-7f440eb3c8f4-794307fd"",""queryResult"":{""queryText"":""What\u2019s the deal"",""action"":""input.unknown"",""parameters"":[],""allRequiredParamsPresent"":true,""fulfillmentText"":""I missed that, say that again?"",""fulfillmentMessages"":[{""text"":{""text"":[""I missed that, say that again?""]}}],""outputContexts"":[{""name"":""projects\/newagent-davv\/agent\/sessions\/6524\/contexts\/__system_counters__"",""lifespanCount"":1,""parameters"":{""no-match"":1,""no-input"":0}}],""intent"":{""name"":""projects\/newagent-davv\/agent\/intents\/c291273d-7e48-4181-9a8e-9144f9186ba4"",""displayName"":""Default Fallback Intent"",""isFallback"":true},""intentDetectionConfidence"":1,""languageCode"":""en"",""sentimentAnalysisResult"":{""queryTextSentiment"":{""score"":-0.3,""magnitude"":0.3}}},""outputAudio"":"""",""bot-unknow-notify"":true}"
+563,5,"[chips id=""sb-human-takeover"" options=""Oui,Cancel"" message=""Ask for human support""]","2021-07-08 23:58:11",,
+564,1,"Hello the deal is 100% match bonus + 200 Free spins","2021-07-09 00:24:15",,
+565,1,"Deposit 10$ and get 10$ + 200 Free spins","2021-07-09 00:25:20",,

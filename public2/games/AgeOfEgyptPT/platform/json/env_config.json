@@ -1,0 +1,17 @@
+{
+    "socketConnection": {
+        "isSecure": true,
+        "host": "",
+        "port": 443
+    },
+    "loginParameters": {
+        "casinoName": ""
+    },
+    "skin": "lasvegas",
+    "FeNetwork": {
+        "host": "",
+        "connectionSettings": {
+            "isSecure": true
+        }
+    }    
+}

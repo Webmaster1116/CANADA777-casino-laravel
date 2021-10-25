@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.475;
+    color: #444;
+    background: #fff;
+}
+body, label, input, textarea, select, button, div, button {
+	box-sizing: border-box;
+	font-size: 15px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.front-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-width: 240px;
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+.front-content {
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 20px 0;
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.front-box {
+	margin: 0 auto;
+	padding: 20px 30px;
+	border: 1px solid #f0f0f0;
+	max-width: 640px;
+	background-color: #f7f7f7;
+	box-shadow: 4px 4px 0 #c0c0c0;
+	text-align: left;
+}
+h1 {
+	font-weight: 400;
+	font-size: 1.8em;
+	line-height: 1;
+	margin: 10px 0 40px 0;
+	padding: 0;
+	text-align: left;
+}
+.row {
+    display: table;
+    width: 100%;
+	margin: 0 0 10px 0;
+}
+.right {
+	text-align: right;
+}
+.cell {
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+	min-width: 200px;
+}
+label.cell {font-weight: 600; width: 200px;}
+.cell input {
+	width: 100%;
+	background: #ffffff;
+	border: 1px solid #c0c0c0;
+	border-radius: 0px;
+	padding: 10px 10px;
+}
+.cell span {
+	color: #c0c0c0;
+	font-size: 13px;
+	line-height: 1.2;
+	display: block;
+	font-style: italic;
+	margin-top: 4px;
+}
+.button, .button:visited {
+	text-decoration: none !important;
+	color: #fff;
+	display: inline-block;
+	background: #008;
+	line-height: 2.8;
+	padding: 0;
+	text-align: center;
+	width: 10em;
+	font-size: 18px;
+	text-transform: uppercase;
+	transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	-webkit-transition-duration: .3s;
+	-o-transition-duration: .3s;
+	-khtml-transition-duration: .3s;
+}
+.button:hover, .button:active {
+	background: #006 !important;
+}
+.row textarea {
+	width: 100%;
+	line-height: 1.475;
+	background: #ffffff;
+	border: 1px solid #c0c0c0;
+	border-radius: 0px;
+	padding: 0 10px;
+	height: 180px;
+}
+#message {
+	background: #A00;
+	color: #fff;
+	padding: 10px 20px;
+	display: none;
+}

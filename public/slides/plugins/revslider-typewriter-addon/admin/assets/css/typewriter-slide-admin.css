@@ -1,0 +1,298 @@
+#rs-addon-wrapper .rs-layer-toolbar-box {
+	
+	min-width: 96px;
+	
+}
+
+#rs-addon-wrapper .rs-layer-toolbar-box:first-child {
+	
+	border-left: 0 !important;
+	
+}
+
+#typewriter-addon-settings > div {
+	
+	background-color: white;
+	
+}
+
+#typewriter-addon-settings .fa-icon-terminal {
+	
+	margin-left: 4px;
+	
+}
+
+#typewriter-addon-settings select {
+	
+	width: 100px;
+	
+}
+
+#typewriter-addon-settings input[type=text] {
+	
+	width: 60px;
+	
+}
+
+#typewriter-addon-settings > div:not(.typewriter-settings) {
+	
+	display: none;
+	border-top: 1px solid #DDD;
+	
+}
+
+.typewriter-active #rs-animation-content-wrapper p:first-child,
+#typewriter-addon-settings .rs-layer-toolbar-box, 
+.typewriter-active #style-sub-toggle {
+	
+	position: relative;
+	
+}
+
+#typewriter-addon-settings select {
+	
+	width: 65px;
+	
+}
+
+#typewriter-addon-settings .cj-reverse-icon {
+	
+	transform: scaleX(-1);
+	
+}
+
+#typewriter-addon-settings .rs-toolbar-icon {
+	
+    display: inline-block;
+    line-height: inherit;
+	font-size: 16px;
+	
+}
+
+#typewriter-addon-settings .rs-toolbar-icon:not(.button-primary) {
+
+	margin: 0;
+	width: 25px;
+    text-align: center;
+	
+}
+
+#typewriter-addon-settings .button-primary {
+	
+	font-size: 13px;
+	
+}
+
+#typewriter-addon-settings .button-primary i:before {
+	
+	color: #FFF;
+	
+}
+
+#typewriter-addon-settings-advanced-2 {
+	
+	padding: 0;
+	
+}
+
+#typewriter-addon-settings-advanced-2 .button-primary {
+	
+	height: 24px;
+	margin-top: 2px !important;
+	
+}
+
+#typewriter-addon-settings .typewriter-word-pattern-wrap {
+	
+	float: left;
+    padding-right: 13px;
+	padding-left: 35px;
+    margin-right: 5px;
+	margin-left: 0;
+	min-height: 27px;
+    position: relative;
+    background: #FFF;
+	
+}
+
+#typewriter-word-patterns {
+	
+	float: left;
+	
+}
+
+#typewriter-word-patterns .button-primary {
+	
+	vertical-align: middle;
+	padding: 0 10px 0 5px;
+	
+}
+
+#typewriter-addon-settings .typewriter-word-pattern-wrap > * {
+	
+	margin: 0 5px 0 0;
+	vertical-align: top;
+	
+}
+
+#typewriter-addon-settings .typewriter-word-pattern-wrap > i {
+	
+	vertical-align: middle;
+	margin-top: 2px;
+	
+}
+
+#typewriter-addon-settings .typewriter-word-pattern-wrap > *:last-child {
+	
+	margin-right: 0;
+	
+}
+
+.typewriter-word-pattern-wrap:before {
+	
+    position: absolute;
+	top: 9px;
+	left: 13px;
+	width: 15px;
+	color: #333;
+	font-size: 11px;
+	text-align: right;
+	content: attr(data-index);
+	
+}
+
+.typewriter-word-pattern-wrap .fa-icon-arrow-right:before {
+	
+	color: #333;
+	
+}
+
+/* ******************** */
+/* disable-enable stuff */
+/* ******************** */
+
+#id-esw:not(.slt-text-w) #rs-addon-trigger-typewriter {
+	
+	pointer-events: none;
+	
+}
+
+#id-esw:not(.slt-text-w)  #typewriter-addon-settings {
+	
+	display: none;
+	
+}
+
+.form_layers:not(.notselected) #typewriter-addon-settings:not(.cj-addon-enabled) .rs-layer-toolbar-box:not(.cj-addon-enable):after,
+#id-esw:not(.slt-text-w) #rs-addon-trigger-typewriter:after,
+#typewriter-addon-settings .rs-layer-toolbar-box.cj-advanced-disabled:after,
+.typewriter-active #style-sub-toggle:after {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	z-index: 99;
+	background-color: rgba(255, 255, 255, 0.5);
+	
+}
+
+#id-esw:not(.slt-text-w) #rs-addon-trigger-typewriter.selected:after {
+	
+	background-color: rgba(255, 255, 255, 0.75);
+	
+}
+
+.typewriter-active #style-sub-toggle:before {
+	
+	position: absolute;
+	width: 100%;
+	left: 100%;
+	top: 7px;
+	font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+	color: #c0392b;
+	content: "Toggle Mode not available when Typewriter Add-On effect is active";
+	
+}
+
+#typewriter-lines {
+	
+	position: relative;
+	overflow: hidden;
+	display: none;
+	
+}
+
+#typewriter-lines .typerwriter-line-wrap {
+	
+	height: auto;
+	margin-top: 3px;
+	
+}
+
+#typewriter-lines input.typewriter-line,
+#typewriter-lines input.typewriter-line:focus {
+	
+	width: 392px;
+	float: left;
+    color: #FFF;
+    padding: 10px 10px 10px 0;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    box-shadow: none;
+	
+}
+
+#typewriter-lines span {
+	
+	float: right;
+	
+}
+
+#typewriter-lines .typewriter-add-remove.revgreen {
+	
+	margin-right: 0;
+	
+}
+
+#typewriter-lines .typerwriter-line-wrap:after {
+	
+	content: "";
+	display: table;
+	clear: both;
+  
+}
+
+#rs-addon-trigger-typewriter {
+	
+	border-radius: 0px;
+	padding: 0px;
+	color: transparent;
+	background: url(../images/addon_typewriter.png);
+	background-size: 158px 54px;
+	background-position: top center;
+	width: 158px;
+	height: 27px;
+	
+}
+
+#rs-addon-trigger-typewriter.selected,
+#rs-addon-trigger-typewriter:hover {
+	
+	background-position: bottom center;
+	
+}
+
+#typewriter-addon-settings .inp-deep-list {
+	
+	width: 100px;
+	
+}
+
+
+

@@ -1,0 +1,19 @@
+/* Start GameLoadingView styles */
+
+.cp-loading-logo-img{
+	background: url(../../images/desktop/brand/loading_brand_logo.png) no-repeat center center;
+	background-size: contain;
+}
+
+.cp-loading-view-desktop {
+    background-image: url(../../images/desktop/brand/loading_background.png);
+}
+
+.cp-loading-brand-big {
+	background-image: url(../../images/desktop/brand/loading_brand_logo.png);
+}
+
+.progressoverlay {
+    background: url(../../images/desktop/brand/progress.png);
+}
+/* End GameLoadingView styles */

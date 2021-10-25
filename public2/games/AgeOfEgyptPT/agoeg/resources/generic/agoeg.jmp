@@ -1,0 +1,45 @@
+{
+    "modules": {
+        "default": {
+            "window":{
+                "pos": "center",
+                "size": [1136, 640]
+            },
+            "jmms": [
+                "slot/common/media.jmm",
+                "slot/common/desktop-controls.jmm",
+                "slot/common/desktop-dialog.jmm",
+                "slot/common/desktop-fsb-bar.jmm",
+                "slot/common/desktop-messages.jmm",
+                "slot/common/debug_config.jmm",
+                "slot/common/engine-settings.jmm",
+                "config/config.jmm",
+                "formats.jmm",
+                "images/images.jmm",
+                "images/symbol_animations_animations.jmm",
+                "images/symbol_animations_slices.jmm",
+                "images/egypt_bonus_elements.jmm",
+                "media.jmm",
+                "scenes/main.jmm",
+                "scenes/bonus.jmm",
+                "controls/bottom_bar.jmm",
+                "controls/reelset.jmm",
+                "controls/side-buttons.jmm"
+            ],
+
+            "localizedBrandedJmms": [
+                "../../translations/jmm/slot/common/texts/texts_en.jmm",
+                "../../translations/jmm/slot/common/texts/dt_texts_en.jmm",
+                "../../translations/jmm/texts/texts_en.jmm",
+                "../../translations/jmm/ui/ui_en.jmm"
+            ],
+            "tablet": [
+                "slot/common/controls_tablet.jmm"
+            ],
+			"branding": [
+                "slot/common/branding/brand.jmm",
+                "slot/common/branding/desktop-brand.jmm"
+            ]
+        }
+    }
+}

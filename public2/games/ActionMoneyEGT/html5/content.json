@@ -1,0 +1,2196 @@
+{
+  "services": {
+    "Platform": {
+      "login": {
+        "skipTimeout": false,
+        "timeToLive": 14
+      }
+    },
+    "BHSlot": {
+      "bet": {
+        "timeToLive": 15
+      },
+      "subscribe": {
+        "timeToLive": 15
+      },
+      "settings": {
+        "timeToLive": 15
+      }
+    }
+  },
+  "loaders": [
+    {
+      "type": "LoaderMax",
+      "vars": {
+        "name": "GameInterface",
+        "prependURLs": "games/"
+      },
+      "children": [
+        {
+          "type": "GameLoader",
+          "vars": {
+            "name": "ARJSlot",
+            "documentClassName": "game.Main",
+            "dispose": true
+          },
+          "url": "game.min.js?build=1562839706157"
+        },
+        {
+          "type": "GameLoader",
+          "vars": {
+            "name": "CDJSlot",
+            "documentClassName": "game.Main",
+            "dispose": true
+          },
+          "url": "game.min.js?build=1562839706157"
+        },
+        {
+          "type": "GameLoader",
+          "vars": {
+        "name": "HWJSlot",
+        "documentClassName": "game.Main",
+        "dispose": true
+        },
+        "url": "game.min.js?build=1562839706157"
+        },
+        {
+          "type": "GameLoader",
+          "vars": {
+            "name": "BHJSlot",
+            "documentClassName": "com.egt.baseslot.Main",
+            "dispose": true,
+            "integrated": true
+          },
+          "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "RORJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "VWJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+        "type": "GameLoader",
+        "vars": {
+        "name": "UJKeno",
+        "documentClassName": "com.egt.kenoUniverse.Main",
+        "dispose": true,
+        "integrated": true
+        },
+        "url": "KenoUniverse/Game.min.js?build=1562839706157"
+        },
+        {
+          "type": "GameLoader",
+          "vars": {
+            "name": "FHJSlot",
+            "documentClassName": "com.egt.baseslot.Main",
+            "dispose": true,
+            "integrated": true
+          },
+          "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FDHJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "TSHJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "UHJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FKJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FSHJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "ZWJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "SCJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "AAJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "NDJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "BDJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "AOTJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "BHTJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "BOMJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "RSJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "CMJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "KGJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+            "name": "STJSlot",
+            "documentClassName": "com.egt.baseslot.Main",
+            "dispose": true,
+            "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "HCJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "CHJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "TDJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+            "name": "EHJSlot",
+            "documentClassName": "com.egt.baseslot.Main",
+            "dispose": true,
+            "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+            "name": "LHJSlot",
+            "documentClassName": "com.egt.baseslot.Main",
+            "dispose": true,
+            "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "SPJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+              "name": "ABJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "CBJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "SHJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "SHDJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+        },
+        "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "MPJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "RWJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "SBJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FSJSlot",
+                "documentClassName": "com.egt.expandslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ExpandSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "Blackjack",
+                "documentClassName": "com.egt.blackjack.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "Blackjack/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FBHJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "WTJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "TWWJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {   "type": "GameLoader",
+            "vars": {
+                "name": "TSFJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "IGTJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "OCJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "DRJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "CIJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FHSJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "QORJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "HSHJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FMJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "TBHJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FDJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "WCJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FBHTJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "TBHTJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "GETJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "CDJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "TBJJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "MSJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "RTSJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FHDJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "TDRJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "DORJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "HDJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FBDJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "TBDJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "SDJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "MBHSlot",
+                "documentClassName": "com.egt.baseminislot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseMiniSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "MUHSlot",
+                "documentClassName": "com.egt.baseminislot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseMiniSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "MSHSlot",
+                "documentClassName": "com.egt.baseminislot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseMiniSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "THSDJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "ASJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "RDJSlot",
+                "documentClassName": "com.egt.specialslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "SpecialSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "DARJSlot",
+                "documentClassName": "com.egt.specialslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "SpecialSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "MDARJSlot",
+                "documentClassName": "com.egt.specialslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "SpecialSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "LAWJSlot",
+                "documentClassName": "com.egt.specialslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "SpecialSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "MLAWJSlot",
+                "documentClassName": "com.egt.specialslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "SpecialSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FHNCJSlot",
+                "documentClassName": "com.egt.specialslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "SpecialSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "HNCJSlot",
+                "documentClassName": "com.egt.specialslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "SpecialSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "GOLJSlot",
+                "documentClassName": "com.egt.specialslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "SpecialSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FBJSlot",
+                "documentClassName": "com.egt.forestbandslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ForestBandSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "CRJSlot",
+                "documentClassName": "com.egt.catsroyalslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "CatsRoyalSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "DQJSlot",
+                "documentClassName": "com.egt.darkqueenslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "DarkQueenSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "ESJSlot",
+                "documentClassName": "com.egt.magslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "MagSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "LBJSlot",
+                "documentClassName": "com.egt.luckybuzzslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "LuckyBuzzSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "TSOAJSlot",
+                "documentClassName": "com.egt.forestbandslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ForestBandSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "CasinoBattle",
+                "documentClassName": "war.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "War/warts.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "PSJSlot",
+                "documentClassName": "com.egt.penguinstyleslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "PenguinStyleSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "IDJSlot",
+                "documentClassName": "com.egt.penguinstyleslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "PenguinStyleSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "MFJSlot",
+                "documentClassName": "com.egt.expandslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ExpandSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "OGJSlot",
+                "documentClassName": "com.egt.expandslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ExpandSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "GOCJSlot",
+                "documentClassName": "com.egt.expandslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ExpandSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+            "name": "RQJSlot",
+            "documentClassName": "com.egt.rainbowqueenslot.Main",
+            "dispose": true,
+            "integrated": true
+            },
+            "url": "RainbowQueenSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "VGJSlot",
+                "documentClassName": "com.egt.expandslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ExpandSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "AGJSlot",
+                "documentClassName": "com.egt.expandslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ExpandSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "JPJPoker",
+                "documentClassName": "com.egt.videoPoker.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "VideoPoker/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FOKBJPoker",
+                "documentClassName": "com.egt.videoPoker.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "VideoPoker/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "XSJSlot",
+                "documentClassName": "com.egt.extraSlot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ExtraSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "XJJSlot",
+                "documentClassName": "com.egt.extraSlot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ExtraSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "JOBJPoker",
+                "documentClassName": "com.egt.videoPoker.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "VideoPoker/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "RLTJSlot",
+                "documentClassName": "com.egt.slotroulette.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "SlotRoulette/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "HWJSlot",
+                "documentClassName": "com.egt.darkqueenslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "DarkQueenSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "DQJSlot",
+                "documentClassName": "com.egt.darkqueenslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "DarkQueenSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "RMJSlot",
+                "documentClassName": "com.egt.luckybuzzslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "LuckyBuzzSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "WHJSlot",
+                "documentClassName": "com.egt.wonderheartslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "WonderHeartSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "IWJSlot",
+                "documentClassName": "com.egt.imperialwarsslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ImperialWarsSlot/Game.min.js?build=1519316646095"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "IMDJSlot",
+                "documentClassName": "com.egt.imperialwarsslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ImperialWarsSlot/Game.min.js?build=1519316646095"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "TSOLJSlot",
+                "documentClassName": "com.egt.thesecretsoflondonslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "TheSecretsOfLondonSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "APJSlot",
+                "documentClassName": "com.egt.alohapartyslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "AlohaPartySlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "SOAJSlot",
+                "documentClassName": "com.egt.cascadeslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "CascadeSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "MDJSlot",
+                "documentClassName": "com.egt.cascadeslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "CascadeSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+            "name": "DGRJSlot",
+            "documentClassName": "com.egt.choiceslot.Main",
+            "dispose": true,
+            "integrated": true
+            },
+            "url": "ChoiceSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+            "name": "VDJSlot",
+            "documentClassName": "com.egt.choiceslot.Main",
+            "dispose": true,
+            "integrated": true
+            },
+            "url": "ChoiceSlot/Game.min.js?build=1562839706157"
+        },
+            {
+            "type": "GameLoader",
+            "vars": {
+            "name": "GEOLJSlot",
+            "documentClassName": "com.egt.choiceslot.Main",
+            "dispose": true,
+            "integrated": true
+            },
+            "url": "ChoiceSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+            "name": "TEJSlot",
+            "documentClassName": "com.egt.choiceslot.Main",
+            "dispose": true,
+            "integrated": true
+            },
+            "url": "ChoiceSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+            "name": "LRJSlot",
+            "documentClassName": "com.egt.choiceslot.Main",
+            "dispose": true,
+            "integrated": true
+            },
+            "url": "ChoiceSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FRSJSlot",
+                "documentClassName": "com.egt.cascadeslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "CascadeSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "THBJSlot",
+                "documentClassName": "com.egt.cascadeslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "CascadeSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "KLJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FLKJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FMCJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "HBHJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "LADJSlot",
+                "documentClassName": "com.egt.diamondSlot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "DiamondSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "MLADJSlot",
+                "documentClassName": "com.egt.diamondSlot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "DiamondSlot/Game.min.js?build=1562839706157"
+        },
+        {
+        "type": "GameLoader",
+        "vars": {
+        "name": "GEJSlot",
+        "documentClassName": "com.egt.choiceslot.Main",
+        "dispose": true,
+        "integrated": true
+        },
+        "url": "ChoiceSlot/Game.min.js?build=1562839706157"
+        },
+        {
+        "type": "GameLoader",
+        "vars": {
+        "name": "JAJSlot",
+        "documentClassName": "com.egt.jungleadventureslot.Main",
+        "dispose": true,
+        "integrated": true
+        },
+        "url": "JungleAdventureSlot/Game.min.js?build=1562839706157"
+        },
+        {
+        "type": "GameLoader",
+        "vars": {
+        "name": "BCJSlot",
+        "documentClassName": "com.egt.bravecatslot.Main",
+        "dispose": true,
+        "integrated": true
+        },
+        "url": "BraveCatSlot/Game.min.js?build=1562839706157"
+        },
+        {
+        "type": "GameLoader",
+        "vars": {
+        "name": "SLJSlot",
+        "documentClassName": "com.egt.savannahslifeslot.Main",
+        "dispose": true,
+        "integrated": true
+        },
+        "url": "SavannahsLifeSlot/Game.min.js?build=1562839706157"
+        },
+        {
+        "type": "GameLoader",
+        "vars": {
+        "name": "GAJSlot",
+        "documentClassName": "com.egt.choiceslot.Main",
+        "dispose": true,
+        "integrated": true
+        },
+        "url": "ChoiceSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "TDHJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+        "type": "GameLoader",
+        "vars": {
+            "name": "SCHJSlot",
+            "documentClassName": "com.egt.sweetcheeseslot.Main",
+            "dispose": true,
+            "integrated": true
+        },
+        "url": "SweetCheeseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FSDJSlot",
+                "documentClassName": "com.egt.stackedwildslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "StackedWildSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "HSDJSlot",
+                "documentClassName": "com.egt.stackedwildslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "StackedWildSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+            "name": "ORJSlot",
+            "documentClassName": "com.egt.actionMoneySlot.Main",
+            "dispose": true,
+            "integrated": true
+            },
+            "url": "ActionMoneySlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "TSDJSlot",
+                "documentClassName": "com.egt.stackedwildslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "StackedWildSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "TJRJSlot",
+                "documentClassName": "com.egt.stackedwildslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "StackedWildSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+            "name": "TJDJSlot",
+            "documentClassName": "com.egt.stackedwildslot.Main",
+            "dispose": true,
+            "integrated": true
+        },
+            "url": "StackedWildSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FJFJSlot",
+                "documentClassName": "com.egt.juggleslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "JuggleSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "GTSJSlot",
+                "documentClassName": "com.egt.greatslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "GreatSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "DHIJSlot",
+                "documentClassName": "com.egt.dicehighslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "DiceHighSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "BDIJSlot",
+                "documentClassName": "com.egt.dicehighslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "DiceHighSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FGSJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FURJSlot",
+                "documentClassName": "com.egt.ultrarespinslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "UltraRespinSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "RBDJSlot",
+                "documentClassName": "com.egt.rainbowqueenslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "RainbowQueenSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "TSWJSlot",
+                "documentClassName": "com.egt.winsslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "WinsSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "Roulette",
+                "documentClassName": "com.egt.roulette.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "Roulette/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "ARJSlot",
+                "documentClassName": "com.egt.movingsymbolsslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "MovingSymbolsSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "EOWJSlot",
+                "documentClassName": "com.egt.baseslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FTJSlot",
+                "documentClassName": "com.egt.actionMoneySlot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ActionMoneySlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "DSJSlot",
+                "documentClassName": "com.egt.choiceslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ChoiceSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "AMJSlot",
+                "documentClassName": "com.egt.actionMoneySlot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ActionMoneySlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "RGJSlot",
+                "documentClassName": "com.egt.expandslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ExpandSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+            "name": "CRBJSlot",
+            "documentClassName": "com.egt.actionMoneySlot.Main",
+            "dispose": true,
+            "integrated": true
+            },
+            "url": "ActionMoneySlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "DHJSlot",
+                "documentClassName": "com.egt.multiSlot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "MultiSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "THDJSlot",
+                "documentClassName": "com.egt.thumbelinasdreamslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "ThumbelinasDreamSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+            "name": "GDJSlot",
+            "documentClassName": "com.egt.golddustslot.Main",
+            "dispose": true,
+            "integrated": true
+        },
+            "url": "GoldDustSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "BHSJSlot",
+                "documentClassName": "com.egt.specialslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "SpecialSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "FBHSJSlot",
+                "documentClassName": "com.egt.specialslot.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "SpecialSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+            "name": "FOKJSlot",
+            "documentClassName": "com.egt.baseslot.Main",
+            "dispose": true,
+            "integrated": true
+        },
+        "url": "BaseSlot/Game.min.js?build=1562839706157"
+        },
+        {
+            "type": "GameLoader",
+            "vars": {
+                "name": "SJBingo",
+                "documentClassName": "com.egt.bingo.Main",
+                "dispose": true,
+                "integrated": true
+            },
+            "url": "Bingo/Game.min.js?build=1562839706157"
+        }
+      ]
+    }
+  ],
+  "languages":["bg", "en", "es", "go", "it", "ru", "nl", "fr", "mk", "ro", "pt", "da", "hu", "sv", "de"],
+  "popup":{
+    "okLabel":{
+        "bg":"OK",
+        "en":"OK",
+        "es":"OK",
+        "go":"OK",
+        "it":"OK",
+        "ru":"OK",
+        "nl":"OK",
+        "fr":"OK",
+        "mk":"OK",
+        "ro":"OK",
+        "pt":"OK",
+        "hr":"OK",
+        "da":"OK",
+        "hu":"OK",
+        "sv":"OK",
+        "de":"OK"
+    },
+    "exitLabel":{
+        "bg":"Изход",
+        "en":"Еxit",
+        "es":"Salir",
+        "go":"Еxit",
+        "it":"Uscita",
+        "ru":"Выход",
+        "nl":"Afsluiten",
+        "fr":"Sortie",
+        "mk":"Излез",
+        "ro":"Ieşire",
+        "pt":"Sair",
+        "hr":"Izlaz",
+        "da":"Еxit",
+        "hu":"Kilépés",
+        "sv":"Avsluta",
+        "de":"Verlassen"
+    },
+    "reloadLabel":{
+        "bg":"Презареди",
+        "en":"Reload",
+        "es":"Recargar",
+        "go":"Reload",
+        "it":"Ricarica",
+        "ru":"Обновить",
+        "nl":"Reload",
+        "fr":"Recharger",
+        "mk":"Освежи",
+        "ro":"Reîncarcă",
+        "pt":"Recarregar",
+        "hr":"Ponovno učitaj",
+        "da":"Genindlæs",
+        "hu":"Újratöltés",
+        "sv":"Ladda om",
+        "de":"Aktualisieren"
+    },
+    "layoutMini":"<div id=\"((id))\" class=\"popup\"><div class=\"label\"></div><div class=\"buttons\"></div></div>",
+    "layout":"<div id=\"((id))\" class=\"popup\"><div class=\"shadowmask\"></div><div class=\"label\"></div><div class=\"buttons\"></div></div>"
+  },
+  "shutdownNotification":{
+    "bg":"<div><h1>Известие за поддръжка</h1>Игралният ни сървър ще влезе в режим на поддръжка. Моля, завършете активната си сесия и излезте от системата. Имайте предвид, че няма да бъдат приемани залози по време на поддръжката. Искрено Ви се извиняваме за причиненото неудобство. Благодарим Ви за търпението.</div>",
+    "en":"<div><h1>Maintenance notice</h1>Our game server will be entering a maintenance mode. Please finish your current game session and log out. Be aware that no wagers will be accepted during the maintenance period. Our team sincerely apologize for the inconvenience. Thank you for your patience.</div>",
+    "es":"<div><h1>Aviso de mantenimiento</h1>Nuestro servidor de juego entrará en modo de mantenimiento. Por favor, termine su sesión en el juego actual y salga. Tenga en cuenta que no se aceptarán apuestas durante el periodo de mantenimiento. Nuestro equipo lamenta profundamente las inconveniencias. Gracias por su paciencia.</div>",
+    "go":"<div><h1>Maintenance notice</h1>Our game server will be entering a maintenance mode. Please finish your current game session and log out. Be aware that no wagers will be accepted during the maintenance period. Our team sincerely apologize for the inconvenience. Thank you for your patience.</div>",
+    "it":"<div><h1>Avviso manutenzione</h1>Il nostro server di gioco entrerà in modalità manutenzione. Termini la sua sessione di gioco corrente e si disconnetta. Attenzione, nessuna puntata sarà accettata durante il periodo di manutenzione. Il nostro team si scusa sinceramente per il disagio. Grazie per la sua pazienza.</div>",
+    "ru":"<div><h1>Уведомление о переходе в режим обслуживания</h1>Игровой сервер переходит в режим обслуживания. Пожалуйста, завершите текущую игровую сессию и выйдите из системы. Во время проведения обслуживания ставки не принимаются. Мы приносим извинения за любые доставленные неудобства. Благодарим за понимание!</div>",
+    "nl":"<div><h1>Onderhoudsmededeling</h1>Onze spelserver gaat in de onderhoudsmodus. Beëindig uw huidige speelsessie en meld u af. Opgelet, tijdens de onderhoudsperiode worden er geen inzetten aanvaard. Ons team biedt zijn excuses aan voor dit ongemak. Bedankt voor uw geduld.</div>",
+    "fr":"<div><h1>Avis de maintenance</h1>Notre serveur va rentrer en mode maintenance. Veuillez finir la session en cours et vous déconnecter. Vouillez noter que pendant la période de maintenance aucun pari ne sera pas accepté. Notre équipe vous présente nos sincères excuses pour la gêne occasionnée. Merci pour votre patience.</div>",
+    "mk":"<div><h1>Забелешка околу одржувањето</h1>Нашиот сервер за игра ќе влезе во режим на одржување. Ве молиме да ја завршите вашата тековна сесија на игра и да се одјавите. Бидете свесни дека нема да биде прифатен никаков облог за време на периодот на одржување. Нашиот тим искрено се извинува поради непријатностите. Ви благодариме поради стрпливоста.</div>",
+    "ro":"<div><h1>Notificare mentenanță</h1>Serverul nostru de joc va intra în modulul de mentenanță. Vă rugăm să terminați sesiunea curentă de joc și să vă delogați Atenție, nu vor fi acceptate pariurile plasate pe parcursul perioadei de mentenanță. Echipa noastră își cere sincer scuze pentru neplăcerile create. Vă mulțumim pentru răbdare.</div>",
+    "pt":"<div><h1>Aviso de manutenção</h1>O nosso servidor de jogo vai entrar em modo de manutenção. Termine a sua sessão de jogo atual e desligue-se. Não serão aceites apostas durante o período de manutenção. A nossa equipa pede desculpa pelo inconveniente. Obrigado pela sua paciência.</div>",
+    "hr":"<div><h1>Obavijest o održavanju</h1>Poslužitelj naše igre ući će u način održavanja. Molimo završite s trenutnim igranjem i odjavite se. Imajte na umu da tijekom održavanja nećemo primati uloge. Primite iskrene isprike našeg tima zbog nastalih neugodnosti. Hvala na strpljenju.</div>",
+    "da":"<div><h1>Bemærkning om vedligeholdelse</h1>Vores spilleserver går i vedligeholdelsestilstand. Afslut din aktuelle spillesession og log ud. Bemærk, at ingen indsatser accepteres under vedligeholdelsesperioden. Vores hold beklager ulejligheden. Tak for din tålmodighed.</div>",
+    "hu":"<div><h1>Karbantartási értesítés</h1>Játékszervereink karbantartási módba fognak lépni. Kérjük, fejezze be az aktuális játékmenetet és jelentkezzen ki. Kérjük, ne feledje, hogy a karbantartási időszak alatt új téteket nem fogad el a rendszer. Csapatunk elnézését kéri a kellemetlenségért. Köszönjük a türelmét.</div>",
+    "sv":"<div><h1>Underhållsnotis</h1>Vår spelserver kommer behöva genomgå underhåll. Vänligen avsluta din nuvarande session och logga ut. Vänligen notera att inga insatser kommer godkännas under underhållsperioden. Vi ber om ursäkt om det skapar några problem för dig. Vi tackar för din förståelse.</div>",
+    "de":"<div><h1>Wartungshinweis</h1>Unser Spiele-Server wechselt gleich in den Wartungsmodus. Bitte beenden Sie Ihre derzeitige Spielsitzung und melden Sie sich ab. Bitte beachten Sie, dass im Wartungszeitraum keine Einsätze angenommen werden. Unser Team entschuldigt sich aufrichtig für die Unannehmlichkeit.. Vielen Dank für Ihre Geduld.</div>"
+  },
+  "realityCheck":{
+    "bg":"<div><h1>Разумно Залагане - Проверка</h1></b>Играете от <span>((timePassed))</span> минути. Заложили сте <span>((totalBet))</span>. Спечелили сте <span>((totalWin))</span> и резултатът Ви е <span>((result))</span>.<p/>Ако желаете да продължите играта, моля натиснете ОК, или изберете Изход за да напуснете играта.</div>",
+    "en":"<div><h1>Responsible Gaming Reality Check</h1></b>You have been playing for <span>((timePassed))</span> minutes. You have wagered <span>((totalBet))</span>. You won <span>((totalWin))</span> and your result is <span>((result))</span>.<p/>If you wish to continue to play, please click OK, or press Exit to quit the game.</div>",
+    "es":"<div><h1>Comprobación de Juego Responsable</h1></b>Ha jugado durante <span>((timePassed))</span> minutos. A apostado <span>((totalBet))</span>. Ha ganado <span>((totalWin))</span> y su balance es de <span>((result))</span>.<p/>Si desea continuar jugando, por favor, pulse OK, o pulse Salir para abandonar el juego.</div>",
+    "go":"<div><h1>Responsible Gaming Reality Check</h1></b>You have been playing for <span>((timePassed))</span> minutes. You have wagered <span>((totalBet))</span>. You won <span>((totalWin))</span> and your result is <span>((result))</span>.<p/>If you wish to continue to play, please click OK, or press Exit to quit the game.</div>",
+    "it":"<div><h1>Controllo Gioco Responsabile</h1></b>Ha giocato per <span>((timePassed))</span> minuti. Ha giocato <span>((totalBet))</span>. Hai vinto <span>((totalWin))</span> e il suo risultato è <span>((result))</span>.<p/>Se desidera continuare a giocare cilcchi OK, altrimenti prema Uscita per uscire dal gioco.</div>",
+    "ru":"<div><h1>Ответственная игра – Проверка</h1></b>Вы играли в течение <span>((timePassed))</span> минут. Вы поставили всего <span>((totalBet))</span>. Вы выиграли <span>((totalWin))</span> и Ваш результат <span>((result))</span>.<p/>Если Вам хочется продолжить игру, пожалуйста, нажмите кнопку ОК, или чтобы выйти из игры - Выход.</div>",
+    "nl":"<div><h1>Realiteitscontrole voor verantwoord spelen</h1></b>U hebt <span>((timePassed))</span> minuten gespeeld. U hebt <span>((totalBet))</span> ingezet. U hebt <span>((totalWin))</span> gewonnen en uw resultaat is <span>((result))</span>.<p/>Als u verder wilt spelen, klik op OK of druk op Afsluiten om het spel te verlaten.</div>",
+    "fr":"<div><h1>État des lieux du jeu responsable</h1></b>Vous jouez depuis <span>((timePassed))</span> minutes. Vous avez misé <span>((totalBet))</span>. Vous avez gagné <span>((totalWin))</span> et votre résultat est de <span>((result))</span>.<p/>Cliquez sur OK si vous souhaitez continuer à jouer ou appuyez sur Sortie pour quitter le jeu.</div>",
+    "mk":"<div><h1>Одговорна игра на среќа, проверка на реалноста</h1></b>Вие игравте <span>((timePassed))</span> минути. Вие се обложивте <span>((totalBet))</span>. Вие добивте <span>((totalWin))</span> и вашиот резултат е <span>((result))</span>.<p/>Ако сакате да продолжите да играте, ве молиме притиснете OK, или притиснете Излез да ја откажете играта.</div>",
+    "ro":"<div><h1>Avertizare de joc responsabil</h1></b>Ați jucat timp de <span>((timePassed))</span> de minute. Ați pariat <span>((totalBet))</span>. Ați câștigat <span>((totalWin))</span> iar rezultatul dvs. este <span>((result))</span>.<p/>Dacă doriți să jucați în continuare, vă rugăm să faceți clic pe OK, sau apăsați Iesire pentru a iesi din joc.</div>",
+    "pt":"<div><h1>Jogo Responsável - Pés na Terra</h1></b>Está a jogar há <span>((timePassed))</span> minutos. Apostou <span>((totalBet))</span>. Ganhou <span>((totalWin))</span> e o seu resultado é de <span>((result))</span>.<p/>Se deseja continuar a jogar, clique OK ou prima Sair para sair do jogo.</div>",
+    "hr":"<div><h1>Podsjetnik na koncept odgovornog igranja</h1></b>Igrate već <span>((timePassed))</span> minuta. Uložili ste <span>((totalBet))</span>. Dobili ste <span>((totalWin))</span> dakle vaš rezultat iznosi <span>((result))</span>.<p/>Ako želite nastaviti, kliknite OK ili pritisnite Izlaz ako želite zatvoriti igru.</div>",
+    "da":"<div><h1>Ansvarligt spil virkelighedstjek</h1></b>Du har spillet i <span>((timePassed))</span> minutter. Du har satset <span>((totalBet))</span>. Du har vundet <span>((totalWin))</span> og dit resultat er <span>((result))</span>.<p/>Hvis du ønsker at fortsætte med at spille, skal du klikke på OK, ellers tryk på EXIT for at gå ud af spillet.</div>",
+    "de":"<div><h1>Realitätscheck für verantwortungsbewusstes Spielen</h1></b>Sie spielen nun seit <span>((timePassed))</span> Minuten. Sie haben <span>((totalBet))</span> gesetzt. Sie haben <span>((totalWin))</span> gewonnen und ihr Nettogewinn beträgt <span>((result))</span>.<p/>Wenn Sie weiterspielen möchten, klicken Sie bitte auf OK, oder drücken Sie Verlassen, um das Spiel zu beenden.</div>"
+  },
+"realityCheckTimePassedOnly":{
+    "bg":"<div><h1>Разумно Залагане - Проверка</h1></b>Играете от <span>((timePassed))</span> минути.</p>Ако желаете да продължите играта, моля натиснете ОК, или изберете Изход за данапуснете играта.</div>",
+    "en":"<div><h1>Responsible Gaming Reality Check</h1></b>You have been playing for <span>((timePassed))</span> minutes.<p/>If you wish to continue to play, please click OK, or press Exit to quit the game.</div>",
+    "es":"<div><h1>Comprobación de Juego Responsable</h1></b>Ha jugado durante <span>((timePassed))</span> minutos.<p/>Si desea continuar jugando, por favor, pulse OK, o pulse Salir para abandonar el juego.</div>",
+    "go":"<div><h1>Responsible Gaming Reality Check</h1></b>You have been playing for <span>((timePassed))</span> minutes.<p/>If you wish to continue to play, please click OK, or press Exit to quit the game.</div>",
+    "it":"<div><h1>Controllo Gioco Responsabile</h1></b>Ha giocato per <span>((timePassed))</span> minuti.<p/>Se desidera continuare a giocare cilcchi OK, altrimenti prema Uscita per uscire dal gioco.</div>",
+    "ru":"<div><h1>Ответственная игра – Проверка</h1></b>Вы играли в течение <span>((timePassed))</span> минут.<p/>Если Вам хочется продолжить игру, пожалуйста, нажмите кнопку ОК, или чтобы выйти из игры - Выход.</div>",
+    "nl":"<div><h1>Realiteitscontrole voor verantwoord spelen</h1></b>U hebt <span>((timePassed))</span> minuten gespeeld.<p/>Als u verder wilt spelen, klik op OK of druk op Afsluiten om het spel te verlaten.</div>",
+    "fr":"<div><h1>État des lieux du jeu responsable</h1></b>Vous jouez depuis <span>((timePassed))</span> minutes.<p/>Cliquez sur OK si vous souhaitez continuer à jouer ou appuyez sur Sortie pour quitter le jeu.</div>",
+    "mk":"<div><h1>Одговорна игра на среќа, проверка на реалноста</h1></b>Вие игравте <span>((timePassed))</span> минути.<p/>Ако сакате да продолжите да играте, ве молиме притиснете OK, или притиснете Излез да ја откажете играта.</div>",
+    "ro":"<div><h1>Avertizare de joc responsabil</h1></b>Ați jucat timp de <span>((timePassed))</span> de minute.<p/>Dacă doriți să jucați în continuare, vă rugăm să faceți clic pe OK, sau apăsați Iesire pentru a iesi din joc.</div>",
+    "pt":"<div><h1>Jogo Responsável - Pés na Terra</h1></b>Está a jogar há <span>((timePassed))</span> minutos.<p/>Se deseja continuar a jogar, clique OK ou prima Sair para sair do jogo.</div>",
+    "hr":"<div><h1>Podsjetnik na koncept odgovornog igranja</h1></b>Igrate već <span>((timePassed))</span> minuta.<p/>Ako želite nastaviti, kliknite OK ili pritisnite Izlaz ako želite zatvoriti igru.</div>",
+    "da":"<div><h1>Ansvarligt spil virkelighedstjek</h1></b>Du har spillet i <span>((timePassed))</span> minutter.<p/>Hvis du ønsker at fortsætte med at spille, skal du klikke på OK, ellers tryk på EXIT for at gå ud af spillet.</div>",
+    "de":"<div><h1>Realitätscheck für verantwortungsbewusstes Spielen</h1></b>Sie spielen nun seit <span>((timePassed))</span> Minuten.<p/>Wenn Sie weiterspielen möchten, klicken Sie bitte auf OK, oder drücken Sie Verlassen, um das Spiel zu beenden.</div>"
+},
+  "lossLimit":{
+    "bg":"<div><h1>Разумно Залагане - Ограничение на Загубите</h1>Достигнахте зададеното от Вас самоограничение за Загуби и игралната Ви сесия бе прекратена.<p/>За изход, моля натиснете ОК.</div>",
+    "en":"<div><h1>Responsible Gaming Loss Limit</h1>You have reached your self-imposed loss limit and your game session has been terminated.<p/>For exit, please press OK.</div>",
+    "es":"<div><h1>Límite de Pérdida de Juego Responsabe</h1>Ha alcanzado su límite personal de pérdida y su sesión ha sido finalizada.<p/>Para salir, por favor, pulse OK.</div>",
+    "go":"<div><h1>Responsible Gaming Loss Limit</h1>You have reached your self-imposed loss limit and your game session has been terminated.<p/>For exit, please press OK.</div>",
+    "it":"<div><h1>Limite Perdita Gioco Responsabile</h1>Ha raggiunto il limite di perdite autoimposto, e la sua sessione di gioco è stata chiusa.<p/>Per uscire, prema OK.</div>",
+    "ru":"<div><h1>Ответственная игра - Ограничение Проигрыша</h1>Вы достигли установленного Вами Ограичение Проигрыша и Ваш игровой сеанс был закрыт.<p/>Для выхода, пожалуйста нажмите ОК.</div>",
+    "nl":"<div><h1>Verlieslimiet voor verantwoord spelen</h1>U hebt uw zelf opgelegd verlieslimiet en uw speelsessie werd beëindigd.<p/>Om af te sluiten, druk op OK.</div>",
+    "fr":"<div><h1>Limite de pertes en jeu responsable</h1>Vous avez atteint la limite de pertes que vous vous êtes imposée et votre session de jeu a pris fin.<p/>Pour quitter, appuyez sur OK.</div>",
+    "mk":"<div><h1>Одговорна игра на среќа, ограничување на изгубеното</h1>Вие го достигнавте само наметнатото ограничување на изгубеното и сесијата за вашата игра е прекината.<p/>За да излезете, ве молиме притиснете OK.</div>",
+    "ro":"<div><h1>Limită de pierdere pentru joc responsabil</h1>Ați atins limita de pierdere auto-impusă și sesiunea dvs. de joc a fost întreruptă.<p/>Pentru Iesire, vă rugăm să apăsați OK.</div>",
+    "pt":"<div><h1>Limite de Perdas de Jogo Responsável</h1>Atingiu o seu limite autoimposto de perdas e a sua sessão de jogo foi terminada.<p/>Para sair, prima OK.</div>",
+    "hr":"<div><h1>Ograničenje gubitaka sukladno konceptu odgovornog igranja</h1>Dosegli ste ograničenje gubitaka koje ste sami postavili i vaše igranje je prekinuto.<p/>Za izlaz pritisnite OK.</div>",
+    "da":"<div><h1>Ansvarligt spil tabsgrænse</h1>Du er nået til din selvindstillede tabsgrænse, og din spillesession er blevet afsluttet.<p/>Tryk på OK for at gå ud.</div>",
+    "de":"<div><h1>Verlustlimit für verantwortungsbewusstes Spielen</h1>Sie haben Ihr selbst auferlegtes Verlustlimit erreicht und Ihre Spielsitzung wurde beendet.<p/>Um das Spiel zu beenden, drücken Sie bitte OK.</div>"
+  },
+  "betLimit":{
+    "bg":"<div><h1>Разумно Залагане - Ограничение на Залозите</h1>Достигнахте зададеното от Вас самоограничение Залози и игралната Ви сесия бе прекратена.<p/>За изход, моля натиснете ОК.</div>",
+    "en":"<div><h1>Responsible Gaming Bet Limit</h1>You have reached your self-imposed bet limit and your game session has been terminated.<p/>For exit, please press OK.</div>",
+    "es":"<div><h1>Límite de Apuesta de Juego Responsabe</h1>Ha alcanzado su límite personal de apuesta y su sesión ha sido finalizada.<p/>Para salir, por favor, pulse OK.</div>",
+    "go":"<div><h1>Responsible Gaming Bet Limit</h1>You have reached your self-imposed bet limit and your game session has been terminated.<p/>For exit, please press OK.</div>",
+    "it":"<div><h1>Limite Puntata Gioco Responsabile</h1>Ha raggiunto il limite di puntate che si è autoimposto e la sua sessione di gioco è stata chiusa.<p/>Per uscire, prema OK.</div>",
+    "ru":"<div><h1>Ответственная игра - Ограничение Ставок</h1>Вы достигли установленного Вами Ограичение Ставок и Ваш игровой сеанс был закрыт.<p/>Для выхода, пожалуйста нажмите ОК.</div>",
+    "nl":"<div><h1>Goklimiet voor verantwoord spelen</h1>U hebt uw zelf opgelegd goklimiet bereikt en uw speelsessie werd beëindigd.<p/>Om af te sluiten, druk op OK.</div>",
+    "fr":"<div><h1>Limite de mise en jeu responsable</h1>Vous avez atteint la limite de mise que vous vous êtes imposée et votre session de jeu a pris fin.<p/>Pour quitter, appuyez sur OK.</div>",
+    "mk":"<div><h1>Одговорна игра на среќа, ограничување на обложувањето</h1>Вие го достигнавте само наметнатото ограничување на обложеното и сесијата за вашата игра е прекината.<p/>За да излезете, ве молиме притиснете OK.</div>",
+    "ro":"<div><h1>Limită de pariere pentru joc responsabil</h1>Ați atins limita de pariere auto-impusă și sesiunea dvs. de joc a fost întreruptă.<p/>Pentru Iesire, vă rugăm să apăsați OK.</div>",
+    "pt":"<div><h1>Limite de Aposta de Jogo Responsável</h1>Atingiu o seu limite autoimposto de aposta e a sua sessão de jogo foi terminada.<p/>Para sair, prima OK.</div>",
+    "hr":"<div><h1>Ograničenje uloga sukladno konceptu odgovornog igranja</h1>Dosegli ste ograničenje uloga koje ste sami postavili i vaša igra je prekinuta.<p/>Za izlaz pritisnite OK.</div>",
+    "da":"<div><h1>Ansvarligt spil indsatsgrænse</h1>Du er nået til din selvindstillede indsatsgrænse, og din spillesession er blevet afsluttet.<p/>Tryk på OK for at gå ud.</div>",
+    "de":"<div><h1>Einsatzlimit für verantwortungsbewusstes Spielen</h1>Sie haben Ihr selbst auferlegtes Einsatzlimit erreicht und Ihre Spielsitzung wurde beendet.<p/>Um das Spiel zu beenden, drücken Sie bitte OK.</div>"
+  },
+  "timeLimit":{
+    "bg":"<div><h1>Разумно Залагане - Ограничение Продължителност на сесия</h1>Достигнахте зададеното от Вас самоограничение Продължителност на сесия и игралната Ви сесия бе прекратена.<p/>За изход, моля натиснете ОК.</div>",
+    "en":"<div><h1>Responsible Gaming Time Limit</h1>You have reached your self-imposed session time limit and your game session has been terminated.<p/>For exit, please press OK.</div>",
+    "es":"<div><h1>Límite de Tiempo de Juego Responsabe</h1>Ha alcanzado su límite personal de tiempo y su sesión ha sido finalizada.<p/>Para salir, por favor, pulse OK.</div>",
+    "go":"<div><h1>Responsible Gaming Bet Limit</h1>You have reached your self-imposed bet limit and your game session has been terminated.<p/>For exit, please press OK.</div>",
+    "it":"<div><h1>Limite Tempo Gioco Responsabile</h1>Ha raggiunto il limite di tempo che si è autoimposto e la sua sessione di gioco è stata chiusa.<p/>Per uscire, prema OK.</div>",
+    "ru":"<div><h1>Ответственная игра - Ограничение Продолжительности сеанса</h1>Вы достигли установленного Вами Ограичение Продолжительности сеанса и Ваш игровой сеанс был закрыт.<p/>Для выхода, пожалуйста нажмите ОК.</div>",
+    "nl":"<div><h1>Tijdslimiet voor verantwoord spelen</h1>U hebt uw zelf opgelegd tijdslimiet bereikt en uw speelsessie werd beëindigd.<p/>Om af te sluiten, druk op OK.</div>",
+    "fr":"<div><h1>Limite de temps en jeu responsable</h1>Vous avez atteint la limite de temps que vous vous êtes imposée et votre session de jeu a pris fin.<p/>Pour quitter, appuyez sur OK.</div>",
+    "mk":"<div><h1>Одговорна игра на среќа, ограничување на времето</h1>Вие го достигнавте само наметнатото ограничување на времето и сесијата за вашата игра е прекината.<p/>За да излезете, ве молиме притиснете OK.</div>",
+    "ro":"<div><h1>Limită de timp pentru joc responsabil</h1>Ați atins limita de timp de sesiune auto-impusă și sesiunea dvs. de joc a fost întreruptă.<p/>Pentru Iesire, vă rugăm să apăsați OK.</div>",
+    "pt":"<div><h1>Limite de Tempo de Jogo Responsável</h1>Atingiu o seu limite autoimposto de tempo de jogo e a sua sessão de jogo foi terminada.<p/>Para sair, prima OK.</div>",
+    "hr":"<div><h1>Vremensko ograničenje sukladno konceptu odgovornog igranja</h1>Dosegli ste vremensko ograničenje koje ste sami postavili i vaše igranje je prekinuto.<p/>Za izlaz pritisnite OK.</div>",
+    "da":"<div><h1>Ansvarligt spil tidsgrænse</h1>Du er nået til din selvindstillede sessionsgrænse, og din spillesession er blevet afsluttet.<p/>Tryk på OK for at gå ud.</div>",
+    "de":"<div><h1>Zeitlimit für verantwortungsbewusstes Spielen</h1>Sie haben Ihr selbst auferlegtes Sitzungszeitlimit erreicht und Ihre Spielsitzung wurde beendet.<p/>Um das Spiel zu beenden, drücken Sie bitte OK.</div>"
+  },
+  "timeProximityAlert":{
+    "bg":"<div><h1>Разумно Залагане - Известие за времетраене на сесия</h1>Сесията Ви е към края си. Достигате зададеното от Вас самоограничение за времетраене на сесия.<p/>Моля натиснете ОК, за да продължите играта.</div>",
+    "en":"<div><h1>Responsible Gaming Time Notification</h1>The session is almost over. You are about to reach your self-imposed session time limit.<p/>Please click OK to continue the game.</div>",
+    "es":"<div><h1>Notificación de Tiempo de Juego Responsible</h1>La sesión de juego está a punto de finalizar. Está a punto de alcanzar su límite de Tiempo de sesión auto establecido.<p/>Por favor, pulse OK para continuar jugando.</div>",
+    "go":"<div><h1>Responsible Gaming Time Notification</h1>The session is almost over. You are about to reach your self-imposed session time limit.<p/>Please click OK to continue the game.</div>",
+    "it":"<div><h1>Avviso Tempo Gioco Responsabile</h1>La sessione è quasi terminata.<br>Sta per raggiungere il suo limite di tempo autoimposto.<p/>Prema OK per continuare il gioco.</div>",
+    "ru":"<div><h1>Ответственная игра: лимит по времени</h1>Ваша игровая сессия почти подошла к концу. Вы почти достигли установленного вами ограничения по времени.<p/>Нажмите OK для возвращения к игре.</div>",
+    "nl":"<div><h1>Mededeling voor een verantwoorde speeltijd</h1>De sessie is bijna verstreken. De tijdslimiet voor de sessie die u zelf hebt ingesteld is bijna bereikt.<p/>Klik op OK om het spel verder te spelen.</div>",
+    "fr":"<div><h1>Notification du temps en jeu responsable</h1>La session est presque terminée. Vous êtes sur le point d'atteindre la limite de temps par session que vous vous êtes imposée.<p/>Cliquez sur OK pour continuer à jouer.</div>",
+    "mk":"<div><h1>Времено известување за одговорно играње</h1>Сесијата е речиси завршена. Вие скоро го достигнавте своето наметнато временско ограничување на сесијата.<p/>Ве молиме притиснете OK за да ја продолжите играта.</div>",
+    "ro":"<div><h1>Notificare de timp pentru joc responsabil</h1>Sesiunea aproape că s-a terminat. Sunteți pe cale să ajungeți la limita de timp de sesiune auto-impusă.<p/>Vă rugăm să faceți clic pe OK pentru a continua jocul.</div>",
+    "pt":"<div><h1>Aviso de Tempo de Jogo Responsável</h1>A sessão está quase a terminar. Está prestes a atingir o seu limite de tempo de sessão autoimposto.<p/>Clicque em OK para prosseguir com o jogo.</div>",
+    "hr":"<div><h1>Obavijest o vremenu sukladno konceptu odgovornog igranja</h1>Igranje će uskoro završiti. Bližite se vremenskom ograničenju kojeg ste sami postavili.<p/>Kliknite OK za nastavak igre.</div>",
+    "da":"<div><h1>Ansvarligt spil tidsnotifikation</h1>Sessionen er næsten slut. Du er næsten nået til din selvindstillede sessionsgrænse.<p/>Klik på OK for at fortsætte spillet.</div>",
+    "de":"<div><h1>Zeitbenachrichtigung für verantwortungsbewusstes Spielen</h1>Die Sitzung ist fast vorbei. Sie erreichen in Kürze Ihr selbst auferlegtes Sitzungszeitlimit.<p/>Bitte klicken Sie OK, um weiterzuspielen.</div>"
+  },
+  "creditLeftAlert":{
+    "bg":"<div><h1>Разумно Залагане - Известие за направени Залози</h1>Сесията Ви е към края си. Достигате зададеното от Вас самоограничение на Залози.<p/>Моля натиснете ОК, за да продължите играта.</div>",
+    "en":"<div><h1>Responsible Gaming Bet Notification</h1>The session is almost over. You are about to reach your self-imposed bet limit.<p/>Please click OK to continue the game.</div>",
+    "es":"<div><h1>Notificación de Apuesta de Juego Responsible</h1>La sesión de juego está a punto de finalizar. Está a punto de alcanzar su límite de apuesta auto establecido.<p/>Por favor, pulse OK para continuar jugando.</div>",
+    "go":"<div><h1>Responsible Gaming Bet Notification</h1>The session is almost over. You are about to reach your self-imposed bet limit.<p/>Please click OK to continue the game.</div>",
+    "it":"<div><h1>Avviso Puntata Gioco Responsabile</h1>TLa sessione è quasi terminata.<br>Sta per raggiungere il suo limite di puntate autoimposto.<p/>Prema OK per continuare il gioco.</div>",
+    "ru":"<div><h1>Ответственная игра: лимит по ставкам</h1>Ваша игровая сессия почти подошла к концу. Вы почти достигли установленного вами ограничения по ставкам.<p/>Нажмите OK для возвращения к игре.</div>",
+    "nl":"<div><h1>Mededeling voor een verantwoorde speelinzet</h1>De sessie is bijna verstreken. De inzetlimiet die u zelf hebt ingesteld is bijna bereikt.<p/>Klik op OK om het spel verder te spelen.</div>",
+    "fr":"<div><h1>Notification de mise en jeu responsable</h1>La session est presque terminée. Vous êtes sur le point d'atteindre la limite de mise par session que vous vous êtes imposée.<p/>Cliquez sur OK pour continuer à jouer.</div>",
+    "mk":"<div><h1>Известување за облог за одговорно играње</h1>Сесијата е речиси завршена. Вие скоро го достигнавте своето наметнато ограничување за облог.<p/>Ве молиме притиснете OK за да ја продолжите играта.</div>",
+    "ro":"<div><h1>Notificare de pariere pentru joc responsabil</h1>Sesiunea aproape s-a terminat. Sunteți pe cale să ajungeți la limita de pariere auto-impusă.<p/>Vă rugăm să faceți clic pe OK pentru a continua jocul.</div>",
+    "pt":"<div><h1>Aviso de Aposta de Jogo Responsável</h1>A sessão está quase a terminar. Está prestes a atingir o seu limite de aposta autoimposto.<p/>Clicque em OK para prosseguir com o jogo.</div>",
+    "hr":"<div><h1>Obavijest o okladi sukladno konceptu odgovornog igranja</h1>Igranje će uskoro završiti. Bližite se ograničenju uloga kojeg ste sami postavili.<p/>Kliknite OK za nastavak igre.</div>",
+    "da":"<div><h1>Ansvarligt spil indsatsnotifikation</h1>Sessionen er næsten slut. Du er næsten nået til din selvindstillede indsatsgrænse.<p/>Klik på OK for at fortsætte spillet.</div>",
+    "de":"<div><h1>Einsatzbenachrichtigung für verantwortungsbewusstes Spielen</h1>Die Sitzung ist fast vorbei. Sie erreichen in Kürze Ihr selbst auferlegtes Einsatzlimit.<p/>Bitte klicken Sie OK, um weiterzuspielen.</div>"
+  },
+  "sessionTimeout":{
+    "bg":"<div>Сесията Ви бе прекратена поради неактивност.</div>",
+    "en":"<div>Your session has timed out due to inactivity.</div>",
+    "es":"<div>Su sesiń ha expirado debido a su inactividad.</div>",
+    "go":"<div>Your session has timed out due to inactivity.</div>",
+    "it":"<div>La sua sessione è stata terminata per inattività.</div>",
+    "ru":"<div>Превышено время ожидания соединения.</div>",
+    "nl":"<div>Er is een time-out van uw sessie opgetreden omwille van inactiviteit.</div>",
+    "fr":"<div>Votre session a expiré pour cause d'inactivité.</div>",
+    "mk":"<div>Вашата сесија истече поради неактивност.</div>",
+    "ro":"<div>Sesiunea dvs. a expirat din cauza inactivității.</div>",
+    "pt":"<div>A sua sessão foi encerrada por exceder o tempo sem atividade.</div>",
+    "hr":"<div>Isteklo je vrijeme vaše sesije zbog neaktivnosti.</div>",
+    "da":"<div>Din session er løbet ud grundet inaktivitet.</div>",
+    "hu":"<div>Az ön játékmenete lejárt inaktivitás miatti időtúllépés miatt.</div>",
+    "sv":"<div>Din session har avslutats på grund av inaktivitet.</div>",
+    "de":"<div>Ihre Sitzung wurde aufgrund von Inaktivität beendet.</div>"
+  },
+  "override":{
+    "bg":"<div>Поради множество влизания връзката беше прекъсната!</div>",
+    "en":"<div>Disconnected due to multiple logins!</div>",
+    "es":"<div>¡Desconectado debido a múltiples inicios de sesión!</div>",
+    "go":"<div>Disconnected due to multiple logins!</div>",
+    "it":"<div>Disconnesso a causa di login multipli!</div>",
+    "ru":"<div>Соединение прервано по причине многократного входа в систему!</div>",
+    "nl":"<div>Verbinding verbroken door meerdere aanmeldingen!</div>",
+    "fr":"<div>Déconnecté en raison de connexions multiples!</div>",
+    "mk":"<div>Исклучено поради повеќе најави!</div>",
+    "ro":"<div>Deconectare din cauza logărilor multiple!</div>",
+    "pt":"<div>Desligado devido a múltiplos inícios de sessão.</div>",
+    "hr":"<div>Prekid veze zbog višestruke prijave!</div>",
+    "da":"<div>Frakoblet grundet flere logins!</div>",
+    "hu":"<div>Szétcsatlakoztatva többszörös bejelentkezés miatt!</div>",
+    "sv":"<div>Utloggad på grund av inloggning från flera platser!</div>",
+    "de":"<div>Verbindung aufgrund mehrerer Anmeldungen getrennt!</div>"
+  },
+  "defaultSessionClosed":{
+    "bg":"<div>Сесията е приключена.</div>",
+    "en":"<div>Session closed.</div>",
+    "es":"<div>Session closed.</div>",
+    "go":"<div>Session closed.</div>",
+    "it":"<div>Session closed.</div>",
+    "ru":"<div>Session closed.</div>",
+    "nl":"<div>Session closed.</div>",
+    "fr":"<div>Session closed.</div>",
+    "mk":"<div>Session closed.</div>",
+    "ro":"<div>Session closed.</div>",
+    "pt":"<div>Session closed.</div>",
+    "hr":"<div>Session closed.</div>",
+    "da":"<div>Session closed.</div>",
+    "hu":"<div>Session closed.</div>"
+  },
+  "connectionClosed":{
+    "bg":"<div>Изгубена е връзка със сървъра. Моля, затворете прозореца и опитайте отново.</div>",
+    "en":"<div>The connection to the server has been lost. Please close the window and try again.</div>",
+    "es":"<div>The connection to the server has been lost. Please close the window and try again.</div>",
+    "go":"<div>The connection to the server has been lost. Please close the window and try again.</div>",
+    "it":"<div>The connection to the server has been lost. Please close the window and try again.</div>",
+    "ru":"<div>Не удалось подключится к серверу. Пожалуйста, зокройте окно и попробуйте снова.</div>",
+    "nl":"<div>The connection to the server has been lost. Please close the window and try again.</div>",
+    "fr":"<div>The connection to the server has been lost. Please close the window and try again.</div>",
+    "mk":"<div>Изгубена е врската со серверот. Ве молиме затворете го прозорецот и пробајте повторно.</div>",
+    "ro":"<div>Conexiunea cu serverul a fost pierdută. Vă rugăm, închideți fereastra și încercați din nou.</div>",
+    "pt":"<div>A ligação ao servidor perdeu-se. Feche a janela e tente novamente.</div>",
+    "hr":"<div>The connection to the server has been lost. Please close the window and try again.</div>",
+    "da":"<div>Forbindelsen til serveren er gået tabt. Luk vinduet og prøv igen.</div>",
+    "hu":"<div>A kapcsolat a szerverrel megszakadt. Kérjük, zárja be az ablakot és próbálja meg újból.</div>"
+  },
+  "ipBlocked":{
+    "bg":"<div>Due to local legislation, this game is not available in your country</div>",
+    "en":"<div>Due to local legislation, this game is not available in your country</div>",
+    "es":"<div>Due to local legislation, this game is not available in your country</div>",
+    "go":"<div>Due to local legislation, this game is not available in your country</div>",
+    "it":"<div>Due to local legislation, this game is not available in your country</div>",
+    "ru":"<div>Due to local legislation, this game is not available in your country</div>",
+    "nl":"<div>Due to local legislation, this game is not available in your country</div>",
+    "fr":"<div>Due to local legislation, this game is not available in your country</div>",
+    "mk":"<div>Due to local legislation, this game is not available in your country</div>",
+    "ro":"<div>Due to local legislation, this game is not available in your country</div>",
+    "pt":"<div>Due to local legislation, this game is not available in your country</div>",
+    "hr":"<div>Due to local legislation, this game is not available in your country</div>",
+    "da":"<div>Due to local legislation, this game is not available in your country</div>",
+    "hu":"<div>Due to local legislation, this game is not available in your country</div>"
+  },
+  "currency":{
+    
+  },
+  "incorrectGIN":{
+    "bg":"В момента играта не е достъпна.",
+    "en":"The game is currently unavailable.",
+    "es":"El juego no está disponible actualmente.",
+    "go":"The game is currently unavailable.",
+    "it":"Il gioco è attualmente non disponibile.",
+    "ru":"В данный момент игра недоступна.",
+    "nl":"Het spel is momenteel niet beschikbaar.",
+    "fr":"Le jeu est actuellement indisponible.",
+    "mk":"Играта моментално е недостапна.",
+    "ro":"Jocul este momentan indisponibil.",
+    "pt":"O jogo não está disponível de momento.",
+    "hr":"Igra je trenutno nedostupna.",
+    "da":"Spillet er ikke tilgængeligt i øjeblikket.",
+    "hu":"A játék jelenleg nem érhető el.",
+    "sv":"Spelet är inte tillgängligt för tillfället.",
+    "de":"Das Spiel ist derzeit nicht erreichbar."
+  },
+    "browserUnsupported": {
+        "bg":"<div>Браузърът не се поддържа.</div>",
+        "en":"<div>This browser is not supported.</div>",
+        "es":"<div>Este navegador no es compatible.</div>",
+        "go":"<div>This browser is not supported.</div>",
+        "it":"<div>Questo browser non è supportato.</div>",
+        "ru":"<div>Этот браузер не поддерживается.</div>",
+        "nl":"<div>Deze browser wordt niet ondersteund.</div>",
+        "fr":"<div>Ce navigateur n'est pas supporté.</div>",
+        "mk":"<div>Овој прелистувач не е поддржан.</div>",
+        "ro":"<div>Acest browser nu este acceptat.</div>",
+        "pt":"<div>Este navegador não é suportado.</div>",
+        "hr":"<div>Ovaj preglednik nije podržan.</div>",
+        "da":"<div>Denne browser er ikke understøttet.</div>",
+        "hu":"<div>Ez a böngésző nem támogatott.</div>",
+        "sv":"<div>Den här webbläsaren stöds inte.</div>"
+    },
+  "gamesFilter": {
+    "all":{
+        "bg":"ВСИЧКИ ИГРИ",
+        "en":"All Games",
+        "es":"Todos los Juegos",
+        "go":"All Games",
+        "it":"Tutti i Giochi",
+        "ru":"ВСЕ ИГРЫ",
+        "nl":"ALLE SPELLEN",
+        "fr":"TOUS LES JEUX",
+        "mk":"Сите игри",
+        "ro":"TOATE JOCURILE",
+        "pt":"Todos os jogos",
+        "hr":"Sve igre",
+        "da":"Alle spil",
+        "hu":"MINDEN JÁTÉK",
+        "sv":"Alla spel",
+        "de":"Alle Spiele"
+    },
+    "fruit":{
+        "bg":"ПЛОДОВИ",
+        "en":"Fruit",
+        "es":"Frutas",
+        "go":"Fruit",
+        "it":"Frutta",
+        "ru":"С ФРУКТАМИ",
+        "nl":"FRUIT",
+        "fr":"FRUIT",
+        "mk":"Овошје",
+        "ro":"Fructe",
+        "pt":"Fruto",
+        "hr":"Voće",
+        "da":"Frugt",
+        "hu":"GYÜMÖLCS",
+        "sv":"Frukt",
+        "de":"Frucht"
+    },
+    "slots":{
+        "bg":"СЛОТОВЕ",
+        "en":"Slots",
+        "es":"Tragaperras",
+        "go":"Slots",
+        "it":"Slots",
+        "ru":"СЛОТЫ",
+        "nl":"GOKKASTEN",
+        "fr":"SLOTS",
+        "mk":"Слотови",
+        "ro":"Sloturi",
+        "pt":"Slots",
+        "hr":"Slot igre",
+        "da":"Slots",
+        "hu":"Slot játékok",
+        "sv":"Slots",
+        "de":"Slot-Automaten"
+    },
+    "multiline":{
+        "bg":"МНОГОЛИНЕЙНИ",
+        "en":"Multiline",
+        "es":"Multilínea",
+        "go":"Multiline",
+        "it":"Multilinea",
+        "ru":"МНОГОЛИНЕЙНЫЕ",
+        "nl":"MEERDERE LIJNEN",
+        "fr":"MULTI-LIGNES",
+        "mk":"Мултилинија",
+        "ro":"MULTILINE",
+        "pt":"Multilinha",
+        "hr":"Više linija",
+        "da":"Flerlinjer",
+        "hu":"MULTIVONAL",
+        "sv":"Multilinje",
+        "de":"Multilinie"
+    },
+    "cards":{
+        "bg":"КАРТИ",
+        "en":"Cards",
+        "es":"Tarjetas",
+        "go":"Cards",
+        "it":"Carte",
+        "ru":"КАРТОЧНЫЕ",
+        "nl":"KAARTEN",
+        "fr":"CARTES",
+        "mk":"Карти",
+        "ro":"Cărți",
+        "pt":"Cartas",
+        "hr":"Karte",
+        "da":"Kort",
+        "hu":"KÁRTYA",
+        "sv":"Kort",
+        "de":"Karten"
+    },
+    "roulette":{
+        "bg":"РУЛЕТКИ",
+        "en":"Roulettes",
+        "es":"Ruletas",
+        "go":"Roulettes",
+        "it":"Roulette",
+        "ru":"РУЛЕТКИ",
+        "nl":"ROULETTES",
+        "fr":"ROULETTES",
+        "mk":"Рулети",
+        "ro":"Rulete",
+        "pt":"Roletas",
+        "hr":"Ruleti",
+        "da":"Roulettespil",
+        "hu":"RULETT",
+        "sv":"Roulette",
+        "de":"Roulette"
+    },
+    "myGames":{
+        "bg":"МОИТЕ ИГРИ",
+        "en":"My games",
+        "es":"Mis Juegos",
+        "go":"My Games",
+        "it":"I miei Giochi",
+        "ru":"МОИ ИГРЫ",
+        "nl":"MIJN SPELLEN",
+        "fr":"MES JEUX",
+        "mk":"Моите игри",
+        "ro":"Jocurile mele",
+        "pt":"Os Meus Jogos",
+        "hr":"Moje igre",
+        "da":"Mine spil",
+        "hu":"Játékaim",
+        "sv":"Mina spel",
+        "de":"Meine Spiele"
+    },
+    "classic":{
+        "bg":"КЛАСИК",
+        "en":"CLASSIC",
+        "es":"CLÁSICO",
+        "go":"CLASSIC",
+        "it":"CLASSICI",
+        "ru":"КЛАССИКА",
+        "nl":"KLASSIEK",
+        "fr":"CLASSIQUE",
+        "mk":"Класик",
+        "ro":"CLASIC",
+        "pt":"CLÁSSICO",
+        "hr":"CLASSIC",
+        "da":"KLASSISK",
+        "hu":"KLASSZIKUS",
+        "sv":"KLASSISK",
+        "de":"KLASSISKKLASSISK"
+    },
+    "extraline":{
+        "bg":"ЕКСТРА-ЛИНИИ",
+        "en":"EXTRALINE",
+        "es":"EXTRALÍNEA",
+        "go":"EXTRALINE",
+        "it":"EXTRALINEA",
+        "ru":"С ДОПОЛНИТЕЛЬНЫМИ ЛИНИЯМИ",
+        "nl":"EXTRALIJN",
+        "fr":"EXTRALINE",
+        "mk":"ЕКСТРА-ЛИНИИ",
+        "ro":"EXTRALINE",
+        "pt":"EXTRA-LINHA",
+        "hr":"EXTRALINE",
+        "da":"EKSTRALINJE",
+        "hu":"EXTRAVONAL",
+        "sv":"EXTRALINJE",
+        "de":"EXTRALINIE"
+    },
+    "keno":{
+        "bg":"КЕНО",
+        "en":"KENO",
+        "es":"KENO",
+        "go":"KENO",
+        "it":"KENO",
+        "ru":"KENO",
+        "nl":"KENO",
+        "fr":"KENO",
+        "mk":"KENO",
+        "ro":"KENO",
+        "pt":"KENO",
+        "hr":"KENO",
+        "da":"KENO",
+        "hu":"KENÓ",
+        "sv":"KENO",
+        "de":"KENO"
+    },
+    "diceSlots":{
+        "bg":"ЗАРОВЕ",
+        "en":"DICE SLOTS",
+        "es":"TRAGAPERRAS CON DADOS",
+        "go":"DICE SLOTS",
+        "it":"SLOT DADI",
+        "ru":"КОСТИ",
+        "nl":"DICE SLOTS",
+        "fr":"DICE SLOTS",
+        "mk":"ЗАРОВЕ",
+        "ro":"SLOTURI CU ZARURI",
+        "pt":"SLOTS DE DADOS",
+        "hr":"DICE SLOTS",
+        "da":"TERNINGESLOTS",
+        "hu":"KOCKA SLOT JÁTÉKOK",
+        "sv":"TÄRNINGSSPEL",
+        "de":"WÜRFEL-SLOTS"
+    }
+  },
+    "maintenance":{
+    "bg":"<div><h1>Профилактика на системата</h1>В момента системата е офлайн заради профилактика. Екипът ни се извинява за причиненото неудобство. Благодарим за търпението.</div>",
+    "en":"<div><h1>System Maintenance</h1>We are currently offline due to server maintenance. Our team sincerely apologizes for the inconvenience. Thank you for your patience.</div>",
+    "es":"<div><h1>Sistema en Mantenimiento</h1>Actualmente estamos offline debido al mantenimiento del servidor. Nuestro equipo lamenta profundamente los inconvenientes. Gracias por su paciencia.</div>",
+    "go":"<div><h1>Server Maintenance</h1>We are currently offline due to server maintenance. Our team sincerely apologizes for the inconvenience. Thank you for your patience.</div>",
+    "it":"<div><h1>Manutenzione Sistema</h1>Siamo attualmente offline per manutenzione al server.Il nostro team si scusa per il disagio. Grazie per la tua pazienza.</div>",
+    "ru":"<div><h1>Профилактические работы на системе</h1>В настоящее время система находится оффлайн режиме из-за профилактики. Наша комманда приносит свои извинения за временные неудобства. Спасибо Вам за терпение.</div>",
+    "nl":"<div><h1>Systeemonderhoud</h1>We zijn momenteel offline omwille van een serveronderhoud. Ons team biedt zijn excuses aan voor dit ongemak. Bedankt voor uw geduld.</div>",
+    "fr":"<div><h1>Maintenance du système</h1>Nous sommes actuellement hors-ligne en raison de la maintenance du serveur. Notre équipe présente ses sincères excuses pour la gêne occasionnée. Merci pour votre patience.</div>",
+    "mk":"<div><h1>Систем за одржување</h1>Моментално сме без линија поради одржување на сервер. Нашиот тим искрено се извинува поради непријатностите. Ви благодариме поради стрпливоста.</div>",
+    "ro":"<div><h1>Întreținere sistem</h1>Pentru moment suntem deconectați datorită lucrărilor de mentenanță la server. Echipa noastră își cere sincer scuze pentru neplăcerile create. Vă mulțumim pentru răbdare.</div>",
+    "pt":"<div><h1>Manutenção de Sistema</h1>Estamos offline de momento devido a manutenção do servidor. A nossa equipa pede desculpa pelo inconveniente. Obrigado pela sua paciência.</div>",
+    "hr":"<div><h1>Održavanje sustava</h1>Trenutno smo nedostupni zbog održavanja poslužitelja. Primite iskrene isprike našeg tima zbog nastalih neugodnosti. Hvala na strpljenju.</div>",
+    "da":"<div><h1>Systemvedligeholdelse</h1>Vi er lige nu offline grundet servervedligeholdelse. Vores hold beklager ulejligheden. Tak for din tålmodighed.</div>",
+    "hu":"<div><h1>Rendszerkarbantartás</h1>Szerverkarbantartás miatt jelenleg szolgáltatásunk nem érhető el. Csapatunk elnézését kéri a kellemetlenségért. Köszönjük a türelmét.</div>",
+    "sv":"<div><h1>Systemunderhåll</h1>Vi är för närvarande offline på grund av systemunderhåll. Vi ber om ursäkt om det skapar några problem för dig. Vi tackar för din förståelse.</div>",
+    "de":"<div><h1>Systemwartung</h1>Aufgrund einer Serverwartung sind wir derzeit offline. Unser Team entschuldigt sich aufrichtig für die Unannehmlichkeit. Vielen Dank für Ihre Geduld</div>"
+    },
+	"help":{
+		"bg":"assets/help/help_bg.html",
+        "en":"assets/help/help_en.html",
+        "es":"assets/help/help_es.html",
+        "go":"assets/help/help_en.html",
+        "it":"assets/help/help_it.html",
+        "ru":"assets/help/help_en.html",
+        "nl":"assets/help/help_en.html",
+        "fr":"assets/help/help_en.html",
+        "mk":"assets/help/help_en.html",
+        "ro":"assets/help/help_ro.html",
+        "pt":"assets/help/help_pt.html",
+        "hr":"assets/help/help_en.html",
+        "da":"assets/help/help_da.html",
+        "hu":"assets/help/help_en.html",
+        "sv":"assets/help/help_sv.html",
+        "de":"assets/help/help_en.html"
+	}
+
+}

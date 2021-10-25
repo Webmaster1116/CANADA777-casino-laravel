@@ -1,0 +1,363 @@
+body, html {
+    background: black;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow: visible;
+}
+
+html:-moz-full-screen, html:-webkit-full-screen, html:-ms-fullscreen, html:fullscreen {
+    overflow: hidden;
+}
+
+.popup {
+    color: white;
+    width: 446px;
+    height: 317px;
+    top: 50%;
+    left: 50%;
+    margin-left: -226px;
+    margin-top: -158px;
+    position: absolute;
+    font-family: Arial;
+    background-color: black;
+    font-style: 14px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: inset 0px 0px 2px 2px rgb(91, 111, 109);
+    -moz-box-shadow: inset 0px 0px 2px 2px rgb(91, 111, 109);
+    box-shadow: inset 0px 0px 2px 2px rgb(91, 111, 109);
+    z-index: 0;
+}
+
+.shadowmask {
+    position: absolute;
+    top: 2px;
+    left: 210px;
+    background-color: black;
+    border-radius: 10px;
+    width: 40px;
+    height: 295px;
+    display: inline;
+    z-index: -1;
+}
+
+.popup-mini {
+    width: 93%;
+    height: 48%;
+    margin-left: -133px;
+    margin-top: -88px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.alert {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.0);
+    position: absolute;
+    top: 0;
+}
+
+.label {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.popup .label {
+    width: 100%;
+    height: calc(100% - 75px);
+}
+
+.popup .buttons {
+    width: 100%;
+    height: 54px;
+    text-align: center;
+}
+
+.buttons button {
+    height: 33px;
+    width: 35%;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #001446;
+    background: #254CB3;
+    background: -webkit-radial-gradient(circle, #3f92b3, #254CB3, #254CB3); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(circle, #3f92b3, #254CB3, #254CB3); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, #3f92b3, #254CB3, #254CB3); /* For Fx 3.6 to 15 */
+    background: radial-gradient(circle, #3f92b3, #254CB3, #254CB3); /* Standard syntax (must be last) */
+    border-radius: 4px;
+    box-shadow: 0 4px #082370;
+    border: none;
+    font-size: 90%;
+}
+
+.label div {
+    margin: 0;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.label h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.label span {
+    color: #C3D2FF;
+}
+
+#content {
+    transform-origin: 0 0;
+}
+
+div, body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#sessionClosed {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 0;
+    display: none;
+    color: white;
+    font-family: Arial;
+    font-size: 24px;
+}
+
+#sessionClosedLabel {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#sessionClosedLabel div {
+    margin: 0 auto;
+    width: fit-content;
+    max-width: 500px;
+    word-wrap: break-word;
+    padding: 5px;
+    text-align: center;
+}
+
+#sessionClosedLabel h1 {
+    text-align: center;
+}
+
+#iOSFullscreen {
+    width: 100%;
+    height: 10000px;
+    position: absolute;
+    background: black;
+    opacity: 0.5;
+    display: none;
+    z-index: 999;
+}
+
+#iOSFullscreenAnimation {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+}
+
+.full-screen-hand {
+    width: 114px;
+    height: 112px;
+    top: 50vh;
+    left: 50vw;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    animation-name: fullscreen-swipe;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: fullscreen-swipe;
+    -webkit-animation-duration: 1.8;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes fullscreen-swipe {
+    from {
+        top: 80vh;
+    }
+
+    to {
+        top: 40vh;
+    }
+}
+
+@-webkit-keyframes fullscreen-swipe {
+    from {
+        top: 80vh;
+    }
+
+    to {
+        top: 40vh;
+    }
+}
+
+#unsupportPortrait {
+    background-image: url("assets/UnsupportedPortrait.gif");
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-repeat: no-repeat;
+    top: 0;
+    background-position: 50% 50%;
+    z-index: 1001;
+    background-color: black;
+}
+
+#disableZoom {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.buttons-mini button {
+    background:gray;
+    color:white;
+    border: 1px solid #A0A0A0;
+    box-shadow:none;
+    height: 25px;
+    width:30%;
+    font-size:80%;
+    margin-left:11px;
+    margin-top:20px;
+    margin-right: 7px;
+    font-weight: 400;
+    background: linear-gradient(#505050, #808080);
+    opacity:0.8;
+}
+
+.label-mini{
+    font-size:12px;
+}
+
+/* INSPECTOR */
+
+/* form */
+.inspector-form {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
+/* form end*/
+
+/* fieldset */
+.inspector-fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+/* fieldset end*/
+
+/* legend */
+.inspector-legend {
+    color: black;
+    padding-bottom: 3px;
+    display: flex;
+    text-align: center;
+    cursor: default;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.inspector-legend::-moz-selection { /* Code for Firefox */
+    background: transparent;
+}
+
+.inspector-legend::selection {
+    background: transparent;
+}
+
+/* legend */
+
+/* inputs-container */
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* inputs-container end*/
+
+/* label */
+.inspector-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-top: 5px;
+    /*font-weight: bolder;*/
+}
+
+.inspector-label::selection {
+    background: transparent;
+}
+
+.inspector-label::-moz-selection { /* Code for Firefox */
+    background: transparent;
+}
+
+/* label end */
+
+/* input */
+.inspector-input {
+    display: flex;
+    width: 58px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.inspector-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    opacity: 0.4; /* Firefox */
+}
+
+/* input end */
+
+/* button */
+.inspector-button {
+    cursor: pointer;
+    -webkit-transition: background-color 0.2s, opacity 0.2s; /* Safari */
+    transition: background-color 0.2s, opacity 0.2s;
+    background: transparent;
+    width: 100%;
+    border: 6px solid transparent;
+    line-height: 22px;
+    margin-top: 7px;
+    font-weight: bolder;
+    color: #708090;
+}
+
+.inspector-apply-button:hover {
+    opacity: 1;
+    border: 6px solid green;
+}
+
+.inspector-exit-button:hover {
+    opacity: 1;
+    border: 6px solid red;
+}
+
+/* button end*/

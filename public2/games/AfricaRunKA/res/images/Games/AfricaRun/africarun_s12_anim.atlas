@@ -1,0 +1,34 @@
+
+africarun_s12_anim.png
+size: 299,159
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Scatter Chinese copy 2
+  rotate: false
+  xy: 177, 10
+  size: 106, 55
+  orig: 106, 55
+  offset: 0, 0
+  index: -1
+Scatter English copy 2
+  rotate: true
+  xy: 2, 2
+  size: 155, 35
+  orig: 155, 35
+  offset: 0, 0
+  index: -1
+clouds
+  rotate: true
+  xy: 39, 3
+  size: 154, 136
+  orig: 155, 137
+  offset: 1, 1
+  index: -1
+hotair balloon copy
+  rotate: true
+  xy: 177, 67
+  size: 90, 120
+  orig: 213, 206
+  offset: 68, 62
+  index: -1

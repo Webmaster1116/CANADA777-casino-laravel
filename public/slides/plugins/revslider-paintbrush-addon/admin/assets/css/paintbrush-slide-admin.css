@@ -1,0 +1,173 @@
+/* 
+ * @author    ThemePunch <info@themepunch.com>
+ * @link      http://www.themepunch.com/
+ * @copyright 2018 ThemePunch
+*/
+
+#rs-addon-settings-trigger-paintbrush {
+					
+	border-radius: 0px;
+	padding: 0px;
+	color: transparent;
+	background: url(../images/addon_paintbrush.png);
+	background-size: 135px 54px;
+	background-position: top center;
+	width: 135px;
+	height: 27px;
+	
+}
+
+#rs-addon-settings-trigger-paintbrush.selected,
+#rs-addon-settings-trigger-paintbrush:hover {
+	
+	background-position: bottom center;
+	
+}
+
+#paintbrush-addon-settings-wrap {
+	
+	padding: 15px;
+	
+}
+
+#paintbrush-addon-settings-wrap input[type=text] {
+	
+	width: 54px;
+	min-width: 54px;
+	
+}
+
+#paintbrush-addon-settings-wrap select {
+	
+	width: auto;
+	min-width: auto;
+	
+}
+
+#paintbrush-addon-settings-wrap p {
+	
+	position: relative;
+	
+}
+
+#paintbrush-addon-settings-wrap .description {
+	
+	position: absolute;
+	left: 301px;
+	top: 3px;
+	
+}
+
+.paintbrush-indent {
+	
+	margin-left: 20px;
+	
+}
+
+#paintbrush_bg_preview {
+	
+	position: relative;
+	margin: 16px 0 23px 0;
+	
+}
+
+#paintbrush_preview_label {
+	
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	display: block;
+	background-color: #1d1d1d;
+	width: 160px;
+	height: 33px;
+	
+}
+
+#paintbrush_preview_label span {
+	
+	position: absolute;
+	left: 20px;
+	top: 11px;
+	color: #FFF;
+	font-size: 12px;
+	
+}
+
+#paintbrush-addon-settings-wrap .paintbrush-indent .description {
+	
+	left: 281px;
+	
+}
+
+.paintbrush-enabled #ken_burn_example_wrapper:after {
+	
+	position: absolute;
+	left: 127px;
+	top: -28px;
+	font-size: 13px;
+	font-style: italic;
+	font-weight: 400;
+	color: #c0392b;
+	white-space: nowrap;
+	content: "NOTICE: Ken Burns is not compatible with the Paint-Brush AddOn";
+	
+}
+
+#paintbrush-settings {
+	
+	display: none;
+	
+}
+
+.paintbrush-enabled #paintbrush-settings {
+	
+	display: block;
+	
+}
+
+#tp-bgimagewpsrc_paintbrushlocal {
+	
+	margin-left: 20px;
+	
+}
+
+.paintbrush-container {
+	
+	position: relative;
+	
+}
+
+#paintbrush-bg-img {
+	
+	width: 160px;
+	height: 117px;
+	background-position: center center;
+	background-size: cover;
+	
+}
+
+#paintbrush-addon-settings-wrap .button-primary {
+	
+	vertical-align: middle;
+	
+}
+
+.paintbrush-column {
+	
+	float: left;
+	
+}
+
+.paintbrush-column:first-child {
+	
+	width: 600px;
+	
+}
+
+#paintbrush-blur label {
+	
+	width: 180px;
+	min-width: 180px;
+	
+}
+

@@ -1,0 +1,1 @@
+{"slug":"green-popups","uap":1,"version":"7.24","file":"green-popups.php","name":"Green Popups","description":"The most advaced popup builder for your website.","icon":"far fa-newspaper"}

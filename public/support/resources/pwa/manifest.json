@@ -1,0 +1,48 @@
+{
+  "name": "Support Board",
+  "short_name": "Support Board",
+  "description": "Chat system powered with artificial intelligence and fully integrated with Slack",
+  "icons": [
+    {
+      "src": "icons/icon-44x44.png",
+      "sizes": "44x44",
+      "type": "image\/png"
+    },
+    {
+      "src": "icons/icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image\/png"
+    },
+    {
+      "src": "icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image\/png"
+    },
+    {
+      "src": "icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image\/png"
+    },
+    {
+      "src": "icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image\/png"
+    },
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image\/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image\/png"
+    }
+  ],
+  "background_color": "#D5E0EB",
+  "theme_color": "#D5E0EB",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "../../admin.php",
+  "scope": "../../"
+}

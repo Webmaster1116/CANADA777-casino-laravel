@@ -1,0 +1,70 @@
+{
+    "ui": {
+        "debug.list": {"type": "panel", "layout": {"type": "vbox"}, "bias": "hor"},
+        "debug.subsections-list": {"@P": "ui/debug.list", "layout": {"spacing": 50}},
+        "debug.subsection": {"@P": "ui/debug.list", "layout": {"spacing": 10}},
+
+        "debug.win-lvl":
+        {"type":"debug.panel", "panel-content":
+        {"@P": "ui/debug.subsection", "content": [
+            {"type": "debug.row.input", "title": "Scale", "control-id": "scale"},
+            {"type": "debug.row.input", "title": "Delays", "control-id": "delays"},
+            {"type": "debug.row.spinner", "title": "Pause", "control-id": "pause"}
+        ]}
+        },
+
+        "debug.config-sections": {"@P": "ui/debug.subsections-list", "content": [
+            {"id": "reelsConfig", "group": "sections", "type": "reels-config", "title": "debug.reels_config", "panel-content":
+            {"@P": "ui/debug.subsection", "content": [
+                {"type": "debug.row.spinner", "title": "debug.blurring_level", "control-id": "blurring_level"},
+                {"type": "debug.row.spinner", "title": "debug.reels_speed", "control-id": "reelsSpeed"},
+                {"type": "debug.row.input", "title": "debug.reels_directions", "control-id": "reelsDirections"},
+                {"type": "debug.row.spinner", "title": "debug.first_reel_duration", "control-id": "firstReelDuration"},
+                {"type": "debug.row.input", "title": "debug.next_reel_start_delay", "control-id": "nextReelStartDelay"},
+                {"type": "debug.row.input", "title": "debug.next_reel_stop_delay", "control-id": "nextReelStopDelay"},
+                {"type": "debug.row.spinner", "title": "debug.start_tilt_delay", "control-id": "startTiltDelay"},
+                {"type": "debug.row.spinner", "title": "debug.start_tilt_duration", "control-id": "startTiltDuration"},
+                {"type": "debug.row.spinner", "title": "debug.end_tilt_duration", "control-id": "endTiltDuration"},
+                {"type": "debug.row.spinner", "title": "debug.start_tilt_size", "control-id": "startTiltSize", "spinner": {"step": 0.01, "max": 1}},
+                {"type": "debug.row.spinner", "title": "debug.end_tilt_size", "control-id": "endTiltSize", "spinner": {"step": 0.01, "max": 1}},
+                {"type": "debug.row.toggle", "title": "debug.force_end_tilt", "control-id": "forceEndTilt"},
+                {"type": "debug.row.spinner", "title": "debug.anticipation_start_speed", "control-id": "anticipationStartSpeed"},
+                {"type": "debug.row.spinner", "title": "debug.anticipation_end_speed", "control-id": "anticipationEndSpeed"},
+                {"type": "debug.row.spinner", "title": "debug.anticipation_acc_duration", "control-id": "anticipationAccDuration"},
+                {"type": "debug.row.input", "title": "debug.anticipation_time", "control-id": "anticipationTime"}
+            ]}
+            },
+            {"id": "animationsConfig", "group": "sections", "type": "animations-config", "title": "debug.animation_config", "panel-content":
+            {"@P": "ui/debug.subsection", "content": [
+                {"type": "debug.row.spinner", "title": "debug.first_line_toggle_duration", "control-id": "lfgFirstToggle"},
+                {"type": "debug.row.spinner", "title": "debug.second_line_toggle_duration", "control-id": "lfgSecondToggle"},
+                {"type": "debug.row.spinner", "title": "debug.free_game_line_toggle_duration", "control-id": "lfdFreeGame"},
+                {"type": "debug.row.toggle", "title": "debug.match_toggle_duration_to_win", "control-id": "match"}
+            ]}
+            }
+        ]}
+    },
+
+    "scenes": {
+        "debug-config": {"content": [
+            {"type": "debug.scroll", "props": {"anchor.fit": "0"}, "scroll-content":
+            {"id": "mainpanel", "@P": "ui/debug.list", "layout": {"fill": true}, "content": [
+                {"@P": "ui/debug.config-sections", "padding": "20"}
+            ]}
+            }
+        ]},
+
+        "debug-win-panel": {"content": [
+            {"type": "debug.scroll", "props": {"anchor.fit": "0"}, "scroll-content":
+            {"id": "main_panel", "@P": "ui/debug.subsections-list", "layout": {"fill": true}, "padding": "20", "content": [
+                {"type":"debug.panel", "title": "WIN PANEL CONFIG", "panel-content":
+                {"@P": "ui/debug.subsection", "content": [
+                    {"type": "debug.row.spinner", "title": "Up duration", "control-id": "win_show_duration"},
+                    {"type": "debug.row.spinner", "title": "Down duration", "control-id": "win_hide_duration"}
+                ]}
+                }
+            ]}
+            }
+        ]}
+    }
+}

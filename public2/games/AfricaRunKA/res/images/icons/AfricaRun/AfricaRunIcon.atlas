@@ -1,0 +1,209 @@
+
+AfricaRunIcon.png
+size: 984,296
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BigE2
+  rotate: false
+  xy: 442, 114
+  size: 140, 180
+  orig: 140, 180
+  offset: 0, 0
+  index: -1
+BigE2_FL1
+  rotate: false
+  xy: 416, 3
+  size: 37, 82
+  orig: 37, 82
+  offset: 0, 0
+  index: -1
+BigE2_FL1_2
+  rotate: false
+  xy: 931, 9
+  size: 40, 54
+  orig: 40, 55
+  offset: 0, 1
+  index: -1
+BigE2_FL2
+  rotate: false
+  xy: 692, 22
+  size: 27, 56
+  orig: 27, 56
+  offset: 0, 0
+  index: -1
+BigE2_FL2_1
+  rotate: false
+  xy: 943, 231
+  size: 39, 63
+  orig: 39, 63
+  offset: 0, 0
+  index: -1
+BigE2_Head
+  rotate: true
+  xy: 679, 148
+  size: 146, 111
+  orig: 146, 111
+  offset: 0, 0
+  index: -1
+Body_Fg_Ostrich
+  rotate: false
+  xy: 323, 7
+  size: 91, 69
+  orig: 91, 71
+  offset: 0, 0
+  index: -1
+DaddyG_BL1
+  rotate: false
+  xy: 909, 5
+  size: 20, 86
+  orig: 20, 86
+  offset: 0, 0
+  index: -1
+DaddyG_BL2
+  rotate: false
+  xy: 943, 160
+  size: 17, 69
+  orig: 17, 69
+  offset: 0, 0
+  index: -1
+DaddyG_Body
+  rotate: false
+  xy: 356, 87
+  size: 84, 207
+  orig: 84, 207
+  offset: 0, 0
+  index: -1
+DaddyG_FL1
+  rotate: false
+  xy: 882, 3
+  size: 25, 88
+  orig: 25, 88
+  offset: 0, 0
+  index: -1
+DaddyG_FL2
+  rotate: true
+  xy: 882, 93
+  size: 22, 90
+  orig: 22, 90
+  offset: 0, 0
+  index: -1
+DaddyG_Tail
+  rotate: true
+  xy: 931, 65
+  size: 26, 47
+  orig: 26, 48
+  offset: 0, 1
+  index: -1
+Effects
+  rotate: true
+  xy: 220, 78
+  size: 216, 134
+  orig: 216, 134
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 294, 5
+  size: 27, 71
+  orig: 27, 71
+  offset: 0, 0
+  index: -1
+Zebra1_BL1
+  rotate: true
+  xy: 882, 117
+  size: 32, 93
+  orig: 32, 93
+  offset: 0, 0
+  index: -1
+Zebra1_BL2
+  rotate: false
+  xy: 692, 80
+  size: 36, 66
+  orig: 36, 67
+  offset: 0, 1
+  index: -1
+Zebra1_Body
+  rotate: false
+  xy: 584, 114
+  size: 93, 180
+  orig: 93, 181
+  offset: 0, 1
+  index: -1
+Zebra1_FL1
+  rotate: false
+  xy: 660, 15
+  size: 30, 97
+  orig: 30, 97
+  offset: 0, 0
+  index: -1
+Zebra1_FL2
+  rotate: false
+  xy: 621, 13
+  size: 37, 99
+  orig: 37, 99
+  offset: 0, 0
+  index: -1
+Zebra1_Tail
+  rotate: true
+  xy: 660, 2
+  size: 11, 69
+  orig: 11, 69
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 72
+  size: 216, 222
+  orig: 216, 222
+  offset: 0, 0
+  index: -1
+en
+  rotate: true
+  xy: 800, 5
+  size: 143, 80
+  orig: 144, 80
+  offset: 1, 0
+  index: -1
+en_glow
+  rotate: true
+  xy: 861, 151
+  size: 143, 80
+  orig: 144, 80
+  offset: 1, 0
+  index: -1
+hans
+  rotate: true
+  xy: 731, 2
+  size: 144, 67
+  orig: 144, 68
+  offset: 0, 0
+  index: -1
+hans_glow
+  rotate: true
+  xy: 792, 150
+  size: 144, 67
+  orig: 144, 68
+  offset: 0, 0
+  index: -1
+hant
+  rotate: false
+  xy: 2, 2
+  size: 144, 68
+  orig: 144, 69
+  offset: 0, 0
+  index: -1
+hant_glow
+  rotate: false
+  xy: 148, 2
+  size: 144, 68
+  orig: 144, 69
+  offset: 0, 0
+  index: -1
+wood
+  rotate: false
+  xy: 455, 2
+  size: 164, 110
+  orig: 164, 110
+  offset: 0, 0
+  index: -1

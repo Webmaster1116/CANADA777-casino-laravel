@@ -1,0 +1,218 @@
+/* Additional default styles for the editor */
+
+html {
+	cursor: text;
+}
+
+html.ios {
+	width: 100px;
+	min-width: 100%;
+}
+
+body {
+	font-family: arial;
+	font-size: 15px;
+	line-height: 1.475;
+	color: #444;
+	margin: 5px;
+	max-width: 100%;
+	-webkit-font-smoothing: antialiased !important;
+	overflow-wrap: break-word;
+	word-wrap: break-word; /* Old syntax */
+}
+
+body.rtl {
+	font-family: arial;
+}
+
+body.locale-he-il,
+body.locale-vi {
+	font-family: arial;
+}
+
+/* When font-weight is different than the default browser style,
+Chrome and Safari replace <strong> and <b> with spans with inline styles on pasting?! */
+body.webkit strong,
+body.webkit b {
+	font-weight: bold !important;
+}
+
+pre {
+	font-family: Consolas, Monaco, monospace;
+}
+
+td,
+th {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+/* For emoji replacement images */
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+div.mceTemp {
+	-ms-user-select: element;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+	margin: 0.5em 1em 0.5em 0;
+}
+
+.alignright {
+	float: right;
+	margin: 0.5em 0 0.5em 1em;
+}
+
+/* Remove blue highlighting of selected images in WebKit */
+img[data-mce-selected]::selection {
+	background-color: transparent;
+}
+
+/* Styles for the WordPress plugins */
+.mce-content-body img[data-mce-placeholder] {
+	border-radius: 0;
+	padding: 0;
+}
+
+.mce-content-body img[data-mce-placeholder][data-mce-selected] {
+	outline: 1px dotted #888;
+}
+
+/* Styles for formatting the boundaries of anchors and code elements */
+.mce-content-body a[data-mce-selected] {
+	padding: 0 2px;
+	margin: 0 -2px;
+	border-radius: 2px;
+	box-shadow: 0 0 0 1px #bfe6ff;
+	background: #bfe6ff;
+}
+
+.mce-content-body code {
+	padding: 2px 4px;
+	margin: 0;
+	border-radius: 2px;
+	color: #222;
+	background: #f2f4f5;
+}
+
+.mce-content-body code[data-mce-selected] {
+	background: #e9ebec;
+}
+
+/* Image resize handles */
+.mce-content-body div.mce-resizehandle {
+	border-color: #72777c;
+	width: 7px;
+	height: 7px;
+}
+
+.mce-content-body img[data-mce-selected] {
+	outline: 1px solid #72777c;
+}
+
+.mce-content-body img[data-mce-resize="false"] {
+	outline: 0;
+}
+
+audio,
+video,
+embed {
+	display: -moz-inline-stack;
+	display: inline-block;
+}
+
+audio {
+	visibility: hidden;
+}
+
+/* Fix for proprietary Mozilla display attribute, see #38757 */
+[_moz_abspos] {
+	outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	margin: 0.4em 0;
+	padding: 0;
+	line-height: 1.475;
+}
+h1 {
+	font-size: 32px
+}
+h2 {
+	font-size: 24px
+}
+h3 {
+	font-size: 20px
+}
+h4 {
+	font-size: 18px
+}
+h5 {
+	font-size: 16px
+}
+h6 {
+	font-size: 14px
+}
+p {
+	line-height: 1.475;
+	padding: 0;
+	margin: 0em;
+	font-style: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	color: inherit;
+}
+img {
+	max-width: 100%;
+}
+hr {
+	border: 0;
+	border-top: 1px solid #a0a0a0;
+	margin: 0.3em 0;
+}
+ul {
+	list-style: disc inside;
+	margin: 0.3em 0;
+	padding: 0;
+    line-height: 1.475;
+}
+ol {
+	list-style: decimal inside;
+	margin: 0.3em 0;
+	padding: 0;
+    line-height: 1.475;
+}
+ul li,
+ol li {
+	margin: 0 0 0 1em;
+	padding: 0;
+    line-height: 1.475;
+	font-style: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	color: inherit;
+}

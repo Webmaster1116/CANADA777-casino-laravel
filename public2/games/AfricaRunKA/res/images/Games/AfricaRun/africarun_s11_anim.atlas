@@ -1,0 +1,83 @@
+
+africarun_s11_anim.png
+size: 410,270
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body2
+  rotate: true
+  xy: 265, 16
+  size: 31, 88
+  orig: 31, 88
+  offset: 0, 0
+  index: -1
+Frame_Middle
+  rotate: true
+  xy: 147, 2
+  size: 129, 116
+  orig: 129, 116
+  offset: 0, 0
+  index: -1
+Frame_Right
+  rotate: true
+  xy: 136, 133
+  size: 135, 132
+  orig: 135, 132
+  offset: 0, 0
+  index: -1
+Frame_left
+  rotate: true
+  xy: 270, 133
+  size: 135, 132
+  orig: 135, 132
+  offset: 0, 0
+  index: -1
+Head2
+  rotate: true
+  xy: 355, 7
+  size: 19, 18
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+Hole1
+  rotate: false
+  xy: 265, 104
+  size: 143, 27
+  orig: 143, 28
+  offset: 0, 1
+  index: -1
+Hole2
+  rotate: false
+  xy: 265, 75
+  size: 141, 27
+  orig: 141, 28
+  offset: 0, 1
+  index: -1
+Layer 1
+  rotate: false
+  xy: 265, 49
+  size: 143, 24
+  orig: 143, 25
+  offset: 0, 1
+  index: -1
+Layer 4
+  rotate: false
+  xy: 2, 5
+  size: 143, 117
+  orig: 143, 117
+  offset: 0, 0
+  index: -1
+MouthOpen2
+  rotate: false
+  xy: 355, 28
+  size: 19, 19
+  orig: 19, 21
+  offset: 0, 1
+  index: -1
+bg2
+  rotate: true
+  xy: 2, 124
+  size: 144, 132
+  orig: 144, 132
+  offset: 0, 0
+  index: -1

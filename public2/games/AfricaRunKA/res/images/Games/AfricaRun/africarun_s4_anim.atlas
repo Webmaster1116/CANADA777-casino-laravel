@@ -1,0 +1,174 @@
+
+africarun_s4_anim.png
+size: 538,173
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BabyG_BL1
+  rotate: true
+  xy: 479, 15
+  size: 11, 38
+  orig: 11, 38
+  offset: 0, 0
+  index: -1
+BabyG_BL2
+  rotate: false
+  xy: 490, 59
+  size: 17, 36
+  orig: 17, 36
+  offset: 0, 0
+  index: -1
+BabyG_FL1
+  rotate: false
+  xy: 521, 58
+  size: 15, 41
+  orig: 15, 42
+  offset: 0, 1
+  index: -1
+BabyG_FL2
+  rotate: false
+  xy: 475, 45
+  size: 13, 39
+  orig: 13, 39
+  offset: 0, 0
+  index: -1
+BabyG_Tail
+  rotate: false
+  xy: 490, 30
+  size: 17, 27
+  orig: 17, 28
+  offset: 0, 1
+  index: -1
+Baby_Giraffe_Body
+  rotate: false
+  xy: 402, 82
+  size: 51, 70
+  orig: 51, 70
+  offset: 0, 0
+  index: -1
+Bg
+  rotate: false
+  xy: 2, 18
+  size: 171, 153
+  orig: 173, 153
+  offset: 1, 0
+  index: -1
+Bg2
+  rotate: false
+  xy: 175, 18
+  size: 171, 153
+  orig: 173, 153
+  offset: 1, 0
+  index: -1
+DaddyG_BL1
+  rotate: false
+  xy: 507, 98
+  size: 12, 54
+  orig: 12, 54
+  offset: 0, 0
+  index: -1
+DaddyG_BL2
+  rotate: false
+  xy: 462, 40
+  size: 11, 44
+  orig: 11, 44
+  offset: 0, 0
+  index: -1
+DaddyG_Body
+  rotate: false
+  xy: 348, 23
+  size: 52, 129
+  orig: 52, 129
+  offset: 0, 0
+  index: -1
+DaddyG_FL1
+  rotate: false
+  xy: 490, 97
+  size: 15, 55
+  orig: 15, 55
+  offset: 0, 0
+  index: -1
+DaddyG_FL2
+  rotate: false
+  xy: 445, 24
+  size: 15, 56
+  orig: 15, 56
+  offset: 0, 0
+  index: -1
+DaddyG_Tail
+  rotate: true
+  xy: 455, 86
+  size: 16, 29
+  orig: 16, 30
+  offset: 0, 1
+  index: -1
+Frame_Bottom
+  rotate: false
+  xy: 154, 3
+  size: 150, 13
+  orig: 150, 13
+  offset: 0, 0
+  index: -1
+Frame_Top
+  rotate: false
+  xy: 2, 2
+  size: 150, 14
+  orig: 150, 14
+  offset: 0, 0
+  index: -1
+Grass
+  rotate: false
+  xy: 348, 154
+  size: 179, 17
+  orig: 181, 19
+  offset: 0, 1
+  index: -1
+MommyG_BL1
+  rotate: false
+  xy: 521, 101
+  size: 15, 51
+  orig: 15, 51
+  offset: 0, 0
+  index: -1
+MommyG_Body
+  rotate: false
+  xy: 402, 2
+  size: 41, 78
+  orig: 41, 78
+  offset: 0, 0
+  index: -1
+MommyG_Frontleg1
+  rotate: false
+  xy: 455, 104
+  size: 33, 48
+  orig: 33, 48
+  offset: 0, 0
+  index: -1
+MommyG_Frontleg2
+  rotate: true
+  xy: 351, 5
+  size: 16, 45
+  orig: 16, 45
+  offset: 0, 0
+  index: -1
+MommyG_Head
+  rotate: true
+  xy: 509, 28
+  size: 28, 23
+  orig: 28, 23
+  offset: 0, 0
+  index: -1
+MommyG_Tail1
+  rotate: true
+  xy: 445, 2
+  size: 20, 32
+  orig: 20, 32
+  offset: 0, 0
+  index: -1
+MommyG__Backleg2
+  rotate: true
+  xy: 306, 2
+  size: 14, 43
+  orig: 14, 43
+  offset: 0, 0
+  index: -1

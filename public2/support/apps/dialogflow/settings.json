@@ -1,0 +1,202 @@
+[
+  {
+    "type": "checkbox",
+    "id": "dialogflow-active",
+    "title": "Active",
+    "content": "Activate the Dialogflow bot."
+  },
+  {
+    "type": "button",
+    "id": "dialogflow-button",
+    "title": "Dialogflow synchronization",
+    "content": "Click the button to start the Dialogflow synchronization.",
+    "button-text": "Start synchronization",
+    "button-url": "#",
+    "help": "https://board.support/docs/#dialogflow-sync"
+  },
+  {
+    "type": "text",
+    "id": "dialogflow-token",
+    "title": "Refresh token",
+    "content": "You will get this code by completing the Dialogflow synchronization."
+  },
+  {
+    "type": "text",
+    "id": "dialogflow-project-id",
+    "title": "Client ID or Agent Name",
+    "content": "Enter the Project ID of your Dialogflow ES agent, or the Agent Name of your Dialogflow CX agent."
+  },
+  {
+    "type": "select",
+    "id": "dialogflow-location",
+    "title": "Location",
+    "content": "Choose the location or region of your agent. This setting is optional if your agent location is global.",
+    "value": [
+      [ "", "Global" ],
+      [ "us-central1-", "us-central1" ],
+      [ "northamerica-northeast1-", "northamerica-northeast1" ],
+      [ "us-east1-", "us-east1" ],
+      [ "us-west1-", "us-west1" ],
+      [ "europe-west1-", "europe-west1" ],
+      [ "europe-west2-", "europe-west2" ],
+      [ "australia-southeast1-", "australia-southeast1" ],
+      [ "asia-northeast1-", "asia-northeast1" ]
+    ]
+  },
+  {
+    "type": "select",
+    "id": "dialogflow-edition",
+    "title": "Edition",
+    "content": "Choose the Dialogflow edition used by your agent.",
+    "value": [
+      [ "es", "Dialogflow ES" ],
+      [ "cx", "Dialogflow CX" ]
+    ]
+  },
+  {
+    "type": "checkbox",
+    "id": "dialogflow-welcome",
+    "title": "Welcome Intent",
+    "content": "Trigger the Dialogflow Welcome Intent for new visitors when the welcome message is active."
+  },
+  {
+    "type": "checkbox",
+    "id": "dialogflow-multilingual",
+    "title": "Multilingual",
+    "content": "Activate the multilingual feature for the bot."
+  },
+  {
+    "type": "multi-input",
+    "id": "dialogflow-language-detection",
+    "title": "Language detection",
+    "content": "Detect the language of the user' messages and change the user language and Dialogflow agent language accordingly, if available, otherwise, show a fallback message. You can use the following merge fields in the message: {language_name}.",
+    "value": [
+      {
+        "type": "checkbox",
+        "id": "dialogflow-language-detection-active",
+        "title": "Active"
+      },
+      {
+        "type": "textarea",
+        "id": "dialogflow-language-detection-message",
+        "title": "Message"
+      }
+    ]
+  },
+  {
+    "type": "checkbox",
+    "id": "google-translation",
+    "title": "Automatic translation",
+    "content": "Automatically translates user messages into agent language and agent messages into user language.",
+    "help": "https://board.support/docs/#dialogflow-translation"
+  },
+  {
+    "type": "checkbox",
+    "id": "dialogflow-timetable",
+    "title": "Disable during office hours",
+    "content": "Enable the bot outside of scheduled office hours only."
+  },
+  {
+    "type": "multi-input",
+    "id": "dialogflow-human-takeover",
+    "title": "Human takeover request",
+    "content": "If the bot doesn't understand a user's question/intent, automatically ask the user if he would like to contact an agent. If the user confirms the action the conversation is marked as unread, and the agents are notified. If you're using Slack, no messages will be sent if the bot knows the answer.",
+    "value": [
+      {
+        "type": "checkbox",
+        "id": "dialogflow-human-takeover-active",
+        "title": "Active"
+      },
+      {
+        "type": "checkbox",
+        "id": "dialogflow-human-takeover-email",
+        "title": "Email request"
+      },
+      {
+        "type": "checkbox",
+        "id": "dialogflow-human-disable-bot",
+        "title": "Disable bot"
+      },
+      {
+        "type": "textarea",
+        "id": "dialogflow-human-takeover-message",
+        "title": "Message"
+      },
+      {
+        "type": "textarea",
+        "id": "dialogflow-human-takeover-message-confirmation",
+        "title": "Confirmation message"
+      },
+      {
+        "type": "textarea",
+        "id": "dialogflow-human-takeover-email-message",
+        "title": "Email request message"
+      },
+      {
+        "type": "text",
+        "id": "dialogflow-human-takeover-confirm",
+        "title": "Confirm button text"
+      },
+      {
+        "type": "text",
+        "id": "dialogflow-human-takeover-cancel",
+        "title": "Cancel button text"
+      }
+    ]
+  },
+  {
+    "type": "checkbox",
+    "id": "bot-unknow-notify",
+    "title": "Notify agents of a fallback response",
+    "content": "If the bot doesn't understand a user's question/intent, automatically notify agents and leave the conversation marked as unread. If you're using Slack, no messages will be sent if the bot knows the answer."
+  },
+  {
+    "type": "checkbox",
+    "id": "dialogflow-disable",
+    "title": "Disable bot if unknown answer",
+    "content": "If the bot doesn't understand a user's question/intent, it's automatically disabled for 1 hour."
+  },
+  {
+    "type": "checkbox",
+    "id": "dialogflow-offline-message",
+    "title": "Offline message if unknown answer",
+    "content": "Send the offline message only if the bot doesn't understand a user's question/intent."
+  },
+  {
+    "type": "number",
+    "id": "dialogflow-bot-delay",
+    "title": "Bot response delay",
+    "content": "Add a delay (ms) to the bot's responses. Default is 2000."
+  },
+  {
+    "type": "multi-input",
+    "id": "dialogflow-smart-reply",
+    "title": "Smart Reply",
+    "content": "Follows a conversation between a human agent and an end user and provide response suggestions to the human agent in real-time.",
+    "help": "https://board.support/docs/#smart-reply",
+    "value": [
+      {
+        "type": "checkbox",
+        "id": "dialogflow-smart-reply-active",
+        "title": "Active"
+      },
+      {
+        "type": "checkbox",
+        "id": "dialogflow-smart-reply-language-detection",
+        "title": "Language detection"
+      },
+      {
+        "type": "text",
+        "id": "dialogflow-smart-reply-profile",
+        "title": "Conversation profile"
+      },
+      {
+        "type": "button",
+        "id": "dialogflow-smart-reply-generate",
+        "title": "Conversations data",
+        "button-url": "#",
+        "button-text": "Generate conversations data"
+      }
+    ]
+  }
+]

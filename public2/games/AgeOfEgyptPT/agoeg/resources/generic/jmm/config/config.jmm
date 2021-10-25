@@ -1,0 +1,196 @@
+{
+    "config": {
+        "supported_languages": ["ch", "en", "es", "fi", "it", "ja", "ko", "pl", "pt", "sv", "zh-cn"],
+
+        "game_code": "agoeg",
+        "game_version": "2.0",
+        "supported_orientation": "both",
+        "server_type": "casino",
+        "allow_debug": "false",
+        "show_paytable_as_scene": true,
+        "turbo_mode_supported": true,
+        "free_spins_bonus_supported": true,
+        "coin_sizes": [1, 5, 10, 25, 50, 100, 500, 1000, 5000, 10000, 50000],
+        "selected_lines": 20,
+        "win_ranges": {
+            "regular":    ["<=1*tb", "<=3*tb", "<=15*tb", "<=15*tb", "<=25*tb"],
+            "free-spins": []
+        },
+        "side_buttons": {
+            "select_lines": false
+        },
+        "display_width": 5,
+        "display_height": 3,
+        "hide_animated_symbols": true,
+        "bonus_prizes": [30, 40, 5, 70, 10, 20],
+        "engine": {
+            "calculators": {
+                "bonus": {
+                    "type": "bonus",
+                    "feature": "bonus",
+                    "trigger-count": 3
+                }
+            }
+        },
+        "features": {
+            "free-spins": {
+                "spins-count": 10,
+                "more-spins-count": 10,
+                "win-multiplier": 3,
+                "symbol": 10,
+                "retrigger": true,
+                "auto-start-more-spins": true,
+                "show-cp-buttons": false
+            },
+            "bonus": {
+                "type": "feature",
+                "symbol": 9,
+                "show-total-win": true,
+                "show-cp-buttons": false
+            }
+        },
+        "anticipation": [
+            {"symbol": 10, "win_count": 3, "reels": [0,1,2,3,4]},
+            {"symbol": 9,  "win_count": 3, "reels": [2,3,4], "payline": true}
+        ],
+
+        "reels.rotation": [
+            {"@P": "config/reels.rotation.default",
+                "first_reel_duration": 400,
+                "next_reel_stop_delay": 300,
+                "speed":25,
+                "anticipation_param": {"duration": 1500},
+                "blurring_level": 1},
+            {"@P": "config/reels.rotation.turbo", "anticipation": {"duration": 1500}, "blurring_level": 1}
+        ],
+
+        "symbols": [
+            {"id": 0,   "slice": "reel_slice_wild"},
+            {"id": 1,   "slice": "reel_slice_eye"},
+            {"id": 2,   "slice": "reel_slice_bird"},
+            {"id": 3,   "slice": "reel_slice_bug"},
+            {"id": 4,   "slice": "reel_slice_A"},
+            {"id": 5,   "slice": "reel_slice_K"},
+            {"id": 6,   "slice": "reel_slice_Q"},
+            {"id": 7,   "slice": "reel_slice_J"},
+            {"id": 8,   "slice": "reel_slice_10"},
+            {"id": 9,   "slice": "reel_slice_bonus"},
+            {"id": 10,  "slice": "reel_slice_scatter"}
+        ],
+
+        "reels": [
+            {"id": 1,"type": "general", "symbols": [5, 9, 6, 2, 8, 1, 7, 9, 5, 3, 4, 8, 2, 7, 9, 6, 1, 8, 3, 5, 0, 6, 2, 8, 4, 5, 9, 7, 1, 6, 3, 5, 2, 4, 9, 8, 1, 6, 0, 5, 3, 8, 10, 7, 2, 6, 4, 9, 7, 3, 0, 6, 1, 8, 0, 7, 4, 5, 3, 8, 7, 9, 6, 2, 5, 0, 10, 7, 4, 6, 3, 8, 9, 5, 7, 2, 4, 8, 1, 6, 3, 7, 0, 4, 1, 6, 5, 2, 7, 8, 3, 4, 9, 6, 1, 8, 2, 7, 9, 5, 3, 1, 7, 9, 6, 4, 2, 8, 0, 7, 4, 6, 3, 8, 9, 5, 7, 10, 4, 8, 3, 6, 5, 7, 9, 8, 10, 6]},
+            {"id": 2,"type": "general", "symbols": [5, 9, 4, 2, 8, 1, 7, 9, 5, 3, 4, 8, 2, 7, 9, 6, 1, 8, 3, 5, 7, 6, 2, 8, 4, 5, 9, 7, 1, 6, 3, 5, 2, 4, 9, 8, 1, 6, 0, 5, 3, 8, 10, 7, 2, 6, 4, 9, 7, 3, 0, 6, 1, 8, 0, 7, 4, 5, 3, 8, 7, 9, 6, 2, 5, 0, 10, 7, 4, 6, 0, 8, 9, 5, 7, 2, 4, 8, 1, 6, 3, 7, 0, 8, 1, 6, 5, 2, 7, 8, 3, 4, 9, 6, 1, 8, 2, 7, 9, 5, 3, 8, 7, 9, 6, 4, 2, 8, 9, 7, 4, 6, 3, 8, 9, 5, 7, 10, 4, 8, 3, 6, 5, 7, 9, 8, 10, 6]},
+            {"id": 3,"type": "general", "symbols": [5, 9, 4, 2, 8, 1, 7, 9, 5, 3, 4, 8, 2, 7, 9, 6, 1, 8, 3, 5, 7, 6, 2, 8, 4, 5, 9, 7, 1, 6, 3, 5, 2, 4, 9, 8, 1, 6, 0, 5, 3, 8, 10, 7, 0, 6, 4, 9, 7, 3, 5, 6, 1, 8, 0, 7, 4, 5, 3, 8, 7, 9, 6, 2, 5, 8, 10, 7, 4, 6, 0, 8, 9, 5, 7, 2, 4, 8, 0, 6, 3, 7, 0, 8, 1, 6, 5, 2, 7, 8, 3, 4, 9, 6, 1, 8, 2, 7, 9, 5, 3, 8, 7, 9, 6, 4, 2, 8, 9, 7, 4, 6, 3, 8, 9, 5, 7, 10, 4, 8, 3, 6, 5, 7, 9, 8, 10, 6]},
+            {"id": 4,"type": "general", "symbols": [5, 9, 4, 2, 8, 1, 7, 9, 5, 3, 4, 8, 2, 7, 9, 6, 1, 8, 3, 5, 7, 6, 2, 8, 4, 5, 9, 7, 1, 6, 3, 5, 2, 4, 9, 8, 1, 6, 0, 5, 3, 8, 10, 7, 0, 6, 4, 9, 7, 3, 5, 6, 1, 8, 9, 7, 4, 5, 3, 8, 7, 9, 6, 2, 5, 8, 9, 7, 4, 6, 0, 8, 9, 5, 7, 2, 4, 8, 0, 6, 3, 7, 9, 8, 0, 6, 5, 2, 7, 8, 3, 4, 9, 6, 1, 8, 2, 7, 9, 5, 3, 8, 7, 9, 6, 4, 2, 8, 9, 7, 4, 6, 3, 8, 9, 5, 7, 10, 4, 8, 3, 6, 5, 7, 9, 8, 10, 6]},
+            {"id": 5,"type": "general", "symbols": [5, 9, 4, 2, 8, 1, 7, 9, 5, 3, 4, 8, 2, 7, 9, 6, 1, 8, 3, 5, 7, 6, 2, 8, 4, 5, 9, 7, 1, 6, 3, 5, 2, 4, 9, 8, 1, 6, 9, 5, 3, 8, 10, 7, 9, 6, 4, 9, 7, 3, 5, 6, 1, 8, 9, 7, 4, 5, 3, 8, 7, 9, 6, 2, 5, 0, 9, 7, 4, 6, 0, 8, 9, 5, 7, 2, 4, 8, 9, 6, 3, 7, 9, 8, 0, 6, 5, 2, 7, 8, 3, 4, 9, 6, 0, 8, 2, 7, 9, 5, 3, 8, 7, 9, 6, 4, 2, 8, 9, 7, 4, 6, 3, 8, 9, 5, 7, 10, 4, 8, 3, 6, 5, 7, 9, 8, 10, 6]},
+
+            {"id": 6, "type": "free_spin",  "symbols": [5, 9, 6, 2, 8, 1, 7, 9, 5, 3, 4, 8, 2, 7, 9, 6, 1, 8, 3, 5, 0, 6, 2, 8, 4, 5, 9, 7, 1, 6, 3, 5, 2, 4, 9, 8, 1, 6, 0, 5, 3, 8, 10, 7, 2, 6, 4, 9, 7, 3, 0, 6, 1, 8, 0, 7, 4, 5, 3, 8, 7, 9, 6, 2, 5, 0, 10, 7, 4, 6, 3, 8, 9, 5, 7, 2, 4, 8, 1, 6, 3, 7, 0, 4, 1, 6, 5, 2, 7, 8, 3, 4, 9, 6, 1, 8, 2, 7, 9, 5, 3, 1, 7, 9, 6, 4, 2, 8, 0, 7, 4, 6, 3, 8, 9, 5, 7, 10, 4, 8, 3, 6, 5, 7, 9, 8, 10, 6]},
+            {"id": 7, "type": "free_spin",  "symbols": [5, 9, 4, 2, 8, 1, 7, 9, 5, 3, 4, 8, 2, 7, 9, 6, 1, 8, 3, 5, 7, 6, 2, 8, 4, 5, 9, 7, 1, 6, 3, 5, 2, 4, 9, 8, 1, 6, 0, 5, 3, 8, 10, 7, 2, 6, 4, 9, 7, 3, 0, 6, 1, 8, 0, 7, 4, 5, 3, 8, 7, 9, 6, 2, 5, 0, 10, 7, 4, 6, 0, 8, 9, 5, 7, 2, 4, 8, 1, 6, 3, 7, 0, 8, 1, 6, 5, 2, 7, 8, 3, 4, 9, 6, 1, 8, 2, 7, 9, 5, 3, 8, 7, 9, 6, 4, 2, 8, 9, 7, 4, 6, 3, 8, 9, 5, 7, 10, 4, 8, 3, 6, 5, 7, 9, 8, 10, 6]},
+            {"id": 8, "type": "free_spin",  "symbols": [5, 9, 4, 2, 8, 1, 7, 9, 5, 3, 4, 8, 2, 7, 9, 6, 1, 8, 3, 5, 7, 6, 2, 8, 4, 5, 9, 7, 1, 6, 3, 5, 2, 4, 9, 8, 1, 6, 0, 5, 3, 8, 10, 7, 0, 6, 4, 9, 7, 3, 5, 6, 1, 8, 0, 7, 4, 5, 3, 8, 7, 9, 6, 2, 5, 8, 10, 7, 4, 6, 0, 8, 9, 5, 7, 2, 4, 8, 0, 6, 3, 7, 0, 8, 1, 6, 5, 2, 7, 8, 3, 4, 9, 6, 1, 8, 2, 7, 9, 5, 3, 8, 7, 9, 6, 4, 2, 8, 9, 7, 4, 6, 3, 8, 9, 5, 7, 10, 4, 8, 3, 6, 5, 7, 9, 8, 10, 6]},
+            {"id": 9, "type": "free_spin",  "symbols": [5, 9, 4, 2, 8, 1, 7, 9, 5, 3, 4, 8, 2, 7, 9, 6, 1, 8, 3, 5, 7, 6, 2, 8, 4, 5, 9, 7, 1, 6, 3, 5, 2, 4, 9, 8, 1, 6, 0, 5, 3, 8, 10, 7, 0, 6, 4, 9, 7, 3, 5, 6, 1, 8, 9, 7, 4, 5, 3, 8, 7, 9, 6, 2, 5, 8, 9, 7, 4, 6, 0, 8, 9, 5, 7, 2, 4, 8, 0, 6, 3, 7, 9, 8, 0, 6, 5, 2, 7, 8, 3, 4, 9, 6, 1, 8, 2, 7, 9, 5, 3, 8, 7, 9, 6, 4, 2, 8, 9, 7, 4, 6, 3, 8, 9, 5, 7, 10, 4, 8, 3, 6, 5, 7, 9, 8, 10, 6]},
+            {"id": 10, "type": "free_spin", "symbols": [5, 9, 4, 2, 8, 1, 7, 9, 5, 3, 4, 8, 2, 7, 9, 6, 1, 8, 3, 5, 7, 6, 2, 8, 4, 5, 9, 7, 1, 6, 3, 5, 2, 4, 9, 8, 1, 6, 9, 5, 3, 8, 10, 7, 9, 6, 4, 9, 7, 3, 5, 6, 1, 8, 9, 7, 4, 5, 3, 8, 7, 9, 6, 2, 5, 0, 9, 7, 4, 6, 0, 8, 9, 5, 7, 2, 4, 8, 9, 6, 3, 7, 9, 8, 0, 6, 5, 2, 7, 8, 3, 4, 9, 6, 0, 8, 2, 7, 9, 5, 3, 8, 7, 9, 6, 4, 2, 8, 9, 7, 4, 6, 3, 8, 9, 5, 7, 10, 4, 8, 3, 6, 5, 7, 9, 8, 10, 6]}
+        ],
+
+        "lines": [
+            {"id": 0,  "definition": [[0, 1], [1, 1], [2, 1], [3, 1], [4, 1]], "color": "#e4db10"},
+            {"id": 1,  "definition": [[0, 0], [1, 0], [2, 0], [3, 0], [4, 0]], "color": "#8540b4"},
+            {"id": 2,  "definition": [[0, 2], [1, 2], [2, 2], [3, 2], [4, 2]], "color": "#fe80d4"},
+            {"id": 3,  "definition": [[0, 0], [1, 1], [2, 2], [3, 1], [4, 0]], "color": "#be65fd"},
+            {"id": 4,  "definition": [[0, 2], [1, 1], [2, 0], [3, 1], [4, 2]], "color": "#d329c8"},
+            {"id": 5,  "definition": [[0, 1], [1, 0], [2, 0], [3, 0], [4, 1]], "color": "#6afd67"},
+            {"id": 6,  "definition": [[0, 1], [1, 2], [2, 2], [3, 2], [4, 1]], "color": "#7ecd3e"},
+            {"id": 7,  "definition": [[0, 0], [1, 0], [2, 1], [3, 2], [4, 2]], "color": "#c7b255"},
+            {"id": 8,  "definition": [[0, 2], [1, 2], [2, 1], [3, 0], [4, 0]], "color": "#80ced8"},
+            {"id": 9,  "definition": [[0, 1], [1, 2], [2, 1], [3, 0], [4, 1]], "color": "#a1b635"},
+            {"id": 10, "definition": [[0, 1], [1, 0], [2, 1], [3, 2], [4, 1]], "color": "#feb81a"},
+            {"id": 11, "definition": [[0, 0], [1, 1], [2, 1], [3, 1], [4, 0]], "color": "#7e87d6"},
+            {"id": 12, "definition": [[0, 2], [1, 1], [2, 1], [3, 1], [4, 2]], "color": "#D84343"},
+            {"id": 13, "definition": [[0, 0], [1, 1], [2, 0], [3, 1], [4, 0]], "color": "#922196"},
+            {"id": 14, "definition": [[0, 2], [1, 1], [2, 2], [3, 1], [4, 2]], "color": "#7c2a05"},
+            {"id": 15, "definition": [[0, 1], [1, 1], [2, 0], [3, 1], [4, 1]], "color": "#5bb764"},
+            {"id": 16, "definition": [[0, 1], [1, 1], [2, 2], [3, 1], [4, 1]], "color": "#ff8251"},
+            {"id": 17, "definition": [[0, 0], [1, 0], [2, 2], [3, 0], [4, 0]], "color": "#66f9cd"},
+            {"id": 18, "definition": [[0, 2], [1, 2], [2, 0], [3, 2], [4, 2]], "color": "#7b8b44"},
+            {"id": 19, "definition": [[0, 0], [1, 2], [2, 2], [3, 2], [4, 0]], "color": "#3574b7"}
+        ],
+
+        "symbol_animations": [
+            {"symbol": 0, "win": "wild_win",  "substitute": "wild_substitute"},
+            {"symbol": 1, "win": "eye_animation"},
+            {"symbol": 2, "win": "bird_animation"},
+            {"symbol": 3, "win": "bug_animation"},
+            {"symbol": 4, "win": "animation_a"},
+            {"symbol": 5, "win": "animation_k"},
+            {"symbol": 6, "win": "animation_q"},
+            {"symbol": 7, "win": "animation_j"},
+            {"symbol": 8, "win": "animation_10"},
+            {"symbol": 9,
+                "feature": "bonus_win",
+                "reel_stop": "bonus_reel_stop"
+            },
+            {"symbol": 10,
+                "win": "scatter_win",
+                "feature": "scatter_trigger",
+                "reel_stop": "scatter_reel_stop",
+                "extra_feature": "scatter_retrigger_loop"}
+        ],
+
+        "symbols.wildId": 0,
+        "symbols.bonusId": 9,
+        "sound": {
+            "win_sounds": {
+                "regular": ["win_level_0", "win_level_1", "win_level_2-3", "win_level_2-3", "win_level_4", "win_level_5"],
+                "free-spins": "fg_tickup",
+                "turbo": "win_level_0"
+            },
+            "reels_spin_sounds": ["reel_spin"],
+            "reels_stop_sounds": [
+                {"symbol":  -1, "sound": ["reel_stop"]},
+                {"symbol":  9, "sound": ["bonus_reelstop_1", "bonus_reelstop_2", "bonus_reelstop_3", "bonus_reelstop_4", "bonus_reelstop_5"]},
+                {"symbol":  10, "sound": ["fg_reelstop_1", "fg_reelstop_2", "fg_reelstop_3", "fg_reelstop_4", "fg_reelstop_5"]}
+            ],
+            "symbol_sounds": [
+                {"symbol": 9,  "feature_sound": "bonus_symbol_win", "loop_sound": "bonus_pending"},
+                {"symbol": 10, "feature_sound": "scat_trigger",     "loop_sound": "fg_pending"}
+            ]
+        },
+
+        "paytable":[
+            {"symbol": 0, "quantity": 5, "multiplier": 10000},
+            {"symbol": 0, "quantity": 4, "multiplier": 2000},
+            {"symbol": 0, "quantity": 3, "multiplier": 200},
+            {"symbol": 0, "quantity": 2, "multiplier": 10},
+            {"symbol": 1, "quantity": 5, "multiplier": 500},
+            {"symbol": 1, "quantity": 4, "multiplier": 150},
+            {"symbol": 1, "quantity": 3, "multiplier": 40},
+            {"symbol": 1, "quantity": 2, "multiplier": 2},
+            {"symbol": 2, "quantity": 5, "multiplier": 400},
+            {"symbol": 2, "quantity": 4, "multiplier": 100},
+            {"symbol": 2, "quantity": 3, "multiplier": 25},
+            {"symbol": 2, "quantity": 2, "multiplier": 2},
+            {"symbol": 3, "quantity": 5, "multiplier": 200},
+            {"symbol": 3, "quantity": 4, "multiplier": 70},
+            {"symbol": 3, "quantity": 3, "multiplier": 20},
+            {"symbol": 4, "quantity": 5, "multiplier": 150},
+            {"symbol": 4, "quantity": 4, "multiplier": 50},
+            {"symbol": 4, "quantity": 3, "multiplier": 15},
+            {"symbol": 5, "quantity": 5, "multiplier": 125},
+            {"symbol": 5, "quantity": 4, "multiplier": 40},
+            {"symbol": 5, "quantity": 3, "multiplier": 10},
+            {"symbol": 6, "quantity": 5, "multiplier": 100},
+            {"symbol": 6, "quantity": 4, "multiplier": 30},
+            {"symbol": 6, "quantity": 3, "multiplier": 10},
+            {"symbol": 7, "quantity": 5, "multiplier": 75},
+            {"symbol": 7, "quantity": 4, "multiplier": 20},
+            {"symbol": 7, "quantity": 3, "multiplier": 5},
+            {"symbol": 8, "quantity": 5, "multiplier": 50},
+            {"symbol": 8, "quantity": 4, "multiplier": 15},
+            {"symbol": 8, "quantity": 3, "multiplier": 5},
+            {"symbol": 10, "rule": "display", "quantity": 5, "multiplier": 500},
+            {"symbol": 10, "rule": "display", "quantity": 4, "multiplier": 50},
+            {"symbol": 10, "rule": "display", "quantity": 3, "multiplier": 5},
+            {"symbol": 10, "rule": "display", "quantity": 2, "multiplier": 2}
+        ]
+    }
+}

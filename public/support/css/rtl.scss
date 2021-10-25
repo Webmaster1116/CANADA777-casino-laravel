@@ -1,0 +1,353 @@
+
+/*
+* 
+* ==========================================================
+* RTL.SCSS
+* ==========================================================
+*
+* Front-end RTL css. This file is imported only.
+*
+*/
+
+.sb-rtl {
+    direction: rtl;
+    text-align: right;
+
+    textarea,
+    .sb-panel,
+    ul,
+    ul li {
+        direction: rtl;
+        text-align: right;
+    }
+
+    .sb-input.sb-input-btn > div {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        margin-left: 0;
+        margin-right: -3px;
+
+        &:before {
+            transform: rotate(180deg);
+            display: inline-block;
+        }
+    }
+
+    .sb-input-select-input {
+        > div {
+            left: auto;
+            right: 6px;
+        }
+
+        input {
+            padding: 5px 60px 0 0;
+        }
+    }
+
+    .sb-btn-text i {
+        margin: 0 0 0 15px;
+    }
+
+    .sb-search-btn {
+        > i,
+        > input {
+            right: auto;
+            left: 0;
+        }
+
+        > input {
+            padding: 0 15px 0 50px !important;
+        }
+
+        &.sb-active > i {
+            right: auto;
+            left: 15px;
+        }
+    }
+
+    div ul.sb-menu li,
+    .sb-select ul li {
+        padding: 6px 12px 6px 25px;
+    }
+
+    .sb-select p {
+        padding: 0 0 0 20px;
+
+        &:after {
+            right: auto;
+            left: 0;
+        }
+    }
+
+    > div {
+        .sb-header-agent {
+            .sb-profile {
+                text-align: right;
+
+                img {
+                    margin-right: 0;
+                    margin-left: 15px;
+                }
+
+                .sb-status {
+                    padding-right: 15px;
+                    padding-left: 0;
+
+                    &:before {
+                        right: 0;
+                        left: auto;
+                    }
+                }
+
+                .sb-status-typing {
+                    float: right;
+                    padding-right: 0;
+
+                    &:after {
+                        right: calc(100% + 5px);
+                        left: auto;
+                    }
+                }
+            }
+
+            &:hover .sb-profile {
+                margin-right: 60px;
+                margin-left: 0;
+            }
+        }
+
+        .sb-header {
+            .sb-dashboard-btn {
+                right: -60px;
+                left: auto;
+
+                &:before {
+                    content: "\75";
+                }
+            }
+
+            &:hover .sb-dashboard-btn {
+                right: 20px;
+                left: auto;
+            }
+        }
+
+        .sb-list {
+            text-align: right;
+
+            > .sb-right {
+                float: left;
+                margin: 10px 10px 30px 20px;
+
+                &.sb-thumb-active {
+                    margin: 10px 10px 30px 65px;
+                }
+
+                .sb-thumb {
+                    left: -45px;
+                    right: auto;
+                }
+
+                .sb-time {
+                    left: 0;
+                    right: auto;
+
+                    &:hover > span + span {
+                        padding-right: 0;
+                        padding-left: 10px;
+                    }
+                }
+            }
+
+            > div:not(.sb-right) {
+                float: right;
+                margin: 10px 20px 30px 10px;
+
+                &.sb-thumb-active {
+                    margin: 10px 65px 30px 10px;
+                }
+
+                .sb-thumb {
+                    right: -45px;
+                    left: auto;
+                }
+            }
+
+            > div:first-child {
+                margin-top: 20px;
+            }
+
+            .sb-time {
+                left: auto;
+                right: 0;
+
+                &:hover > span + span {
+                    padding-right: 10px;
+                    padding-left: 0;
+                }
+            }
+
+            [data-id="sending"] .sb-time {
+                padding-left: 20px;
+
+                > i {
+                    transform: translateX(-25px);
+                }
+            }
+        }
+
+        .sb-popup.sb-emoji {
+            margin-left: -30px;
+
+            &:after {
+                left: 33px;
+                right: auto;
+            }
+        }
+    }
+
+    .sb-editor {
+        .sb-textarea {
+            padding: 15px 15px 15px 85px;
+        }
+
+        .sb-submit {
+            padding-left: 0;
+            padding-right: 13px;
+        }
+
+        .sb-loader {
+            right: auto;
+            left: 15px;
+        }
+
+        .sb-bar {
+            padding: 15px 0 15px 15px;
+            right: auto;
+            left: 0;
+        }
+
+        .sb-bar-icons > div {
+            &.sb-btn-attachment {
+                margin-right: 0;
+                margin-left: 7px;
+            }
+
+            &:before {
+                left: 0px;
+                right: 7px;
+            }
+        }
+
+        .sb-attachments > div {
+            margin: 5px 0 5px 5px;
+            padding-right: 0;
+            padding-left: 15px;
+
+            i {
+                left: 0px;
+                right: 5px;
+            }
+        }
+    }
+
+    .sb-user-conversations > li > div {
+        padding-left: 0;
+        padding-right: 55px;
+        text-align: right;
+
+        img {
+            left: auto;
+            right: 0;
+        }
+
+        div:not(.sb-message) > span:first-child {
+            margin: 0 0 0 15px;
+        }
+    }
+
+    .sb-popup-message {
+        .sb-icon-close {
+            right: auto;
+            left: 15px;
+        }
+    }
+
+    .sb-articles {
+        text-align: right;
+
+        > div > div {
+            text-align: right;
+        }
+    }
+
+    .sb-rich-message {
+        text-align: right;
+
+        .sb-input > span {
+            left: auto;
+            right: 0;
+            text-align: right;
+
+            &.sb-active {
+                right: 5px;
+            }
+        }
+
+        .sb-rating .sb-submit + div {
+            margin: 0 30px 0 0;
+        }
+
+        .sb-text-list-single > div {
+            padding-left: 0;
+            padding-right: 15px;
+
+            &:before {
+                left: auto;
+                right: 0;
+            }
+        }
+
+        .sb-slider {
+            > div {
+                direction: ltr;
+            }
+
+            .sb-card-img + div + .sb-card-extra {
+                left: auto;
+                right: 15px;
+            }
+        }
+
+
+
+        &.sb-rich-select p:after {
+            left: 8px;
+        }
+    }
+
+    .sb-timetable > span {
+        padding: 0 20px 0 0;
+
+        i {
+            left: auto;
+            right: 0;
+        }
+    }
+
+    .sb-list table th,
+    .sb-list table td {
+        text-align: right;
+    }
+
+    .sb-lightbox-overlay i {
+        left: 10px;
+        right: auto;
+    }
+
+    .sb-rating > div {
+        padding: 0 10px 0 0;
+    }
+}

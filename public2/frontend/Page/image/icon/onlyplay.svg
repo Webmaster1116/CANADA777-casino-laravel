@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Onlyplay Color </title>
+    <defs>
+        <linearGradient x1="273.360656%" y1="-1.53203343%" x2="273.360656%" y2="123.398329%" id="linearGradient-1">
+            <stop stop-color="#FFC000" offset="0%"></stop>
+            <stop stop-color="#D200FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Onlyplay-Color-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M77.7214485,40 C77.7214485,60.6128134 60.6128134,77 40,77 C19.3871866,77 2.27855153,60.6128134 2.27855153,40 C2.27855153,19.3871866 19.3871866,3 40,3 C60.6128134,3 77.7214485,19.3871866 77.7214485,40 Z M19.7994429,40 C19.7994429,50.821727 28.8690808,60.9220056 40,60.9220056 C51.1309192,60.9220056 60.2005571,50.821727 60.2005571,40 C60.2005571,29.178273 51.1309192,19.0779944 40,19.0779944 C28.8690808,19.0779944 19.7994429,29.178273 19.7994429,40 Z" id="Shape-Copy" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+    </g>
+</svg>

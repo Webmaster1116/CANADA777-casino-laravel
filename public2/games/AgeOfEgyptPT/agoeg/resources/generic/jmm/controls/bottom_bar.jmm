@@ -1,0 +1,128 @@
+{
+    "ui": {
+        "label.bottom_title": {"@P": "ui/label.def", "format": "bottom_bar_field_title"},
+        "label.bottom_value": {"@P": "ui/label.def", "format": "bottom_bar_field_value"},
+        "autoplay.spins_title": {"id": "autoplay.spins_title", "@P": "ui/label.bottom_title", "text": "spins_left", "props": {"anchor.fit": "16 6 58 7"}},
+        "autoplay.spins_left": {"id": "autoplay.spins_left", "@P": "ui/label.bottom_value",  "props": {"anchor.fit": "35 0 2 0"}},
+
+
+        "anchor_container":  { "type": "anchor","visible":false, "layout": {"relative": true}},
+
+        "mega_win_scarab":  { "@P": "ui/anchor_container", "id": "mega_win_scarab","animation": "mega_scarab",   "props": { "anchor.fit": "74 -50 -60 50"  }, "content": [
+            {"slice": "mega_win_scarab",  "type": "image", "props": {"anchor.alignment": "top-center", "anchor.fit": "0 50 0 -50"}}
+        ]},
+        "mega_win_flower_l":{ "@P": "ui/anchor_container", "id": "mega_win_flower_l","animation": "mega_flower_l", "props": { "anchor.fit": "50 78 -50 0.8"  }, "content": [
+            {"slice": "mega_win_flower_l", "type": "image", "props": {"anchor.alignment": "center-right", "anchor.fit": "-73 100 54 -100"}}
+        ]},
+        "mega_win_flower_r":{ "@P": "ui/anchor_container", "id": "mega_win_flower_r","animation": "mega_flower_r", "props": { "anchor.fit": "50 -21 -50 99.2"  }, "content": [
+            {"slice": "mega_win_flower_r", "type": "image", "props": {"anchor.alignment": "center-left", "anchor.fit": "-73 0 54 0"}}
+        ]},
+
+        "agoeg_bottom_bar": {"id": "bottom_bar", "type": "bottom-bar", "layout": {"type": "vport", "base": [1097, 95]}, "ratio": [1097, 95],  "content": [
+            {"id": "info.container", "type": "anchor", "layout": {"relative": true}, "pos": [-1.5, 0], "size": [103, 96], "content": [
+                {"id": "info.btn", "type": "ibutton", "props": {"anchor.fit": "0"}, "slice": "info", "cursor": "hand"}
+            ]},
+            {"id": "lines.container", "type": "anchor", "layout": { "relative": true}, "pos": [102, 0], "size": [155, 96],  "content": [
+                {"type": "anchor", "layout": {"relative": true}, "props": {"anchor.fit": "0 0 52 0"}, "background": "lines_field", "content": [
+                    {"@P": "ui/label.bottom_title", "text": "lines",      "props": {"anchor.fit": "16 0 58 0"}},
+                    {"id": "lines.value", "@P": "ui/label.bottom_value",  "props": {"anchor.fit": "35 0 2 0"}}
+                ]},
+                {"id": "lines.minus", "type": "ibutton", "props": {"anchor.fit": "48 50 0 0"}, "slice": "bp_minus", "cursor": "hand"},
+                {"id": "lines.plus", "type": "ibutton", "props": {"anchor.fit": "48 0 0 50"}, "slice": "bp_plus", "cursor": "hand"}
+            ]},
+            {"id": "coin_size.container", "type": "anchor", "layout": { "relative": true}, "pos": [257, 0], "size": [155, 96],  "content": [
+                {"type": "anchor", "layout": {"relative": true}, "props": {"anchor.fit": "0 0 52 0"}, "background": "lines_field", "content": [
+                    {"@P": "ui/label.bottom_title", "text": "line_bet",       "props": {"anchor.fit": "16 0 58 0"}},
+                    {"id": "coin_size.value", "@P": "ui/label.bottom_value",  "props": {"anchor.fit": "35 0 2 0"}}
+                ]},
+                {"id": "coin_size.minus", "type": "ibutton", "props": {"anchor.fit": "48 50 0 0"}, "slice": "bp_minus", "cursor": "hand"},
+                {"id": "coin_size.plus", "type": "ibutton", "props": {"anchor.fit": "48 0 0 50"}, "slice": "bp_plus", "cursor": "hand"}
+            ]},
+            {"id": "auto_play.container", "type": "multistate", "state": "regular", "layout": {"type": "anchor", "relative": true}, "pos": [684, -3], "size": [92, 99], "content": {
+                "regular": {"id": "auto_play.btn", "type": "autoplay-selector", "props": {"anchor.fit": "0 0 0 0"}, "layout": {"type": "anchor", "relative": true}, "values": [10, 25, 50, 99, -1],
+                    "list": {"layout": {"base": [100, 0]}, "props": {"anchor.alignment": "bottom-center", "anchor.fit": "null 0 100.1 0"}, "bias": "hor"},
+                    "item": {"type": "anchor", "layout": {"relative": true}, "ratio": [92, 34], "content": [
+                        {"type": "agoeg-ibutton", "layout": {"type": "anchor", "relative": true}, "format": "autoplay_selector", "props": { "anchor.fit": "0"}, "slice": "autoplay_item", "cursor": "hand", "content": [
+                            {"id": "title", "@P": "ui/label.def", "format": "autoplay_selector", "props": {"anchor.fit": "27 5"}, "cursor": "hand"}
+                        ]}
+                    ]},
+                    "item.until-feature": {"type": "anchor", "layout": {"relative": true}, "ratio": [92, 34], "content": [
+                        {"type": "agoeg-ibutton", "layout": {"type": "anchor", "relative": true}, "format": "autoplay_selector", "props": { "anchor.fit": "0"}, "slice": "autoplay_item", "cursor": "hand", "content": [
+                            {"@P": "ui/label.def", "text": "agoeg_until_feature", "format": "autoplay_selector", "props": {"anchor.fit": "6 5"}, "cursor": "hand"}
+                        ]}
+                    ]},
+                    "content": [
+                        {"id": "button", "type": "ibutton", "slice": "autoplay_btn", "props": { "anchor.fit": "0"  },"cursor": "hand"}
+                ]},
+                "autoplay": {"type": "anchor", "layout": {"relative": true}, "props": {"anchor.fit": "0"}, "content": [
+                    {"id": "autoplay_spins_left","type": "anchor", "layout": {"relative": true}, "props": {"anchor.fit": "0 0 50 0"}, "background": "autoplay_spins_left", "content": [
+                        {"@P": "ui/autoplay.spins_title"},
+                        {"@P": "ui/autoplay.spins_left"},
+                        {"id": "autoplay.until_feature", "@P": "ui/label.bottom_value", "text": "agoeg_until_feature", "visible": false, "props": {"anchor.fit": "15 6 15 7"}}
+                    ]},
+                    {"id": "auto_play_stop.btn", "type": "ibutton", "props": {"anchor.fit": "50 0 0.6 0"}, "cursor": "hand", "slice": "stop_autoplay"}
+                ]}
+            }},
+            {"id": "turbo.container", "type": "anchor", "layout":{"relative": true}, "pos": [776, -3], "size": [92, 99], "content": [
+                {"id": "turbo", "type": "toggle-panel", "layout": {"type": "stack"}, "props": {"anchor.fit": "0"}, "content": {
+                    "on": {"type": "ibutton", "slice": "turbo_on", "cursor": "hand"},
+                    "off": {"type": "ibutton", "slice": "turbo_mode", "cursor": "hand"}
+                }}
+            ]},
+            {"id": "buttons.container", "type": "desktop-round-buttons", "pos": [868, -3], "size": [227, 99], "layout": {"type": "stack"}, "content": [
+                {"id": "spin", "type": "ibutton", "slice": "spin_s", "shortcut": "space", "cursor": "hand"},
+                {"id": "start", "type": "ibutton", "slice": "start_s", "shortcut": "space", "animation": "click_to_start_s.button", "cursor": "hand"},
+                {"id": "stop", "type": "ibutton", "slice": "stop_s", "shortcut": "space", "cursor": "hand"}
+            ]},
+            {"id": "win.container", "type": "vport", "layout": {"base": [272, 115]}, "pos": [412, -18], "size": [272, 115], "content": [
+                {"type": "anchor", "layout": {"relative": true}, "size": [272, 50], "pos": [0, 64], "background": "total_bet_field", "content": [
+                    {"id": "total_bet.title",  "@P": "ui/label.bottom_title", "text": "total_bet","props": {"anchor.fit": "14 2 60 2"}},
+                    {"id": "total_bet.value",  "@P": "ui/label.bottom_value", "props": {"anchor.fit": "33 2 4 2"}}
+                ]},
+                {"type": "stack","id": "coins_panel", "layout": {"base": [2, 2]}, "pos": [136, -40], "size": [2, 2], "content":[
+                    {"id": "big_win_coins",  "@P": "ui/coins"},
+                    {"id": "mega_win_coins", "@P": "ui/coins", "count": 200, "birthrate": 5}
+                ]},
+                {"id": "win-panel-wrapper", "type": "anchor", "layout": {"relative": true}, "size": [271, 65], "pos": [136, 32], "content": [
+                    {"id": "win_panel", "type": "desktop-win-panel", "layout": {"type": "anchor", "relative": true}, "props": {"anchor.fit": "-50 50 50 -50"}, "content": [
+                        {"@P": "ui/mega_win_flower_l"},
+                        {"@P": "ui/mega_win_flower_r"},
+                        {"type": "anchor", "background": "win_field", "props": {"anchor.fit": "0"}},
+                        {"id": "win.title", "@P": "ui/label.bottom_title", "text": "total_win", "props": {"anchor.fit": "15 2 61 2"}},
+                        {"id": "win.value", "@P": "ui/label.bottom_value", "props": {"anchor.fit": "35 2 2 2"}},
+                        {"@P": "ui/mega_win_scarab"}
+                    ]}
+                ]}
+            ]}
+        ],
+            "configs": {
+                "no_autoplay": {"content": [
+                    {"id": "auto_play.container", "visible": false},
+                    {"id": "turbo.container",   "pos": [684, -3]},
+                    {"id": "buttons.container", "pos": [776, -3.5], "size": [320, 99], "content": [
+                        {"id": "spin",  "slice": "spin_m"},
+                        {"id": "start", "slice": "start_m", "animation": "click_to_start_m.button"},
+                        {"id": "stop",  "slice": "stop_m"}
+                    ]}
+                ]},
+                "no_turbo_mode": {"content": [
+                    {"id": "auto_play.container", "pos": [684, -3]},
+                    {"id": "turbo.container", "visible": false},
+                    {"id": "buttons.container", "pos": [776, -3.5], "size": [320, 99], "content": [
+                        {"id": "spin", "slice": "spin_m"},
+                        {"id": "start", "slice": "start_m", "animation": "click_to_start_m.button"},
+                        {"id": "stop", "slice": "stop_m"}
+                    ]}
+                ]},
+                "no_autoplay_and_turbo_mode": { "content": [
+                    {"id": "auto_play.container", "visible": false},
+                    {"id": "turbo.container", "visible": false},
+                    {"id": "buttons.container", "pos": [684, -3.5], "size": [412, 99], "content": [
+                        {"id": "spin",  "slice": "spin_l"},
+                        {"id": "start", "slice": "start_l", "animation": "click_to_start_l.button"},
+                        {"id": "stop",  "slice": "stop_l"}
+                    ]}
+                ]}
+            }}
+    }
+}

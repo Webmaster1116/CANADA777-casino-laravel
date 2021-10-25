@@ -1,0 +1,41 @@
+
+africarun_intro_anim.png
+size: 1917,734
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Mask1
+  rotate: false
+  xy: 1753, 2
+  size: 113, 164
+  orig: 113, 164
+  offset: 0, 0
+  index: -1
+Mask2
+  rotate: false
+  xy: 1753, 168
+  size: 120, 161
+  orig: 120, 161
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 965, 331
+  size: 950, 401
+  orig: 950, 401
+  offset: 0, 0
+  index: -1
+light_copy
+  rotate: false
+  xy: 2, 91
+  size: 961, 641
+  orig: 961, 641
+  offset: 0, 0
+  index: -1
+wood
+  rotate: false
+  xy: 965, 4
+  size: 786, 325
+  orig: 786, 325
+  offset: 0, 0
+  index: -1

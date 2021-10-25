@@ -1,0 +1,168 @@
+<?xml version="1.0" ?>
+<sql>
+
+	<name>Standalone Slider Revolution Database Creation</name>
+	
+	<version>5.2.1</version>
+
+	<license>Open Source MIT license</license>
+
+	<tables>
+
+        <query>
+			DROP TABLE IF EXISTS `[DB_PREFIX]css`;
+        </query>
+        <query>
+			CREATE TABLE `[DB_PREFIX]css` (
+                `id` int(9) NOT NULL AUTO_INCREMENT,
+                `handle` text NOT NULL,
+                `settings` LONGTEXT,
+                `hover` LONGTEXT,
+                `params` text NOT NULL,
+                `advanced` LONGTEXT,
+                UNIQUE KEY `id` (`id`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+        </query>
+
+        <query>
+			DROP TABLE IF EXISTS `[DB_PREFIX]layer_animations`;
+        </query>
+        <query>
+			CREATE TABLE `[DB_PREFIX]layer_animations` (
+                `id` int(9) NOT NULL AUTO_INCREMENT,
+                `handle` text NOT NULL,
+                `params` text NOT NULL,
+                `settings` text,
+                UNIQUE KEY `id` (`id`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+        </query>
+
+        <query>
+			DROP TABLE IF EXISTS `[DB_PREFIX]navigations`;
+        </query>
+        <query>
+			CREATE TABLE `[DB_PREFIX]navigations` (
+                `id` int(9) NOT NULL AUTO_INCREMENT,
+                `name` varchar(191) NOT NULL,
+                `handle` varchar(191) NOT NULL,
+                `css` LONGTEXT NOT NULL,
+                `markup` LONGTEXT NOT NULL,
+                `settings` LONGTEXT,
+                UNIQUE KEY `id` (`id`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+        </query>
+
+        <query>
+			DROP TABLE IF EXISTS `[DB_PREFIX]sliders`;
+        </query>
+        <query>
+			CREATE TABLE `[DB_PREFIX]sliders` (
+                `id` int(9) NOT NULL AUTO_INCREMENT,
+                `title` tinytext NOT NULL,
+                `alias` tinytext,
+                `params` LONGTEXT NOT NULL,
+                `settings` text NOT NULL DEFAULT '',
+                `type` varchar(191) NOT NULL DEFAULT '',
+                UNIQUE KEY `id` (`id`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+        </query>
+
+        <query>
+			DROP TABLE IF EXISTS `[DB_PREFIX]slides`;
+        </query>
+        <query>
+			CREATE TABLE `[DB_PREFIX]slides` (
+                `id` int(9) NOT NULL AUTO_INCREMENT,
+                `slider_id` int(9) NOT NULL,
+                `slide_order` int(11) NOT NULL,
+                `params` LONGTEXT NOT NULL,
+                `layers` LONGTEXT NOT NULL,
+                `settings` text NOT NULL,
+                UNIQUE KEY `id` (`id`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+        </query>
+
+        <query>
+			DROP TABLE IF EXISTS `[DB_PREFIX]static_slides`;
+        </query>
+        <query>
+			CREATE TABLE `[DB_PREFIX]static_slides` (
+                `id` int(9) NOT NULL AUTO_INCREMENT,
+                `slider_id` int(9) NOT NULL,
+                `params` LONGTEXT NOT NULL,
+                `layers` LONGTEXT NOT NULL,
+                `settings` text NOT NULL,
+                UNIQUE KEY `id` (`id`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+        </query>
+
+        <query>
+			DROP TABLE IF EXISTS `[DB_PREFIX]user`;
+        </query>
+        <query>
+			CREATE TABLE `[DB_PREFIX]user` (
+			  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+			  `join_date` timestamp NULL DEFAULT NULL,
+			  `last_visit` timestamp NULL DEFAULT NULL,
+			  `username` varchar(50) NOT NULL,
+			  `password` varchar(255) NOT NULL,
+			  `email` varchar(120) NOT NULL,
+			  `salt` varchar(50) DEFAULT NULL,
+			  PRIMARY KEY (`id`),
+			  UNIQUE KEY `username_uk` (`username`),
+			  UNIQUE KEY `email_uk` (`email`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+        </query>
+
+        <query>
+			DROP TABLE IF EXISTS `[DB_PREFIX]options`;
+        </query>
+        <query>
+			CREATE TABLE `[DB_PREFIX]options` (
+			  `id` int(9) NOT NULL AUTO_INCREMENT,
+			  `handle` varchar(100) NOT NULL,
+			  `option` LONGTEXT NOT NULL,
+			  PRIMARY KEY (`id`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+        </query>
+
+        <query>
+			DROP TABLE IF EXISTS `[DB_PREFIX]images`;
+        </query>
+        <query>
+			CREATE TABLE `[DB_PREFIX]images` (
+			  `id` int(11) NOT NULL AUTO_INCREMENT,
+			  `url` varchar(250) DEFAULT NULL,
+			  PRIMARY KEY (`id`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+        </query>
+
+        <query>
+			DROP TABLE IF EXISTS `[DB_PREFIX]transients`;
+        </query>
+        <query>
+			CREATE TABLE `[DB_PREFIX]transients` (
+			  `id` int(9) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+			  `handle` varchar(200) NOT NULL,
+			  `expires` timestamp NULL,
+			  `value` LONGTEXT NOT NULL
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+        </query>
+
+        <query>
+			DROP TABLE IF EXISTS `[DB_PREFIX]sessions`;
+        </query>
+        <query>
+			CREATE TABLE `[DB_PREFIX]sessions` (
+				session_id varchar(40) DEFAULT '0' NOT NULL,
+				ip_address varchar(45) DEFAULT '0' NOT NULL,
+				user_agent varchar(120) NOT NULL,
+				last_activity int(10) unsigned DEFAULT 0 NOT NULL,
+				user_data mediumtext NOT NULL,
+				PRIMARY KEY (session_id),
+				KEY `last_activity_idx` (`last_activity`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+		</query>
+
+	</tables>
+</sql>

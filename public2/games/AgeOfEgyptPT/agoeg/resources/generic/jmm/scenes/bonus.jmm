@@ -1,0 +1,71 @@
+{
+    "ui" : {
+        "sparkle" :    {"group": "sparkles", "@P": "ui/bonus_prize_explosion_sprite", "visible": false, "size": [257, 257]},
+        "scoreLabels": {"@P": "ui/red_label", "group": "scoreLabels", "size": [211, 67]},
+
+        "prize" :       {"size": [143, 270], "type": "ibutton", "group": "prizes",   "cursor": "hand", "props": { "anchor.fit": "0"}},
+        "glow_prize" :  {"size": [143, 270], "type":"image",    "group":"glow_prizes",  "opacity": 0,  "props": { "anchor.fit": "0"}, "animation": "bonus_glow_prize"}
+    },
+
+    "scenes": {
+        "bonus-scene": {"layout":{"type": "stack"}, "content": [
+            { "type": "anchor", "layout": {"relative": true}, "ratio": [1136, 640],  "background": "bonus_background_l", "content": [
+                    {"type": "vport", "ratio": 1.775, "size": [1136, 640], "layout":{"base": [1136, 640]}, "props": {"anchor.fit": "0" }, "content": [
+                            {"type": "panel", "group": "instruction_group",  "layout": {"type": "chbox"},"pos":[127, 47], "size":[846, 48], "content": [
+                                {"@P": "ui/label.def",  "text": "pick", "format": "bonus_text"},
+                                {"type": "anchor", "ratio": 1.5, "layout": {"relative": true}, "content": [
+                                    {"id": "gifts_left_value", "@P": "ui/label.def", "format": "font_red",  "props": { "anchor.fit": "-25 0 -18 0", "anchor.alignment": "center" }}
+                                ]},
+                                {"@P": "ui/label.def", "id": "artifacts_to_win", "text": "artifacts_to_win", "format": "bonus_text"}
+                            ]},
+
+                            { "@P": "ui/label.def", "id": "current_win_title", "visible": false, "pos": [300, 132], "size": [500, 48], "format": "bonus_text",  "text": "bonus_win"},
+                            { "@P": "ui/red_label", "id": "current_win_value", "visible": false, "pos": [300, 171], "size": [500, 110]},
+
+                            {"pos":[206, 253], "@P": "ui/prize",      "slice": "bonus_prize_1", "mask": {"slice": "bonus_prize_1", "hitcolor": "#0000", "invert": true}},
+                            {"pos":[206, 253], "@P": "ui/glow_prize", "slice": "bonus_prize_1:hovered"},
+
+                            {"pos":[419, 256], "@P": "ui/prize",      "slice": "bonus_prize_2", "mask": {"slice": "bonus_prize_2", "hitcolor": "#0000", "invert": true}},
+                            {"pos":[419, 256], "@P": "ui/glow_prize", "slice": "bonus_prize_2:hovered"},
+
+                            {"pos":[633, 256], "@P": "ui/prize",      "slice": "bonus_prize_3", "mask": {"slice": "bonus_prize_3", "hitcolor": "#0000", "invert": true}},
+                            {"pos":[633, 256], "@P": "ui/glow_prize", "slice": "bonus_prize_3:hovered"},
+
+                            {"pos":[312, 331], "@P": "ui/prize",      "slice": "bonus_prize_4", "mask": {"slice": "bonus_prize_4", "hitcolor": "#0000", "invert": true}},
+                            {"pos":[312, 331], "@P": "ui/glow_prize", "slice": "bonus_prize_4:hovered"},
+
+                            {"pos":[526, 331], "@P": "ui/prize",      "slice": "bonus_prize_5", "mask": {"slice": "bonus_prize_5", "hitcolor": "#0000", "invert": true}},
+                            {"pos":[526, 331], "@P": "ui/glow_prize", "slice": "bonus_prize_5:hovered"},
+
+                            {"pos":[739, 325], "@P": "ui/prize",      "slice": "bonus_prize_6", "mask": {"slice": "bonus_prize_6", "hitcolor": "#0000", "invert": true}},
+                            {"pos":[739, 325], "@P": "ui/glow_prize", "slice": "bonus_prize_6:hovered"},
+
+                            {"@P": "ui/scoreLabels", "pos":[150, 340]},
+                            {"@P": "ui/scoreLabels", "pos":[380, 340]},
+                            {"@P": "ui/scoreLabels", "pos":[594, 340]},
+                            {"@P": "ui/scoreLabels", "pos":[264, 474]},
+                            {"@P": "ui/scoreLabels", "pos":[478, 474]},
+                            {"@P": "ui/scoreLabels", "pos":[691, 474]},
+
+                            {"@P": "ui/sparkle", "pos":[149, 253]},
+                            {"@P": "ui/sparkle", "pos":[362, 256]},
+                            {"@P": "ui/sparkle", "pos":[576, 256]},
+                            {"@P": "ui/sparkle", "pos":[255, 385]},
+                            {"@P": "ui/sparkle", "pos":[469, 385]},
+                            {"@P": "ui/sparkle", "pos":[682, 379]}
+                ]}
+            ]}
+        ]}
+    },
+
+    "resources": {
+        "animations": {
+            "sparkles.animation": {"type": "sprite", "from": 0, "to": "100%", "duration": 800, "repeat": 1},
+            "bonus_glow_prize": {"type": "async", "duration": 840, "content": [
+                {"type": "opacity", "from": 0, "to":1, "repeat":1,"duration": 320},
+                {"type": "delay",  "repeat":1,"duration": 200},
+                {"type": "opacity", "from": 1, "to":0, "repeat":1,"duration": 320}
+            ]}
+        }
+    }
+}

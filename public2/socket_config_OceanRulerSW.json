@@ -1,0 +1,12 @@
+{
+
+"port":8559,
+
+"host":"canada777.com",
+"prefix":"https://",
+
+"host_ws":"canada777.com",
+"prefix_ws":"wss://",
+
+"ssl":true
+}

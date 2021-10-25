@@ -1,0 +1,90 @@
+
+africarun_s8_anim.png
+size: 785,139
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: true
+  xy: 511, 7
+  size: 53, 43
+  orig: 53, 43
+  offset: 0, 0
+  index: -1
+Body_Fg_Ostrich
+  rotate: true
+  xy: 707, 36
+  size: 101, 76
+  orig: 101, 79
+  offset: 0, 0
+  index: -1
+Floor
+  rotate: false
+  xy: 562, 60
+  size: 143, 77
+  orig: 143, 77
+  offset: 0, 0
+  index: -1
+Frame_Middle
+  rotate: true
+  xy: 270, 8
+  size: 129, 116
+  orig: 129, 116
+  offset: 0, 0
+  index: -1
+Frame_Right
+  rotate: true
+  xy: 2, 2
+  size: 135, 132
+  orig: 135, 132
+  offset: 0, 0
+  index: -1
+Frame_left
+  rotate: true
+  xy: 136, 2
+  size: 135, 132
+  orig: 135, 132
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 431, 31
+  size: 29, 78
+  orig: 29, 78
+  offset: 0, 0
+  index: -1
+Leg1
+  rotate: true
+  xy: 602, 14
+  size: 44, 35
+  orig: 44, 35
+  offset: 0, 0
+  index: -1
+Leg2
+  rotate: false
+  xy: 639, 27
+  size: 29, 31
+  orig: 29, 31
+  offset: 0, 0
+  index: -1
+Sky
+  rotate: false
+  xy: 388, 62
+  size: 172, 75
+  orig: 173, 76
+  offset: 0, 1
+  index: -1
+Tree1
+  rotate: true
+  xy: 556, 2
+  size: 32, 44
+  orig: 32, 44
+  offset: 0, 0
+  index: -1
+Tree2
+  rotate: false
+  xy: 388, 2
+  size: 41, 58
+  orig: 41, 58
+  offset: 0, 0
+  index: -1

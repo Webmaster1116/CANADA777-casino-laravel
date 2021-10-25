@@ -1,0 +1,247 @@
+/* 
+ * @author    ThemePunch <info@themepunch.com>
+ * @link      http://www.themepunch.com/
+ * @copyright 2018 ThemePunch
+*/
+
+#explodinglayers-addon-wrap {
+	
+	display: none;
+	
+}
+
+.explodinglayers-main-settings label {
+	
+	font-size: 13px;
+	cursor: auto;
+	
+}
+
+.explodinglayers-main-settings select {
+	
+	width: 155px; 
+	min-width: 155px;
+	margin-right: 0;
+	
+}
+
+.explodinglayers-main-settings input[type="text"] {
+	
+	width: 45px !important;
+	min-width: 45px;
+	
+}
+
+.explodinglayers-main-settings .fa-icon-eyedropper {
+	
+	position: relative;
+	top: 6px;
+	
+}
+
+.explodinglayers-main-settings .fa-icon-legal {
+	
+	position: relative;
+	top: 1px;
+	
+}
+
+.explodinglayers-main-settings .inp-deep-list {
+	
+	width: auto;
+	white-space: nowrap;
+	
+}
+
+.explodinglayers-main-settings .fa-icon-spinner {
+	margin-right: 8px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+#viewWrapper .explodinglayers-main-settings select.rs-layer-input-field {
+	
+	width: auto;
+	min-width: auto;
+	height: 26px;
+	
+}
+
+.explodinglayers-main-settings .rs-icon-layershape_n {
+	
+	display: inline-block;
+    vertical-align: top;
+    line-height: 30px;
+	background-position: 50% 50%;
+    background-repeat: no-repeat! important;
+    width: 20px;
+    height: 30px;
+	background-image: url(../images/i_addlayer_shape.png) !important;
+	
+}
+
+.explodinglayers-main-settings .fa-icon-flask,
+.explodinglayers-main-settings .fa-icon-legal,
+.explodinglayers-main-settings .fa-icon-flash,
+.explodinglayers-activate-wrap .fa-icon-legal,
+.explodinglayers-main-settings .fa-icon-plug {
+	
+	font-size: 16px !important;
+	position: relative;
+	top: 5px;
+	
+}plodingbuttons-activate-wrap-in .fa-icon-legal,
+
+.explodinglayers_hideable {
+	
+	display: none !important;
+	
+}
+
+.explodinglayers-explosion {
+	
+	display: none;
+	
+}
+
+.explodinglayers-container {
+	
+	padding-top: 0px !important;
+	border:none !important;
+	
+}
+
+.explodinglayers-icon {
+	
+	padding: 2px; 
+	margin: 0 3px; 
+	display: inline-block;
+	vertical-align: top;
+	line-height: 0;
+	cursor: pointer;
+	
+}
+
+.explodinglayers-icon:hover, 
+.explodinglayers-selected {
+	
+	background-color: #000;
+	
+}
+
+.explodinglayers-selected,
+.explodinglayers-icon-custom {
+	
+	pointer-events: none;
+	
+}
+
+.explodinglayers-icon path,
+.explodinglayers-icon-custom path {
+	
+	fill: #000;
+	
+}
+
+.explodinglayers-icon:hover path, 
+.explodinglayers-selected path {
+	
+	fill: #FFF;
+	
+}
+
+.explodinglayers-circle {
+	
+	width: 18px;
+	height: 18px;
+	margin: 3px;
+	display: block;
+	border-radius: 50%;
+	background: #000;
+	
+}
+
+.explodinglayers-icon:hover .explodinglayers-circle,
+.explodinglayers-selected .explodinglayers-circle  {
+	
+	background: #FFF;
+	
+}
+
+.explodinglayers_custom_shape {
+	
+	background: #9b59b6;
+    outline: none !important;
+    box-shadow: none !important;
+	position: relative;
+    white-space: nowrap;
+    display: inline-block;
+    margin-right: 1px;
+    text-decoration: none !important;
+    height: 30px;
+    vertical-align: middle;
+    border: none;
+    line-height: 30px;
+    margin: 0;
+    padding: 0px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+	
+}
+
+.explodinglayers_custom_shape * {
+	
+	vertical-align: top !important;
+	
+}
+
+.explodinglayers_custom_shape i {
+	
+	position: relative;
+	top: -4px;
+	
+}
+
+.explodinglayers_custom_shape i:before {
+	
+	line-height: 30px;
+    vertical-align: top;
+	color: #fff !important;
+    font-size: 21px;
+    margin: 0px;
+    line-height: 40px;
+    vertical-align: top;
+	
+}
+
+.explodinglayers_custom_particle .obj_library_cats_filter {
+	
+	display: none !important;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

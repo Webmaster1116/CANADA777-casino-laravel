@@ -1,0 +1,67 @@
+body {
+    background: white !important;
+}
+
+.page-register {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0 0 50px rgb(232 24 89 / 30%);
+}
+
+.signup-logo {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.signup-logo img {
+    width: 100%;
+}
+
+.login-button {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background: transparent;
+    width: 100%;
+    padding: 20px 0;
+    border: 1px solid #cac9c9;
+    text-align: center;
+}
+
+.login-button a {
+    color: #e81859;
+}
+
+.login-button a:hover {
+    text-decoration: none;
+    color: #e81859;
+}
+
+.form-check {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 990px) {
+    .page-register {
+        width: 70%;
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .page-register {
+        width: 80%;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .page-register {
+        width: 100%;
+        padding: 10px;
+    }
+    .login-button {
+        width: 100%;
+    }
+}

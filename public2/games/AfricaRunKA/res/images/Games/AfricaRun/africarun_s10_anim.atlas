@@ -1,0 +1,132 @@
+
+africarun_s10_anim.png
+size: 142,1018
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bg
+  rotate: false
+  xy: 2, 796
+  size: 138, 113
+  orig: 138, 113
+  offset: 0, 0
+  index: -1
+Body_1
+  rotate: false
+  xy: 2, 553
+  size: 137, 123
+  orig: 167, 124
+  offset: 0, 0
+  index: -1
+Clouds
+  rotate: true
+  xy: 81, 2
+  size: 147, 55
+  orig: 147, 55
+  offset: 0, 0
+  index: -1
+Eyes2
+  rotate: false
+  xy: 81, 1000
+  size: 27, 16
+  orig: 27, 16
+  offset: 0, 0
+  index: -1
+Eyes_2
+  rotate: false
+  xy: 2, 1010
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: -1
+Floor
+  rotate: true
+  xy: 35, 7
+  size: 142, 44
+  orig: 142, 45
+  offset: 0, 0
+  index: -1
+Frame_Middle
+  rotate: false
+  xy: 2, 678
+  size: 129, 116
+  orig: 129, 116
+  offset: 0, 0
+  index: -1
+Frame_Right
+  rotate: false
+  xy: 2, 419
+  size: 135, 132
+  orig: 135, 132
+  offset: 0, 0
+  index: -1
+Frame_left
+  rotate: false
+  xy: 2, 285
+  size: 135, 132
+  orig: 135, 132
+  offset: 0, 0
+  index: -1
+Frontleg_Bg
+  rotate: true
+  xy: 2, 913
+  size: 42, 62
+  orig: 43, 62
+  offset: 0, 0
+  index: -1
+Frontleg_Fg
+  rotate: true
+  xy: 49, 957
+  size: 41, 71
+  orig: 42, 72
+  offset: 0, 1
+  index: -1
+Frontleg_bg2
+  rotate: true
+  xy: 14, 1002
+  size: 14, 20
+  orig: 14, 21
+  offset: 0, 1
+  index: -1
+Frontleg_fg2
+  rotate: true
+  xy: 36, 1002
+  size: 14, 24
+  orig: 14, 24
+  offset: 0, 0
+  index: -1
+Grass
+  rotate: true
+  xy: 2, 9
+  size: 140, 31
+  orig: 140, 31
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 66, 911
+  size: 44, 49
+  orig: 44, 49
+  offset: 0, 0
+  index: -1
+Head_2
+  rotate: true
+  xy: 62, 1001
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+Sun
+  rotate: false
+  xy: 2, 151
+  size: 135, 132
+  orig: 135, 132
+  offset: 0, 0
+  index: -1
+body2
+  rotate: false
+  xy: 2, 961
+  size: 45, 39
+  orig: 47, 39
+  offset: 2, 0
+  index: -1

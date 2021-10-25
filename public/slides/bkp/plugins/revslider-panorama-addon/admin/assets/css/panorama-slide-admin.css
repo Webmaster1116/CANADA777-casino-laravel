@@ -1,0 +1,31 @@
+/* 
+ * @author    ThemePunch <info@themepunch.com>
+ * @link      http://www.themepunch.com/
+ * @copyright 2017 ThemePunch
+*/
+
+#rs-addon-trigger-panorama,
+#rs-addon-settings-trigger-panorama {
+	
+	border-radius: 0px;
+	padding: 0px;
+	color: transparent;
+	background: url(../images/addon_panorama.png);
+	background-size: 129px 54px;
+	background-position: top center;
+	width: 129px;
+	height: 27px;
+	
+}
+
+#panorama-settings div label {min-width: 180px}
+.panorama-description {margin-left: 20px}
+.panorama-min-max + .description {position: relative}
+.panorama-min-max:not(#panorama_throw_speed) + .description:before{content: "%"; position: absolute; left: -22px; top: -1px}
+
+#rs-addon-settings-trigger-panorama.selected,
+#rs-addon-settings-trigger-panorama:hover {background-position: bottom center}
+#panorama-addon-settings-wrap {padding: 15px}
+.panorama-ammended .action-delay-wrapper {display: none !important}
+.panorama-action {display: none}
+.panorama-action-input {margin-left: 0}

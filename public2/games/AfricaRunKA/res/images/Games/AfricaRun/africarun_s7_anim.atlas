@@ -1,0 +1,153 @@
+
+africarun_s7_anim.png
+size: 300,522
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Antelope_head
+  rotate: false
+  xy: 133, 9
+  size: 49, 64
+  orig: 49, 64
+  offset: 0, 0
+  index: -1
+Antelope_leftear
+  rotate: false
+  xy: 224, 53
+  size: 17, 20
+  orig: 17, 21
+  offset: 0, 1
+  index: -1
+Bg
+  rotate: false
+  xy: 139, 205
+  size: 143, 120
+  orig: 144, 120
+  offset: 1, 0
+  index: -1
+Flopr
+  rotate: false
+  xy: 2, 388
+  size: 142, 132
+  orig: 143, 132
+  offset: 0, 0
+  index: -1
+Frame_Middle
+  rotate: false
+  xy: 2, 2
+  size: 129, 116
+  orig: 129, 116
+  offset: 0, 0
+  index: -1
+Frame_Right
+  rotate: false
+  xy: 2, 254
+  size: 135, 132
+  orig: 135, 132
+  offset: 0, 0
+  index: -1
+Frame_left
+  rotate: false
+  xy: 2, 120
+  size: 135, 132
+  orig: 135, 132
+  offset: 0, 0
+  index: -1
+Grass
+  rotate: false
+  xy: 146, 404
+  size: 152, 116
+  orig: 153, 116
+  offset: 0, 0
+  index: -1
+Leopard_BL1
+  rotate: false
+  xy: 184, 42
+  size: 23, 31
+  orig: 23, 31
+  offset: 0, 0
+  index: -1
+Leopard_BL2
+  rotate: true
+  xy: 273, 114
+  size: 20, 25
+  orig: 20, 25
+  offset: 0, 0
+  index: -1
+Leopard_Body
+  rotate: true
+  xy: 241, 89
+  size: 45, 30
+  orig: 45, 34
+  offset: 0, 1
+  index: -1
+Leopard_FL1
+  rotate: false
+  xy: 184, 10
+  size: 20, 30
+  orig: 21, 30
+  offset: 0, 0
+  index: -1
+Leopard_Head1
+  rotate: false
+  xy: 273, 92
+  size: 18, 20
+  orig: 18, 20
+  offset: 0, 0
+  index: -1
+Leopard_Head2
+  rotate: false
+  xy: 243, 59
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+Leopard_Tail
+  rotate: true
+  xy: 284, 301
+  size: 24, 11
+  orig: 24, 11
+  offset: 0, 0
+  index: -1
+Loepard_FL2
+  rotate: false
+  xy: 209, 46
+  size: 13, 27
+  orig: 14, 27
+  offset: 1, 0
+  index: -1
+LowerMouth
+  rotate: false
+  xy: 284, 291
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+Small_Grass
+  rotate: false
+  xy: 146, 327
+  size: 152, 75
+  orig: 152, 75
+  offset: 0, 0
+  index: -1
+antelope
+  rotate: false
+  xy: 139, 75
+  size: 100, 59
+  orig: 100, 60
+  offset: 0, 1
+  index: -1
+rightear_front
+  rotate: false
+  xy: 241, 76
+  size: 22, 11
+  orig: 22, 11
+  offset: 0, 0
+  index: -1
+rocks
+  rotate: false
+  xy: 139, 136
+  size: 138, 67
+  orig: 139, 67
+  offset: 0, 0
+  index: -1

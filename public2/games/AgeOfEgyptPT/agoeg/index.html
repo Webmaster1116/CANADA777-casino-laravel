@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>${game.title}</title>
+
+        <meta charset="UTF-8"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+        <script type="text/javascript" src="resources/js/viewport.js"></script>
+        <script type="text/javascript">
+            (function() {
+                if (typeof console == 'undefined') {
+                    var noop = function() {};
+                    console = {
+                        log: noop,
+                        debug: noop,
+                        info: noop,
+                        error: noop,
+                        trace: noop,
+                        fatal: noop
+                    };
+                }
+            }());
+		</script>
+    </head>
+
+    <body style="background: #000; overflow: hidden; -ms-touch-action: none; touch-action: none;">
+        <script type="text/javascript">
+            document.write('<script type="text/javascript" src="resources/resources.nocache.js?v=' + new Date().getTime() + '"><\/script>')
+        </script>
+        <div id="automation" />
+        <noscript>
+            <div class="noscript">
+                Error: JavaScript is disabled<br/>
+                To play the game please enable JavaScript
+            </div>
+        </noscript>
+    </body>
+</html>

@@ -1,0 +1,111 @@
+
+africarun_s9_anim.png
+size: 409,281
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BackLeg1_1
+  rotate: false
+  xy: 366, 4
+  size: 26, 55
+  orig: 26, 55
+  offset: 0, 0
+  index: -1
+Backleg1_2
+  rotate: true
+  xy: 302, 142
+  size: 19, 41
+  orig: 19, 41
+  offset: 0, 0
+  index: -1
+Backleg2_1
+  rotate: true
+  xy: 243, 254
+  size: 25, 32
+  orig: 25, 33
+  offset: 0, 1
+  index: -1
+Backleg2_2
+  rotate: false
+  xy: 243, 199
+  size: 16, 34
+  orig: 16, 34
+  offset: 0, 0
+  index: -1
+Frame_Middle
+  rotate: false
+  xy: 278, 163
+  size: 129, 116
+  orig: 129, 116
+  offset: 0, 0
+  index: -1
+Frame_Right
+  rotate: false
+  xy: 2, 2
+  size: 140, 132
+  orig: 140, 132
+  offset: 0, 0
+  index: -1
+Frame_left
+  rotate: true
+  xy: 144, 3
+  size: 135, 132
+  orig: 135, 132
+  offset: 0, 0
+  index: -1
+Frontleg1_1
+  rotate: true
+  xy: 366, 61
+  size: 16, 37
+  orig: 16, 37
+  offset: 0, 0
+  index: -1
+Frontleg1_2
+  rotate: false
+  xy: 366, 79
+  size: 41, 82
+  orig: 41, 83
+  offset: 0, 1
+  index: -1
+Frontleg2_1
+  rotate: true
+  xy: 243, 235
+  size: 17, 32
+  orig: 17, 32
+  offset: 0, 0
+  index: -1
+Frontleg2_2
+  rotate: true
+  xy: 243, 141
+  size: 20, 57
+  orig: 20, 57
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 119, 140
+  size: 139, 122
+  orig: 139, 122
+  offset: 0, 0
+  index: -1
+effects
+  rotate: true
+  xy: 278, 4
+  size: 135, 86
+  orig: 135, 88
+  offset: 0, 1
+  index: -1
+sun
+  rotate: true
+  xy: 2, 136
+  size: 143, 115
+  orig: 143, 115
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 394, 15
+  size: 8, 44
+  orig: 9, 44
+  offset: 0, 0
+  index: -1

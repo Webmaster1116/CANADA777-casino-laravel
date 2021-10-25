@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>evolution color</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="49.3384401%" y1="64.8304505%" x2="40.9470752%" y2="181.393968%" id="linearGradient-1">
+            <stop stop-color="#62E4B8" offset="0%"></stop>
+            <stop stop-color="#A8A8A8" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="30.1897987%" cy="52.2371886%" fx="30.1897987%" fy="52.2371886%" r="92.7705252%" gradientTransform="translate(0.301898,0.522372),scale(1.000000,0.847748),translate(-0.301898,-0.522372)" id="radialGradient-2">
+            <stop stop-color="#2FBE7B" offset="0%"></stop>
+            <stop stop-color="#38DCA8" offset="99%"></stop>
+            <stop stop-color="#787878" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="evolution-color" fill-rule="nonzero">
+            <g id="evolution" transform="translate(16.000000, 7.000000)">
+                <g id="Group" transform="translate(-0.000000, 0.000000)" fill="url(#linearGradient-1)">
+                    <path d="M0.0745240967,3.97461849 C19.9476165,-6.65748597 45.6998322,4.55425035 47.6374587,31.6230584 C10.7066286,34.5212177 6.26002412,17.8940637 0.0745240967,3.97461849 Z" id="Shape"></path>
+                    <path d="M0.0745240967,62.0123289 C19.9476165,72.6444334 45.6998322,61.432697 47.6374587,34.363889 C10.7066286,31.4657297 6.26002412,48.0846033 0.0745240967,62.0123289 Z" id="Shape"></path>
+                </g>
+                <path d="M40.7398395,12.4206828 C31.3746447,-0.0414022759 14.2092611,-3.5854371 -5.68434189e-14,3.99945986 C5.53962452,16.4698254 9.68813257,31.1013897 37.0219151,31.9377157 C39.6416231,27.2126589 41.0124887,21.8973486 41.0048141,16.4946667 C41.0027912,15.1324331 40.9142884,13.7717018 40.7398395,12.4206828 Z M6.69888825,48.2998951 C7.52693377,48.3578583 8.28873564,48.3992606 9.10022025,48.3992606 C19.7865111,48.4041339 29.7640624,43.0531318 35.672201,34.1485972 C19.2437779,34.9518013 11.5181132,40.9220095 6.69888825,48.2998951 Z" id="Shape" fill="url(#radialGradient-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

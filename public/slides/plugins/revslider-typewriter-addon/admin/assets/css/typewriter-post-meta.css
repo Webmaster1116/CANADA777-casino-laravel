@@ -1,0 +1,91 @@
+#rs-addon-typewriter-lines .rs-addon-typerwriter-wrap {
+	
+	margin-top: 3px;
+	
+}
+
+#rs-addon-typewriter-lines input.rs-addon-typewriter-line {
+	
+	float: left;
+	width: 40%;
+	
+}
+
+#rs-addon-typewriter-lines span {
+	
+	float: left;
+	
+}
+
+#rs-addon-typewriter-lines .rs-addon-typewriter-add-remove.revgreen {
+	
+	margin-right: 0;
+	
+}
+
+#rs-addon-typewriter-lines .rs-addon-typerwriter-wrap:after {
+	
+	content: "";
+	display: table;
+	clear: both;
+  
+}
+
+.wp-core-ui #rs-addon-typewriter-lines .button-primary {
+	
+	text-shadow: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    line-height: 26px;
+    height: 27px;
+    margin: 1px 3px 2px 0;
+    color: #FFF;
+	
+}
+
+.wp-core-ui #rs-addon-typewriter-lines .button-primary.revblue {
+	
+	background: #3498db;
+	margin-left: 3px;
+	
+}
+
+.wp-core-ui #rs-addon-typewriter-lines .button-primary.revblue:hover {
+	
+	background: #2c3e50;
+	
+}
+
+.wp-core-ui #rs-addon-typewriter-lines .button-primary.revred {
+	
+	background: #e74c3c;
+	
+}
+
+.wp-core-ui #rs-addon-typewriter-lines .button-primary.revred:hover {
+	
+	background: #c0392b;
+	
+}
+
+@media screen and (max-width: 1600px) {#rs-addon-typewriter-lines input.rs-addon-typewriter-line {width: 50%}}
+@media screen and (max-width: 1366px) {#rs-addon-typewriter-lines input.rs-addon-typewriter-line {width: 70%}}
+@media screen and (max-width: 868px) {#rs-addon-typewriter-lines input.rs-addon-typewriter-line {width: 80%}}
+@media screen and (max-width: 800px) {
+
+	.wp-core-ui #rs-addon-typewriter-lines .button-primary {
+	
+		line-height: 35px;
+		height: 35px;
+		
+	}
+	
+}
+
+
+
+
+
+
+

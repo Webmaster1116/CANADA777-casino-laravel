@@ -1,0 +1,98 @@
+{
+    "resources": {
+        "images": {
+            "fsb.btn": {"url": "slot/common/fsb/fsb_btn.png", "preload": "main-scene"},
+            "fsb.btn_close": {"url": "slot/common/fsb/fsb_close_btn.png", "preload": "main-scene"},
+            "fsb.btn_info": {"url": "slot/common/fsb/fsb_info_btn.png", "preload": "main-scene"},
+            "fsb.logo": {"url": "slot/common/fsb/fsb_logo.png", "preload": "main-scene"},
+            "fsb.info_popup": {"url": "../../translations/images/slot/common/fsb/fsb_info_box_${lang}.png", "preload": "main-scene"}
+        },
+
+        "slices":{
+            "fsb.btn": {"image": "fsb.btn", "size": [211, 76]},
+            "fsb.btn:hovered": {"image": "fsb.btn", "size": [211, 76], "pos": [0, 76]},
+            "fsb.btn:pressed": {"image": "fsb.btn", "size": [211, 76], "pos": [0, 152]},
+            "fsb.btn:disabled": {"image": "fsb.btn", "size": [211, 76], "pos": [0, 228]},
+            
+            "fsb.btn_close": {"image": "fsb.btn_close", "size": [41, 41]},
+            "fsb.btn_close:hovered": {"image": "fsb.btn_close", "size": [41, 41], "pos": [0, 41]},
+            "fsb.btn_close:pressed": {"image": "fsb.btn_close", "size": [41, 41], "pos": [0, 82]},
+            "fsb.btn_close:disabled": {"image": "fsb.btn_close", "size": [41, 41], "pos": [0, 123]},
+            
+            "fsb.btn_info": {"image": "fsb.btn_info", "size": [41, 41]},
+            "fsb.btn_info:hovered": {"image": "fsb.btn_info", "size": [41, 41], "pos": [0, 41]},
+            "fsb.btn_info:pressed": {"image": "fsb.btn_info", "size": [41, 41], "pos": [0, 82]},
+            "fsb.btn_info:disabled": {"image": "fsb.btn_info", "size": [41, 41], "pos": [0, 123]},
+            
+            "fsb.logo": {"image": "fsb.logo", "size": [524, 107]},
+            
+            "fsb.info_popup": {"image": "fsb.info_popup", "size": [720, 365]}
+        },
+
+        "fonts": {
+            "Helvetica": "helvetica_neue_cb.ttf"
+        },
+        
+        "formats": {
+            "fsb.title": {"font": "Helvetica", "size": 28, "color": "#fad26a", "stroke": {"color": "#010101", "thickness": 1}, "shadow": {"color": "#000", "offset": [1, 1]}},
+            "fsb.value": {"font": "Helvetica", "size": 42, "color": "#fff", "stroke": {"color": "#010101", "thickness": 1}, "shadow": {"color": "#000", "offset": [1, 1]}},
+            "fsb.btn": {"font": "Helvetica", "size": 48, "color": "#ed0309", "stroke": {"color": "#010101", "thickness": 1}, "shadow": {"color": "#000", "offset": [1, 1]}}
+        },
+        
+        "animations": {
+            "fsb-panel.show": {"type": "set", "content": [
+                {"type": "set-props", "visible": true},
+                {"type": "slide-abs", "duration": 1000, "dir": "up", "mode": "show"},
+                {"type": "set-props", "disabled": false}
+            ]},
+            "fsb-panel.hide": {"type": "set", "content": [
+                {"type": "set-props", "disabled": true},
+                {"type": "slide-abs", "duration": 1000, "dir": "down", "mode": "hide"},
+                {"type": "set-props", "visible": false}
+            ]}
+        }
+    },
+    
+    "ui": {
+        "fsb.container": {"type": "panel", "layout": {"type": "anchor", "relative": true, "alignment": "center"}},
+        "fsb.title": {"@P": "ui/label.def", "format": "fsb.title"},
+        "fsb.value": {"@P": "ui/label.def", "format": "fsb.value"},
+
+        "fsb-bar-content": {"type": "panel", "layout": {"type": "vport", "base": [1024, 112]}, "content": [
+	        {"@P": "ui/fsb.container", "pos": [5, 8], "size": [36, 36], "content": [
+	            {"id": "fsb.info.btn", "type": "ibutton", "slice": "fsb.btn_info", "props": {"anchor.fit": 0}, "cursor": "hand"}
+	        ]},
+	        {"@P": "ui/fsb.container", "pos": [282, 16], "size": [460, 94],  "content": [
+	            {"type": "panel", "background": "fsb.logo", "props": {"anchor.fit": 0}}
+	        ]},
+	        {"@P": "ui/fsb.container", "pos": [252, 3], "size": [212, 94], "content": [
+	            {"id": "fsb.spins_left.title", "@P": "ui/fsb.title", "props": {"anchor.fit": "0 0 66 14"}, "text": "fsb_spins_left"},
+	            {"id": "fsb.spins_left.value", "@P": "ui/fsb.value", "props": {"anchor.fit": "40 7 17 21"}, "text": "20"}
+	        ]},
+	        {"@P": "ui/fsb.container", "pos": [560, 3], "size": [212, 94], "content": [
+	            {"id": "fsb.win.title", "@P": "ui/fsb.title", "props": {"anchor.fit": "0 15 66 1"}, "text": "fsb_win"},
+	            {"id": "fsb.win.value", "@P": "ui/fsb.value", "props": {"anchor.fit": "40 19 17 7"}, "text": "£0"}
+	        ]},
+	        {"@P": "ui/fsb.container", "pos": [760, 31], "size": [189, 63], "content": [
+	            {"id": "fsb.btn", "type": "cbutton", "slice": "fsb.btn", "props": {"anchor.fit": 0}, "format": "fsb.btn", "text": "spin", "label": {"props": {"anchor.fit": "10 2 12 0"}}, "cursor": "hand", "shortcut": "space"}
+	        ]},
+	        {"@P": "ui/fsb.container", "pos": [984, 8], "size": [36, 36], "content": [
+	            {"id": "fsb.close.btn", "type": "ibutton", "slice": "fsb.btn_close", "props": {"anchor.fit": 0}, "cursor": "hand"}
+	        ]}
+	    ]},
+
+        "fsb-bar": {"id": "fsb_bar", "type": "desktop-fsb-panel", "layout": {"type": "anchor", "relative": true, "alignment": "center"}, "propagative": false, "visible": false, "disabled": true, "background": "#4D4D4D", "content": [
+            {"id": "fsb_bar.content", "@P": "ui/fsb-bar-content", "props": {"anchor.fit": "0 0 47 0"}, "ratio": [1024, 112]}
+        ]},
+        
+        "fsb-info-popup": {"id": "fsb_info_popup", "type": "fsb-info-popup", "layout": {"type": "anchor", "relative": true}, "props": {"anchor.fit": 0}, "propagative": false, "visible": false, "content": [
+            {"type": "panel", "background": "#78000", "props": {"anchor.fit": "0 -18.5"}},
+            {"id": "_container", "type": "stack", "props": {"anchor.fit": "0"}, "content": [
+                {"id": "_content", "type": "vport", "layout": {"base": [1024, 620]}, "content": [
+                    {"id": "_info", "pos": [202, 110], "size": [620, 314], "type": "panel", "background": "fsb.info_popup"},
+                    {"id": "button.close", "pos": [780, 121], "size": [36, 36], "type": "ibutton", "slice": "fsb.btn_close", "cursor": "hand"}
+                ]}
+            ]}
+        ]}
+    }      
+}

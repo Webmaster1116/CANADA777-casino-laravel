@@ -1,0 +1,226 @@
+{
+    "resources": {
+        "images": {
+            "background_l":              {"url": "background_l.jpg",                 "preload": "main-scene"},
+            "background_p":              {"url": "background_p.jpg",                 "preload": "main-scene"},
+            "egypt_main_game_elements":  {"url": "egypt_main_game_elements.png",     "preload": "main-scene"},
+
+            "bottom_bar_image":          {"url": "bottom_bar.png",                   "preload": "main-scene"},
+            "symbols_blurred":           {"url": "symbols/symbols_blurred.png",      "preload": "main-scene"},
+
+            "symbols_animations_0":   {"url": "symbols/animation/symbols_animations_0.png", "preload.deferred": "main-scene"},
+            "symbols_animations_1":   {"url": "symbols/animation/symbols_animations_1.png", "preload.deferred": "main-scene"},
+            "symbols_animations_2":   {"url": "symbols/animation/symbols_animations_2.png", "preload.deferred": "main-scene"},
+            "symbols_animations_3":   {"url": "symbols/animation/symbols_animations_3.png", "preload.deferred": "main-scene"},
+            "symbols_animations_4":   {"url": "symbols/animation/symbols_animations_4.png", "preload.deferred": "main-scene"},
+            "symbols_animations_5":   {"url": "symbols/animation/symbols_animations_5.png", "preload.deferred": "main-scene"},
+
+            "anticipation":              {"url": "anticipation.png",                          "preload.deferred": "main-scene"},
+            "fg_numbers":                {"url": "../fonts/fg_numbers.png",                   "preload.deferred": "main-scene", "preload": "free-games"},
+            "fg_background_l":           {"url": "free_games/fg_background_l.jpg",            "preload.deferred": "main-scene", "preload": "free-games"},
+            "fg_background_p":           {"url": "free_games/fg_background_p.jpg",            "preload.deferred": "main-scene", "preload": "free-games"},
+
+            "message_box":               {"url": "message_box.png",                           "preload.deferred": "main-scene", "preload": "bonus-scene,free-games"},
+            "font":                      {"url": "../fonts/font.png",                         "preload.deferred": "main-scene", "preload": "bonus-scene,free-games"},
+            "font_dimmed":               {"url": "../fonts/font_dimmed.png",                  "preload.deferred": "main-scene", "preload": "bonus-scene,free-games"},
+
+            "bonus_background_l":        {"url": "bonus/bonus_background_l.jpg",              "preload.deferred": "main-scene", "preload": "bonus-scene"},
+            "bonus_background_p":        {"url": "bonus/bonus_background_p.jpg",              "preload.deferred": "main-scene", "preload": "bonus-scene"},
+            "bonus_elements":            {"url": "bonus/bonus_elements.png",                  "preload.deferred": "main-scene", "preload": "bonus-scene"},
+
+            "bottom_bar_localized":      {"url": "../../translations/images/bottom_bar_${lang}.png",         "preload": "main-scene"},
+            "localized":                 {"url": "../../translations/images/localized_${lang}.png",          "preload.deferred": "main-scene", "preload": "bonus-scene,free-games"},
+            "paytable1":                 {"url": "../../translations/images/paytable/paytable1_${lang}.png", "preload.deferred": "main-scene", "preload": "paytable-scene"},
+            "paytable2":                 {"url": "../../translations/images/paytable/paytable2_${lang}.png", "preload.deferred": "main-scene", "preload": "paytable-scene"},
+            "paytable3":                 {"url": "../../translations/images/paytable/paytable3_${lang}.png", "preload.deferred": "main-scene", "preload": "paytable-scene"}
+
+        },
+
+
+        "slices": {
+            "background_l":    {"image": "background_l",     "size": [1136, 640]},
+            "background_p":    {"image": "background_p",     "size": [640, 1136]},
+
+            "bonus_background_l":{"image": "bonus_background_l", "size": [1136, 640]},
+            "bonus_background_p":{"image": "bonus_background_p", "size": [640, 1136]},
+
+            "fg_background_l": {"image": "fg_background_l",  "size": [1136, 640]},
+            "fg_background_p": {"image": "fg_background_p",  "size": [640, 1136]},
+
+
+            "logo":     {"image": "egypt_main_game_elements", "size": [584, 77], "pos": [2, 2]},
+            "sb.win":   {"image": "egypt_main_game_elements", "size": [32, 32], "pos": [588, 2]},
+            "reels_bg": {"image": "egypt_main_game_elements", "size": [763, 442], "pos": [2, 81]},
+
+            "reel_slice_wild":          {"image": "egypt_main_game_elements", "size": [141, 135], "pos": [574, 662]},
+            "reel_slice_bird":          {"image": "egypt_main_game_elements", "size": [141, 135], "pos": [2, 662]},
+            "reel_slice_bug":           {"image": "egypt_main_game_elements", "size": [141, 135], "pos": [145, 662]},
+            "reel_slice_eye":           {"image": "egypt_main_game_elements", "size": [141, 135], "pos": [288, 662]},
+            "reel_slice_A":             {"image": "egypt_main_game_elements", "size": [141, 135], "pos": [288, 525]},
+            "reel_slice_K":             {"image": "egypt_main_game_elements", "size": [141, 135], "pos": [574, 525]},
+            "reel_slice_Q":             {"image": "egypt_main_game_elements", "size": [141, 135], "pos": [717, 525]},
+            "reel_slice_J":             {"image": "egypt_main_game_elements", "size": [141, 135], "pos": [431, 525]},
+            "reel_slice_10":            {"image": "egypt_main_game_elements", "size": [141, 135], "pos": [145, 525]},
+            "reel_slice_bonus":         {"image": "egypt_main_game_elements", "size": [141, 135], "pos": [2, 525]},
+            "reel_slice_scatter":       {"image": "egypt_main_game_elements", "size": [141, 135], "pos": [431, 662]},
+
+            "reel_slice_wild:blurred":          {"image": "symbols_blurred", "size": [141, 175], "pos": [288, 2],   "insets":"20 0"},
+            "reel_slice_bird:blurred":          {"image": "symbols_blurred", "size": [141, 224], "pos": [288, 405], "insets":"44 0"},
+            "reel_slice_bug:blurred":           {"image": "symbols_blurred", "size": [141, 224], "pos": [2, 631],   "insets":"44 0"},
+            "reel_slice_eye:blurred":           {"image": "symbols_blurred", "size": [141, 224], "pos": [145, 631], "insets":"44 0"},
+            "reel_slice_A:blurred":             {"image": "symbols_blurred", "size": [141, 224], "pos": [145, 179], "insets":"44 0"},
+            "reel_slice_K:blurred":             {"image": "symbols_blurred", "size": [141, 224], "pos": [2, 405],   "insets":"44 0"},
+            "reel_slice_Q:blurred":             {"image": "symbols_blurred", "size": [141, 224], "pos": [145, 405], "insets":"44 0"},
+            "reel_slice_J:blurred":             {"image": "symbols_blurred", "size": [141, 224], "pos": [288, 179], "insets":"44 0"},
+            "reel_slice_10:blurred":            {"image": "symbols_blurred", "size": [141, 224], "pos": [2, 179],   "insets":"44 0"},
+            "reel_slice_bonus:blurred":         {"image": "symbols_blurred", "size": [141, 175], "pos": [2, 2],     "insets":"20 0"},
+            "reel_slice_scatter:blurred":       {"image": "symbols_blurred", "size": [141, 175], "pos": [145, 2],   "insets":"20 0"},
+
+            "message_box_bg":           {"image": "message_box", "size": [861, 510], "pos": [1, 1]},
+
+            "coin_01":                  {"image": "anticipation", "size": [33, 194], "pos": [380, 478]},
+            "coin_02":                  {"image": "anticipation", "size": [67, 194], "pos": [415, 478]},
+            "coin_03":                  {"image": "anticipation", "size": [126, 194], "pos": [484, 478]},
+            "coin_04":                  {"image": "anticipation", "size": [171, 194], "pos": [612, 478]},
+            "coin_05":                  {"image": "anticipation", "size": [194, 194], "pos": [785, 478]},
+
+            "anticipation_slices":      {"image": "anticipation", "size": [945, 952], "pos": [1, 1]},
+            "mega_win_scarab": 		    {"image": "anticipation", "size": [240, 89], "pos": [500,700]},
+            "mega_win_flower_l": 		{"image": "anticipation", "size": [96, 147], "pos": [400,700], "flip": "H"},
+            "mega_win_flower_r": 		{"image": "anticipation", "size": [96, 147], "pos": [400,700]},
+
+            "5oak":                     {"image": "localized", "size": [721, 117], "pos": [2, 2]},
+            "big_win":                  {"image": "localized", "size": [535, 141], "pos": [2, 121]},
+            "button_continue":          {"image": "localized", "size": [257, 55], "pos": [261, 264]},
+            "button_continue:hovered":  {"image": "localized", "size": [257, 55], "pos": [520, 264]},
+            "button_continue:pressed":  {"image": "localized", "size": [257, 55], "pos": [2, 264]},
+            "button_continue:disabled": {"image": "localized", "size": [257, 55], "pos": [539, 121]},
+            "slice_free_game":          {"image": "localized", "size": [347, 45], "pos": [2, 321]},
+            "slice_free_games":         {"image": "localized", "size": [347, 45], "pos": [351, 321]},
+            "mega_win":                 {"image": "localized", "size": [712, 147], "pos": [2, 368]},
+
+            "paytable1":                {"image": "paytable1", "size": [965, 840], "pos": [30, 0]},
+            "paytable2":                {"image": "paytable2", "size": [965, 840], "pos": [30, 0]},
+            "paytable3":                {"image": "paytable3", "size": [965, 840], "pos": [30, 0]},
+
+            "start_s":                  {"image": "bottom_bar_localized", "size": [227, 99], "pos": [2, 204]},
+            "start_s:hovered":          {"image": "bottom_bar_localized", "size": [227, 99], "pos": [2, 305]},
+            "start_s:pressed":          {"image": "bottom_bar_localized", "size": [227, 99], "pos": [2, 103]},
+            "start_s:disabled":         {"image": "bottom_bar_localized", "size": [227, 99], "pos": [2, 2]},
+
+            "start_m":                  {"image": "bottom_bar_localized", "size": [320, 98], "pos": [1062, 602]},
+            "start_m:hovered":          {"image": "bottom_bar_localized", "size": [320, 98], "pos": [1062, 302]},
+            "start_m:pressed":          {"image": "bottom_bar_localized", "size": [320, 98], "pos": [1062, 502]},
+            "start_m:disabled":         {"image": "bottom_bar_localized", "size": [320, 98], "pos": [1062, 402]},
+
+            "start_l":                  {"image": "bottom_bar_localized", "size": [412, 98], "pos": [648, 302]},
+            "start_l:hovered":          {"image": "bottom_bar_localized", "size": [412, 98], "pos": [648, 402]},
+            "start_l:pressed":          {"image": "bottom_bar_localized", "size": [412, 98], "pos": [648, 202]},
+            "start_l:disabled":         {"image": "bottom_bar_localized", "size": [412, 98], "pos": [648, 102]},
+
+            "spin_s":                   {"image": "bottom_bar_localized", "size": [227, 99], "pos": [231, 2]},
+            "spin_s:hovered":           {"image": "bottom_bar_localized", "size": [227, 99], "pos": [231, 103]},
+            "spin_s:pressed":           {"image": "bottom_bar_localized", "size": [227, 99], "pos": [2, 507]},
+            "spin_s:disabled":          {"image": "bottom_bar_localized", "size": [227, 99], "pos": [2, 406]},
+
+            "spin_m":                   {"image": "bottom_bar_localized", "size": [320, 98], "pos": [1384, 402]},
+            "spin_m:hovered":           {"image": "bottom_bar_localized", "size": [320, 98], "pos": [1706, 402]},
+            "spin_m:pressed":           {"image": "bottom_bar_localized", "size": [320, 98], "pos": [1706, 302]},
+            "spin_m:disabled":          {"image": "bottom_bar_localized", "size": [320, 98], "pos": [1384, 302]},
+
+            "spinMediumOn": 		    {"image": "bottom_bar_localized", "size": [320, 98], "pos": [1384, 402]},
+            "spinMediumOver": 		    {"image": "bottom_bar_localized", "size": [320, 98], "pos": [1706, 402]},
+            "spinMediumDown": 		    {"image": "bottom_bar_localized", "size": [320, 98], "pos": [1706, 302]},
+            "spinMediumDisabled": 	    {"image": "bottom_bar_localized", "size": [320, 98], "pos": [1384, 302]},
+
+            "spin_l":                   {"image": "bottom_bar_localized", "size": [412, 98], "pos": [648, 602]},
+            "spin_l:hovered":           {"image": "bottom_bar_localized", "size": [412, 98], "pos": [1062, 2]},
+            "spin_l:pressed":           {"image": "bottom_bar_localized", "size": [412, 98], "pos": [648, 502]},
+            "spin_l:disabled":          {"image": "bottom_bar_localized", "size": [412, 98], "pos": [648, 2]},
+
+
+            "stop_s":                   {"image": "bottom_bar_localized", "size": [227, 99], "pos": [231, 406]},
+            "stop_s:hovered":           {"image": "bottom_bar_localized", "size": [227, 99], "pos": [231, 507]},
+            "stop_s:pressed":           {"image": "bottom_bar_localized", "size": [227, 99], "pos": [231, 305]},
+            "stop_s:disabled":          {"image": "bottom_bar_localized", "size": [227, 99], "pos": [231, 204]},
+
+            "stop_m":                   {"image": "bottom_bar_localized", "size": [320, 98], "pos": [1706, 502]},
+            "stop_m:hovered":           {"image": "bottom_bar_localized", "size": [320, 98], "pos": [1706, 602]},
+            "stop_m:pressed":           {"image": "bottom_bar_localized", "size": [320, 98], "pos": [1384, 602]},
+            "stop_m:disabled":          {"image": "bottom_bar_localized", "size": [320, 98], "pos": [1384, 502]},
+
+            "stop_l":                   {"image": "bottom_bar_localized", "size": [412, 98], "pos": [1476, 102]},
+            "stop_l:hovered":           {"image": "bottom_bar_localized", "size": [412, 98], "pos": [1062, 202]},
+            "stop_l:pressed":           {"image": "bottom_bar_localized", "size": [412, 98], "pos": [1062, 102]},
+            "stop_l:disabled":          {"image": "bottom_bar_localized", "size": [412, 98], "pos": [1476, 2]},
+
+
+            "turbo_mode":               {"image": "bottom_bar_localized", "size": [92, 99], "pos": [554, 2]},
+            "turbo_mode:hovered":       {"image": "bottom_bar_localized", "size": [92, 99], "pos": [554, 103]},
+            "turbo_mode:pressed":       {"image": "bottom_bar_localized", "size": [92, 99], "pos": [460, 103]},
+            "turbo_mode:disabled":      {"image": "bottom_bar_localized", "size": [92, 99], "pos": [460, 2]},
+
+            "turbo_on":                 {"image": "bottom_bar_localized", "size": [92, 99], "pos": [460, 406]},
+            "turbo_on:hovered":         {"image": "bottom_bar_localized", "size": [92, 99], "pos": [460, 507]},
+            "turbo_on:pressed":         {"image": "bottom_bar_localized", "size": [92, 99], "pos": [460, 305]},
+            "turbo_on:disabled":        {"image": "bottom_bar_localized", "size": [92, 99], "pos": [460, 204]},
+
+            "autoplay_btn":             {"image": "bottom_bar_localized", "size": [92, 99], "pos": [554, 406]},
+            "autoplay_btn:hovered":     {"image": "bottom_bar_localized", "size": [92, 99], "pos": [554, 507]},
+            "autoplay_btn:pressed":     {"image": "bottom_bar_localized", "size": [92, 99], "pos": [554, 305]},
+            "autoplay_btn:disabled":    {"image": "bottom_bar_localized", "size": [92, 99], "pos": [554, 204]},
+
+            "stop_autoplay":            {"image": "bottom_bar_localized", "size": [91, 49], "pos": [188, 608]},
+            "stop_autoplay:hovered":    {"image": "bottom_bar_localized", "size": [91, 49], "pos": [281, 608]},
+            "stop_autoplay:pressed":    {"image": "bottom_bar_localized", "size": [91, 49], "pos": [95, 608]},
+            "stop_autoplay:disabled":   {"image": "bottom_bar_localized", "size": [91, 49], "pos": [2, 608]},
+
+            "autoplay_spins_left":      {"image": "bottom_bar_image",     "size": [91, 49], "pos": [81, 89]},
+            "win_field":                {"image": "bottom_bar_image",     "size": [474, 115], "pos": [2, 305]},
+
+            "info":                     {"image": "bottom_bar_image",     "size": [103, 95], "pos": [2, 208]},
+            "info:hovered":             {"image": "bottom_bar_image",     "size": [103, 95], "pos": [107, 208]},
+            "info:pressed":             {"image": "bottom_bar_image",     "size": [103, 95], "pos": [212, 208]},
+            "info:disabled":            {"image": "bottom_bar_image",     "size": [103, 95], "pos": [317, 208]},
+
+            "bp_minus":                 {"image": "bottom_bar_image",     "size": [77, 49], "pos": [2, 140]},
+            "bp_minus:hovered":         {"image": "bottom_bar_image",     "size": [77, 49], "pos": [81, 140]},
+            "bp_minus:pressed":         {"image": "bottom_bar_image",     "size": [77, 49], "pos": [253, 89]},
+            "bp_minus:disabled":        {"image": "bottom_bar_image",     "size": [77, 49], "pos": [174, 89]},
+
+            "bp_plus":                  {"image": "bottom_bar_image",     "size": [77, 49], "pos": [2, 89]},
+            "bp_plus:hovered":          {"image": "bottom_bar_image",     "size": [77, 49], "pos": [433, 38]},
+            "bp_plus:pressed":          {"image": "bottom_bar_image",     "size": [77, 49], "pos": [332, 89]},
+            "bp_plus:disabled":         {"image": "bottom_bar_image",     "size": [77, 49], "pos": [411, 89]},
+
+            "autoplay_item":            {"image": "bottom_bar_image",     "size": [92, 34], "pos": [96, 2]},
+            "autoplay_item:hovered":    {"image": "bottom_bar_image",     "size": [92, 34], "pos": [284, 2]},
+            "autoplay_item:pressed":    {"image": "bottom_bar_image",     "size": [92, 34], "pos": [2, 2]},
+            "autoplay_item:disabled":   {"image": "bottom_bar_image",     "size": [92, 34], "pos": [190, 2]},
+
+            "lines_field":              {"image": "bottom_bar_image",     "size": [155, 46], "pos": [2, 38]},
+            "total_bet_field":          {"image": "bottom_bar_image",     "size": [272, 49], "pos": [159, 38]},
+
+            "num_1":    {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+1 }",   1]},
+            "num_2":    {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+69}", 103]},
+            "num_3":    {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+35}", 137]},
+            "num_4":    {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+69}", 137]},
+            "num_5":    {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+1 }", 171]},
+            "num_6":    {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+35}", 171]},
+            "num_7":    {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+69}", 171]},
+            "num_8":    {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+1 }", 205]},
+            "num_9":    {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+35}", 205]},
+            "num_10":   {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+35}",   1]},
+            "num_11":   {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+69}",   1]},
+            "num_12":   {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+1 }",  35]},
+            "num_13":   {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+35}",  35]},
+            "num_14":   {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+69}",  35]},
+            "num_15":   {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+1 }",  69]},
+            "num_16":   {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+35}",  69]},
+            "num_17":   {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+69}",  69]},
+            "num_18":   {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+1 }", 103]},
+            "num_19":   {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+35}", 103]},
+            "num_20":   {"image": "egypt_main_game_elements",  "size": [32, 32], "pos": ["${860+1 }", 137]}
+        }
+    }
+}

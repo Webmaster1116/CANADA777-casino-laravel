@@ -1,0 +1,288 @@
+#rs-addon-settings-trigger-filmstrip {
+	
+	border-radius: 0px;
+	padding: 0px;
+	color: transparent;
+	background: url(../images/addon_filmstrip.png);
+	background-size: 126px 54px;
+	background-position: top center;
+	width: 126px;
+	height: 27px;
+	
+}
+
+#rs-addon-settings-trigger-filmstrip.selected,
+#rs-addon-settings-trigger-filmstrip:hover {
+	
+	background-position: bottom center;
+	
+}
+
+#filmstrip-addon-enable {min-width: 83px}
+.filmstrip-item-options {display: none}
+.filmstrip-item-options:first-child {display: block}
+
+#filmstrip-addon-wrap label {
+	
+	font-size: 13px;
+	min-width: 0;
+	margin-right: 20px;
+	cursor: auto;
+	
+}
+
+.filmstrip-addon-settings i {
+	
+	vertical-align: top;
+	margin-top: 1px;
+	
+}
+
+#filmstrip-main-settings {
+	
+	position: relative;
+	display: inline-block;
+	
+}
+
+#filmstrip-item-settings {position: relative}
+#filmstrip-main-settings:after,
+#filmstrip-item-settings:after {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	z-index: 99;
+	margin: 1px 0 -2px 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	
+}
+
+.filmstrip-addon-toggle #filmstrip-main-settings:after,
+#filmstrip-item-settings.filmstrip-has-item:after {display: none}
+
+
+.filmstrip-addon-toggle #ken_burn_example_wrapper:after {
+	
+	position: absolute;
+	left: 0;
+	top: -70px;
+	width: 100%;
+	font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+	color: #c0392b;
+	content: "Ken Burns is not compatible with FilmStrip Add-On";
+	
+}
+
+.filmstrip-speed-inputs label {margin-right: 15px}
+
+.filmstrip-device-icon {
+	
+    height: 30px;
+	margin-right: 5px;
+    display: inline-block;
+    background-position: right center;
+    background-repeat: no-repeat;
+	
+}
+
+.filmstrip-device-desktop {
+	
+	background-image: url(../images/icon-mode-desktop-dark.png);	
+	background-size: 22px 20px;
+	width: 24px;
+	
+}
+
+.filmstrip-device-notebook {
+	
+	background-image: url(../images/icon-mode-laptop-dark.png);	
+	background-size: 24px 16px;
+	width: 26px;
+	
+}
+
+.filmstrip-device-tablet {
+	
+	background-image: url(../images/icon-mode-tablet-dark.png);	
+	background-size: 18px 24px;
+	width: 20px;
+	
+}
+
+.filmstrip-device-mobile {
+	
+	background-image: url(../images/icon-mode-phone-dark.png); 
+	background-size: 14px 22px;
+	width: 16px;
+	
+}
+
+#filmstrip-addon-wrap select {
+	
+	width: 155px; 
+	min-width: 155px;
+	margin-right: 0;
+	
+}
+
+#filmstrip-addon-wrap .filmstrip-option-custom {margin-left: 10px; margin-right: 0}
+
+#filmstrip-toggle-settings {
+	
+	vertical-align: top;
+	line-height: 30px;
+	padding: 5px 13px 7px;
+	cursor: pointer;
+	
+}
+
+#filmstrip-toggle-settings i {display: block; height: 30px}
+#filmstrip-item-settings,
+#filmstrip_external_image {display: none}
+#filmstrip_external_url {width: 100%}
+
+.filmstrip-toggle-active {
+	
+	background: #3498db; 
+	line-height: 25px !important;
+	
+}
+
+.filmstrip-toggle-active i {transform: rotate(180deg)}
+.filmstrip-toggle-active i:before {color: #FFF !important}
+
+#filmstrip-addon-wrap .filmstrip-speed {
+	
+	width: 45px !important;
+	min-width: 45px;
+	margin-right: 15px;
+	
+}
+
+#filmstrip-addon-wrap .inp-deep-prebutton {
+	
+	margin: 0 0 0 -5px;
+	white-space: nowrap;
+	
+}
+
+#filmstrip-addon-wrap .inp-deep-list {
+	
+	width: auto;
+	padding-right: 0;
+	
+}
+
+#filmstrip-addon-content {
+	
+	padding: 15px;
+	
+}
+
+.filmstrip-divider {
+	
+	border-top: 1px solid #ddd;
+	
+}
+
+.filmstrip-item {cursor: pointer}
+
+.filmstrip-item,
+#filmstrip-add-new {
+	
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 5px solid transparent;
+	position: relative;
+	line-height: 0;
+	float: left;
+	
+}
+
+.filmstrip-item-selected {
+	
+	border: 5px solid #3498db;
+	cursor: auto;
+	
+}
+
+.filmstrip-item img {
+	
+	width: auto;
+	height: 85px;
+	min-width: 50px;
+	background: url(../images/trans_tile.png);
+	
+}
+
+.filmstrip-item-toolbar {
+	
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: none;
+	
+}
+
+.filmstrip-delete-item,
+.filmstrip-edit-settings {
+	
+	padding: 5px 3px;
+	cursor: pointer;
+	display: inline-block;
+	
+}
+
+.filmstrip-edit-settings {background: #000}
+.filmstrip-edit-settings:hover {background: #333}
+.filmstrip-item-selected .filmstrip-item-toolbar, 
+.filmstrip-item:hover .filmstrip-item-toolbar {display: block}
+.filmstrip-item-toolbar i:before {color: #FFF !important}
+
+#filmstrip-add-new {
+	
+	width: 118px;
+	height: 85px;
+	border: 1px dashed #ddd;
+	padding: 4px;
+	display: table;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	
+}
+
+#filmstrip-add-new div {
+	
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+
+.filmstrip-add-button {display: table-cell}
+.filmstrip-add-selections {display: none}
+#filmstrip-add-new:hover .filmstrip-add-button {display: none}
+#filmstrip-add-new:hover .filmstrip-add-selections {display: table-cell}
+
+#filmstrip-add-new span {
+	
+	margin: 2px;
+	padding: 2px;
+	font-size: 25px;
+	cursor: pointer;
+	
+}
+
+#filmstrip_addon_wpimage {color: #3498db}
+#filmstrip_addon_wpimage:hover {color: #2980b9}
+#filmstrip_addon_objlib {color: #9b59b6}
+#filmstrip_addon_objlib:hover {color: #8e44ad}
+#filmstrip-add-new span:hover {opacity: 0.65}
+#filmstrip-add-new .eg-icon-plus {font-size: 25px}

@@ -1,0 +1,39 @@
+{
+    "ui": {
+        "sb.label": {"@P": "ui/label.def", "format": "sb", "text-pad": 5},
+
+        "sb" : {"type": "side-button", "group": "sideButtons", "size-min": [1, 1], "ratio": 1, "content": [
+            {"id": "win", "type":"anchor", "background": "sb.win", "visible": false, "props":{"anchor.fit":0}, "content":[
+                {"id": "win_number", "type":"image", "props":{"anchor.fit":0}}
+            ]}
+        ]},
+
+        "sb.bar":{  "type": "vbox", "layout": {"distribute": true, "spacing": 2, "alignment": "center"}, "visible": true},
+
+        "sb.left": {"id": "sb.left", "@P": "ui/sb.bar", "content": [
+            {"id": "sb04", "line": 4,  "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_4"}]}]},
+            {"id": "sb02", "line": 2,  "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_2"}]}]},
+            {"id": "sb20", "line": 20, "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_20"}]}]},
+            {"id": "sb16", "line": 16, "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_16"}]}]},
+            {"id": "sb10", "line": 10, "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_10"}]}]},
+            {"id": "sb01", "line": 1,  "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_1"}]}]},
+            {"id": "sb11", "line": 11, "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_11"}]}]},
+            {"id": "sb17", "line": 17, "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_17"}]}]},
+            {"id": "sb03", "line": 3,  "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_3"}]}]},
+            {"id": "sb05", "line": 5,  "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_5"}]}]}
+        ]},
+
+        "sb.right": {"id": "sb.right", "@P": "ui/sb.bar", "content": [
+            {"id": "sb14", "line": 14, "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_14"}]}]},
+            {"id": "sb12", "line": 12, "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_12"}]}]},
+            {"id": "sb09", "line": 9,  "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_9"}]}]},
+            {"id": "sb18", "line": 18, "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_18"}]}]},
+            {"id": "sb06", "line": 6,  "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_6"}]}]},
+            {"id": "sb07", "line": 7,  "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_7"}]}]},
+            {"id": "sb19", "line": 19, "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_19"}]}]},
+            {"id": "sb08", "line": 8,  "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_8"}]}]},
+            {"id": "sb13", "line": 13, "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_13"}]}]},
+            {"id": "sb15", "line": 15, "@P": "ui/sb", "content":[{"id":"win", "content":[{"id": "win_number", "slice":"num_15"}]}]}
+        ]}
+    }
+}

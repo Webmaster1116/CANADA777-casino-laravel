@@ -1,0 +1,1882 @@
+// English;
+
+"language.code" = "en";
+
+"admin.message.title" = "Broadcast Message";
+
+"KA" = "KA";
+"cancel" = "Cancel";
+"continue" = "Continue";
+"ok" = "OK";
+"close" = "Close";
+"play" = "Play";
+"spin" = "Spin";
+"claim" = "Claim";
+"decline" = "Decline";
+"activate" = "Activate";
+"download" = "Download";
+"connecting" = "Connecting";
+"please.wait" = "PLEASE WAIT...";
+"update" = "Update";
+"confirm" = "Confirm";
+"and" = "AND";
+"blank" = "BLANK";
+"or" = "OR";
+
+"day" = "day";
+"days" = "days";
+"hour" = "hour";
+"hours" = "hours";
+"minute" = "minute";
+"minutes" = "minutes";
+"second" = "second";
+"seconds" = "seconds";
+
+"max.bet.popup" = "You selected Max Bet of ${maxBet}. Please confirm.";
+
+"network.disconnected.title" = "Network Disconnected";
+"network.disconnected.message" = "The network connection has been lost. \n Please try connecting again";
+
+"login.connect.button.title" = "CONNECT";
+"login.play.as.guest.button.title" = "GUEST";
+"login.login.button.title" = "EMAIL LOGIN";
+"login.edit.name.button.title" = "EDIT NAME";
+"login.register.button.title" = "REGISTER";
+"login.recover.password.button.title" = "RECOVER PASSWORD";
+"login.change.password.button.title" = "CHANGE PASSWORD";
+"login.login.title" = "LOGIN";
+"login.register.title" = "REGISTER";
+"login.recover.password.title" = "Recover Password";
+"login.forgot.title" = "FORGOT PASSWORD";
+"login.email.field" = "Email";
+"login.password.field" = "Password";
+"login.new.password.field" = "New Password";
+"login.password2.field" = "Retype Password";
+"login.name.field" = "Name";
+"login.email.required" = "Valid email required";
+"login.email.used" = "Email is already registered";
+"login.password.mismatch" = "Passwords need to match.";
+"login.password.required" = "Valid password required";
+"login.password.length.failed" = "Password should be 6-12 characters";
+"login.password.invalid" = "Password can only use A-Z, 0-10, and symbols";
+"login.name.length.failed" = "Name should be 3-15 characters";
+"login.name.invalid" = "Name cannot contain spaces";
+"login.name.failed" = "Change failed. Please try again.";
+"login.name.contains.profanity" = "Restricted words used. Please use another name.";
+"login.name.contains.emoji" = "Please do not use Emoticon characters in name";
+"login.registration.failed" = "Registration failed. Please try again.";
+"login.login.failed" = "Login failed. Please try again.";
+"login.login.invalid" = "Login invalid. Please try again.";
+"login.password.reset.failed" = "Player not found";
+"login.password.reset" = "Your new password has been sent to your email.";
+"login.password.password.change.required" = "Your password has been reset.\nPlease enter a new password for your account.";
+"login.change.password.title" = "Change Password";
+"login.password.password.change.success" = "Your password has been changed.";
+"login.password.password.changed" = "Your password was previously changed or the change password link is no longer valid. Please login with your new password or perform a new password reset.";
+"login.registration.complete" = "Registration completed successfully.";
+"login.rememberme" = "Remember Me";
+
+"fb.connect.title" = "FACEBOOK CONNECT";
+"fb.connect.message" = "Receive ${coins} coins for connecting, save your coins to your Facebook account, and qualify for in-game bonuses, gifts, and unlocks";
+"fb.connect.button" = "Connect";
+
+"iap.status.unsuccessful.title" = "Purchase Error";
+"iap.status.permission.failed" = "Please enable In App Purchases or In App Billing and try purchasing again.";
+"iap.status.invalid.product" = "The product is not valid or has expired. You have not been charged. Please purchase a different item.";
+"iap.status.invalid.transaction" = "The purchase transaction is not valid. You have not been charged. Please try again.";
+"iap.status.failed.transaction" = "The purchase was not completed. You have not been charged. Please try again.";
+"iap.status.network.unavailable" = "Please ensure you have network connectivity and try your purchase again.";
+
+"already.logged.in.alert.title" = "Not Logged In";
+"already.logged.in.alert.message" = "Your account is no longer logged in or already logged in from another device. Please connect again or log out from your other device and try again.";
+
+"buy.chips.buy" = "BUY";
+"buy.chips.free.price.label" = "FREE";
+"buy.chips.reward.video" = "REWARD VIDEO";
+"buy.chips.facebook.connect" = "FACEBOOK CONNECT";
+"buy.chips.fb.connect.button" = "CONNECT";
+"buy.chips.facebook.share" = "SHARE";
+
+"quit.confirmation.message" = "Are you sure you want to exit the game?";
+"quit.confirmation.button.play.on" = "Play On";
+"quit.confirmation.button.end.game" = "End Game";
+
+"register.title" = "Register Account";
+"register.message" = "Synchronize your chips to an account that can be shared across all of your devices.";
+
+"operation.failed.title" = "Operation Unsuccessful";
+"operation.failed.message" = "We could not complete your operation at this time. Please try again later.";
+
+"settings.title" = "GAME SETTINGS";
+"settings.switch.off" = "OFF";
+"settings.switch.on" = "ON";
+"settings.button.contact" = "CONTACT";
+"friends.invitebtn" = "INVITE";
+"settings.rate.game" = "RATE GAME";
+"settings.button.rate" = "RATE";
+"settings.sound" = "SOUND";
+"lobby.top.bar.settings.button" = "SETTINGS";
+"settings.visit.facebook" = "VISIT FACEBOOK PAGE";
+"settings.visit.website" = "VISIT WEBSITE";
+"settings.button.go" = "GO";
+"settings.game.invite" = "Game Invite";
+"settings.button.logout" = "LOGOUT";
+
+"rate.app.alert.message" = "If you enjoy playing ${game_name}, please take a moment to rate it on ${app_store}. Thanks for your support!";
+"rate.app.alert.button.rate" = "Rate ${game_name}";
+"rate.app.alert.button.decline" = "No, Thanks";
+"rate.app.alert.button.remind" = "Remind me later";
+"rate.app.alert.ios.app.store" = "the App Store";
+"rate.app.alert.google.app.store" = "Google Play";
+
+"lobby.tab.bar.friends.online.button" = "FRIENDS";
+"lobby.top.bar.gifts.button" = "GIFTS";
+
+"gifts.collect.gifts.tab" = "COLLECT GIFTS";
+"gifts.button.collect" = "COLLECT";
+"gifts.send.back" = "SEND A GIFT BACK";
+
+"select.all" = "Select All";
+
+"fb.share.post.caption" = "Come play now!";
+"fb.share.button" = "Share";
+
+"one.week.notification.title" = "Bonuses waiting";
+
+"xp.bonus.session.activated.announcement" = "All XP earned for this session are given a ${percent} bonus";
+"xp.bonus.expiration.activated.announcement" = "All XP earned for the next ${expiration} are given a ${percent} bonus";
+
+"game.update.notification.title" = "Game Update";
+"game.update.notification.message" = "A recommended game update is available for download.";
+
+// New String;
+"fb.share.bonus.title" = "SHARE POST";
+
+"gifts.button.collected" = "COLLECTED";
+
+"send" = "SEND";
+"send.all" = "SEND ALL";
+"sent" = "SENT";
+
+"game.name.long" = "Slots Palace";
+"game.name.short" = "Slots Palace";
+
+"login.registration.loggedin" = "This account is already logged in.";
+"loading.start.download" = "Start loading game";
+
+"lobby.my.profile" = "MY PROFILE";
+"lobby.get.chips.button" = "BUY COINS";
+"lobby.deal.button" = "DEAL";
+"lobby.on.sale" = "ON SALE";
+"lobby.inbox" = "INBOX";
+
+"buy.chips.coins" = "COINS";
+"buy.chips.coins.beteast" = "COINS";
+"buy.chips.reward.video.watch" = "WATCH";
+
+"lobby.game.list.unlocked.at.level" = "FROM LEVEL ${level}";
+"lobby.game.list.download.game" = "DOWNLOADING";
+"lobby.game.list.network.failure" = "CONNECT TO DOWNLOAD";
+"lobby.game.list.insufficient.space" = "INSUFFICIENT STORAGE";
+"lobby.game.list.download.error" = "DOWNLOAD FAILED";
+
+"more.games.coming.soon" = "MORE GAMES COMING SOON!";
+
+"level.bar.hint.points.to.next.level" = "XP TO NEXT LEVEL: ${level}";
+"level.bar.hint.next.level.reward" = "NEXT LEVEL REWARD: ${reward}";
+"level.bar.hint.max.bet.per.selection" = "MAX BET PER SELECTION: ${bet}";
+
+"settings.item.get.more.coins" = "GET MORE COINS";
+"settings.contact.us" = "CONTACTS US";
+"settings.invite.friends" = "INVITE FRIENDS";
+"settings.rate.us" = "RATE US";
+"settings.view.tutorial" = "VIEW TUTORIAL";
+
+"fb.share.post.linkDescription" = "I love winning in Slots Palace. Join me and play!";
+
+"message.bar.welcome" = "WELCOME";
+"message.bar.good.luck" = "GOOD LUCK";
+"message.bar.spin.again" = "SPIN AGAIN";
+"message.bar.play.again" = "PLAY AGAIN";
+
+"friend.popup.invite.friend" = "INVITE FRIENDS";
+"friend.popup.friend.list" = "FRIEND LISTS";
+
+"message.bar.line.win" = "LINE ${line} WINS ${win}";
+"message.bar.line.win.multiplier" = "LINE ${line} WINS ${win} (${multiplier}X)";
+"message.bar.scatter.win" = "SCATTER WINS ${win}";
+"message.bar.scatter.win.multiplier" = "SCATTER WINS ${win} (${multiplier}X)";
+"message.bar.won.free.games" = "WON ${numFreeGames} FREE GAMES";
+"message.bar.total.free.games.won" = "WON ${win} IN FREE GAMES";
+"message.bar.total.bonus.won" = "WON ${win} BONUS COINS";
+"message.bar.total.bonus.won.multiplier" = "WON ${win} BONUS COINS (${multiplier}X)";
+"message.bar.total.bonus.won.cash" = "WON ${win} BONUS";
+"message.bar.total.bonus.won.multiplier.cash" = "WON ${win} BONUS (${multiplier}X)";
+"message.bar.ways.win" = "WINS ${win}";
+"message.bar.ways.win.multiplier" = "WINS ${win} (${multiplier}X)";
+"message.bar.total.spin.win" = "TOTAL WIN FOR SPIN ${win}";
+
+"game.control.button.spin" = "SPIN";
+"game.control.button.stop" = "STOP";
+"game.control.button.play" = "PLAY";
+"game.control.button.deal" = "DEAL";
+"game.control.button.autospin" = "HOLD FOR\nAUTOSPIN";
+"game.control.button.max.bet" = "MAX\nBET";
+"game.control.button.change.bet" = "NEW\nBET";
+"game.control.button.turbo" = "HOLD\nFOR\nTURBO";
+"game.control.button.pay.table" = "PAY TABLE";
+"game.control.label.lines" = "LINES";
+"game.control.label.ways" = "WAYS";
+"game.control.label.rods" = "ROD(S)";
+"game.control.label.number.picks" = "PICKS";
+"game.control.label.bet" = "BET";
+"game.control.label.total.bet" = "WAGER";
+"game.control.label.win" = "WIN";
+"game.control.autospin.menu.until.bonus" = "UNTIL BONUS";
+"game.control.autospins.remaining" = "AUTOSPINS";
+"game.control.freespins.remaining" = "FREE GAMES";
+"game.control.label.total.bonus.win" = "TOTAL BONUS WIN";
+"game.control.label.balance" = "BALANCE";
+"rmp.landscape.game.control.button.autospin" = "HOLD FOR AUTOSPIN";
+
+"gift.popup.send.gifts" = "SEND GIFTS";
+"gift.popup.request.gifts" = "REQUEST GIFTS";
+"gift.popup.receive.gift.des" = "Sent you ${quantity} ${gift}";
+"gift.popup.send.gift.des" = "Send ${receiver} a gift";
+"gift.popup.request.gift.des" = "${receiver} requested a gift";
+"gift.popup.free.coins" = "FREE COINS";
+"gift.popup.free.spins" = "FREE GAMES";
+"gift.popup.collect.all" = "COLLECT ALL";
+"gift.popup.gift.coins" = "coin(s)";
+"gift.popup.gift.spins" = "spin(s)";
+"gift.popup.playing.friend" = "PLAYING FRIENDS";
+"gift.popup.non.playing.friend" = "NON-PLAYING FRIENDS";
+"gift.popup.no.gift.sent" = "AWESOME!";
+"gift.popup.no.gift.sent.desc" = "You have sent gifts to all of your friends! \n You can send more gifts tomorrow";
+"gift.popup.no.gift.collected" = "NO GIFTS TO COLLECT";
+"gift.popup.no.gift.collected.desc" = "Send and request gifts to get more coins!";
+"gift.popup.no.gift.requested" = "NO GIFTS TO REQUEST";
+"gift.popup.no.gift.requested.desc" = "Invite friends to get more coins!";
+"gift.receive.spins.announcement" = "You received ${rewards} Free Games";
+
+"free.game.animation.free.games" = "${numFreeGames} FREE GAMES";
+"free.game.intro.start" = "START FREE GAMES";
+"free.game.outro.free.games.bonus" = "FREE GAMES BONUS";
+"free.game.outro.you.win" = "YOU WON";
+"free.game.outro.back.to.game" = "BACK TO GAME";
+"free.game.outro.share.coins" = "SHARE FREE COINS WITH FRIENDS";
+"free.game.retrigger.announcement" = "WON ${numFreeGames} MORE FREE GAMES!";
+"bonus.intro.start" = "START BONUS";
+"bonus.win.better.luck.next.time" = "BETTER LUCK\nNEXT TIME";
+"bonus.win.better.luck.next.time.2" = "BETTER LUCK NEXT TIME";
+
+"return.lobby.confirmation.message" = "Are you sure you want to exit to the Lobby?";
+"return.lobby.confirmation.to.lobby" = "To Lobby";
+"return.lobby.confirmation.play.on" = "Play On";
+
+"fb.share.free.coin.post.name" = "Send Free Coins";
+"fb.share.free.coin.post.content" = "${name} just got an awesome win of ${win} coins in ${game} and wants you to get in on the action! First ${clikers} clickers get FREE Coins";
+"fb.share.free.coin.post.announcement" = "You received ${rewards} Coins";
+
+"mummys.tomb.animation.intro" = "MUMMYS' TOMB BONUS";
+"mummys.tomb.instruction" = "TOUCH A SARCOPHOGUS TO WIN";
+
+"alert.pop.up.generic.error" = "An error occurred. Please check your connection and try again.";
+
+"friend.pop.up.send.free.coins" = "SEND FREE COINS";
+"friend.pop.up.send.free.spins" = "SEND FREE GAMES";
+"friend.pop.up.free.coins.sent" = "FREE COINS SENT";
+"friend.pop.up.free.spins.sent" = "FREE GAMES SENT";
+"friend.pop.up.level" = "LEVEL ${level}";
+"friend.pop.up.connect.fb" = "MORE FREE COINS!";
+"friend.pop.up.connect.fb.desc" = "Connect to Facebook & get FREE Coins from friends";
+"friend.pop.up.invite.connect.fb" = "PLAY WITH FRIENDS!";
+"friend.pop.up.invite.connect.fb.desc" = "Connect to Facebook to compete against friends!";
+
+"search.friend.bar.place.holder" = "SEARCH FRIENDS";
+
+"touch.to.start" = "Touch To Start";
+"touch.to.continue" = "Touch To Continue";
+
+"pirate.island.instruction" = "TOUCH A TREASURE CHEST TO WIN";
+"pirate.island.bonus" = "TREASURE ISLAND BONUS";
+
+"settings.fb.title" = "FACEBOOK";
+"settings.email.button.title" = "EMAIL";
+
+"wheel.bonus.spin.it" = "SPIN IT!";
+"wheel.bonus.spin.bonus" = "SPIN BONUS";
+"wheel.bonus.friend.bonus" = "FRIENDS BONUS";
+"wheel.bonus.total.bonus" = "TOTAL BONUS";
+"wheel.bonus.friend.bonus.count" = "${numFriend} FRIENDS";
+"wheel.bonus.fb.share.post.content" = "${name} just got ${win} free bonus coins from a Wheel Bonus spin!";
+"wheel.bonus.fb.share.post.name" = "WIN WHEEL BONUS";
+
+"share.to.facebook" = "SHARE TO FACEBOOK";
+
+"fb.share.post.name" = "Check out Slots Palace";
+"fb.share.bonus.message" = "Earn ${coins} coins for sharing a post about Slots Palace";
+
+"buy.chips.tag.best.value" = "BEST\nVALUE";
+"buy.chips.tag.players.pick" = "MOST\nPOPULAR";
+"buy.chips.purchase.successful.announcement" = "Purchase Successful!! $${coins} Coins Added to Balance";
+
+"inbox.title" = "INBOX";
+"inbox.popup.special.offer.des" = "Here is a special offer of ${coins} coins for only ${price}";
+"inbox.popup.no.message" = "YOU HAVE NO ITEMS IN YOUR INBOX";
+"inbox.popup.no.message2" = "SEND GIFTS TO FRIENDS AND GET MORE GIFTS BACK!";
+"inbox.popup.system.gift.des" = "Collect ${coins} Coins\nThis is a special gift just for you.";
+
+"one.week.notification.body" = "There are free coins bonuses waiting for you. Come claim and play!";
+"wheel.bonus.local.notification.title" = "Wheel Bonus Spin Ready";
+"wheel.bonus.local.notification.body" = "Your wheel bonus spin is ready. Come spin to win free coins!";
+"return.bonus.local.notification.title" = "Free Coins Bonus Ready";
+"return.bonus.local.notification.body" = "Your bonus is ready! Come claim your free coins!";
+
+"purchase.bonus.session.activated.announcement" = "All coins purchased during this session get an additional ${percent} extra free coins";
+"purchase.bonus.expiration.activated.announcement" = "All coins purchased for the next ${expiration} get an additional ${percent} extra free coins";
+
+"chips.claimed.announcement" = "${chips} Coins Claimed";
+
+"malfunction.warning" = "Malfunction voids all pays and plays.";
+
+"circus.free.game.add.announcement" = "ON 1ST REEL ADDED ${numFreeGames} MORE FREE GAME(S)!";
+"circus.balloon.darts.bonus" = "BALLOON DARTS BONUS";
+"circus.balloon.darts.instructions" = "SHOOT THE BALLOONS TO WIN";
+"circus.balloon.darts.remaining" = "${num} SHOTS REMAINING";
+
+"level.up.benefits" = "NEW LEVEL BONUS";
+"level.up" = "LEVEL UP";
+"level.up.benefits2" = "BENEFITS";
+"level.up.max.bet" = "MAX BET ${bet}";
+"level.up.special.bonus" = "SPECIAL BONUS UP TO ${bonus}";
+"level.up.wheel.bonus" = "WHEEL BONUS UP TO ${bonus}";
+"level.up.fb.share.post.content" = "${name} just reached Level ${level}. Congratulations!!";
+"level.up.fb.share.post.name" = "LEVEL UP";
+
+"jackpot.win.announcement" = "${jackpotName} JACKPOT WON!";
+"progressive.fb.share.post.content" = "${name} just won a huge jackpot of ${win} coins!";
+"progressive.fb.share.post.name" = "JACKPOT WON";
+
+"unlock.game.pop.up.need.to.download" = "You unlocked ${gameName}. Please download to play.";
+"unlock.game.pop.up.play.game" = "You unlocked ${gameName}. Give it a try now.";
+
+"paytable.game.rules.title" = "GAME RULES";
+"paytable.paylines.instruction" = "All symbols except SCATTER pay left to right on active paylines.";
+"paytable.perline.instruction" = "All wins except SCATTER are multiplied by the perline bet.";
+"paytable.highest.win.instruction" = "Only the highest win is paid on each payline.";
+"paytable.win.once.instruction" = "Each symbol can be used only once per winning combination.";
+"paytable.oneline.win.instruction" = "All symbols pay left to right on the central payline.";
+"paytable.ways.instruction" = "All symbols except SCATTER pay left to right on active positions.";
+"paytable.perway.instruction" = "All wins except SCATTER are multiplied by the per ways bet.";
+"paytable.scatter.instruction" = "SCATTER wins are multiplied by the total bet.";
+"paytable.wild.label" = "WILD";
+"paytable.scatter.label" = "SCATTER";
+"paytable.bonus.label" = "BONUS";
+"paytable.jackpot.title" = "SLOTS PALACE LINKED JACKPOT";
+"paytable.jackpot.instructions.0" = "Each wagered spin qualifies to win the Mega, Grand or Major linked progressive jackpots.";
+"paytable.jackpot.instructions.1" = "Playing more spins and larger bets increases the odds for winning a jackpot. Bet more win more.";
+"paytable.jackpot.instructions.2" = "Press the JACKPOT button to view the current values for all progressive jackpot levels.";
+
+"egypt.paytable.0.multiplier" = "All FREE GAMES Feature wins are multiplied by 3x - 8x.";
+"egypt.paytable.0.wild" = "WILD substitutes for all symbols except SCATTER. During the FREE GAMES Feature, each WILD adds +1x to the multiplier for all wins for that spin.";
+"egypt.paytable.0.scatter" = "SCATTER wins are multiplied by the total bet and are paid in addition to payline wins. 3, 4 or 5 SCATTER symbols appearing in any position awards 12 free games.";
+"egypt.paytable.4.sarcophagus" = "SARCOPHAGUS";
+"egypt.paytable.4.mummy" = "MUMMY";
+"egypt.paytable.4.mummy.instruction.0" = "The Mummys' Tomb Bonus is awarded for playing through spins. Playing larger bets increases the chances of entering and increases the prizes that are won inside the Mummys' Tomb.";
+"egypt.paytable.4.mummy.instruction.1" = "Prizes are awarded by touching a SARCOPHAGUS inside the Mummys' Tomb. Continue opening the other SARCOPHAGUSES to earn more prizes.";
+"egypt.paytable.4.mummy.instruction.2" = "The Mummys' Tomb Bonus ends when the MUMMY is revealed after opening a SARCOPHAGUS.";
+
+"happy.farm.whack.a.mole" = "WHACK A MOLE BONUS";
+"happy.farm.whack.a.mole.instruction" = "PUNCH THE MOLES TO WIN";
+"happy.farm.whack.a.mole.time" = "TIME";
+"happy.farm.paytable.0.inst.3" = "All wins in the FREE GAMES Feature are multiplied by 3x or 5x.";
+"happy.farm.paytable.1.wild" = "WILD substitutes for all symbols except SCATTER. During the FREE GAMES Feature, all WILD substituted wins are multiplied by 5x.";
+"happy.farm.paytable.1.scatter" = "3 SCATTER symbols appearing from leftmost reel to right awards 11 free games.";
+"happy.farm.paytable.1.bonus" = "5 BONUS symbols appearing from leftmost reel to right awards the Whack a Mole Bonus, which will be concluded upon timeout or when all prizes are awarded.";
+"happy.farm.paytable.3.inst.1" = "To win coins, hit as many MOLES as you can before time runs out. BONUS game concludes upon timeout or when all prizes are awarded.";
+"happy.farm.paytable.3.inst.2" = "Larger rewards are paid for larger bets.";
+
+"pirate.king.paytable.1.wild" = "WILD substitutes for all symbols except SCATTER. During FREE GAMES, landed WILDs remain in position until all FREE GAMES are complete.";
+"pirate.king.paytable.1.scatter" = "3 scatter symbols anywhere on the reels activates 10 free games. The FREE GAMES Feature can only be retriggered once with 5 more free spins per set of FREE GAMES.";
+"pirate.king.paytable.1.bonus" = "Any winning of BONUS symbols on an active payline may advance the Pirate Ship closer to the Treasure Island Bonus.";
+"pirate.king.paytable.2.map.2" = "The Treasure Island Bonus is activated when the Pirate Ship arrives at the island marked with an X on the map.";
+"pirate.king.paytable.2.map" = "Track the Pirate Ship's progress by pulling out the map at any time.";
+"pirate.king.paytable.2.chest" = "Open the treasure chests on Treasure Island to win.";
+"pirate.king.paytable.2.bomb" = "The Treasure Island Bonus ends when a chest containing a BOMB is opened.";
+
+"special.offer.coins" = "${coins} COINS";
+"special.offer.price" = "ONLY FOR YOU ${price}";
+
+"wild.offer.coins" = "THE COINS";
+
+"crazy.circus.paytable.0.multiplier" = "All wins in FREE GAMES Feature are multiplied by 3x.";
+"crazy.circus.paytable.1.scatter" = "3 or more SCATTER wins pay 5x total bet and activates 10 free games.";
+"crazy.circus.paytable.1.wild" = "WILD substitutes for all symbols except SCATTER.";
+"crazy.circus.paytable.1.bonus" = "During FREE GAMES, CIRCUS symbol landing on reel 1 adds 1, 2 or 3 more free games.";
+"crazy.circus.paytable.3.inst.0" = "The Balloon Darts Bonus may be activated when playing non Free Game spins.";
+"crazy.circus.paytable.3.inst.1" = "Shoot 5 balloons to collect 5 awards. The Balloon Darts Bonus ends after shooting 5 balloons.";
+
+"fortune.god.red.packet" = "FORTUNA BONUS";
+"fortune.god.paytable.ways.instruction" = "All symbols pay left to right on active positions.";
+"fortune.god.paytable.1.wild" = "WILD substitutes for all symbols except SCATTER. During Free Game spins, WILD substituting wins are multiplied by 3x, 6x or 8x for each WILD in the winning combination.";
+"fortune.god.paytable.1.scatter" = "3, 4, or 5 adjacent left to right SCATTER symbols starting from the 1st reel awards 8, 10, or 16 free games.";
+"fortune.god.paytable.1.bonus" = "5 BONUS appearing left to right activates the Fortuna Bonus Feature.";
+"fortune.god.paytable.3.chest" = "Open one of the CHESTs to claim a reward.";
+"fortune.god.paytable.3.more" = "Larger bets result in larger bonus wins.";
+
+"insufficient.coins.pop.up.desc" = "Get more coins to keep the fun going";
+
+"login.fb.connect.more.bonus" = "MORE FREE COINS";
+
+"777.vegas.paytable.paylines" = "All symbols pay left to right on active paylines.";
+"777.vegas.paytable.perline" = "All wins are multiplied by the perline bet.";
+"any" = "Any";
+"any2" = "Any 2";
+
+"visit.website" = "Visit our website to learn more about our games or contact us";
+"visit" = "Visit";
+
+"video.reward.announcement" = "Video Completed\n$${coins} Coins Added to Balance";
+"inbox.facebook.connect" = "Get ${coins} Coins for connecting with your Facebook account";
+
+"update.app.pop.up.play.game" = "Update Slots Palace to play ${gameName}.";
+"game.control.new.max.bet" = "Max Bet Now ${maxBetAmount}";
+"game.control.new.bet" = "Bet Now ${betAmount}";
+
+"safari.hungry.hippos" = "HIPPO SMASH BONUS";
+"safari.hungry.hippos.instruction" = "SMASH THE HIPPOS TO WIN";
+"safari.bp.sign.score" = "SCORE";
+"safari.paytable.0.multiplier" = "All wins in FREE GAMES Feature are multiplied by 2x.";
+"safari.paytable.1.wild" = "WILD substitutes for all symbols except SCATTER and only appears on reels 2, 3, 4 or 5.";
+"safari.paytable.1.scatter" = "3, 4 or 5 SCATTER symbols anywhere on the reels awards 15, 25, or 75 free games.";
+"safari.paytable.2.inst.0" = "The Hippo Smash Bonus may be triggered for any non-Free Game feature spin of the reels.";
+"safari.paytable.2.inst.1" = "To win coins, hit as many Hippo's as you can before time runs out. Each successfully hit Hippo rewards coins. BONUS game concludes upon timeout or when maximum win is awarded.";
+
+"message.bar.respin" = "RE-SPINNING, GOOD LUCK!";
+
+"vikings.treasure.bonus" = "VIKING'S TREASURE";
+"vikings.paytable.0.scatter.1" = "2, 3 or 4 SCATTER symbols will re-spin all reels without a SCATTER symbol.";
+"vikings.paytable.0.scatter.2" = "Only available SCATTER wins will be paid again in a re-spin.";
+"vikings.paytable.0.scatter.3" = "3, 4 or 5 SCATTER symbols anywhere on the reels awards 10, 15, or 20 free games. FREE GAMES could be triggered again in FREE GAMES.";
+"vikings.paytable.0.scatter.4" = "Triggering 10, 15 or 20 free spins paying 4x, 5x or 6x for all wins in FREE GAMES.";
+"vikings.paytable.0.wild.2" = "Only the biggest win per line paid.";
+"vikings.paytable.2.bonus" = "5 BONUS symbols awarded on a pay line activates the Viking's Treasure Bonus Feature.";
+
+"three.little.pigs.bonus" = "THREE LITTLE PIGS BONUS";
+"three.little.pigs.bonus.instruction" = "TOUCH ${numPicks} BOARD(S) TO COLLECT COINS AND FREE SPINS";
+"three.little.pigs.bp.num.picks" = "PICKS LEFT";
+"three.little.pigs.bp.coins.won" = "COINS WON";
+"three.little.pigs.bp.spins.won" = "SPINS WON";
+
+"three.little.pigs.paytable.0.wild" = "All WILD substituted wins are multiplied by 3x in BASE GAMES.";
+"three.little.pigs.paytable.1.wild" = "All wins in FREE GAMES are multiplied by 2x and WILD-substituted wins are multiplied by 6x.";
+"three.little.pigs.paytable.0.scatter" = "3, 4 or 5 SCATTER symbols anywhere on the reels awards the Three Little Pigs Bonus.";
+"three.little.pigs.paytable.2.scatter" = "One pick is awarded for each SCATTER in the trigger combination.";
+"three.little.pigs.paytable.2.board" = "Pick a board to reveal a coin and FREE GAMES prize.";
+"three.little.pigs.paytable.2.freegames" = "FREE GAMES are started after all awarded picks are completed.";
+
+"message.bar.bonus.reel.win" = "BONUS REEL WINS ${win}";
+
+"gem.jewelry.box.bonus" = "JEWELRY BOX BONUS";
+"gem.jewelry.box.instruction" = "OPEN A JEWELRY BOX TO WIN";
+"gem.paytable.bonus.reel" = "BONUS REEL";
+"gem.paytable.0.bonus.reel" = "The center symbol of the BONUS REEL triggers additional features for a spin.";
+"gem.paytable.0.bonus.reel.m3" = "Multiplies all wins by 3x for that spin.";
+"gem.paytable.0.bonus.reel.m6" = "Multiplies all wins by 6x for that spin.";
+"gem.paytable.0.bonus.reel.ft" = "Pays additional 1x total bet and awards 8 free games.";
+"gem.paytable.0.bonus.reel.rl" = "Wins any additional line wins from right to left.";
+"gem.paytable.0.bonus.reel.ew" = "Any WILDs on reels 1-5 will expand to cover that entire reel.";
+"gem.paytable.0.bonus.reel.c1" = "Triggers the Jewelry Box Bonus and pays 1x total bet in BASE GAMES or pays 4x total bet during FREE GAMES.";
+"gem.paytable.scatter" = "3, 4 or 5 scatter symbols anywhere on the reels awards 8 free games.";
+"gem.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"gem.paytable.bonus.c1" = "This symbol landing on the BONUS REELS during BASE GAMES triggers the Jewelry Box Bonus.";
+"gem.paytable.bonus.pick" = "Pick a jewelry box to win coins.";
+
+"deepsea.undersea.treasure.bonus" = "UNDERSEA TREASURE";
+"deepsea.paytable.wild" = "WILD substitutes for all symbols except SCATTER and BONUS.";
+"deepsea.paytable.pay" = "All adjacent symbols except SCATTER pay left to right starting from the leftmost reel or right to left starting from the rightmost reel.";
+"deepsea.paytable.5.row" = "5-of-a-kind combinations pay left to right only.";
+"deepsea.paytable.scatter" = "3 or more SCATTER symbols anywhere on the reels triggers 20 free games.";
+"deepsea.paytable.bonus" = "Landing 3 or more adjacent BONUS symbols starting from leftmost reel to right or from rightmost reel to left in BASE GAMES triggers the Undersea Treasure Bonus.";
+"deepsea.paytable.0.multiplier" = "All wins in FREE GAMES are multiplied by 2x.";
+
+"free" = "FREE";
+"games" = "GAMES";
+"num.free.games" = "FREE GAMES";
+"samurai.paytable.ways.instruction" = "All symbols including SCATTER pay left to right on active positions.";
+"samurai.fg.pick.all.wins" = "ALL WINS WITH";
+"samurai.fg.pick.substituting" = "SUBSTITUTING ARE";
+"samurai.fg.pick.multipliers" = "x${m1},x${m2},or x${m3}";
+"samurai.fg.pick.instruction" = "PICK A WILD SYMBOL, NUMBER OF FREE GAMES, AND FREE GAME MULTIPLIERS";
+"samurai.archery.bonus" = "ARCHERY BONUS";
+"samurai.arrows.bonus" = "BONUS ARROWS";
+"samurai.bp.missed" = "MISSED";
+"samurai.bp.shots.remaining" = "${numShots} SHOTS REMAINING";
+"samurai.bp.annoucement.instructions" = "AIM FOR AND HIT THE RED BULLSEYE ON THE TARGET TO WIN";
+"samurai.pt.wild" = "WILD substitutes for all symbols except SCATTER. During the FREE GAMES Feature, all WILD substituted wins are multiplied by the selected set of multipliers.";
+"samurai.pt.bonus" = "Landing 3 or more adjacent BONUS symbols from leftmost reel to right in BASE GAMES triggers the Archery Bonus.";
+"samurai.pt.scatter" = "Landing 3 or more adjacent SCATTER symbols from leftmost reel to right activates the FREE GAMES Feature.";
+"paytable.free.games.feature" = "FREE GAMES FEATURE";
+"samurai.pt.free.games.pick" = "Before starting the FREE GAMES Feature, pick one of the following feature characteristics:";
+"samurai.pt.arrow.bonus" = "Landing BONUS symbols on the first and last reels will pay 2x, 5x, 10x, 15x, 20x or 50x of total bet.";
+"samurai.pt.bonus.arrow" = "Using the 5 awarded bonus arrows, aim for and hit the red bullseye on the target to win";
+"samurai.pt.bonus.target" = "Arrows landing in the darker red center win bigger rewards than arrows landing in the lighter red outer ring of the bullseye";
+
+"view" = "VIEW";
+
+"game.load.error.title" = "Insufficient Space";
+"game.download.status.insufficient.storage" = "There is insufficient space on your device to play this game. Please clear space or uninstall apps on your device and try again.";
+"game.download.status.network.failure" = "An error occurred when attempting to start the game. Please check your network connection and try again.";
+
+"space.exoplanet.bonus" = "EXOPLANET BONUS";
+"space.exoplanet.instruction" = "CHOOSE A PLANET TO WIN";
+"space.pt.wild" = "WILD substitutes for all symbols except SCATTER. During the FREE GAMES Feature, each WILD substituted symbol in a win are paid 2x or 3x.";
+"space.pt.scatter" = "During BASE GAMES, 3, 4, 5, or 6 SCATTER symbols anywhere on the reels awards 8, 15, 20 or 50 free games. In FREE GAMES, 2, 3, 4, 5, or 6 SCATTER symbols anywhere on the reels awards an additional 5, 8, 15, 20, or 50 free games.";
+"space.pt.bonus" = "During BASE GAMES, 3, 4, 5, or 6 BONUS symbols starting from the leftmost reel and without WILD substituting triggers the Exoplanet Bonus.";
+"space.pt.planet" = "Choose a planet to win.";
+
+"settings.email.content" = "I love playing Slots Palace. Join me and play!\n${link}";
+
+"cinderella.shoe.bonus" = "If the Shoe Fits Bonus";
+"cinderella.pt.wild" = "WILD substitutes for all symbols except SCATTER. During FREE GAMES, wins with WILD symbols are multiplied by the number of WILDS in the winning combination. In 8 free games, WILD wins are multiplied by 2x, 3x, or 5x. In 10 free games, WILD wins are multiplied by 3x, 5x, or 8x. In 15 free games, WILD wins are multiplied by 8x, 10x, and 15x.";
+"cinderella.pt.scatter" = "3, 4, or 5 SCATTER symbols anywhere on the reels awards 8, 10, or 15 free games. FREE GAMES cannot be triggered again in FREE GAMES.";
+"cinderella.bp.inst" = "Pick the foot that fits the shoe to win.";
+"cinderella.pt.bonus" = "3 or more BONUS symbols with no WILD substitutes left to right on any payline triggers the If the Shoe Fits Bonus.";
+
+"first.purchased.label.1" = "${percentage}X COINS !!!";
+"first.purchased.label.2" = "FOR YOUR FIRST PURCHASE";
+
+"poseidon.pearl.hunt.bonus" = "PEARL HUNTING BONUS";
+"poseidon.bp.instructions" = "Open an oyster and reveal a prize.";
+"poseidon.pt.wild" = "WILD substitutes for all symbols except SCATTER and BONUS.";
+"poseidon.pt.scatter" = "3 or more SCATTER symbols anywhere on the reels awards 10 free games.";
+"poseidon.pt.bonus" = "During BASE GAMES, landing 3 or more adjacent BONUS symbols, without WILD substituting, starting from the leftmost reel will trigger the Pearl Hunting Bonus.";
+
+"fb.send.gift.linkTitle" = "Send gifts to your friends!";
+"fb.send.gift.linkDescription" = "I sent you a Gift! Send me back one!";
+
+"wizardry.wheel.bonus" = "WIZARD'S WHEEL BONUS";
+"wizardry.wheel.bonus.spins.remaining" = "${spinsRemaining} SPINS REMAINING\nGOOD LUCK!";
+"wizardry.wheel.bonus.last.spin" = "LAST SPIN\nGOOD LUCK!";
+"wizardry.pt.elements.label" = "THE ELEMENTS";
+"wizardry.pt.elements" = "An ELEMENT symbol appears from the CAULDRON every spin. Any symbols with a matching ELEMENT in the top right turns WILD.";
+"wizardry.pt.free.games" = "All Free Spins start with a 3x multiplier for all wins. +1x is added for each landed WILD during a spin.";
+"wizardry.pt.wild" = "WILD substitutes for all symbols except SCATTER. During FREE GAMES, each WILD adds 1x multiplier for all spin wins.";
+"wizardry.pt.scatter" = "Landing 3 or more SCATTER symbols for a spin rewards 12 free games.";
+"wizardry.pt.bonus" = "During BASE GAMES, 3 or more BONUS symbols starting from the leftmost reel and without WILD substituting triggers the Wizard's Wheel Bonus.";
+"wizardry.pt.bonus.spins" = "Each triggering BONUS symbol rewards 1 spin of the Wizard's Wheel Bonus. Coins are rewarded for each spin of the Wizard's Wheel Bonus.";
+
+"tutorial.lobby.first.buy.coins.message" = "Get ${percentage}x more coins for your first purchase! Take advantage of this incredible offer now!";
+"tutorial.lobby.buy.coins.message" = "Get some coins to keep the fun going!";
+"tutorial.lobby.collect.bonus.message" = "Collect your bonus coins every ${interval} hours. Get larger bonus rewards by leveling up.";
+"tutorial.lobby.gift.message" = "Share the joy by giving gifts to your friends and receive more gifts in return.";
+"tutorial.lobby.gift.no.facebook.message" = "Facebook connect to receive gifts from your friends.";
+"tutorial.lobby.inbox.message" = "Be sure to check your Inbox for special offers and news.";
+"tutorial.lobby.connect.fb.message" = "Connect using Facebook to get ${coins} free coins.";
+"tutorial.lobby.description" = "After closing the tutorial, click on any game icon to enter the game.";
+"tutorial.game.back.to.lobby.message" = "Back to the lobby";
+"tutorial.game.coins.balace.message" = "Your current coin total. Get more coins by buying them here.";
+"tutorial.game.paytable.message" = "Rules, paytables and instructions for the current game.";
+"tutorial.game.cps.message" = "Select the bet per line or ways";
+"tutorial.game.total.bet.message" = "Total bet for this spin";
+"tutorial.game.winnings.message" = "Coins won for this spin";
+"tutorial.game.max.bet.message" = "Press this button to bet with the maximum bet allowed for your level. Bet more to win more and qualify for additional bonuses!";
+"tutorial.game.play.message" = "Press the 'Spin' button to play a spin. Press and hold to start autospin.";
+"tutorial.game.description" = "Press 'Spin' or 'Max Bet' to play a spin.";
+"tutorial.jackpot.message" = "Each wagered spin qualifies to win the Mega, Grand or Major linked progressive jackpots.\nPlaying more spins and larger bets increases the odds for winning a jackpot. Bet more win more.";
+
+"bakery.additional.ways" = "4 or more adjacent symbols starting from leftmost reel also wins the ways award.";
+"bakery.pt.perline.instruction" = "All line wins are multiplied by the perline bet.";
+"bakery.pt.perway.instruction" = "All ways wins are multiplied by the per ways bet.";
+"bakery.pt.paylines.instruction" = "All symbols except SCATTER pay left to right on active paylines.";
+"bakery.pt.wild" = "WILD appears only in columns 2, 3, 4 and 5 and substitutes for all symbols except SCATTER.";
+"bakery.pt.scatter" = "2, 3 or 4 SCATTER symbols appearing anywhere on column 3 triggers 10, 15 or 20 Free Spins. FREE GAMES could be triggered again in FREE GAMES.";
+"bakery.pt.lines.paytable" = "LINES PAYTABLE";
+"bakery.pt.ways.paytable" = "WAYS PAYTABLE";
+
+"zombie.brain.buffet.bonus" = "BRAIN BUFFET BONUS";
+"zombie.brain.buffet.instructions" = "${numBites} BITES REMAINING";
+"zombie.brain.buffet.instructions.singular" = "LAST BITE";
+"zombie.brain.buffet.instructions.no.bites" = "NO MORE BITES";
+"zombie.brain.buffet.announcement" = "TOUCH THE BRAIN TO BITE AND WIN";
+"zombie.pt.free.games.trigger" = "3 SCATTER symbols anywhere on the reels wins 10 free games.";
+"zombie.pt.free.games.retrigger" = "3 SCATTER symbols anywhere on the reels wins 5 free games.";
+"zombie.pt.free.games" = "Two headed zombies appear in FREE GAMES and count as 2 symbols in a win.";
+"zombie.pt.bonus" = "During BASE GAMES, 3 or more BONUS symbols starting from the leftmost reel and without WILD substituting triggers the Brain Buffet Bonus.";
+"zombie.pt.bonus.1" = "During BASE GAMES, landing 3 or more adjacent BONUS symbols starting from the leftmost reel and without WILD substituting triggers the Brain Buffet Bonus. Each triggering BONUS symbol awards a bite of the brain.";
+"zombie.pt.bonus.2" = "Touch the brain to take a bite and win coins. Continue to bite the brain and win coins until there are no remaining bites.";
+
+"message.bar.won.bonus.game" = "TRIGGERED BONUS MINI GAME";
+"paytable.base.game.paytable" = "BASE GAMES PAYTABLE";
+"paytable.free.game.paytable" = "FREE GAMES PAYTABLE";
+
+"register.email" = "REGISTER EMAIL";
+"register.email.popup.description" = "Register to receive FREE coins and other great promotions!\nPlease input your valid email address where a confirmation email will be sent. After receiving the confirmation email, please click on the verify link or enter the verification code manually.";
+"register.email.popup.send.code" = "SEND CODE";
+"register.email.verification" = "CODE VERIFICATION";
+"register.email.code.required" = "Valid code required";
+"register.email.code.error" = "Error Code";
+"register.email.popup.re.register.email" = "RE-REGISTER EMAIL";
+"register.email.code.field" = "CODE";
+"register.email.code.sent" = "Your code has been sent to your email.";
+
+"fairy.bonus" = "FAIRY BONUS";
+"fairy.bonus.instructions" = "PICK A MAGICAL ITEM TO WIN COINS";
+"fairy.pt.wild" = "WILD substitutes for all symbols except SCATTER. In FREE GAMES, a WILD is added to reels 2, 3, 4 and 5 before each spin.";
+"fairy.pt.scatter" = "3 SCATTER symbols anywhere on the reels wins 10 free games or 5 more free games if retriggered. FREE GAMES can only be retriggered once.";
+"fairy.pt.bonus" = "5 BONUS symbols anywhere on the reels triggers the Fairy Bonus.";
+"fairy.pt.bonus.inst" = "Pick one of the 6 magical items to win coins.";
+
+"jungle.flower.bonus" = "JUNGLE FLOWERS BONUS";
+"jungle.bp.instruction.1" = "PICK A FLOWER TO REVEAL A COIN REWARD";
+"jungle.bp.instruction.2" = "PICK A FLOWER TO REVEAL A MULTIPLIER";
+"jungle.pt.wild" = "WILD substitutes for all symbols except for SPIN. All line wins containing WILD substitutes pay 2x.";
+"jungle.pt.spin" = "SPIN appears on reels 2, 3, and 4 and will spin the bonus reel directly above into a new position.";
+"jungle.pt.x2" = "X2 substitutes for all Bonus Reel symbols except BONUS. All bonus wins containing X2 substitutes pay 2x for each substitute.";
+"jungle.pt.bonus" = "3 BONUS symbols appearing in the Bonus Reel triggers the Jungle Flowers Bonus.";
+"jungle.pt.bonus.1" = "Touch a flower to reveal a coin reward. Then touch a second flower to reveal a multiplier.";
+"jungle.pt.bonus.reel" = "The Bonus Reels are the 3 reels found above the base game reels.";
+"jungle.pt.bonus.reel.align" = "A Bonus Reel is spun when a SPIN symbol lands on the base game reel directly below a bonus reel.";
+"jungle.pt.bonus.reel.how" = "Line up 3 Bonus Reel symbols to win.";
+"jungle.pt.bonus.reel.win" = "All Bonus Reel wins are paid in addition to any base game line wins.";
+"paytable.bonus.reel.paytable" = "BONUS REEL PAYTABLE";
+
+"two.tier.rate.description" = "Like playing our slots? Your rating is important to us!";
+"two.tier.thanks.rate.description" = "Thank you for rating us! We appreciate it!";
+
+"kungfu.chop.bonus" = "KUNG FU CHOP BONUS";
+"kungfu.chop.announcement" = "CHOP THE BOARDS TO WIN";
+"kungfu.chop.no.break" = "NO BREAK!";
+"kungfu.fg.multiplier" = "During the FREE GAMES, there is a multiplier which increments by 1x with every spin.";
+"kungfu.pt.wild" = "WILD substitutes for all symbols except SCATTER. During BASE GAMES, 3 or more WILD symbols landing on the middle 3 reels triggers the Kung Fu Chop Bonus.";
+"kungfu.pt.scatter" = "3 or more SCATTER symbols landing anywhere wins 7 Free Spins and pays the SCATTER win. FREE GAMES can be retriggered.";
+"kungfu.pt.bonus" = "3 or more left to right adjacent WILD symbols on reels 2, 3, and 4 occurring in the base game wins the Kung Fu Chop Bonus.";
+"kungfu.pt.bonus.1" = "Touch the boards to perform a Kung Fu chop.";
+"kungfu.pt.bonus.2" = "Coins are won if the chopped board breaks. The bonus game ends if a chopped board fails to break.";
+
+"mythic.kupala.night.bonus" = "KUPALA NIGHT BONUS";
+"mythic.pt.wild" = "All line wins with one or more WILD substitutes pays 3x in BASE GAMES and 6x in FREE GAMES. During FREE GAMES, a WILD symbol is added to the middle reel after each free spin.";
+"mythic.pt.bonus" = "During BASE GAMES, BONUS symbols landing on the first and last reel triggers the Kupala Night Bonus.";
+"mythic.pt.bonus.1" = "Touch one of the flowers in the lake to win coins.";
+"mythic.pt.scatter" = "3 or more SCATTER symbols anywhere on the reels awards 10 free games. FREE GAMES cannot be retriggered.";
+
+"knights.pt.wild" = "WILD substitutes for all symbols except SCATTER. WILD symbols will nudge to fill the entire reel for every reel that lands a portion of the WILD symbol.";
+"knights.pt.bonus" = "Landing 8 or more BONUS symbols during BASE GAMES wins the Knight's Archery Bonus. Every BONUS symbol landing in the triggering spin awards an arrow to use in the Knight's Archery Bonus.";
+"knights.pt.scatter" = "During BASE GAMES, 3, 4 or 5 SCATTER symbols anywhere on the reels triggers 7, 12, or 20 free games. During FREE GAMES, 2, 3, 4 or 5 SCATTER symbols appearing anywhere on the reels adds 3, 7, 12 or 20 free games.";
+"knights.pt.bonus.arrow" = "Using the awarded bonus arrows, aim for and hit the red bullseye on the target to win";
+
+"option.menu.fullscreen" = "FULL SCREEN";
+"option.menu.exit.fullscreen" = "EXIT FULL SCREEN";
+"option.menu.auto.fullscreen" = "AUTO FULL SCREEN";
+"alert.pop.up.enable.fullscreen" = "Enable Full Screen?";
+"alert.pop.up.rotate.to.fullscreen" = "For full screen mode, please rotate or re-rotate your device into landscape orientation.";
+"alert.pop.up.enable.landscape.mode" = "Enable Landscape Screen?";
+"alert.pop.up.enable.portrait.mode" = "Enable Portrait Screen?";
+
+"paytable.highest.win.ways.instruction" = "Only the highest win is paid for each wagered position.";
+"paytable.free.games.same.bet" = "FREE GAMES are played with the same bet as the triggering spin.";
+
+"vampire.coffin.bonus" = "VAMPIRE'S COFFIN BONUS";
+"vampire.bp.instructions" = "TOUCH A COFFIN TO WIN";
+"vampire.pt.wild" = "WILD substitutes for all symbols except SCATTER and BONUS. During FREE GAMES, each landed WILD adds a multiplier of 2x or 3x to all wins for that spin; all individual multipliers multiply.";
+"vampire.pt.bonus" = "During BASE GAMES, 3 or more adjacent BONUS symbols starting from the leftmost reel triggers the Vampire's Coffin Bonus.";
+"vampire.pt.scatter" = "During BASE GAMES, 3, 4, or 5 SCATTER symbols anywhere on the reels triggers 8, 15, or 20 free games. During FREE GAMES, 2, 3, 4, or 5 SCATTER symbols anywhere on the reels adds 5, 8, 15, or 20 more free games.";
+"vampire.pt.coffin" = "Coins are rewarded by touching and opening a coffin. Continue opening the other coffins to earn more coins.";
+"vampire.pt.coffin.vampire" = "The Vampire's Coffin Bonus ends when the vampire is revealed after opening a coffin.";
+
+"inbox.popup.collect.invite.bonus.des" = "${invitee} accepted your invitation. Here is your ${reward} coins reward!";
+"invite.friend.bonus.description" = "Get ${reward} coins for every friend that responds to your invite";
+
+"coin.icon.credit.label" = "Cr";
+"credits" = "CREDITS";
+"number.credits" = "${credits} CREDITS";
+"game.control.denomination" = "DENOM";
+"rmp.game.control.label.total.bet" = "TOTAL BET";
+
+"partner.game.error.alert.title" = "An Error Occurred";
+"partner.game.error.alert.message" = "Your balance is intact. Please reload and try again.";
+"partner.game.timed.out.alert.title" = "Session Expired";
+"partner.game.timed.out.alert.message" = "Your game session has expired. Your game balance remains unaffected. Please reload the game to restart your game session.";
+"partner.game.insufficient.balance.alert.title" = "Insufficient Balance";
+"partner.game.insufficient.balance.alert.message" = "Your balance is insufficient to play the selected bet. Please play a lower bet or deposit more funds.";
+"partner.game.license.expired.alert.title" = "License Expired";
+"partner.game.license.expired.alert.message" = "The license to play this game is invalid or has expired. Please contact the operator.";
+"partner.game.country.blocked.alert.title" = "Country Blocked";
+"partner.game.country.blocked.alert.title" = "Games cannot be played in your country";
+
+"lobby.top.bar.support.button" = "SUPPORT";
+"lobby.top.bar.exit.button" = "EXIT GAME";
+"rmp.message.bar.total.bonus.won" = "WON ${win} BONUS CREDITS";
+"rmp.message.bar.total.bonus.won.multiplier" = "WON ${win} BONUS CREDITS (${multiplier}X)";
+
+"free.play" = "FREE PLAY";
+
+"four.beauties.four.beauties.award" = "FOUR BEAUTIES AWARD WINS ${win} (${multiplier}X)";
+"four.beauties.west.lake.bonus" = "WEST LAKE BONUS";
+"four.beauties.bp.instructions" = "Touch one of the flowers in the lake to win.";
+"four.beauties.bp.bonus.over" = "BONUS COMPLETE";
+"four.beauties.pt.wild" = "WILD substitutes for all symbols except SCATTER and BONUS.";
+"four.beauties.pt.scatter" = "3, 4, or 5 SCATTER anywhere on the reels awards 8, 12, or 20 free games. All wins pay 3x in FREE GAMES.";
+"four.beauties.pt.bonus" = "In base game, 3 or more BONUS with no WILD substitutes left to right on any payline triggers the West Lake Bonus.";
+"four.beauties.pt.fourbeauties" = "Aside from regular line wins, all of the legendary Four Beauties landing on the first, second, fourth and fifth reel in any order rewards ${win}.";
+"four.beauties.game.recall.memorandum" = "FOUR BEAUTIES AWARD";
+
+"kitty.free.game.animation.free.games" = "${numFreeGames} FREE GAMES";
+"kitty.intro.bonus" = "SNEAKY FELINES BONUS";
+"kitty.bonus.instruction" = "The SNEAKY FELINES BONUS is awarded for playing through spin. Larger bets increases the chance of winning a bonus game with larger prizes.";
+"kitty.bonus.pick.instructions" = "YOU CAN KNOCK OVER ${num} JARS";
+"kitty.bonus.pick.instructions.singular" = "LAST CHANCE";
+"kitty.bonus.pick.instructions.no.pick" = "NO MORE CHANCES";
+"kitty.bonus.pick.announcement" = "KNOCK OVER THE JARS TO WIN";
+"kitty.pt.base.game.inst.2" = "When the number of cats, including WILD and excluding SCATTER, outnumbers that of rats, all rats are replaced with other symbols to get a chance to win more after all initial line wins are awarded.";
+"kitty.pt.free.game.inst" = "In the FREE GAMES Feature, each WILD appearing on screen awards an additional WILD that replaces a non-WILD symbol. SCATTER symbols occurring beneath the awarded WILD may contribute towards a SCATTER prize.";
+"kitty.pt.free.game.inst.2" = "All FREE GAMES Feature wins are multiplied by 2x.";
+"kitty.pt.bonus.2" = "Knock over jars to win coins until there are no remaining chances.";
+"kitty.pt.free.games.trigger" = "3, 4, or 5 SCATTER anywhere on the reels awards 10, 20, or 25 free games.";
+
+"paytable.base.game.bonus.title" = "BASE GAMES BONUS";
+
+"day.of.dead.intro.pinata.whacks" = "PIÑATA WHACKS";
+"day.of.dead.pinata.bonus" = "PIÑATA BONUS";
+"day.of.dead.pinata.instructions" = "${num} HITS REMAINING";
+"day.of.dead.pinata.instructions.singular" = "LAST HIT";
+"day.of.dead.pinata.instructions.no.hits" = "NO MORE HITS";
+"day.of.dead.pinata.announcement" = "HIT THE PIÑATA TO WIN COINS";
+"day.of.dead.pt.bonus.inst" = "Hit the piñata to win coins.";
+"day.of.dead.pt.bonus" = "Landing 3 or more adjacent BONUS symbols starting from leftmost reel to right or from rightmost reel to left in BASE GAMES triggers the Piñata Bonus.";
+"day.of.dead.paytable.0.multiplier" = "All wins in FREE GAMES are multiplied by 2x.";
+
+"ares.bonus" = "ARES BONUS";
+"ares.bonus.picks" = "ARES BONUS PICKS";
+"ares.bp.instructions" = "TOUCH THE VASES TO REVEAL A WIN";
+"ares.bp.instructions.0" = "Winning 3 or more adjacent BONUS symbols on any payline in the BASE GAMES triggers the Ares Bonus.";
+"ares.bp.instructions.1" = "Touch the vases to reveal a win.";
+"ares.pt.fireline.title" = "FIRE LINE FEATURE";
+"ares.pt.fireline.inst" = "For any lost game in BASE and FREE GAMES, there is a chance for one of the paylines to be chosen as fire line on which landed symbols are replaced with random symbol except for WILD, SCATTER and BONUS symbols; only the fire line will be re-evaluated for potential win.";
+"ares.pt.free.games.trigger" = "3, 4, or 5 SCATTER anywhere on the reels awards 15, 20, or 25 free games. All wins pay 3x in FREE GAMES. FREE GAMES can only be retriggered once.";
+"picks.remaining" = "PICKS REMAINING";
+"bonus.win" = "BONUS WIN";
+"ares.message.bar.line.win" = "FIRE LINE ${line} WINS ${win}";
+"ares.message.bar.line.win.multiplier" = "FIRE LINE ${line} WINS ${win} (${multiplier}X)";
+"ares.game.recall.memorandum" = "FIRE LINE FEATURE";
+
+"chinese.opera.rolling.lamp.bonus" = "ROLLING LAMP BONUS";
+"chinese.opera.bp.instructions" = "BALANCE THE CANDLE ON THE CLOWN'S HEAD TO WIN COINS";
+"chinese.opera.bp.instructions.1" = "Balance the candle on the clown's head to win coins.";
+"chinese.opera.bp.instructions.device" = "TILT LEFT OR RIGHT TO BALANCE THE CANDLE";
+"chinese.opera.bp.instructions.web" = "SWIPE LEFT OR RIGHT TO BALANCE THE CANDLE";
+"chinese.opera.pt.bonus" = "The ROLLING LAMP BONUS is awarded for playing through spin. Larger bets increases the chance of winning a bonus game with larger prizes.";
+"chinese.opera.pt.wild" = "WILD substitutes for all symbols except SCATTER.";
+"chinese.opera.pt.mask.wild" = "Multiplier of 2x will be applied to one color of the WILD substituted winning mask(s).";
+"chinese.opera.pt.scatter.1" = "3, 4 or 5 SCATTER anywhere on the reels awards 8, 15 or 20 free spins.";
+"chinese.opera.pt.scatter.2" = "All wins pay 3x in FREE GAMES.";
+
+"mermaid.paytable.paylines.instruction" = "All symbols pay left to right on active paylines.";
+"mermaid.perline.instruction" = "All wins are multiplied by the perline bet.";
+"mermaid.bonus.picks" = "TROPICAL FISH BONUS";
+"mermaid.bonus.picks.intro" = "TROPICAL FISH\nBONUS";
+"mermaid.hungry.fishes.instruction" = "CATCH THE FISHES TO WIN";
+"mermaid.bp.sign.score" = "SCORE";
+"mermaid.fg.multiplier" = "All wins pay 3x in FREE GAMES.";
+"mermaid.pt.wild" = "WILD substitutes for all symbols except SCATTER.";
+"mermaid.pt.bonus" = "4 or more BONUS symbols landing any position on screen in the base game triggers the TROPICAL FISH BONUS.";
+"mermaid.pt.bonus.1" = "Catch the fishes to win.";
+"mermaid.pt.freegame.inst.0" = "When 3 SCATTERs landing on any position of reel 3, 4 and 5, and one of the following two scenarios will trigger FREE GAMES:";
+"mermaid.pt.freegame.inst.1" = "1. When symbols S1, S2, S3, S4 are not of the same kind, 5 free spins are awarded and all S1, S2, S3, S4 will be replaced with a random symbol, except WILD or SCATTER, and stick in place for the remainder of free spins.";
+"mermaid.pt.freegame.inst.2" = "2. When symbols S1, S2, S3, S4, including WILD, are of the same kind, 20 free spins are awarded and S1, S2, S3, S4 will stick in place for the remainder of free spins.";
+"mermaid.pt.freegame.inst.3" = "During FREE GAMES, any 3 SCATTER symbols landing on any position of the last 3 reels will award additional 5 free spins.";
+
+"maya.bonus.pick.intro" = "MAYAN\nSECRET";
+"maya.bonus.pick.outro" = "MAYAN SECRET BONUS";
+"maya.pt.free.games.trigger" = "In base game, 3, 4, or 5 SCATTER anywhere on the reels awards 8, 12, or 18 free games. In FREE GAMES, landing one SCATTER on the first spin of each round awards one additional free spin.";
+"maya.bonus.instruction" = "The MAYAN SECRET BONUS is awarded for playing through spin. Larger bets increases the chance of winning a bonus game with larger prizes.";
+"maya.pt.bonus.inst" = "Uncover two symbols of same kind to reveal a win. Unlike revealed symbols will be covered for next pick again. BONUS game concludes upon timeout or when maximum win is awarded.";
+"maya.bonus.pick.pair" = "PAIR";
+"maya.bonus.pick.instruction" = "UNCOVER TWO MATCHED SYMBOLS TO WIN";
+"maya.pt.cascade.feature.title" = "CASCADING FEATURE";
+"maya.pt.cascade.instruction.1" = "All symbols contributed to a line win or any scatter symbols triggering or retriggering free spin(s) will be eliminated after rewarding;";
+"maya.pt.cascade.instruction.2" = "The reels symbols will fall into place as if dropped from above to fill the spots;";
+"maya.pt.cascade.instruction.3" = "The cascaded screen will be evaluated for winning again and all pay will be added to the total win;";
+"maya.pt.cascade.instruction.4" = "The cascading process continue until no more winning and/or no more free spins obtained on the resulting screen.";
+
+"cowboys.stop.stack" = "PRESS STOP TO PICK A FREE GAME SUPER STACK SYMBOL";
+"cowboys.stack.symbol.is" = "USING AS FREE GAME SUPER STACK SYMBOL";
+"cowboys.scat.inst.1" = "In BASE GAMES, 7 free spins is awarded when 9 SCATTERS landing on the middle 3 reels.";
+"cowboys.scat.inst.2" = "Players choose one of four random symbols as the super-stack symbol throughout the FREE GAMES.";
+"cowboys.scat.inst.3" = "In FREE GAMES, any 3 SCATTER landing on anywhere awards additional 7 free spins.";
+
+"red.riding.hood.bonus.picks" = "FIND GRANDMA BONUS";
+"red.riding.hood.announcement.info" = "FIND GRANDMA TO WIN COINS";
+"red.riding.hood.pt.scatter" = "Landing 3 or more SCATTER symbols for a spin rewards 15 free games.";
+"red.riding.hood.pt.bg.mul.inst" = "In BASE GAMES, all wild substituted wins are multiplied by 2x(excluding WILD wins only).";
+"red.riding.hood.pt.fg.mul.inst" = "In FREE GAMES, all wins without wild substitution or wild wins alone are multiplied by 2x. There is a chance to win 6x to 10x for all wild-substituted wins.";
+"red.riding.hood.bp.instructions.0" = "Landing 3 or more adjacent BONUS symbols starting from leftmost reel in BASE GAMES triggers the FIND GRANDMA BONUS.";
+"red.riding.hood.bp.instructions.1" = "Pick the correct image that is Grandma to win coins.";
+
+"player" = "Player";
+"currency" = "Currency";
+"game.recall" = "GAME RESULT";
+"game.recall.no.records" = "No games have been played.";
+
+"game.recall.game" = "Game";
+"game.recall.transaction" = "Transaction ID";
+"game.recall.free.spin.round" = "Free Spin Round";
+"game.recall.free.spin.rounds.remaining" = "Free Spin Rounds Remaining";
+"game.recall.date" = "Date";
+"game.recall.total.bet" = "Total Credits Bet";
+"game.recall.total.win" = "Total Credits Win";
+"game.recall.total.bet.cash" = "Total Bet";
+"game.recall.total.win.cash" = "Total Win";
+"game.recall.balance.before.bet" = "Balance Before Bet";
+"game.recall.balance.after.bet" = "Balance After Bet";
+"game.recall.free.spin" = "Free Spin";
+"game.recall.denomination" = "Denomination";
+"game.recall.lines.played" = "Lines Played";
+"game.recall.ways.played" = "Ways Played";
+"game.recall.credit.per.line" = "Credits Bet Per Line";
+"game.recall.credit.bet" = "Credits Bet";
+"game.recall.mini.bonus.win" = "Mini Bonus Credit Win";
+"game.recall.mini.bonus.win.cash" = "Mini Bonus Win";
+"game.recall.free.spins.won" = "Number Free Spins Won";
+"game.recall.balance.at.end" = "Balance At End";
+"game.recall.mini.bonus.triggered" = "Mini Bonus Triggered";
+"game.recall.mini.bonus.completed" = "Mini Bonus Completed";
+"game.recall.free.spins.completed" = "Free Spins Completed";
+"game.recall.memorandum" = "Memorandum";
+"game.recall.progressive.level" = "Jackpot Level";
+"game.recall.progressive.win" = "Jackpot Win";
+"game.recall.line.wins" = "Line Wins";
+"game.recall.way.wins" = "Ways Wins";
+"game.recall.line" = "Line";
+"game.recall.leftright.line" = "RL Line";
+"game.recall.left.line" = "L Line";
+"game.recall.right.line" = "R Line";
+"game.recall.way" = "Way";
+"game.recall.scatter" = "Scatter";
+"yes" = "Yes";
+"no" = "No";
+"base.game" = "Base Game";
+"base.game.additional.spin" = "Base Game Result ${result}";
+"free.spin" = "Free Spin ${spin}";
+"free.spin.additional.spin" = "Free Spin ${spin} Result ${result}";
+"fever.game" = "Fever Game";
+"fever.game.additional.spin" = "Fever Game Result ${result}";
+
+"wechat.connect.title" = "WECHAT CONNECT";
+"wechat.connect.message" = "Receive ${coins} coins for connecting, save your coins to your WeChat account, and qualify for in-game bonuses, gifts, and unlocks";
+"wechat.connect.button" = "Connect";
+
+"flaming7.1.wild" = "WILD substitutes for all symbols except BLANK.\n1-WILD contributed win combination pays 7x.\n2-WILD contributed win combination pays 49x.\n3-WILD win combination awards the adviserstied pay without additional multiplier.";
+"flaming7.2.line" = "1 line";
+
+"stocked.bar.paytable.ways.instruction" = "All symbols including SCATTER pay left to right on active positions.";
+"stocked.bar.bonus.picks" = "STOCKED BAR BONUS";
+"stocked.bar.bp.instruction" = "THROW THE ICE CUBES INTO THE GLASS TO WIN";
+"stocked.bar.bp.instruction.2" = "${throws} THROW(S) REMAINING";
+"stocked.bar.pt.wild" = "WILD substitutes for all symbols including SCATTER.";
+"stocked.bar.pt.wild.1" = "During FREE GAMES, each WILD symbol contributing to a win awards a multiplier of 2x; landing two WILD symbols in a win combination awards a multiplier of 4x.";
+"stocked.bar.pt.free.games.1" = "Landing 3, 4 or 5 adjacent SCATTER or WILD symbols starting from the leftmost reel awards 15, 20, or 25 free games.";
+"stocked.bar.pt.free.games.2" = "FREE GAMES can be retriggered.";
+"stocked.bar.pt.bonus.1" = "Landing 4 or 5 adjacent BONUS symbols starting from the leftmost reel in BASE GAMES awards 4 or 5 throws in the Stocked Bar Bonus.";
+"stocked.bar.pt.bonus.2" = "The Stocked Bar Bonus can only be triggered from BASE GAMES.";
+"stocked.bar.pt.bonus.3" = "Throw the ice cubes into the glass to win.";
+
+"mushrooms.pt.wild.1" = "3 high WILD stacks exists on each reel.";
+"mushrooms.pt.scatter.1" = "Landing 3 or more SCATTER symbols rewards 8 free games. FREE GAMES is not retriggerable during FREE GAMES.";
+"mushrooms.pt.scatter.2" = "In base game, each SCATTER symbol is converted to a WILD symbol when only 2 SCATTER symbols land for a spin.";
+"mushrooms.pt.scatter.3" = "If FREE GAMES is triggered by 3 or 4 SCATTER, reel 2 turns WILD; if by 5 or 6 SCATTER, reels 2 and 3 turn WILD; if by 7 SCATTER, reels 2, 3, and 4 turn WILD.";
+
+"supershot.gig.paytable.any.three" = "ANY THREE";
+"supershot.gig.paytable.any.two" = "ANY TWO";
+"supershot.gig.paytable.any.one" = "ANY ONE";
+"supershot.gig.paytable.any.bars" = "ANY MIXED BARs";
+"supershot.gig.paytable.crown.four" = "FOUR";
+"supershot.gig.paytable.crown.any.four.7" = "ANY FOUR";
+"supershot.gig.paytable.any.symbol" = "ANY SYMBOL";
+"supershot.gig.paytable.in.crown.line" = "Landing any combination of 4 SEVEN's on the CROWN LINE and a BLANK in the middle to win the corresponding CROWN-LINE pay. \nall other win combiantions pay on the central line only";
+"supershot.gig.paytable.in.crown.seven"="SEVEN";
+"supershot.paytable.any.mixed" = "ANY MIXED";
+"supershot.paytable.wild.mul.title" = "MULTIPLIER AWARD";
+"supershot.paytable.scatter.bonus.title" = "GAME-in-GAME SCATTER BONUS";
+"supershot.paytable.scatter.bonus.inst.1" = "ANY 3 or more symbols as below initiates the GAME-in-Game SCATTER BONUS";
+"supershot.paytable.scatter.bonus.inst.3" = "initiates one spin from each 3 reel game displayed";
+"supershot.paytable.scatter.bonus.inst.4" = "Scatter wins pay in any position";
+"supershot.paytable.scatter.bonus.inst.5" = "Scatter win pays are added to line pays";
+"supershot.paytable.scatter.bonus.payline.1" = "Game-in-Game Payline";
+"supershot.paytable.scatter.bonus.payline.inst.1" = "ALL ONE-LINE GAMES";
+"supershot.paytable.scatter.bonus.payline.inst.2" = "CENTRAL PAYLINE ONLY";
+"supershot.paytable.scatter.bonus.crown.payline.inst.1" = "Crown Payline";
+"supershot.paytable.phoenix.feature.symbol.inst.1.1" = "Any win with 1";
+"supershot.paytable.phoenix.feature.symbol.inst.1.1" = "Any win with 1";
+"supershot.paytable.phoenix.feature.symbol.inst.1.2" = "substituted pays 2x";
+"supershot.paytable.phoenix.feature.symbol.inst.2.1" = "Any win with 2";
+"supershot.paytable.phoenix.feature.symbol.inst.2.2" = "substituted pays 4x";
+"supershot.paytable.dragon.feature.symbol.inst.1.1" = "Any win with 1";
+"supershot.paytable.dragon.feature.symbol.inst.1.2" = "substituted pays 3x";
+"supershot.paytable.dragon.feature.symbol.inst.2.1" = "Any win with 2";
+"supershot.paytable.dragon.feature.symbol.inst.2.2" = "substituted pays 9x";
+"supershot.paytable.flaming7x.feature.symbol.inst.1.1" = "Any win with 1";
+"supershot.paytable.flaming7x.feature.symbol.inst.1.2" = "substituted pays 7x";
+"supershot.paytable.flaming7x.feature.symbol.inst.2.1" = "Any win with 2";
+"supershot.paytable.flaming7x.feature.symbol.inst.2.2" = "substituted pays 49x";
+"supershot.paytable.feature.symbol.inst.1.1" = "Winning of 3 ";
+"supershot.paytable.feature.symbol.inst.1.2" = "awards the pay only without multiplier";
+
+"dragonslegend.bonus.pick" = "TIC-TAC-TOE BONUS";
+"dragonslegend.pt.wild.1" = "WILD symbols appear only on the second, third, or fourth reels.";
+"dragonslegend.pt.wild.2" = "During FREE GAMES, it is possible for the second, third, or fourth reels to be replaced by all WILD symbols after the spin stops.";
+"dragonslegend.pt.scatter.1" = "3, 4 or 5 SCATTER symbols appearing in any position awards 9 free games.";
+"dragonslegend.pt.scatter.2" = "FREE GAMES cannot be triggered again in FREE GAMES.";
+"dragonslegend.bonus.instruction" = "The TIC-TAC-TOE BONUS is awarded for playing through base game spins. Larger bets increases the chance of winning a bonus game with larger prizes.";
+"dragonslegend.bp.instruction" = "COINS ARE AWARDED FOR EACH POSITION PICKED.\nWIN TIC-TAC-TOE WITH 3 IN A ROW MULTIPLIES ALL REVEALED AWARDS BY 3X.";
+"dragonslegend.bp.inst.1" = "The first player is randomly chosen. The player and opponent then take turns to pick an available position until someone wins or ties the game.";
+"dragonslegend.computer.move" = "Opponent's Move";
+"dragonslegend.player.move" = "Your Move";
+"dragonslegend.tie.game" = "TIE GAME";
+"dragonslegend.you.win" = "TIC-TAC-TOE, YOU WIN!\nALL REVEALED WINS 3X";
+"dragonslegend.computer.win" = "TIC-TAC-TOE!\nOPPONENT WINS";
+
+"superkeno.quick.pick" = "QUICK\nPICK";
+"superkeno.clear" = "CLEAR";
+"superkeno.pt.inst.1" = "Choose 1 up to 10 numbers ranged 1 to 80 (inclusive) or click the QUICK PICK to select random 10 numbers for you.";
+"superkeno.pt.inst.2" = "The game will randomly generate 20 numbers out of 80.";
+"superkeno.pt.inst.3" = "Win certain awards by matching your picked numbers to the revealed 20 numbers at any order.";
+"superkeno.pt.topBar" = "Count of picked numbers";
+"superkeno.pt.sideBar" = "Count of hit(s)";
+
+"hint" = "HINT";
+"supervideopoker.held" = "HELD";
+"supervideopoker.hold.message" = "TOUCH THE CARDS TO HOLD THEN PRESS DEAL";
+"supervideopoker.pt.jacks.or.better" = "JACKS OR BETTER";
+"supervideopoker.pt.two.pair" = "TWO PAIRS";
+"supervideopoker.pt.three.of.a.kind" = "THREE OF A KIND";
+"supervideopoker.pt.straight" = "STRAIGHT";
+"supervideopoker.pt.flush" = "FLUSH";
+"supervideopoker.pt.full.house" = "FULL HOUSE";
+"supervideopoker.pt.four.of.a.kind" = "FOUR OF A KIND";
+"supervideopoker.pt.straight.flush" = "STRAIGHT FLUSH";
+"supervideopoker.pt.royal.flush" = "ROYAL FLUSH";
+"supervideopoker.hand" = "HAND";
+"supervideopoker.bet" = "NORMAL BETS";
+"supervideopoker.max.bet" = "MAX BET";
+"supervideopoker.hint.hold.highlighted" = "HINT: HOLD THE CARDS HIGHLIGHTED BLUE";
+"supervideopoker.hint.no.hold" = "HINT: RE-DEAL ALL CARDS";
+"supervideopoker.pt.inst.1" = "Five initial cards will be dealt at random.";
+"supervideopoker.pt.inst.2" = "Player gets one chance to hold 0 to 5 cards for a new hand.";
+"supervideopoker.pt.inst.3" = "New card(s) may be dealt to replace the discarded card(s).";
+"supervideopoker.pt.inst.4" = "Press HINT to help decide which cards to hold.";
+
+"neanderthals.bonus.pick" = "Neanderthals\n\nBonus";
+"neanderthals.bonus.pick.single.line" = "Neanderthals Bonus";
+"neanderthals.bonus.pick.instruction" = "PICK AN EGG TO WIN";
+"neanderthals.pt.bonus" = "During BASE GAMES, 3, 4, 5 or 6 BONUS symbols starting from the leftmost reel and without WILD substituting triggers the Neanderthals Bonus.";
+"neanderthals.pt.egg" = "Pick an egg to win.";
+
+"imperialguards.bonus.pick" = "Shooting\nAssassins\nBonus";
+"imperialguards.bonus.pick.single.line" = "Shooting Assassins Bonus";
+"imperialguards.bonus.pick.instruction" = "SHOOT THE ASSASSINS TO WIN";
+"imperialguards.pt.free.games.trigger" = "3, 4, or 5 SCATTER anywhere on the reels awards 15, 25, or 35 free games.";
+"imperialguards.pt.bonus" = "During BASE GAMES, landing 4 or more adjacent BONUS symbols, without WILD substituting, starting from the leftmost reel triggers the Shooting Assassins Bonus.";
+"imperialguards.pt.assassin" = "Shoot the assassins to win.";
+"imperialguards.pt.free.game.inst" = "During FREE GAMES, all symbols except SCATTER pay left to right and right to left on active paylines; all 5-of-a-kind line wins award multiplier of 3x.";
+
+"bawangbieji.bonus.pick" = "Xiang Yu Bonus";
+"bawangbieji.bonus.pick.single.line" = "Xiang Yu Bonus";
+"bawangbieji.bonus.pick.instruction" = "PICK UP A CRATE TO WIN";
+"bawangbieji.pt.scatter.1" = "When 3 SCATTER symbols landing in any position, it is possible to win 8, 15 or 20 free games.";
+"bawangbieji.pt.scatter.2" = "FREE GAMES cannot be retriggered.";
+"bawangbieji.pt.bonus.inst.1" = "Winning 5 BONUS symbols in base game to trigger Xiang Yu Bonus.";
+"bawangbieji.pt.bonus.inst.2" = "Pick up a crate to win some coins or conclude the bonus game if zero coin is revealed.";
+
+"leprechauns.rainbows.end.message" = "RAINBOW'S END BONUS WINS ${win}";
+"leprechauns.bonus.pick" = "CATCHING LEPRECHAUNS";
+"leprechauns.bonus.pick.instructions" = "Catch the Leprechauns running across the screen to win";
+"leprechauns.pt.bonus.pick.instructions" = "Catch the Leprechauns running across the screen to win.";
+"leprechauns.pt.rainbows.end.title" = "RAINBOW'S END BONUS";
+"leprechauns.pt.rainbows.end.inst" = "When any golden/silver pot occurred in a losing spin, there is chance to win 6x or 3x TOTAL BET for each golden/silver pot.";
+"leprechauns.pt.scatter" = "Landing 3, 4 or 5 SCATTER symbols anywhere triggers 15, 20 or 25 free games. Each free spin awards 2x/3x/4x multiplier. FREE GAMES could be retriggered in FREE GAMES.";
+"leprechauns.pt.bonus.title" = "Catching Leprechauns Bonus";
+"leprechauns.pt.bonus.inst" = "Landing 4 or 5 adjacent BONUS symbols anywhere from leftmost reel in BASE GAMES triggers Catching Leprechauns Bonus.";
+
+"fantasypark.pt.cartwheel.title" = "Cartwheel feature";
+"fantasypark.pt.cartwheel.inst" = "During FREE GAMES, any landed wild will stick in place for current spin and slide down by one position for next spin. Any wild at bottom will disappear before next spin started.";
+"fantasypark.pt.scatter.inst" = "3, 4 or 5 SCATTER symbols appearing in any position awards 18, 25 or 35 free games. FREE GAMES cannot be retriggered.";
+"fantasypark.bonus.picks" = "The Balloon Darts Bonus";
+"fantasypark.bp.instructions.0" = "Shoot 5 balloons to collect 5 awards. The Balloon Darts Bonus ends after shooting 5 balloons.";
+"fantasypark.bonus.trigger" = "Landing 4 or more adjacent BONUS symbols from the leftmost reel in BASE GAMES triggers The Balloon Darts Bonus.";
+
+"dragongate.carp.special.win.message" = "DRAGON GATE BONUS WINS";
+"dragongate.carp.bonus" = "DRAGON GATE BONUS";
+"dragongate.bp.instructions" = "Jump carps, jump!";
+"dragongate.pt.dragon.gate" = "Dragon Gate";
+"dragongate.pt.golden.carp" = "Golden Carp";
+"dragongate.pt.wild" = "WILD substitutes for all symbols except SCATTER, GOLDEN CARP and DRAGON GATE when counted as special WILD.";
+"dragongate.pt.free.games.trigger" = "3 or more SCATTER symbols anywhere on the reels wins 15 free games. FREE GAMES can be retriggered during FREE GAMES. Each free spin will be awarded multiplier of 2x/3x/4x at random.";
+"dragongate.pt.dragon.gate.bonus" = "A special WILD substitutes GOLDEN CARP for a winning line started with GOLDEN CARP only.";
+"dragongate.pt.golden.carp.bonus" = "A special symbol could be substituted by Dragon Gate. Each Dragon Gate occurs in a Golden Carp line win award additional 1x multiplier for that win.";
+"dragongate.pt.bonus.instruction" = "The DRAGON GATES BONUS is awarded for playing through spin. Larger bets increases the chance of winning a bonus game with larger prizes.";
+"dragongate.pt.carp.bonus.instruction" = "Touch screen to help carps leaping over the dragon gate to win.";
+
+"dimsum.paytable.paylines.instruction" = "All symbols except SCATTER pay left to right or right to left on active paylines.";
+"dimsum.bonus.pick" = "DIMSUM BONUS";
+"dimsum.bp.instruction.1" = "PICK A STEAMER TO REVEAL A COIN REWARD";
+"dimsum.bp.instruction.2" = "PICK A STEAMER TO REVEAL A MULTIPLIER";
+"dimsum.bonus.trigger" = "The DIMSUM BONUS is awarded for playing through spin. Larger bets increases the chance of winning a bonus game with larger prizes.";
+"dimsum.pt.cascade.feature.title" = "CASCADING FEATURE";
+"dimsum.pt.cascade.instruction.1" = "All symbols contributed to a line or scatter win will be eliminated after rewarding;";
+"dimsum.pt.cascade.instruction.2" = "The reels symbols will fall into place as if dropped from above to fill the spots;";
+"dimsum.pt.cascade.instruction.3" = "The cascaded screen will be evaluated for winning again and all pay will be added to the total win;";
+"dimsum.pt.cascade.instruction.4" = "The cascading process continue until no more winning available on the resulting screen.";
+"dimsum.pt.cascade.scatter.inst.1" = "3 or more SCATTER symbols appearing in any position on the screen immediately after the first spin of each game awards 25 free games. FREE GAMES cannot be retriggered in FREE GAMES.";
+"dimsum.pt.cascade.scatter.inst.2" = "In cascaded screens, 3 or more SCATTER symbols will pay without triggering FREE GAMES.";
+"dimsum.bp.instructions.0" = "Pick a steamer to reveal a coin reward. Then pick a second steamer to reveal a multiplier.";
+"dimsum.pt.fg" = "Each free spin will have a random 1x, 2x, or 3x multiplier.";
+"dimsum.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+
+"taiwanblackbear.bonus.pick" = "RUNNING BEAR\nBONUS";
+"taiwanblackbear.bonus.pick.single.line" = "RUNNING BEAR BONUS";
+"taiwanblackbear.pt.bonus.inst.1" = "The RUNNING BEAR BONUS is awarded for playing through spin. Larger bets increases the chance of winning a bonus game with larger prizes.";
+"taiwanblackbear.pt.bonus.inst.2" = "Tap the screen to help the bear escaping away from the bee's sting. When the bear jump into the water, certain amount of coins will be rewarded.";
+"taiwanblackbear.pt.scatter" = "3, 4 or 5 SCATTER symbols appearing in any position awards 15, 20 or 25 free games. FREE GAMES can only retrigger once during FREE GAMES.";
+"taiwanblackbear.pt.wild.inst.1" = "During FREE GAMES, there is a chance to win a super wild landing on last 2 reels, last 3 reels or last 4 reels.";
+"taiwanblackbear.bonus.pick.instruction" = "Tap the screen to help the bear escaping away from the bee's sting.";
+
+"lostrealm.pt.wild" = "WILD substitutes for all symbols except SCATTER.";
+"lostrealm.pt.free.game.trigger" = "FREE GAMES are triggered throughout game plays, 30 free spins are awarded upon triggering or re-triggering. Player could win up to 120 free spins per one set of FREE GAMES.";
+
+"huamulan.bonus.pick" = "HUA MULAN BONUS";
+"huamulan.pt.scatter.1" = "3, 4 or 5 SCATTER symbols appearing in any position awards 20, 25 or 30 free games.";
+"huamulan.bp.instruction" = "The HUA MULAN BONUS is awarded by landing 4 or more consecutive BONUS symbols from the leftmost reel during BASE GAMES.";
+"huamulan.bp.announcement.info" = "FIND HUA MULAN TO WIN COINS";
+"huamulan.bp.picks" = "PICKS LEFT";
+"huamulan.bp.inst.1" = "Identify Mulan from a troop of soldiers to win coins.";
+
+"lotuslamp.pt.scatter.1" = "3, 4 or 5 SCATTER symbols appearing in any position awards 20, 25 or 30 free games.";
+"lotuslamp.bonus.pick" = "SAVE SANSHENGMU BONUS";
+"lotuslamp.intro.bonus.pick" = "SAVE\nSANSHENGMU\nBONUS";
+"lotuslamp.pt.mul2x" = "WILD substituted wins for these symbols are multiplied by 2x.";
+"lotuslamp.bonus.instruction" = "4 or more adjacent BONUS symbols occurring in BASE GAMES triggers the SAVE SANSHENGMU BONUS.";
+"lotuslamp.bp.inst.1" = "Split the Hua Shan Mountain with the magic ax to win coins.";
+"lotuslamp.bonus.pick.instructions" = "Split the Hua Shan Mountain with the magic ax to win coins";
+"lotuslamp.bonus.pick.instructions.no.hits" = "No more split";
+
+"flowersfruitmountain.touch.symbol.bet" = "TOUCH THE SYMBOLS TO PLACE BETS";
+"symbols" = "SYMBOLS";
+"flowersfruitmountain.pt.inst.1" = "The SPIN-AGAIN Symbol and those with multipliers are not for bet.";
+"flowersfruitmountain.pt.inst.2" = "Tap on the bettable symbol to make a bet; each tap increase the multiple by one.";
+"flowersfruitmountain.pt.inst.3" = "Total bet on a symbol is multiple(s) x bet (per selection).";
+"flowersfruitmountain.pt.inst.4" = "Player could make up to 99 multiples on each bettable symbol.";
+"flowersfruitmountain.pt.inst.5" = "Press 'CLEAR' to clean up all bets and multiples.";
+"flowersfruitmountain.pt.inst.6" = "Press 'SPIN' to start a game.";
+"flowersfruitmountain.pt.inst.7" = "The system will automatically bet on each of 8 bettable symbols at minimum multiple for a game without betting upon SPIN.";
+"flowersfruitmountain.pt.inst.8" = "The pay for the following bettable symbols are computed at current bet and multiple of 1.";
+"flowersfruitmountain.pt.inst.9" = "The pay for the following non-bettable symbols are computed at current bet and multiple of 1. The multiplier applys to the TOTAL BET.";
+"flowersfruitmountain.pt.inst.10" = "The bet symbols are highlighted in a green frame.";
+"flowersfruitmountain.pt.inst.11" = "The winning symbol is highlighted in a flashing yellow frame;\nAssoicated bet symbols are flashing in green/yellow frame alternately.";
+"flowersfruitmountain.pt.inst.12" = "The losing symbol is highlighted in a red frame.";
+"flowersfruitmountain.pt.inst.13" = "Landing on a SPIN AGAIN symbol reward a free again.";
+"flowersfruitmountain.clear" = "CLEAR";
+
+"silkroad.bonus" = "TREASURE HUNT BONUS";
+"silkroad.bonus.instructions" = "PICK THE WANTED ITEM TO WIN COINS";
+"silkroad.bonus.instruction.2" = "${picks} PICK(S) REMAINING";
+"silkroad.pt.wild" = "WILD substitutes for all symbols except SCATTER.";
+"silkroad.pt.scatter" = "During BASE GAMES, 3 or more SCATTER symbols anywhere awards 15 free spins. All wins during FREE GAMES are multiplied by 3x. FREE GAMES can be retriggered during FREE GAMES; at most up to 45 free spins could be won in one set of FREE GAMES.";
+"silkroad.pt.bonus" = "4 or more adjacent BONUS symbols starting from the leftmost reel in BASE GAMES triggers the Treasure Hunt Bonus.";
+"silkroad.pt.map.bonus" = "During BASE GAMES, there is a chance to win a MAP BONUS upon landing 4 different merchants and a WILD on the central payline at any order. It awards 20 x TOTAL BET when triggered.";
+"silkroad.pt.bonus.inst" = "You have 3 chances to find the wanted item by the merchant to win coins.";
+"silkroad.pt.fg.feature.title" = "ITEMS COLLECTION FEATURE";
+"silkroad.pt.fg.feature.inst.1" = "During free game, the item a merchant holding on the last reel will be collected and placed in a chest.";
+"silkroad.pt.fg.feature.inst.2" = "When 4 unlike items are collected for one merchant, the corresponding merchant on the 2nd, 3rd and 4th reel will be replaced with WILD till the end of the FREE GAMES.";
+"silkroad.message.bar.bonus.map.win" = "BONUS MAP WINS ${win}";
+
+"leagueofgods.pt.scatter.inst" = "3, 4 or 5 SCATTER symbols appearing in any position awards 15, 25 or 75 free games. All wins in FREE GAMES are multiplied by 2x.";
+"leagueofgods.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+
+"trex.hatched.eggs.message" = "HATCHED EGGS WINS ${win}";
+"trex.stolen.eggs.message" = "STOLEN EGGS WINS ${win}";
+"trex.pt.scatter" = "Landing 3/4/5 SCATTER symbols anywhere in Base Game triggers 15/20/25 free spins. FREE GAMES can be retriggered during FREE GAMES.";
+"trex.pt.feature.title" = "FEATURES";
+"trex.pt.feature.inst.1" = "During BASE GAMES, there is a chance for each landed egg to hatch in a losing spin, the rewarding coins is the number of hatched egg x TOTAL BET.";
+"trex.pt.feature.inst.2" = "During FREE GAMES, there is a chance for an oviraptor to steal all landed egg in a losing spin, the rewarding coins is the number of stolen egg x 2 x TOTAL BET.";
+"trex.pt.jackpot.title" = "SLOTS PALACE\nLINKED JACKPOT";
+
+"egyptianempress.pt.freegame.title" = "FREE GAMES FEATURE";
+"egyptianempress.pt.freegame.inst.1" = "Landing 3/4/5 SCATTER symbols in BASE GAMES triggers 15 free games. All wins except 5xWILD in FREE GAMES are multiplied by 3x.";
+"egyptianempress.pt.freegame.inst.2" = "FREE GAMES could be retiggered during free spins. Players could win up to 180 free spins within one set of FREE GAMES.";
+"egyptianempress.pt.wild.win.inst" = "WILD substitutes for all symbols except SCATTER. Excluding WILD wins, all other line wins with WILD substitution are doubled in pay.";
+
+"giants.bonus.pick" = "CUTTING BEANSTALK BONUS";
+"giants.paytable.1.bonus" = "During BASE GAMES, any winning of BONUS symbols on an active payline will grow the beanstalk towards the CUTTING BEANSTALK BONUS.";
+"giants.paytable.beanstalk" = "The CUTTING BEANSTALK BONUS is activated when the beanstalk grows up to the sky where coins fall.";
+"giants.paytable.bonus.pick.instructions" = "Cut the beanstalk to win coins. The game ends when the beanstalk is cut or Jack is caught.";
+"giants.bonus.pick.instructions.no.hits" = "No more cut";
+"giants.bonus.pick.instructions" = "Cut the beanstalk to win coins.";
+
+"nezha.fg.pick.substituting" = "substituted win pays";
+"nezha.pt.bonus" = "landing on the first and last reel pays 2x, 5x, 10x, 15x, 20x or 50x of total bet.";
+"nezha.pt.free.games.pick" = "Before starting the FREE GAMES Feature, pick one of the following:";
+
+"goldrush.pt.wild" = "All line wins with one or more WILD substitutes pays 3x in BASE GAMES and 6x in FREE GAMES. During FREE GAMES, a WILD symbol is added to the middle reel after each free spin.";
+"goldrush.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"goldrush.pt.scatter" = "3 or more SCATTER symbols anywhere on the reels awards 10 free games. FREE GAMES cannot be retriggered.";
+
+"stonehenge.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"stonehenge.paytable.wild.2" = "During FREE GAMES, any winning combination including WILD on reel 2 or reel 4 awards 3x or 5x multiplier; any winning combination including WILD on reel 2 and reel 4 awards 15x multiplier.";
+"stonehenge.pt.scatter" = "3, 4 or 5 SCATTER symbols appearing in any position awards 10, 15 or 20 free games.";
+
+"davinci.message.bar.invention.win" = "INVENTION FEATURE WINS ${win}";
+"davinci.message.bar.invention.win.multiplier" = "INVENTION FEATURE WINS ${win} (${multiplier}X)";
+"davinci.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"davinci.paytable.wild.2" = "Appearing on the middle reel only. During FREE GAMES, landing a full WILD symbol on the middle reel as a losing spin may get chance to win INVENTION FEATURE.";
+"davinci.pt.scatter" = "3, 4 or 5 SCATTER symbols appearing in any position awards 12, 18 or 25 free games.";
+"davinci.intentions.instruction" = "During FREE GAMES when INVENTION FEATURE activated, landing combination of required symbols to assemble the items shown on the side reels to get bonus wins; all wins are multiplied by TOTAL BET.";
+"davinci.paytable.free.games.feature" = "INVENTION FEATURE";
+
+"dreamcatcher.bp.bonus.over" = "BONUS COMPLETE";
+"dreamcatcher.bonus.pick" = "DREAMCATCHER BONUS";
+"dreamcatcher.bp.instruction" = "Tap an available dream catcher.";
+"dreamcatcher.paytable.0.multiplier" = "All FREE GAMES Feature wins are multiplied by 3x - 8x.";
+"dreamcatcher.paytable.0.wild" = "WILD substitutes for all symbols except SCATTER. During the FREE GAMES Feature, each WILD adds +1x to the multiplier for all wins for that spin.";
+"dreamcatcher.paytable.0.scatter" = "SCATTER wins are multiplied by the total bet and are paid in addition to payline wins. 3, 4 or 5 SCATTER symbols appearing in any position awards 12 free games.";
+"dreamcatcher.paytable.bonus.instruction.0" = "The Dreamcatcher Bonus is awarded for playing through spins.";
+
+"logged.out" = "Logged Out";
+"logged.out.message" = "You have logged out of the game";
+
+"majong.bg.indicator" = "L\nI\nN\nE";
+"majong.fg.indicator" = "FREE\n\nGAMES";
+"mahjong.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"mahjong.pt.scatter" = "3, 4 or 5 SCATTER symbols appearing in any position awards 8, 18 or 28 free games.";
+"mahjong.pt.sum" = " points";
+"mahjong.pt.free.game.description" = "When 1 or more SCATTER symbols landing in FREE GAMES, the SCATTER die will spin and a certain multiple of total bet will be awarded based on the total points of all dice on screen as follows. If 3 or more scatters landed, additional 8x will be awarded.";
+
+"polynesian.moai.collection.feature.win" = "Win ${win} for collected Moai figures";
+"polynesian.moai.collection.feature.need" = "Hit ${need} more Moai figure(s) to win the collection prize";
+"polynesian.paytable.wild" = "WILD substitutes for all symbols.";
+"polynesian.paytable.wild.2" = "Any wins with WILD substitution in FREE GAMES reward a random multiplier of 2x to 5x.";
+"polynesian.pt.scatter" = "3 SCATTER symbols anywhere on the reels awards 15 free games.";
+"polynesian.paytable.moai" = "During FREE GAMES, collecting 12 Moai figures to win a prize of 25 x TOTAL BET; collecting 25 Moai figures to win a prize of 40 x TOTAL BET. Each prize will reward once if available.";
+
+"wildalaska.aurora.win" = "AURORA BONUS WIN ${win}";
+"wildalaska.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"wildalaska.paytable.scatter" = "3, 4 or 5 SCATTER symbols appearing in any position awards 15, 20 or 30 free games. FREE GAMES cannot be retriggered in FREE GAMES.";
+"wildalaska.pt.free.game.inst" = "Each landed AURORA symbol will stick in place on a glass screen above the bottom one. In additional to spin wins, AURORA line wins will be paid upon 15 AURORA are collected on the glass screen during free spins or an extra pay of TOTAL BET x number of remaining AURORA will be rewarded if less than 15 AURORA landed on the top screen at the end of FREE GAMES; the glass screen will be reset when either win is paid.";
+
+"formosanbirds.paytable.wild" = "WILD substitutes for all symbols except SCATTER and other WILD.";
+"formosanbirds.paytable.wild.1" = "Appearing in BASE GAMES and FREE GAMES.";
+"formosanbirds.paytable.wild.2" = "Appearing in FREE GAMES only.";
+"formosanbirds.paytable.scatter" = "3, 4 or 5 SCATTER symbols appearing in any position awards 10, 15 or 20 free spins.";
+"formosanbirds.paytable.free.game.feature" = "Each landed WILD from spin will fly away and bring back another WILD; the original WILD will fly back to where it was and the brought WILD will land at random position on where no WILD symbol appears. Scatter win will be paid separately even though SCATTER symbol(s) are replaced by the brought WILD(s).";
+
+"START" = "START";
+"CLOSE" = "CLOSE";
+
+"luxurygarage.paytable.free.game.instruction" = "3 or more scatter symbols trigger FREE GAMES feature. Before starting the FREE GAMES Feature, pick one of the following feature characteristics:";
+
+"yamato.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"yamato.paytable.scatter" = "During BASE GAMES, 3 or more SCATTER symbols trigger a fortune wheel mini game to get chance of winning mysterious jackpot, FREE COINS or FREE GAMES. FREE GAMES cannot retrigger during FREE GAMES.";
+"yamato.canon.inst" = "When one or more canons fire, a mysterious multiplier may be applied to the corresponding line wins.";
+
+"sns.game.control.button.left" = "LEFT";
+"sns.scat.inst" = "During BASE GAMES, 3, 4, 5 or 6 SCATTER symbols appearing from leftmost to right triggers 10, 15, 20 or 25 free spins. FREE GAMES cannot be triggered in respin(s) nor retriggered during FREE GAMES.";
+"sns.intro.button.downcount" = "After ${sec}";
+"sns.scat.wild.1" = "WILD substitutes for all symbols except SCATTER.";
+"sns.scat.wild.2" = "Landing three consecutive WILD symbols on a reel will lock the reel and respin all free reels. The same process will repeat during respin until no more consecutive WILD symbols landed.\nLanding 6 stack WILD on a screen during spin and subsequent respins may trigger mysterious jackpot bonus.";
+"sns.fg.mul" = "All wins in FREE GAMES are multiplied by 4x.";
+
+"landofgold.intro.description" = "${numfs} FREE SPINS\nX\n${numMulti} MULTIPLIER";
+"landofgold.intro.button.downcount" = "After ${sec}";
+"landofgold.pt.wild" = "WILD substitutes for all symbols except BONUS.";
+"landofgold.paytable.scatter" = "During BASE GAMES, 3 or more BONUS symbols will trigger a fortune wheel mini game to get chance of winning mysterious JACKPOT, FREE COINS or FREE GAMES. FREE GAMES cannot retrigger during FREE GAMES.";
+
+"aurora.paytable.scatter" = "During BASE GAMES, 3 or more SCATTER symbols trigger a fortune wheel mini game to get chance of winning mysterious JACKPOT, FREE COINS or FREE GAMES. FREE GAMES cannot retrigger during FREE GAMES.";
+"aurora.intro.button.downcount" = "After ${sec}";
+
+"intro.button.downcount" = "Auto Start After ${sec} Seconds";
+"bonus.downcount" = "Auto Play Afer ${sec} Seconds";
+
+"secretgirls.paytable.scatter" = "During BASE GAMES, 3 or more SCATTER symbols trigger a pick-and-match mini game to get some FREE GAMES or mysterious JACKPOT. FREE GAMES cannot retrigger during FREE GAMES. Matching 2 symbols of the same kind to win:";
+"secretgirls.paytable.fg" = "The following symbols will not appear in FREE GAMES:";
+"secretgirls.paytable.scatter.1" = "5 free spins";
+"secretgirls.paytable.scatter.2" = "10 free spins";
+"secretgirls.paytable.scatter.3" = "15 free spins";
+"secretgirls.paytable.scatter.4" = "20 free spins";
+"secretgirls.paytable.scatter.5" = "mysterious jackpot";
+
+"seastory.paytable.scatter" = "3/4/5 SCATTER symbols trigger 15/20/25 free games. FREE GAMES can be retriggered during FREE GAMES.";
+"seastory.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"seastory.paytable.multiplier" = "Random multiplier of 1x/2x/3x/4x will be awarded to each spin win by missile shooting event in BASE GAMES and FREE GAMES.";
+"seastory.tutorial.wheel" = "Mini Wheel: Mini wheel that draws by spin button click.\n- The payout line will increase as much as the draw result";
+"seastory.tutorial.jackpot" = "Mystery Jackpot : The amount of mystery jackpots  accumulated in the slot. If the background changes, I might get it!";
+
+"lastfantasy.paytable.jackpot" = "During BASE GAMES, 5 consecutive CROWN symbols on any active line may trigger mysterious jackpot.";
+"lastfantasy.paytable.scatter" = "3/4/5 SCATTER symbols trigger 15/20/25 free games. FREE GAMES can be retriggered during FREE GAMES.";
+"lastfantasy.paytable.wild" = "WILD substitutes for all symbols except SCATTER and CROWN symbol.";
+"lastfantasy.paytable.stackwild" = "There is chance to obtain 1/2/3 stack WILD(s) in the middle 3 reels. When 1/2/3 stack WILD(s) landed, any winning of the following symbols will be multiplied by 2x/3x/4x.";
+
+"pirate.paytable.scatter" = "During BASE GAMES, 3 or more SCATTER symbols trigger a fortune wheel mini game to get chance of winning mysterious JACKPOT, FREE COINS or FREE GAMES. FREE GAMES cannot retrigger during FREE GAMES.";
+"pirate.paytable.parrot" = "When a PARROT symbol landing on the bottom of the 2nd/3rd/4th reel, the corresponding reel becomes whole WILD for that spin.";
+"pirate.paytable.wild" = "WILD substitutes for all symbols except SCATTER and PARROT symbol.";
+"pirate.intro.description" = "${numfs} FREE SPINS\nX\n${numMulti} MULTIPLIER";
+
+"fortunes88.paytable.wild" = "WILD substitutes for all symbols except SCATTER symbol.";
+"fortunes88.paytable.betlevel.label" = "BET LEVEL";
+"fortunes88.paytable.betlevel.1" = "LEVEL 1";
+"fortunes88.paytable.betlevel.2" = "LEVEL 2";
+"fortunes88.paytable.betlevel.3" = "LEVEL 3";
+"fortunes88.paytable.betlevel.4" = "LEVEL 4";
+"fortunes88.paytable.betlevel.5" = "LEVEL 5";
+"fortunes88.paytable.betlevel.inst" = "Select the side bet level to switch the silver symbol to golden one for higher pay:";
+"fortunes88.paytable.scatter" = "3/4/5 SCATTER symbols trigger 10 free games. The following symbols will not appear in FREE GAMES:";
+"fortunes88.antebet.tutorial" = "Credits: Can bet a higher amount by activating a silver coin.";
+
+"paytable.game.tutorial.title" = "HOW TO PLAY";
+"beteast.tutorial.mute" = "MUTE : Button Click then can select all sound / BGM mute";
+"beteast.tutorial.info" = "INFO: Slot Information";
+"beteast.tutorial.lines" = "LINES : Can change the quantity of paylines to bet.\n(refer paytable)";
+"beteast.tutorial.bet" = "BET : Can change the multiplied of paylines to bet.";
+"beteast.tutorial.denom" = "DENOM : Can change the bet amount.";
+"beteast.tutorial.totalbet" = "TOTAL BET : Displays the amount of betting to be used for once spin.\n- Lines X Denom X Bet = Total Bet";
+"beteast.tutorial.balance" = "BALANCE : Current your coin amount";
+"beteast.tutorial.maxbet" = "MAX BET : Will use maximum amount to once spin will be possible.\n※ The betting history will be memorized after once";
+"beteast.tutorial.auto" = "AUTO: Click to start auto spin by selected counts.\n- The options display if you can.";
+"beteast.tutorial.spin" = "SPIN: Click to start one spin.\n- After spin, change to Stop button, click to stop spin.";
+
+"fruitparty.flower.bonus" = "FRUIT BASKET BONUS";
+"fruitparty.bp.instruction.1" = "PICK A FRUIT BASKET TO REVEAL A COIN REWARD";
+"fruitparty.bp.instruction.2" = "PICK A FRUIT BASKET TO REVEAL A MULTIPLIER";
+"fruitparty.pt.wild" = "WILD substitutes for all symbols except for SPIN. All line wins containing WILD substitutes pay 2x.";
+"fruitparty.pt.spin" = "SPIN appears on reels 2, 3, and 4 and will spin the bonus reel directly above into a new position.";
+"fruitparty.pt.x2" = "X2 substitutes for all Bonus Reel symbols except BONUS. All bonus wins containing X2 substitutes pay 2x for each substitute.";
+"fruitparty.pt.bonus" = "3 BONUS symbols appearing in the Bonus Reel triggers the Fruit Basket Bonus.";
+"fruitparty.pt.bonus.1" = "Touch a fruit basket to reveal a coin reward. Then touch a second fruit basket to reveal a multiplier.";
+"fruitparty.pt.bonus.reel" = "The Bonus Reels are the 3 reels found above the base game reels.";
+"fruitparty.pt.bonus.reel.align" = "A Bonus Reel is spun when a SPIN symbol lands on the base game reel directly below a bonus reel.";
+"fruitparty.pt.bonus.reel.how" = "Line up 3 Bonus Reel symbols to win.";
+"fruitparty.pt.bonus.reel.win" = "All Bonus Reel wins are paid in addition to any base game line wins.";
+
+"enchanted.scat.inst" = "3/4/5 SCATTER symbols landing on base spin, excluding respins, trigger 15/20/25 free games. FREE GAMES can be retriggered during FREE GAMES; It is possible to win up to at max 100 free spins per set of FREE GAMES.";
+"enchanted.scat.bonus" = "During BASE GAMES, 4 or more BONUS symbols landing anywhere on base spin, excluding respins, triggers a fortune wheel game to get chance of winning mysterious JACKPOT, FREE COINS or FREE GAMES.";
+"enchanted.wild.inst" = "WILD substitutes for all symbols except SCATTER.";
+"enchanted.stack.inst" = "Stacking any 3 above like symbol on a reel to get a giant WILD.";
+"enchanted.stack.inst2" = "All reels with giant WILD landed will be locked and respin the rest reel(s) until no more new giant WILD landed.";
+
+"alice.intro.description" = "${numfs} FREE SPINS\nX\n${numMulti} MULTIPLIER";
+"alice.pt.random.multiplier.title" = "RANDOM MULTIPLIER(S)";
+"alice.random.multiplier" = "During BASE GAMES or FREE GAMES, a random multiplier is selected to apply on each spin and all subsequent cascading spins.";
+"alice.paytable.0.wild" = "WILD substitutes for all symbols except SCATTER.";
+"alice.pt.cascade.feature.title" = "CASCADING FEATURE";
+"alice.pt.cascade.instruction.1" = "All symbols contributed to a line or scatter win will be eliminated after rewarding;";
+"alice.pt.cascade.instruction.2" = "The reels symbols will fall into place as if dropped from above to fill the spots;";
+"alice.pt.cascade.instruction.3" = "The cascaded screen will be evaluated for winning again and all pay will be added to the total win;";
+"alice.pt.cascade.instruction.4" = "The cascading process continue until no more winning available on the resulting screen.";
+"alice.pt.cascade.instruction.5" = "3 or more scatters will not trigger wheel bonus game during cascading.";
+"alice.paytable.scatter" = "During BASE GAMES, 3 or more scatters landing in base spin will trigger a wheel bonus game:";
+
+"yuncaitongzi.pt.wild" = "WILD substitutes for all symbols except SCATTER";
+"yuncaitongzi.pt.scatter" = "3 or more scatters landing anywhere will trigger 18 free games.";
+"yuncaitongzi.pt.feature.title" = "EXPANDING WILD FEATURE";
+"yuncaitongzi.pt.exp.WILD.feature" = "Two WILDs landing on top and bottom on 2nd/3rd/4th reel expanding the reel into all WILDs.";
+
+"millionaires.gig.paytable.any.three" = "ANY THREE";
+"millionaires.gig.paytable.any.two" = "ANY TWO";
+"millionaires.gig.paytable.any.one" = "ANY ONE";
+"millionaires.gig.paytable.any.bars" = "ANY MIXED CASH STACK";
+"millionaires.gig.paytable.crown.four" = "FOUR";
+"millionaires.gig.paytable.crown.any.four.7" = "ANY FOUR";
+"millionaires.gig.paytable.any.symbol" = "ANY SYMBOL";
+"millionaires.gig.paytable.in.diamond.line" = "Landing any combination of 4 DIAMOND's on the DIAMOND LINE and a BLANK in the middle to win the corresponding DIAMOND-LINE pay.\nall other win combiantions pay on the central line only";
+"millionaires.gig.paytable.in.diamond.diamond" ="DIAMOND";
+"millionaires.paytable.any.mixed" = "ANY MIXED";
+"millionaires.paytable.scatter.bonus.title" = "GAME-in-GAME SCATTER BONUS";
+"millionaires.paytable.scatter.bonus.inst.1" = "ANY 3 or more ";
+"millionaires.paytable.scatter.bonus.inst.2" = "initiates the GAME-in-Game SCATTER BONUS";
+"millionaires.paytable.scatter.bonus.inst.3" = "initiates one spin from each 3 reel game displayed";
+"millionaires.paytable.scatter.bonus.inst.4" = "Scatter wins pay in any position";
+"millionaires.paytable.scatter.bonus.inst.5" = "Scatter win pays are added to line pays";
+"millionaires.paytable.scatter.bonus.payline.1" = "Game-in-Game Payline";
+"millionaires.paytable.scatter.bonus.payline.inst.1" = "ALL ONE-LINE GAMES";
+"millionaires.paytable.scatter.bonus.payline.inst.2" = "CENTRAL PAYLINE ONLY";
+"millionaires.paytable.scatter.bonus.crown.payline.inst.1" = "Diamond Payline";
+"millionaires.paytable.phoenix.feature.symbol.inst.1.1" = "Any win with 1";
+"millionaires.paytable.phoenix.feature.symbol.inst.1.2" = "substituted pays 2x";
+"millionaires.paytable.phoenix.feature.symbol.inst.2.1" = "Any win with 2";
+"millionaires.paytable.phoenix.feature.symbol.inst.2.2" = "substituted pays 4x";
+"millionaires.paytable.dragon.feature.symbol.inst.1.1" = "Any win with 1";
+"millionaires.paytable.dragon.feature.symbol.inst.1.2" = "substituted pays 3x";
+"millionaires.paytable.dragon.feature.symbol.inst.2.1" = "Any win with 2";
+"millionaires.paytable.dragon.feature.symbol.inst.2.2" = "substituted pays 9x";
+"millionaires.paytable.flaming7x.feature.symbol.inst.1.1" = "Any win with 1";
+"millionaires.paytable.flaming7x.feature.symbol.inst.1.2" = "substituted pays 7x";
+"millionaires.paytable.flaming7x.feature.symbol.inst.2.1" = "Any win with 2";
+"millionaires.paytable.flaming7x.feature.symbol.inst.2.2" = "substituted pays 49x";
+"millionaires.paytable.feature.symbol.inst.1.1" = "Winning of 3 ";
+"millionaires.paytable.feature.symbol.inst.1.2" = "awards the pay only but without multiplier";
+
+"originoffire.paytable.0.inst.3" = "All wins in the FREE GAMES Feature are multiplied by 3x or 5x.";
+"originoffire.paytable.1.wild" = "WILD substitutes for all symbols except SCATTER. During the FREE GAMES Feature, all WILD substituted wins are multiplied by 5x.";
+"originoffire.paytable.1.scatter" = "3 SCATTER symbols appearing from leftmost reel to right awards 11 free games.";
+
+"candystorm.paytable.perline.bidir" = "All symbols pay left to right and/or right to left on active paylines.";
+"candystorm.paytable.perline.bidir2" = "All 5-of-a-kind line wins pay left to right only.";
+"candystorm.paytable.perline" = "All wins are multiplied by the perline bet.";
+"candystorm.paytable.exp.wild.title" = "EXPANDING WILD FEATURE";
+"candystorm.paytable.exp.wild" = "WILD substitutes for all symbols.\nLanding a WILD on 2nd/3rd/4th reel turning the reel into all WILD.";
+"candystorm.paytable.respin" = "WILD reel will be held and other reels will respin once.";
+
+"misstiger.pt.wild" = "WILD substitutes for all symbols except SCATTER.";
+"misstiger.pt.scatter" = "SCATTER only appears in the middle 3 reels; landing 3 SCATTER symbols anywhere awards 15 free spins. FREE GAMES cannot be retriggered in FREE GAMES.";
+"misstiger.respin.cost" = "TOUCH\nTHE REEL\nTO RESPIN\n\nCOST";
+"misstiger.super.scatter.title" = "SUPER FREE GAME FEATURE";
+"misstiger.super.scatter.inst" = "Landing two SCATTER symbols any position of the middle reels will trigger a chance to purchase to respin the reel without SCATTER to win 20 FREE GAMES and random multipliers 1x, 2x, 3x, 5x or 8x for each free spin.";
+"misstiger.super.freespins" = "SUPER FREE GAMES";
+
+"fluffybuddy.pt.cascade.feature.title" = "CASCADING FEATURE";
+"fluffybuddy.pt.cascade.instruction.1" = "All symbols contributed to any win will be eliminated after rewarding;";
+"fluffybuddy.pt.cascade.instruction.2" = "The reels symbols will fall into place as if dropped from above to fill the spots;";
+"fluffybuddy.pt.cascade.instruction.3" = "The cascaded screen will be evaluated for winning again and all pay will be added to the total win;";
+"fluffybuddy.pt.cascade.instruction.4" = "The cascading process continue until no more winning obtained on the current resulting screen.";
+"fluffybuddy.pt.free.games.trigger" = "In BASE GAMES, landing 3, 4, or 5 SCATTER symbols anywhere on the first spin of each game awards 15, 20, or 25 FREE GAMES. FREE GAMES cannot retrigger during FREE GAMES.";
+"fluffybuddy.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"fluffybuddy.pt.crushing.feature.title" = "BUDDIES CRUSHING FEATURE";
+"fluffybuddy.pt.crushing.instruction.1" = "There is a chance to transform all symbols in one of the last 3 reels into a stack of WILD symbols during BASE GAMES.";
+"fluffybuddy.pt.fgmul.feature.title" = "LADDER MULTIPLIER FEATURE";
+"fluffybuddy.pt.fgmul.instruction.1" = "During FREE GAMES, each succeeding cascading winning in base spin will be awarded a ladder multiplier from 2x, 3x, 5x, 8x to at max 10x.";
+
+"royaldemeanor.stop.stack" = "PRESS STOP TO PICK A FREE GAME SUPER STACK SYMBOL";
+"royaldemeanor.stack.symbol.is" = "USING AS FREE GAME SUPER STACK SYMBOL";
+"royaldemeanor.scat.inst.1" = "In BASE GAMES, landing 9 SCATTERS in the middle 3 reels awards 12 free spins.";
+"royaldemeanor.scat.inst.2" = "One of four random symbols is selected as the super-stack symbol throughout the FREE GAMES.";
+"royaldemeanor.scat.inst.3" = "In FREE GAMES, landing any 3 SCATTERS triggers 12 free spins.";
+"royaldemeanor.pt.wild" = "WILD substitutes for all symbols except SCATTER.";
+
+"ufo.paytable.1.wild" = "WILD substitutes for all symbols except SCATTER. During FREE GAMES, landed WILDs remain in position until all FREE GAMES are complete.";
+"ufo.paytable.1.scatter" = "3 scatter symbols anywhere on the reels activates 10 free spins. The FREE GAMES Feature can only be retriggered once with 5 more free spins per set of FREE GAMES.";
+
+"yugong.pt.wild" = "WILD substitutes for all symbols except SCATTER.";
+"yugong.pt.scatter.feature" = "SCATTER WIN FEATURES";
+"yugong.pt.scatter" = "In BASE GAMES, 3, 4 or 5 SCATTER symbols appearing in any position awards SCATTER win and triggers 15 free spins. FREE GAMES cannot be retriggered in FREE GAMES.";
+"yugong.pt.scatter.2" = "During FREE GAMES, 3/4/5 SCATTER wins are pay 3x/4x/5x of that in BASE GAMES; landing 2 SCATTER will be rewarded in FREE GAMES only.";
+
+"quickplayjewels.paytable.ways.instruction" = "All symbols pay left to right on active positions.";
+"quickplayjewels.perway.instruction" = "All wins are multiplied by the per ways bet.";
+"quickplayjewels.pt.wild" = "WILD must land on 2nd and/or 3rd reels in order for WILD to substitute for all symbols.";
+"quickplayjewels.pt.wild.2" = "WILD only appearing on the 1st reel will not substitute for other symbols.";
+
+"tao.intro.free.games" = "FREE GAMES";
+"tao.outro.free.games.bonus" = "FREE GAMES BONUS";
+"tao.paytable.game.rules.title" = "GAME RULES";
+"tao.pt.elements.label" = "THE ELEMENTS";
+"tao.game.control.button.pay.table" = "PAY TABLE";
+"tao.game.control.label.lines" = "LINES";
+"tao.paytable.jackpot.title" = "SLOTS PALACE LINKED JACKPOT";
+"tao.free.game.outro.you.win" = "YOU WON";
+"tao.bonus.win.better.luck.next.time" = "BETTER LUCK\nNEXT TIME";
+
+"wencheng.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"wencheng.pt.scatter.inst" = "In BASE & FREE GAMES, 3, 4 or 5 SCATTER anywhere on the reels awards 10, 15, or 20 free games; FREE GAMES can retrigger during FREE GAMES; In FREE GAMES, 2 SCATTER anywhere on the reels will not pay but award 5 additional free spins.";
+"wencheng.paytable.expanding.wild" = "EXPANDING WILD";
+"wencheng.paytable.expanding.wild.inst" = "In BASE GAMES & FREE GAMES, when a WILD landing on the 2nd/3rd/4th reel, there is a chance to expand the whole reel into a stack of WILD symbols in that spin.";
+"wencheng.paytable.combined.feature" = "DOUBLE WIN FEATURE";
+"wencheng.paytable.combined.inst" = "In BASE GAMES & FREE GAMES, the following symbol pays multiplier of 2x when any WILD contributes to the win.";
+
+"apes.paytable.1.wild" = "WILD substitutes for all symbols except SCATTER.";
+"apes.paytable.1.scatter" = "Landing 3 or more SCATTER symbols anywhere during BASE GAMES awards 15 free spins; FREE GAMES cannot retrigger during FREE GAMES.";
+"apes.paytable.free.game.mul.inst" = "During FREE GAMES, when the middle 3 reels are filled with one of the following symbols, all symbols in the middle reels will be replaced with a giant symbol along with a guaranteed line win and mysterious multiplier.";
+
+"goldenshanghai.pt.wild" = "WILD substitutes for all symbols except SCATTER and pays 2x for any WILD substituted wins (excluding line wins with WILD only).";
+"goldenshanghai.pt.scatter" = "Landing 3 or more SCATTER symbols anywhere awards 15 free spins; FREE GAMES can be retriggered up to 250 FREE GAMES. All wins pay 3x for any non-WILD substituted lines or 6x for any WILD-substituted lines (excluding line wins with WILD only).";
+
+"boytoys.paytable.paylines.instruction" = "All symbols pay left to right on active paylines.";
+"boytoys.paytable.perline.instruction" = "All wins are multiplied by the perline bet.";
+"boytoys.paytable.wild" = "Landing WILD on one of the middle reels to turn the reel into full-height WILD.";
+"boytoys.paytable.expanding.wild" = "STICKY WILD AND RESPIN FEATURES";
+"boytoys.paytable.sticky.wild" = "Any full-height WILD will be sticky on screen at max 3 times if new full-height WILD landed in preceding spin;\nLanding one full-height WILD will respin reels without full-height WILD once; landing a new full-height WILD during respin awards 5 FREE SPINS;\nLanding two full-height WILDs award 5 FREE SPINS, any newly landed full-height WILD will award an additional free spin;\nThere is chance to gain up to 20 consecutive win spins.";
+"boytoys.free.game.indicator" = "FREE\nSPINS";
+"boytoys.free.spins.trigger.announcement" = "WON ${numFreeGames} FREE SPINS!";
+"boytoys.free.spins.retrigger.announcement" = "WON ${numFreeGames} MORE FREE SPIN!";
+
+"party.girl.paytable.scatter" = "During BASE GAMES, landing 5 or more SCATTER symbols anywhere awards 10 free spins;\nFREE GAMES can be retriggered once in FREE GAMES.";
+"party.girl.paytable.fg.feature" = "FREE GAME FEATURE";
+"party.girl.paytable.fg.inst.1" = "If FREE GAMES are triggered by 5 SCATTER symbols, the multiplier is initialized to 1x with increment of 1x upon each spin.";
+"party.girl.paytable.fg.inst.2" = "If FREE GAMES are triggered by 6 SCATTER symbols, the multiplier is initialized to 2x with increment of 2x upon each spin.";
+"party.girl.paytable.fg.inst.3" = "If FREE GAMES are triggered by 7 SCATTER symbols or more, the multiplier is initialized to 3x with increment of 3x upon each spin.";
+"party.girl.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"party.girl.intro.multiplier" = "Each spin multiplier will be increased by ${mul}X";
+
+"fortunepiggybank.pt.wild" = "WILD substitutes for symbols except SCATTER.";
+"fortunepiggybank.pt.scatter" = "Landing 3/4/5 SCATTER symbols anywhere during BASE GAMES awards 18/28/38 free spins; FREE GAMES cannot be retriggered during FREE GAMES.";
+
+"threegods.paytable.paylines.instruction" = "All symbols pay left to right on active paylines.";
+"threegods.paytable.perline.instruction" = "All wins are multiplied by the perline bet.";
+"threegods.wild.inst" = "WILD (Fu/Lu/Shou) appearing in 1st/2nd/3rd reel separately. WILD substitutes for all symbols.";
+"threegods.feature.title" = "FEATURES";
+"threegods.feature.1.title" = "1 BET 2 GAMES";
+"threegods.feature.1.inst" = "Place 1 bet to play 2 individual 3x3 line games; each game plays and pays independently.";
+"threegods.feature.2.title" = "DUPLICATE WILD";
+"threegods.feature.2.inst" = "When any full-height WILD landing in any reel on one game will copy to the corresponding reel on the other game.";
+
+"livestreamingstar.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"livestreamingstar.paytable.scatter" = "Landing 3 or more SCATTER symbols anywhere during BASE GAMES awards 15 free spins; FREE GAMES cannot be retriggered during FREE GAMES.";
+"livestreamingstar.paytable.free.game.feature" = "During FREE GAMES, winning above symbols will award multiplier of 8x, 7x, 6x, 5x, 4x, 3x, 2x separately.";
+
+"fastbreak.pt.cascade.feature.title" = "CASCADING FEATURE";
+"fastbreak.pt.cascade.instruction.1" = "All symbols contributed to any win will be eliminated after rewarding;";
+"fastbreak.pt.cascade.instruction.2" = "The reels symbols will fall into place as if dropped from above to fill the spots;";
+"fastbreak.pt.cascade.instruction.3" = "The cascaded screen will be evaluated for winning again and all pay will be added to the total win;";
+"fastbreak.pt.cascade.instruction.4" = "The cascading process continue until no more winning obtained on the current resulting screen.";
+"fastbreak.pt.free.games.trigger" = "In BASE GAMES, landing 3, 4, or 5 SCATTER symbols anywhere on the first spin of each game awards 15, 20, or 25 FREE GAMES; FREE GAMES cannot retrigger during FREE GAMES.";
+"fastbreak.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"fastbreak.pt.crushing.feature.title" = "MONSTER JAM FEATURE";
+"fastbreak.pt.crushing.instruction.1" = "There is a chance to transform all symbols in one of the last 3 reels into a stack of WILD symbols during BASE GAMES.";
+"fastbreak.pt.fgmul.feature.title" = "LADDER MULTIPLIER FEATURE";
+"fastbreak.pt.fgmul.instruction.1" = "During FREE GAMES, each succeeding cascading winning in base spin will be awarded a ladder multiplier from 2x, 3x, 5x, 8x to at max 10x.";
+
+"caiyuanguangjin.paytable.ways.instruction" = "All symbols pay left to right on active positions.";
+"caiyuanguangjin.paytable.1.wild" = "WILD substitutes for all symbols except SCATTER. During Free Game spins, WILD substituting wins are multiplied by 3x, 6x or 8x for each WILD in the winning combination.";
+"caiyuanguangjin.paytable.1.scatter" = "3, 4, or 5 adjacent left to right SCATTER symbols starting from the 1st reel awards 8, 10, or 16 free games.";
+
+"horoscope.paytable.1.wild" = "WILD substitutes for all symbols except SCATTER.";
+"horoscope.paytable.free.game.mul.inst" = "During FREE GAMES, there is chance to win a mysterious mulitplier (2x to 5x) for one of winning symbols on active way(s).";
+"horoscope.paytable.1.scatter" = "Landing 3/4/5 SCATTER symbols in BASE GAMES to award 20/25/30 FREE GAMES.";
+
+"sevenheroines.paytable.ways.instruction" = "All symbols except SCATTER pay left to right on active positions.";
+"sevenheroines.paytable.0.wild" = "Both the following WILDs substitute for all symbols except SCATTER; WILD does not substitute itself or other WILD.";
+"sevenheroines.paytable.1.wild" = "This WILD counts one replaced symbol in substitution.";
+"sevenheroines.paytable.2.wild" = "This WILD counts two replaced symbols in substitution.";
+"sevenheroines.paytable.1.scatter" = "Landing 3 or more SCATTER symbols in BASE GAME award 7 FREE GAMES; FREE GAMES cannot retrigger during FREE GAMES.";
+"sevenheroines.paytable.fg.inst" = "On each spin during FREE GAMES, only one symbol of 7 heroines and the corresponding non-pay dynasty symbol will be in play; the middle reel will be filled with an expanded symbol of the same heroine for that spin. Win multiplier will be 1x to 7x at random.";
+
+"artiststudio.paytable.fg.multiplier" = "All wins in FREE GAMES Feature are multiplied by 3x.";
+"artiststudio.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"artiststudio.pt.scatter.inst" = "Landing 5/6/7/8 or 9 more SCATTER symbols during spin and/or respins to award 10/15/20/25 or 30 FREE GAMES. FREE GAMES can be retriggered during FREE GAMES.";
+"artiststudio.paytable.sticky.win" = "ACCUMULATE WIN";
+"artiststudio.paytable.sticky.win.inst" = "Obtaining any line win and/or 3 or more SCATTER symbols to trigger the ACCUMULATE WIN feature;\nThe reels with winning symbols, including the case with 3 or more SCATTER symbols, are held and all other reels re-spin for a chance of bigger win;\nThe reels keep re-spinning as long as there are new wins or more SCATTER symbols;\nWhen there is no new wins obtained and no more SCATTER symbols landed, ACCUMULATE WIN feature ends, all active wins are paid and/or FREE GAMES feature is triggered if available.";
+
+"greatvoyages.pt.wild" = "WILD substitutes for all symbols except SCATTER.";
+"greatvoyages.pt.scatter" = "SCATTER only appears on 2nd reel through 6th reel during BASE GAMES and on 1st reel through 5th reel during FREE GAMES. Landing 3/4/5 SCATTER symbols to award 10/25/50 FREE GAMES. 3 SCATTER symbols will only award 10 free spins but no pay.";
+"greatvoyages.pt.reel" = "The reels layout and lines configuration used in FREE GAMES are mirror reflection of those used in BASE GAMES.";
+"base.game.label.lines" = "LINES IN BASE GAMES";
+"free.game.label.lines" = "LINES IN FREE GAMES";
+"greatvoyages.pt.s1" = "During FREE GAMES, landing portion of stacked ZHENG HE symbols will nudge the ZHENG HE symbol(s) to fill the entire reel.";
+"greatvoyages.pt.s2" = "During BASE GAMES and FREE GAMES, any reel entirely filled with stacked ZHENG HE symbols will trun into a full-reel height ZHENG HE symbol, which will act as WILD.";
+
+"fastblast.paytable.paylines.instruction" = "All symbols except SCATTER('FREE BONUS GAME' and 'FAST BLAST' symbol) pay left to right on active paylines.";
+"fastblast.paytable.perline.instruction" = "All wins except SCATTER('FREE BONUS GAME' and 'FAST BLAST' symbol) are multiplied by the perline bet.";
+"fastblast.paytable.scatter.instruction" = "'FREE BONUS GAME' and 'FAST BLAST' symbol wins are multiplied by the total bet.";
+"fastblast.pt.wild" = "WILD substitutes for all symbols except 'FREE BONUS GAME' and 'FAST BLAST' symbol.";
+"fastblast.pt.free.game.symbol" = "Landing 3 'FREE BONUS GAME' symbols in BASE GAMES to trigger a PICK-and-MATCH game with FREE GAMES and multiplier rewarded;\nFREE GAMES can be retriggered up to total 50 free spins per set of FREE GAMES during FREE GAMES;\nUpon retrigger, it will award the same multiplier and same number of free spins as in the initiated set of FREE GAMES or number of spins add up to total 50 free spins.";
+"fastblast.bp.title" = "PICK-and-MATCH Bonus";
+"fastblast.intro.description" = "${numfs} FREE SPINS\nX\n${numMulti} MULTIPLIER";
+"fastblast.bp.instruction" = "PICK UNTIL 3 MATCHED SYMBOLS!";
+"fastblast.pt.bp.instruction" = "Pick to reveal one covered symbol at a time, the bonus game concludes when 3 like symbols or 2 likes symbols along with a WILD are obtained;\nAt the end of the bonus game, the same amount of free spins as shown in the matched symbols will be rewarded and FREE GAMES is initiated;\n All FREE GAMES will be awarded by multiplier of 3x if the matched symbols are of 'FREE GAME x20' with or without WILD, and multiplier of 2x with all other matched symbols.";
+"fastblast.pt.bp.wild.inst" = "During the PICK-and-MATCH game, WILD substitutes for any above symbols, each landed WILD will award 5 more free spins additional to the number of free spins revealed in the match symbols in the initiate FREE GAMES;\nIf more than one matched combination are obtained due to WILD, the one with theoretical highest expected payback will be chosen as the winning combination.";
+
+"africarun.pt.wild" = "WILD substitutes for all symbols except SCATTER. In FREE GAMES, a WILD is added to reels 2, 3, 4 and 5 before each spin.";
+"africarun.pt.scatter" = "3 SCATTER symbols anywhere on the reels wins 10 free games or 5 more free games if retriggered. FREE GAMES can only be retriggered once.";
+
+"rarities.pt.scatter.1" = "3 SCATTER symbols landing on reels 2, 3 and 4, it is possible to win 8, 15 or 20 free games.";
+"rarities.pt.scatter.2" = "FREE GAMES cannot be retriggered.";
+
+"snowleopards.pt.wild" = "WILD substitutes for all symbols except SCATTER.";
+"snowleopards.pt.scatter" = "3 SCATTER symbols anywhere on the reels wins 15 free games.";
+
+"route66.pt.wild" = "WILD substitutes for all symbols except SCATTER. During FREE GAMES, each landed WILD adds a multiplier of 2x or 3x to all wins for that spin except only scatter win appears; all individual multipliers multiply.";
+"route66.pt.scatter" = "During BASE GAMES, 3, 4, or 5 SCATTER symbols anywhere on the reels triggers 8, 15, or 20 free games. During FREE GAMES, 2, 3, 4, or 5 SCATTER symbols anywhere on the reels adds 5, 8, 15, or 20 more free games.";
+
+"jellymania.paytable.bonus.reel" = "BONUS REEL";
+"jellymania.paytable.0.bonus.reel" = "The center symbol of the BONUS REEL triggers additional features for a spin.";
+"jellymania.paytable.0.bonus.reel.m3" = "Multiplies all wins by 3x for that spin.";
+"jellymania.paytable.0.bonus.reel.m6" = "Multiplies all wins by 6x for that spin.";
+"jellymania.paytable.0.bonus.reel.ft" = "Pays additional 1x total bet and awards 8 free games.";
+"jellymania.paytable.0.bonus.reel.rl" = "Wins any additional line wins from right to left.";
+"jellymania.paytable.0.bonus.reel.ew" = "Any WILDs on reels 1-5 will expand to cover that entire reel.";
+"jellymania.paytable.0.bonus.reel.m10" = "Multiplies all wins by 10x for that spin";
+"jellymania.paytable.scatter" = "3, 4 or 5 scatter symbols anywhere on the reels awards 8 free games.";
+"jellymania.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+
+"egyptianmythology.pt.scatter.1" = "3, 4 or 5 SCATTER symbols appearing in any position awards 20, 25 or 30 free games.";
+"egyptianmythology.pt.mul2x" = "WILD substituted wins for these symbols are multiplied by 2x.";
+
+"quickplaycandy.pt.wild" = "WILD substitutes for all symbols.";
+"quickplaycandy.pt.highest" = "Only the highest win is paid for each valid way, and";
+"quickplaycandy.pt.highest.1" = "1) 2-of-a-kind symbol will not pay if 3-of-a-kind same symbol is won in spin, and\n2) WILD substitution is activated per valid way only if higher pay is obtained.";
+
+"goldenball.pt.cascade.feature.title" = "CASCADING FEATURE";
+"goldenball.pt.cascade.instruction.1" = "All symbols contributed to any win will be eliminated after rewarding;";
+"goldenball.pt.cascade.instruction.2" = "The reels symbols will fall into place as if dropped from above to fill the spots;";
+"goldenball.pt.cascade.instruction.3" = "The cascaded screen will be evaluated for winning again and all pay will be added to the total win;";
+"goldenball.pt.cascade.instruction.4" = "The cascading process continue until no more winning obtained on the current resulting screen.";
+"goldenball.pt.free.games.trigger" = "In BASE GAMES, landing 3, 4, or 5 SCATTER symbols anywhere on the first spin of each game awards 15, 20, or 25 FREE GAMES; FREE GAMES cannot retrigger during FREE GAMES.";
+"goldenball.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"goldenball.pt.crushing.feature.title" = "GOAL!!! FEATURE";
+"goldenball.pt.crushing.instruction.1" = "There is a chance to transform all symbols in one of the last 3 reels into a stack of WILD symbols during BASE GAMES.";
+"goldenball.pt.fgmul.feature.title" = "LADDER MULTIPLIER FEATURE";
+"goldenball.pt.fgmul.instruction.1" = "During FREE GAMES, each succeeding cascading winning in base spin will be awarded a ladder multiplier from 2x, 3x, 5x, 8x to at max 10x.";
+
+"richsquire.paytable.paylines.instruction" = "All symbols pay left to right on active paylines.";
+"richsquire.paytable.perline.instruction" = "All wins are multiplied by the perline bet.";
+"richsquire.pt.wild" = "WILD substitutes for all symbols. During BASE GAMES, there is chance to transform one or more reels in 2nd/3rd/4th/5th reels into stack(s) of WILD symbols in the first spin of each game.";
+"richsquire.pt.fever.title" = "FEVER GAMES";
+"richsquire.pt.fever.spins.1" = "During BASE GAMES, it is chance to activate 5 FEVER spins each costs the same wager as that triggering the feature.";
+"richsquire.pt.fever.spins.2" = "During FEVER GAMES, the bet option will be locked.";
+"richsquire.pt.fever.spins.3" = "During FEVER GAMES, it possible for any symbol in 2nd/3rd/4th/5th reels changed to a WILD symbol at random during base spin and succeeding cascading spins.";
+"richsquire.pt.cascade.feature.title" = "CASCADING FEATURE";
+"richsquire.pt.cascade.instruction.1" = "All symbols contributed to any win will be eliminated after rewarding;";
+"richsquire.pt.cascade.instruction.2" = "The reels symbols will fall into place as if dropped from above to fill the spots;";
+"richsquire.pt.cascade.instruction.3" = "The cascaded screen will be evaluated for winning again and all pay will be added to the total win;";
+"richsquire.pt.cascade.instruction.4" = "The cascading process continue until no more winning obtained on the current resulting screen.";
+"richsquire.pt.symbol.mixed" = "ANY COMBINATION OF";
+"richsquire.fevergame.intro.win" = "WIN";
+"richsquire.fevergame.intro.times" = "FEVER GAMES";
+"richsquire.fevergame.intro.needpay" = "EACH FEVER SPIN COSTS SAME WAGER AS THAT TRIGGERING THE FEATURE";
+"richsquire.fevergame.remaining" = "REMANING";
+"richsquire.message.bar.won.fever.games" = "WON ${numFreeGames} FEVER GAMES";
+
+"dragonboat.paytable.scatter" = "3 or more SCATTER symbols anywhere on the reels triggers 15 free games; FREE GAMES cannot retrigger during FREE GAMES.";
+"dragonboat.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"dragonboat.paytable.bulk.wild" = "2/3/4/5 consecutive stacks of 3 WILD symbols, contributing to any line win,  will be shown as above corresponding bulk WILD symbol.";
+
+"whitesnakelegend.paytable.wild" = "WILD: WILD substitutes for all symbols except SCATTER.";
+"whitesnakelegend.pt.mul2x" = "WILD substituted wins for these symbols are multiplied by 2x.";
+"whitesnakelegend.pt.scatter.1" = "SCATTER: 3, 4 or 5 SCATTER symbols appearing in any position awards 15, 20 or 30 free games.";
+
+"chiyou.pt.fireline.title" = "FIRE LINE FEATURE";
+"chiyou.pt.fireline.inst" = "For any lost game in BASE and FREE GAMES, there is a chance for one of the paylines to be chosen as fire line on which landed symbols are replaced with random symbol except for WILD and SCATTER symbols; only the fire line will be re-evaluated for potential win.";
+"chiyou.pt.free.games.trigger" = "3, 4 or 5 SCATTER anywhere on the reels awards 15, 20 or 25 free games. All wins pay 3x in FREE GAMES. FREE GAMES can only be retriggered once.";
+"chiyou.message.bar.line.win" = "FIRE LINE ${line} WINS ${win}";
+"chiyou.message.bar.line.win.multiplier" = "FIRE LINE ${line} WINS ${win} (${multiplier}X)";
+"chiyou.game.recall.memorandum" = "FIRE LINE FEATURE";
+
+"baccarat.clear" = "CLEAR";
+"baccarat.rebet" = "REBET";
+"baccarat.rebet.2" = "REBET\nX2";
+"baccarat.banker" = "BANKER";
+"baccarat.player" = "PLAYER";
+"baccarat.tie" = "TIE";
+"baccarat.banker.pair" = "BANKER\nPAIR";
+"baccarat.player.pair" = "PLAYER\nPAIR";
+"baccarat.place.bet" = "PLACE BET";
+"baccarat.message.bar.ways.win.banker" = "BANKER WINS ${win}";
+"baccarat.message.bar.ways.win.player" = "PLAYER WINS ${win}";
+"baccarat.message.bar.ways.win.tie" = "TIE WINS ${win}";
+"baccarat.message.bar.ways.win.banker.pair" = "BANKER PAIR WINS ${win}";
+"baccarat.message.bar.ways.win.player.pair" = "PLAYER PAIR WINS ${win}";
+"baccarat.message.bar.total.spin.win" = "TOTAL WIN ${win}";
+"baccarat.table.limits" = "TABLE LIMITS";
+"baccarat.table.limits.max" = "MAXIMUM";
+"baccarat.table.limits.min" = "MINIMUM";
+"baccarat.bet.error.alert.title" = "INVALID BET";
+"baccarat.bet.error.alert.message" = "TABLE LIMITS:\n${min} ~ ${max}";
+"baccarat.shuffle.cards" = "SHUFFLING CARDS";
+"baccarat.pt.inst.1" = "Player wagers the main bet options TIE, PLAYER or BANKER with chips within valid bet limits; One cannot bet on PLAYER and BANKER at the same time;";
+"baccarat.pt.inst.2" = "Player could wager on two side bet option PLAYER PAIR and/or BANKER PAIR with chips within valid bet limits.";
+"baccarat.pt.inst.3" = "The game use 6 decks of standard cards with jokers excluded.";
+"baccarat.pt.inst.4" = "All cards will be shuffled each time entering the game and a cut card will be inserted at random position. The cards will be reshuffled if less than 6 cards available before hitting the cut card or the end of the decks.";
+"baccarat.pt.inst.5" = "The pay odds of each betting options instead of direct pay is shown on the game table.";
+"baccarat.pt.inst.6" = "A score board is setup for your tracing the history of outcomes before next shuffle is triggered.";
+"baccarat.pt.inst.7" = "Each card rannged ACE to TEN scores literally as the corresponding face value (1 to 10 points); JACK, QUEEN, KING cards each scores 10 points.";
+"baccarat.pt.inst.8" = "The total points of a hand is computed as the remainder of the sum of all individual points of each card after dividing by 10.";
+"baccarat.pt.inst.scoreboard" = "Score board will be cleared when it is full.";
+"baccarat.pt.main.inst.1" = "The highest points of a hand is 9. A two-card hand of nine point is called a natrual hand and cannot lose.";
+"baccarat.pt.main.inst.2" = "TIE happens when the total points of the player's and banker's hand are identical.";
+"baccarat.pt.main.inst.draw.title" = "DRAWING RULES";
+"baccarat.pt.main.inst.3" = "Two cards each dealt to the player and banker initially;";
+"baccarat.pt.main.inst.4" = "If either the player's or the banker's hand scores 8 or 9 points, they both stand; this rule overrides all other rules;";
+"baccarat.pt.main.inst.5" = "If the player's hand scores 6 or 7 points, the player stands;";
+"baccarat.pt.main.inst.6" = "If the player stands, the banker hits on a total of 5 or less;";
+"baccarat.pt.main.inst.7" = "If the player's hand scores 5 points or less, the player automatically hits and a third card will be dealted to the player;";
+"baccarat.pt.main.inst.8" = "The rules for banker to draw a third card when the player gets the third card are:";
+"baccarat.pt.main.inst.9" = "Banker's hand scores 0, 1, 2 points, banker always draws a third card;";
+"baccarat.pt.main.inst.10" = "Banker's hand scores 3 points, banker draws a third card if the player's third card score anything other than 8 points;";
+"baccarat.pt.main.inst.11" = "Banker's hand scores 4 points, banker draws a third card if the player's third card score 2, 3, 4, 5, 6 or 7 points;";
+"baccarat.pt.main.inst.12" = "Banker's hand scores 5 points, banker draws a third card if the player's third card score 4, 5, 6 or 7 points;";
+"baccarat.pt.main.inst.13" = "Banker's hand scores 6 points, banker draws a third card if the player's third card score 6 or 7 points;";
+"baccarat.pt.main.inst.14" = "Banker's hand scores 7 points, banker always stands.";
+"baccarat.pt.inst.tie.title" = "GAME RULES ON TIE OUTCOME";
+"baccarat.pt.tie.inst.1" = "When player bets on PLAYER and/or BANKER but TIE turns out to be one of the winning, it is an advantage to pay the wager of PLAYER and/or BANKER back to the player.";
+"baccarat.pt.inst.sidebet.title" = "GAME RULES ON SIDE BET";
+"baccarat.pt.sidebet.inst.1" = "Besides the main bet, there is a side bet on whether the PLAYER or BANKER get a pair of first two cards.";
+"baccarat.pt.sidebet.inst.2" = "The first two cards dealt to the PLAYER or BANKER is considered as pair only when those two cards have same face values with identical suit or not.";
+"baccarat.pt.sidebet.inst.3" = "Any side bet made on PLAYER PAIR and/or BANKER PAIR will be estimated for win before the commence of normal game flow for standard Baccaract.";
+
+"threeheroes.feature.title" = "FREE GAMES FEATURES";
+"threeheroes.stack.feature.title" = "FIRE HEROES FEATURES";
+"threeheroes.pt.wild" = "WILD substitutes for all symbols except SCATTER.\n\nDuring BASE GAMES, there is a chance for one or more random symbols to turn into WILD symbols.";
+"threeheroes.pt.scatter" = "There are 3 different SCATTER symbols appearing in BASE GAMES only. Landing 3 or more SCATTER symbols of the same kind wins one of the following FREE GAMES. FREE GAMES cannot retrigger during FREE GAMES.";
+"threeheroes.pt.scatter.s10" = "Landing 3/4/5 SCATTER symbols in BASE GAMES wins 20/25/30 free spins. Each free spin win is paid with a 3x multiplier.";
+"threeheroes.pt.scatter.s11" = "Landing 3/4/5 SCATTER symbols in BASE GAMES wins 12 free spins. Each free spin win is multiplied by 6x/7x/8x when the FREE GAMES is triggered by 3/4/5 SCATTER symbols.";
+"threeheroes.pt.scatter.s12" = "Landing 3 or more SCATTER symbols in BASE GAMES wins 12 free spins. Starting with 2x for the first free spin, each free spin increases in multiplier by 1x.";
+"threeheroes.pt.stack.symbol" = "During BASE GAMES, there is a chance for one or more reels to change into the above stacked symbols for more potential wins.";
+
+"wildwildbell.double.bell.feature" = "WILD AND DOUBLE WILD FEATURE";
+"wildwildbell.double.bell.feature.inst.0" = "WILD BELL symbols substitutes for all symbols except SCATTER; WILD BELL and DOUBLE WILD BELL symbols do not substitute for each other.";
+"wildwildbell.double.bell.feature.inst.1" = "During BASE GAMES, WILD BELL symbols may randomly turn into DOUBLE WILD BELL symbols. DOUBLE WILD BELL symbols substitutes for all symbols except SCATTER and count as 2 symbols for any substituted winning paylines.";
+"wildwildbell.base.games.lines" = "BASE GAMES PAYLINES";
+"wildwildbell.free.games.lines" = "FREE GAMES PAYLINES";
+"wildwildbell.free.game.feature" = "FREE GAME FEATURE";
+"wildwildbell.free.game.feature.inst.0" = "Landing 3/4/5 SCATTER symbols in BASE GAMES wins 15/20/25 free spins. FREE GAMES cannot retrigger during FREE GAMES. During FREE GAMES, the 2nd/3rd/4th reels become 4 symbols per reel and the number of paylines is increased to 35. Landing 4 ZOMBIE symbols on the 2nd/3rd/4th reels will turn that reel into a full-height ZOMBIE symbol.";
+
+"tripledragons.paytable.perline" = "All wins are multiplied by the perline bet.";
+"tripledragons.paytable.anydragons" = "This win is a combination of any 3 DRAGONs.";
+
+"moongoddess.pt.wild" = "WILD substitutes for all symbols except SCATTER.";
+"moongoddess.pt.scatter.feature" = "SCATTER WIN FEATURES";
+"moongoddess.pt.scatter" = "In BASE GAMES, 3, 4 or 5 SCATTER symbols appearing in any position awards SCATTER win and triggers 15 free spins. FREE GAMES cannot be retriggered in FREE GAMES.";
+"moongoddess.pt.scatter.2" = "During FREE GAMES, 3/4/5 SCATTER wins are pay 3x/4x/5x of that in BASE GAMES; landing 2 SCATTER will be rewarded in FREE GAMES only.";
+
+"houyi.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"houyi.pt.scatter" = "During BASE GAMES, landing 3 or more SCATTER symbols anywhere awards 9 free spins;\nFREE GAMES cannot retrigger during FREE GAMES.";
+"houyi.paytable.free.game.multiplier" = "During FREE GAMES, upon each spin, one of the available Suns will be shot and a multiplier out of 1x/2x/3x/4x/5x will be revealed and applied to any win of the spin.\nThe Sun being shot will disappear before next spin commenced.";
+
+"cocorico.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"cocorico.paytable.scatter" = "During BASE GAMES, landing 3 or more SCATTER symbols anywhere awards 10 free spins;\nFREE GAMES cannot be retriggered.";
+"cocorico.paytable.fg.feature" = "FREE GAME FEATURE";
+"cocorico.paytable.fg.inst" = "During FREE GAMES, there is chance to obtain multiplier of 2x, 3x, 4x, 5x, 6x, 8x, 10x or 15x for any winning in each spin.";
+
+"bubbledouble.paytable.ways.instruction" = "All symbols pay left to right on active positions.";
+"bubbledouble.paytable.perway.instruction" = "All wins are multiplied by the per ways bet.";
+"bubbledouble.paytable.exp.wild.title" = "EXPANDING WILD FEATURE";
+"bubbledouble.paytable.exp.wild" = "WILD substitutes for all symbols.\nWILD appears on the 2nd/3rd/4th reel only. Any landed WILD will expand the whole reel into WILD symbols for that spin.";
+"bubbledouble.paytable.exp.wild.2" = "Each landed WILD symbol on every spin will award multiplier of 2x; all multipliers add.";
+"bubbledouble.paytable.exp.wild.3" = "All wins are paid from leftmost reel to right on active positions except in the case of 3 WILD symbols expanding 2nd, 3rd and 4th reels simultaneously that any wins from rightmost reel to left will also pay.";
+"bubbledouble.paytable.exp.wild.4" = "In any case when 5-of-a-kind combination won, only the leftmost-to-right pay will be rewarded.";
+
+"bonusmania.respins.complete" = "FINISHED ALL RESPINS";
+"bonusmania.starting.respins" = "STARTING RESPINS";
+"bonusmania.ingame.pt.any.three" = "ANY THREE";
+"bonusmania.ingame.pt.any" = "ANY";
+"bonusmania.ingame.pt.symbol" = "SYMBOL";
+"bonusmania.ingame.pt.title" = "BONUS-REEL FEATURE";
+"bonusmania.ingame.pt.4th.bonus.reel" = "4th BONUS REEL";
+"bonusmania.ingame.pt.multiplier" = "Pays 10x/5x/2x multipliers";
+"bonusmania.ingame.pt.credits" = "Pays extra\n ${credit_big} / ${credit_small} credits";
+"bonusmania.ingame.pt.cash" = "Pays extra\n ${credit_big} /\n${credit_small}";
+"bonusmania.ingame.pt.respins" = "Respin 1 to 5 time(s) at random";
+"bonusmania.ingame.pt.payline" = "All wins pay on central line only.";
+"bonusmania.ingame.pt.bonus" = "The bonus reward landed on the central position of the 4th reel will apply to any win on active payline only.";
+"bonusmania.ingame.pt.respins.2" = "During RESPIN feature, the exact same line win will be rewarded 1 to 5 time(s) at random.";
+"bonusmania.pt.any.three.symbols" = "ANY THREE SYMBOLS";
+
+"xelements.pt.ways.instruction" = "All symbols pay left to right on active positions.";
+"xelements.pt.perway.instruction" = "All wins are multiplied by the per ways bet.";
+"xelements.pt.highest.win" = "Only the highest win is paid for each valid way.";
+"xelements.pt.wild" = "WILD substitutes for all symbols.";
+"xelements.pt.wild.2" = "WILD only appear in the middle reel during spin. WILD landing in the middle position may turn some adjacent symbols WILD.";
+
+"supershot2.paytable.perway.instruction" = "All wins are multiplied by the per ways bet.";
+"supershot2.paytable.scatter.bonus.golden.payline.inst.1" = "Golden Payline";
+"supershot2.gig.paytable.in.gloden.line" = "Landing any combination of 4 SEVEN's on the GOLDEN LINE and a BLANK in the middle to win the corresponding GOLDEN-LINE pay.\nAll other win combiantions pay on the central line only";
+"supershot2.pt.scatter" = "In the case of no regular SCATTER win is won and no game-in-game feature is triggered, some regular SCATTER symbol(s) may transform into featured SCATTER symbol(s) to increase the chance of hitting game-in-game feature.";
+"supershot2.paytable.scatter.bonus.title" = "GAME-in-GAME FEATURE";
+"supershot2.paytable.scatter.bonus.inst.1" = "ANY 3 or more symbols as below initiates the GAME-in-Game FEATURE";
+"supershot2.paytable.scatter.bonus.payline.inst.1" = "ALL ONE-LINE GAMES";
+"supershot2.paytable.scatter.bonus.inst.4" = "Scatter wins pay in any position";
+"supershot2.paytable.scatter.bonus.inst.5" = "Scatter win pays are added to line pays";
+
+"wugang.paytable.scatter" = "During BASE GAMES, landing 3 or more SCATTER symbols anywhere awards 15 free spins. FREE GAMES cannot be retriggered in FREE GAMES.";
+"wugang.paytable.fg.feature" = "FREE GAME FEATURE";
+"wugang.paytable.fg.inst.1" = "During FREE GAMES, there is chance to obtain multiplier of 1x ,2x, 3x, 4x, 5x for any winning in each spin.";
+"wugang.paytable.wild" = "WILD substitutes for all symbols except SCATTER. WILD symbols only appear on first and last column.";
+
+"robots.pt.wild" = "WILD substitutes for all symbols except SCATTER.";
+"robots.pt.scatter" = "3 or more SCATTER symbols anywhere on the reels triggers 10 free spnis with special expanding symbol.";
+"robots.stack.symbol.is" = "AS SPECIAL EXPANDING SYMBOL DURING FREE GAMES";
+"robots.pt.fg.feature" = "EXPANDING FEATURE";
+"robots.pt.freegame.inist.0" = "One special expanding symbol is randomly selected at the start of the FREE GAME (except WILD and SCATTER).";
+"robots.pt.freegame.inist.1" = "During FREE GAMES, any regular line win will be paid first; the special symbol will expand to cover the whole reel only if it results an additional win.";
+"robots.pt.freegame.inist.2" = "The expanding symbol pays even on non-adjacent position and on all paylines.";
+"robots.pt.freegame.inist.3" = "The selected special expanding symbol will be active for the whole set of a FREE GAMES.";
+
+"glacialepoch.paytable.paylines.instruction" = "All symbols pay left to right on active paylines.";
+"glacialepoch.paytable.perline.instruction" = "All wins are multiplied by the perline bet.";
+"glacialepoch.pt.wild" = "WILD substitutes for all symbols except SCATTER.";
+"glacialepoch.pt.freegame.inst.0" = "One of the following scenarios will trigger FREE GAMES:";
+"glacialepoch.pt.freegame.inst.1" = "1. When 3 SCATTER symbols landing on any position of the last 3 reels, and symbols S1, S2, S3, S4 are not of the same kind, 5 free spins are awarded and S1, S2, S3, S4 will be replaced with a random same symbol, except WILD or SCATTER, for the remainder of free spins.";
+"glacialepoch.pt.freegame.inst.2" = "2. When 3 SCATTER symbols landing on any position of the last 3 reels, and symbols S1, S2, S3, S4, including WILD, are of the same kind, 20 free spins are awarded and S1, S2, S3, S4 may be replaced with one random same symbol, except WILD or SCATTER, for the remainder of free spins.";
+"glacialepoch.pt.freegame.inst.3" = "3. When no 3 SCATTER symbols landing on any position of the last 3 reels, and symbols S1, S2, S3, S4, including WILD, are of the same kind, and those symbols will stick in place for the remainder of free spins.";
+"glacialepoch.pt.freegame.inst.4" = "During FREE GAMES, any 3 SCATTER symbols landing on any position of the last 3 reels will award additional 5 free spins.";
+
+"jokerslot.paytable.ways.instruction" = "All symbols pay left to right on active positions.";
+"jokerslot.paytable.perway.instruction" = "All wins are multiplied by the per ways bet.";
+"jokerslot.paytable.fg.feature" = "FALLING-WIN FEATURE";
+"jokerslot.paytable.fg.inst.1" = "A FALLING-WIN feature is randomly triggered for a lost spin; during the feature, a column of random symbols will fall to replace all symbols in the middle reel for potential win.";
+"jokerslot.paytable.wild" = "WILD substitutes for all symbols.\nWILD symbols appear in the middle reel only.";
+
+"primevalforest.paytable.scatter" = "During BASE GAMES, landing 3 or more SCATTER symbols anywhere awards 15 free spins. FREE GAMES cannot be retriggered in FREE GAMES.";
+"primevalforest.paytable.fg.feature" = "FREE GAME FEATURE";
+"primevalforest.paytable.fg.inst.1" = "During FREE GAMES, each spin may award one of the listed multipliers (1x, 2x, 3x, 4x, 5x, 6x, 7x, 8x, 9x, 10x, 11x, 12x, 13x, 14x or 15x) at any random order; each unique multiplier will be applied once on any win per one set of FREE GAMES.";
+"primevalforest.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+
+"xbomber.pt.wild" = "WILD substitutes for all symbols except SCATTER.";
+"xbomber.pt.scatter" = "3, 4 or 5 SCATTER symbols appearing in any position awards 15, 20 or 30 FREE GAMES.\nFREE GAMES can be re-triggered during FREE GAMES.";
+"xbomber.free.game.feature" = "FREE GAME FEATURE";
+"xbomber.free.game.inst.1" = "During FREE GAMES, there is a chance for a bomber man to throw WILD(s) onto screen to replace non-WILD symbol(s);";
+"xbomber.free.game.inst.2" = "Any resulting wins will be paid after WILD(s) replacement and the spin is concluded, or";
+"xbomber.free.game.inst.3" = "Respin happens with casted WILD(s) fixed in place until any win obtained.";
+
+"zorro.free.game.feature" = "FREE GAME FEATURE";
+"zorro.pt.scatter" = "During BASE GAMES, landing 3 or more SCATTER symbols anywhere awards 15 free spins. During FREE GAMES, SCATTER symbols pay but do not award additional FREE GAMES. All wins in FREE GAMES award multiplier of 2x.";
+"zorro.pt.fg.wild.0" = "During FREE GAMES, only 3-high WILD symbols appear in the middle reel.";
+"zorro.pt.fg.wild.1" = "When a 3-high WILD symbol lands on the middle reel during FREE GAMES, 2 additional free spins are awarded.";
+"zorro.pt.fg.wild.2" = "A maximum number of free spins per FREE GAMES trigger is 30.";
+"zorro.pt.bg.wild.0" = "WILD substitutes for all symbols except SCATTER.";
+"zorro.pt.bg.wild.1" = "During BASE GAMES, any single-high symbol except SCATTER may randomly turn WILD.";
+
+"shoppingfiend.paytable.scatter" = "During BASE GAMES, landing 3 or more SCATTER symbols anywhere awards 15 free spins. FREE GAMES cannot be retriggered in FREE GAMES.";
+"shoppingfiend.paytable.fg.feature" = "FREE GAME FEATURE";
+"shoppingfiend.paytable.fg.inst.1" = "During FREE GAMES, there is chance to obtain multiplier of 1x/2x/3x/4x/5x for any winning in each spin.";
+"shoppingfiend.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+
+"journeytowest.pt.wild.0" = "WILD: WILD substitutes for all symbols except SCATTER.";
+"journeytowest.pt.wild.1" = "WILD symbols appear only on the 2nd, 3rd, or 4th reels.";
+"journeytowest.pt.wild.2" = "During FREE GAMES, it is possible for the 2nd, 3rd, or 4th reels to be replaced by full-height WILD symbol after the spin stops.";
+"journeytowest.pt.scatter.1" = "SCATTER: 3, 4 or 5 SCATTER symbols appearing in any position awards 9 free games.";
+"journeytowest.pt.scatter.2" = "FREE GAMES cannot be triggered again in FREE GAMES.";
+"journeytowest.pt.full.height.wild.title" = "Full-Height WILDs";
+
+"quickplaymahjong.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"quickplaymahjong.pt.scatter" = "3, 4 or 5 SCATTER symbols appearing in any position awards 8, 18 or 28 free games.";
+"quickplaymahjong.pt.sum" = " points";
+"quickplaymahjong.pt.free.game.description" = "When 1 or more SCATTER symbols landing in FREE GAMES, the SCATTER die will spin and a certain multiple of total bet will be awarded based on the total points of all dice on screen as follows. If 3 or more scatters landed, additional 8x will be awarded.";
+
+"peterpan.pt.cartwheel.title" = "FAIRY SLIDING-DOWN FEATURE";
+"peterpan.pt.cartwheel.inst" = "During FREE GAMES, any landed wild will stick in place for current spin and slide down by one position for next spin. Any wild at bottom will disappear before next spin started.";
+"peterpan.pt.scatter.inst" = "3, 4 or 5 SCATTER symbols appearing in any position awards 18, 25 or 35 free games. FREE GAMES cannot be retriggered.";
+
+"nutcracker.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"nutcracker.paytable.wild.2" = "During FREE GAMES, any winning combination including WILD on reel 2 or reel 4 awards 3x or 5x multiplier; any winning combination including WILD on reel 2 and reel 4 awards 15x multiplier.";
+"nutcracker.pt.scatter" = "3, 4 or 5 SCATTER symbols appearing in any position awards 10, 15 or 20 free games.";
+
+"ninelucks.pt.inst1" = "All symbols except 9-distinct-symbol award pay left to right on active paylines.";
+"ninelucks.pt.inst2" = "All wins are multiplied by the perline bet.";
+"ninelucks.pt.expand.inst1" = "When 9 distinct symbols landed on screen at any order, all symbols will be replaced with a GOLDEN DRAGON with award as:";
+"ninelucks.pt.expand.inst2" = "When 9 same-kind green/purple/orange/blue marbles landed, all symbols will be replaced with a corresponding bulk symbol and multiplier of 2x/2x/3x/4x will be rewarded to all line wins respectively.";
+"ninelucks.pt.expand.inst3" = "In case of winning any marble along with two stacks of same-kind symbol on any two consecutive reels, the stacked symbols will be replaced with a giant symbol.";
+"ninelucks.bg.dragon" = "GOLDEN DRAGON AWARD";
+"ninelucks.message.bar.line.win" = "${line} WINS ${win}";
+"ninelucks.game.recall.memorandum" = "GOLDEN DRAGON AWARD";
+
+"imperialgirls.pt.scatter" = "3, 4 or 5 SCATTER anywhere on the reels awards 8, 15 or 20 free spins.";
+"imperialgirls.pt.fg.multiplier" = "All wins pay 3x in FREE GAMES.";
+"imperialgirls.pt.wild.feature.title" = "WILD FEATURE";
+"imperialgirls.pt.wild" = "WILD substitutes for all symbols except SCATTER. \nWILD always nudge to cover their reel when any part of them appears on that reel. \nAn additional 2x multiplier may be applied to any WILD substituted wins of the following accessories symbols.";
+
+"bullstampede.pt.wild" = "WILD substitutes for all symbols except SCATTER.";
+"bullstampede.pt.scatter" = "SCATTER: 3 SCATTER symbols anywhere on the reels wins 15 free games.";
+
+"superbonusmania.gig.paytable.any.three" = "ANY THREE";
+"superbonusmania.gig.paytable.any.symbol" = "ANY\nSYMBOL";
+"superbonusmania.ingame.pt.4th.bonus.reel" = "4th BONUS REEL";
+"superbonusmania.ingame.pt.multiplier" = "Pays 10x/5x/2x multipliers";
+"superbonusmania.ingame.pt.multiplier.1" = "Pays 3x multipliers";
+"superbonusmania.ingame.pt.multiplier.2" = "Pays 8x multipliers";
+"superbonusmania.ingame.pt.multiplier.3" = "Pays 9x multipliers";
+"superbonusmania.ingame.pt.multiplier.4" = "Pays 10x multipliers";
+"superbonusmania.ingame.pt.credits" = "Pays extra ${credit_big} / ${credit_small} credits";
+"superbonusmania.ingame.pt.cash" = "Pays extra ${credit_big} / ${credit_small}";
+"superbonusmania.ingame.pt.respins" = "Respin 1 to 5 time(s) at random";
+"superbonusmania.ingame.pt.title" = "BONUS-REEL FEATURE";
+"superbonusmania.ingame.pt.bonus" = "The bonus reward landed on the central position of the 4th reel will apply to any win on active payline only.";
+"superbonusmania.ingame.pt.respins.2" = "During RESPIN feature, the exact same line win will be rewarded  1  to  5  time(s) at random.";
+"superbonusmania.paytable.wild" = "WILD: WILD substitutes for all symbols except SCATTER.";
+"superbonusmania.ingame.pt.payline" = "All wins pay on central line only.";
+"superbonusmania.paytable.scatter.bonus.title" = "GAME-in-GAME SCATTER FEATURE";
+"superbonusmania.paytable.scatter.bonus.inst.1" = "3 BONUSMANIA symbols as below initiates the GAME-in-GAME SCATTER FEATURE.\nFIRECROWN will only trigger if 4 symbols as below appears on the screen simultaneously.";
+"superbonusmania.paytable.scatter.bonus.inst.3" = "initiates one spin from each 4 reel game displayed.";
+"superbonusmania.paytable.scatter.bonus.inst.4" = "Scatter wins pay in any available position.";
+"superbonusmania.paytable.scatter.bonus.inst.5" = "Scatter win pays are added to line pays.";
+"superbonusmania.paytable.scatter.bonus.inst.6" = "During GAME-in-GAME's RESPIN FEATURE, the exact same line win will be rewarded 1 to 5 time(s) at random.";
+"superbonusmania.paytable.feature.symbol.inst.4" = "does NOT participate in ANY THREE, ANY SYMBOL pays";
+
+"veggiesplot.paytable.paylines.instruction" = "All symbols pay left to right on active paylines.";
+"veggiesplot.paytable.perline.instruction" = "All wins are multiplied by the perline bet.";
+"veggiesplot.feature.title" = "FEATURES";
+"veggiesplot.feature.1.title" = "1 BET 2 GAMES";
+"veggiesplot.feature.1.inst" = "Place 1 bet to play 2 individual 3x3 line games; each game plays and pays independently.";
+"veggiesplot.feature.2.title" = "DUPLICATE WILD";
+"veggiesplot.feature.2.inst" = "When 3 stacked WILD symbols landing in any reel on one game will copy to the corresponding reel on the other game.\n\nWILD substitutes for all symbols.";
+
+"quadrupledragons.respins.complete" = "FINISHED ALL RESPINS";
+"quadrupledragons.starting.respins" = "STARTING RESPINS";
+"quadrupledragons.ingame.pt.any.three" = "ANY THREE";
+"quadrupledragons.ingame.pt.any" = "ANY";
+"quadrupledragons.ingame.pt.symbol" = "SYMBOL";
+"quadrupledragons.ingame.pt.title" = "BONUS-REEL FEATURE";
+"quadrupledragons.ingame.pt.4th.bonus.reel" = "4th BONUS REEL";
+"quadrupledragons.ingame.pt.multiplier" = "Pays 10x/5x/2x multipliers";
+"quadrupledragons.ingame.pt.credits" = "Pays extra\n${credit_big} / ${credit_small} credits";
+"quadrupledragons.ingame.pt.cash" = "Pays extra\n${credit_big} / ${credit_small}";
+"quadrupledragons.ingame.pt.respins" = "Respin 1 to 5 time(s) at random";
+"quadrupledragons.ingame.pt.payline" = "All wins pay on central line only.";
+"quadrupledragons.ingame.pt.bonus" = "The bonus reward landed on the central position of the 4th reel will apply to any win on active payline only.";
+"quadrupledragons.ingame.pt.respins.2" = "During RESPIN feature, the exact same line win will be rewarded 1 to 5 time(s) at random.";
+"quadrupledragons.pt.any.three.symbols" = "ANY THREE SYMBOLS";
+
+"speed.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"speed.paytable.scatter" = "3 or more SCATTER symbols anywhere on the reels triggers 20 free games.";
+"speed.paytable.pay" = "All adjacent symbols except SCATTER pay left to right starting from the leftmost reel or right to left starting from the rightmost reel.";
+"speed.paytable.5.row" = "5-of-a-kind combinations pay left to right only.";
+"speed.paytable.0.multiplier" = "All wins in FREE GAMES are multiplied by 2x.";
+
+"musclecars.pt.wild" = "WILD substitutes for all symbols except SCATTER. During FREE GAMES, each landed WILD adds a multiplier of 2x or 3x to all wins for that spin; all individual multipliers multiply.";
+"musclecars.pt.scatter" = "During BASE GAMES, 3, 4, or 5 SCATTER symbols anywhere on the reels triggers 8, 15, or 20 free games. During FREE GAMES, 2, 3, 4, or 5 SCATTER symbols anywhere on the reels adds 5, 8, 15, or 20 more free games.";
+
+"fishingexpedition.inst.0" = "Catch the fish to win.";
+"fishingexpedition.inst.1" = "All wins are multiplied by the bet per rod.";
+
+"fourscholars.fourscholars.award" = "FOUR SCHOLARS AWARD WINS ${win} (${multiplier}X)";
+"fourscholars.pt.wild" = "WILD substitutes for all symbols except SCATTER.";
+"fourscholars.pt.scatter" = "3, 4, or 5 SCATTER anywhere on the reels awards 8, 12, or 20 free spins. All wins pay 3x in FREE GAMES.";
+"fourscholars.pt.fourscholars" = "Aside from regular line wins, all of the legendary Four Scholars landing on the first, second, fourth and fifth reel in any order rewards ${win}.";
+"fourscholars.game.recall.memorandum" = "FOUR SCHOLARS AWARD";
+
+"dragonsway.pt.wild.1" = "WILD: WILD substitutes for all symbols except SCATTER.";
+"dragonsway.pt.wild.2" = "First or fifth reel may be replaced by 3 stacked WILD symbols after the spin stops.\nWild only appears on 1st, 3rd and 5th reel.";
+"dragonsway.pt.wild.3" = "During FREE GAMES, landing 3 stacked WILD symbols on both of 1st and 5th reels simultaneously will trigger RESPIN feature;\nDuring RESPIN feature, 1st and 5th reels will be locked and respin all free reels one time.
+";
+"dragonsway.pt.scatter.1" = "SCATTER symbols appear only on the 1st, 2nd or 3rd reels.";
+"dragonsway.pt.scatter.2" = "Landing 3 SCATTER symbols awards 8 free spins; FREE GAMES can retrigger during FREE GAMES but do not during respin.";
+
+"pinocchio.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"pinocchio.paytable.scatter" = "During BASE GAMES, landing 3 or more SCATTER symbols anywhere awards 10 free spins;\nFREE GAMES cannot to be retriggered.";
+"pinocchio.paytable.fg.feature" = "FREE GAME FEATURE";
+"pinocchio.paytable.fg.inst" = "During FREE GAMES, there is chance to obtain multiplier of 2x, 3x, 4x, 5x, 6x, 8x, 10x or 15x for any winning in each spin.";
+
+"sevenwonders.pt.wild" = "WILD substitutes for all symbols except SCATTER. During FREE GAMES, pays 1x to 3x for any WILD substituted wins (excluding line wins with WILD only).";
+"sevenwonders.pt.scatter" = "Landing 3 or more SCATTER symbols anywhere awards 15 free spins; FREE GAMES can be retriggered up to 250 FREE GAMES.";
+
+"speakeasy.paytable.wild" = "WILD: WILD substitutes for all symbols except SCATTER and only appears on reels 2, 3, 4.";
+"speakeasy.paytable.scatter" = "SCATTER: During BASE GAMES, landing 3 or more SCATTER symbols anywhere awards 15 free spins;\nFREE GAMES cannot retrigger during FREE GAMES.";
+
+"catchthethief.paytable.1.wild" = "WILD substitutes for all symbols except SCATTER.";
+"catchthethief.paytable.1.scatter" = "Landing 3 or more SCATTER symbols anywhere during BASE GAMES awards 15 free spins; FREE GAMES cannot retrigger during FREE GAMES.";
+"catchthethief.paytable.free.game.mul.inst" = "During FREE GAMES, when the middle 3 reels are filled with one of the following symbols, all symbols in the middle reels will be replaced with a giant symbol along with a guaranteed line win and mysterious multiplier.";
+
+"thirstycrow.stop.stack" = "PRESS STOP TO PICK A FREE GAME SUPER STACK SYMBOL";
+"thirstycrow.stack.symbol.is" = "USING AS FREE GAME SUPER STACK SYMBOL";
+"thirstycrow.scat.inst.1" = "In BASE GAMES, landing 9 SCATTERS in the middle 3 reels awards 12 free spins.";
+"thirstycrow.scat.inst.2" = "One of four random symbols is selected as the super-stack symbol throughout the FREE GAMES.";
+"thirstycrow.scat.inst.3" = "In FREE GAMES, landing any 3 SCATTERS triggers 12 free spins.";
+"thirstycrow.pt.wild" = "WILD substitutes for all symbols except SCATTER.";
+
+"siberianwolves.respin" = "RESPIN";
+"siberianwolves.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"siberianwolves.pt.scatter" = "3, 4 or 5 SCATTER anywhere on the reels awards 15, 20 or 30 free spins.";
+"siberianwolves.respin.title" = "RESPIN FEATURE";
+"siberianwolves.respin.instruction" = "During BASE GAMES, there is a chance to purchase the RESPIN FEATURE to spin the reel.\n\nRESPIN FEATURE only happens with no winning combination at the first spin.\n\nRESPIN FEATURE will be triggered once for that spin.\n\nEach respin is charged at an extra cost and this cost is displayed at the base of the reel.\n\nAt the end of the respin, winning combinations award new prizes, based on the new symbol configuration.\n\nChange bet and respin feature is end.";
+
+"erlangshen.paytable.wild" = "WILD substitutes for all symbols except SCATTER.";
+"erlangshen.paytable.scatter" = "During BASE GAMES, landing 3 SCATTER symbols anywhere awards 15 free spins;\nFREE GAMES can be retriggered up to 250 free spins could be won during FREE GAMES.\nScatter appears on 2nd, 3rd and 4th reel.";
+"erlangshen.paytable.fg.feature" = "COPY REEL FEATURE";
+"erlangshen.paytable.fg.inst.1" = "There is chance to obtain Copy Reel Feature in each spin.";
+"erlangshen.paytable.fg.inst.2" = "During Copy Reel Feature, 1st, 2nd, 3rd and/or 4th reels are randomly selected to be replaced by 5th reel.";
+"erlangshen.paytable.fg.inst.3" = "The selected reel(s) and 5th reel will display the same symbols.";
+
+"fish.recall.nowin" = "No Win";
+"fish.recall.fish.wins" = "Fish Win";
+"fish.recall.bullet.bet" = "Bullet Bet";
+"fish.recall.bullet.win" = "Bullet Win";
+
